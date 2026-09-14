@@ -54,7 +54,7 @@ a{color:inherit}
 .about::backdrop{background:rgba(58,44,51,.45);backdrop-filter:blur(3px)}
 .about-card{position:relative;background:var(--cream);border-radius:28px;padding:40px 40px 28px;box-shadow:0 40px 80px -30px rgba(58,44,51,.6);max-height:calc(100vh - 32px);overflow:auto;
   background-image:radial-gradient(600px 240px at 0% 0%, rgba(244,205,213,.5), transparent 60%)}
-.about-card h2{font-size:34px;line-height:1.1;font-style:italic;margin:6px 0 18px}
+.about-card h2{font-size:34px;line-height:1.1;font-style:italic;margin:0 40px 18px 0}
 .about-card p{font-size:15px;line-height:1.6;color:var(--ink);margin:0 0 14px}
 .about-card p em{font-style:italic;font-family:var(--serif);font-size:17px}
 .about-close{position:absolute;top:12px;right:12px}
