@@ -29,7 +29,7 @@
 
   // ---------- state ----------
   const state = {
-    q: '', sort: 'curated',
+    q: '', sort: 'shuffle',
     category: new Set(), color: new Set(), brand: new Set(), occasion: new Set(), price: new Set(),
     saved: new Set(), shuffleOrder: null, view: [], modalIndex: -1,
   };
@@ -93,7 +93,7 @@
         if (!state.shuffleOrder) reshuffle();
         const pos = state.shuffleOrder; l.sort((a, b) => pos.get(a.id) - pos.get(b.id)); break;
       }
-      default: l.sort((a, b) => CATEGORY_ORDER.indexOf(a.category) - CATEGORY_ORDER.indexOf(b.category) || a.id - b.id); break; // curated: dresses first, spreadsheet order within each category
+      default: break;
     }
     return l;
   }
