@@ -156,7 +156,8 @@
     $('#results-count').innerHTML = n === ITEMS.length ? `All <b>${n}</b> pieces` : `<b>${n}</b> of ${ITEMS.length} pieces`;
     $('#apply-count').textContent = `${n} piece${n === 1 ? '' : 's'}`;
     const fc = activeFilterCount();
-    $('#mb-filter-count').textContent = fc ? `· ${fc}` : '';
+    $('#filter-count').textContent = fc ? String(fc) : '';
+    $('#filter-count').hidden = !fc;
     renderChips();
     renderFacets();
   }
@@ -169,7 +170,8 @@
     state.price.forEach(v => add('price', v, PRICE_BANDS.find(b => b.key === v).label));
     state.brand.forEach(v => add('brand', v, v));
     if (state.q) add('q', state.q, `“${state.q}”`);
-    $('#chips').innerHTML = chips.join('') + (chips.length > 1 ? `<button class="link" type="button" data-chip="all">Clear all</button>` : '');
+    const html = chips.join('') + (chips.length > 1 ? `<button class="link" type="button" data-chip="all">Clear all</button>` : '');
+    $('#chips').innerHTML = html; $('#chips-m').innerHTML = html;
   }
 
   // ---------- saved ----------
@@ -186,7 +188,7 @@
   }
   function updateSavedUi() {
     const n = state.saved.size;
-    $('#saved-count').textContent = n; $('#mb-saved-count').textContent = n;
+    $('#saved-count').textContent = n;
   }
   function savedItems() { return [...state.saved].map(id => byId.get(id)).filter(Boolean); }
   function renderDrawer() {
@@ -308,10 +310,10 @@
       render(); return;
     }
     switch (t.id) {
-      case 'open-saved': case 'mb-saved': openPanel('#drawer'); break;
-      case 'mb-filters': openPanel('#filters'); break;
+      case 'open-saved': openPanel('#drawer'); break;
+      case 'open-filters': openPanel('#filters'); break;
       case 'close-drawer': case 'close-filters': case 'apply-filters': closePanels(); break;
-      case 'surprise': case 'mb-surprise': reshuffle(); state.sort = 'shuffle'; $('#sort').value = 'shuffle'; render(); window.scrollTo({ top: $('#topbar').offsetTop, behavior: 'smooth' }); toast('Shuffled ✨'); break;
+      case 'surprise': reshuffle(); state.sort = 'shuffle'; $('#sort').value = 'shuffle'; render(); window.scrollTo({ top: $('#topbar').offsetTop, behavior: 'smooth' }); toast('Shuffled ✨'); break;
       case 'clear-all': case 'empty-clear': clearAll(); render(); break;
       case 'copy-link': copyShareLink(); break;
       case 'clear-saved': if (confirm('Clear your whole saved list?')) { state.saved.clear(); persist(); updateSavedUi(); render(); renderDrawer(); } break;
