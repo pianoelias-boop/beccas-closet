@@ -302,7 +302,7 @@
     if (t.dataset.open) { openModal(Number(t.dataset.open)); return; }
     if (t.dataset.remove) { toggleSaved(Number(t.dataset.remove)); return; }
     if (t.dataset.nav) { navModal(Number(t.dataset.nav)); return; }
-    if (t.hasAttribute('data-close')) { $('#modal').close(); return; }
+    if (t.hasAttribute('data-close')) { const d = t.closest('dialog'); if (d) d.close(); return; }
     if (t.dataset.chip) {
       if (t.dataset.chip === 'all') clearAll();
       else if (t.dataset.chip === 'q') { state.q = ''; $('#q').value = ''; }
@@ -311,6 +311,7 @@
     }
     switch (t.id) {
       case 'open-saved': openPanel('#drawer'); break;
+      case 'open-about': $('#about').showModal(); break;
       case 'open-filters': openPanel('#filters'); break;
       case 'close-drawer': case 'close-filters': case 'apply-filters': closePanels(); break;
       case 'surprise': reshuffle(); state.sort = 'shuffle'; $('#sort').value = 'shuffle'; render(); window.scrollTo({ top: $('#topbar').offsetTop, behavior: 'smooth' }); toast('Shuffled ✨'); break;
@@ -340,13 +341,15 @@
     if ($('#modal').open) { if (e.key === 'ArrowRight') navModal(1); if (e.key === 'ArrowLeft') navModal(-1); return; }
     if (e.key === 'Escape') closePanels();
   });
-  $('#modal').addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); });
+  ['#modal', '#about'].forEach(sel => $(sel).addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); }));
   window.addEventListener('hashchange', () => { loadSaved().forEach(id => state.saved.add(id)); persist(); updateSavedUi(); render(); });
   function clearAll() { ['category', 'color', 'brand', 'occasion', 'price'].forEach(k => state[k].clear()); state.q = ''; $('#q').value = ''; }
 
   // ---------- go ----------
   state.saved = loadSaved(); persist();
   $('#hero-count').textContent = ITEMS.length;
+  $('#about-count').textContent = ITEMS.length;
+  $('#about-brands').textContent = new Set(ITEMS.map(i => i.brand)).size;
   updateSavedUi();
   render();
 })();
