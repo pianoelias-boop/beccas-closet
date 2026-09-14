@@ -11,7 +11,10 @@ Everything is plain HTML, CSS and JavaScript, so it runs from any static host.
 - `build/` — the scripts that turned the spreadsheet into `data.js` and the images, plus the scraped
   descriptions (`desc_final.json`) and the occasion re-tagging (`occ/out_*.json`). Not needed to run the site.
 
-## Put it online with GitHub Pages
+Live at **https://pianoelias-boop.github.io/beccas-closet/** (repository `pianoelias-boop/beccas-closet`).
+To update the site, commit and push to `main`; Pages redeploys within a minute or two.
+
+## How it was put online (GitHub Pages)
 
 1. Sign in to GitHub and create a **new repository**. If you name it `<username>.github.io`
    the site lives at `https://<username>.github.io/`. Any other name gives
