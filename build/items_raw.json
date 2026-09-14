@@ -1,0 +1,7112 @@
+[
+ {
+  "id": 1,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Maximum Henry Slim 3 Piece Belt",
+  "category": "Accessories",
+  "color": "Black",
+  "occasions": [
+   "hang"
+  ],
+  "price": 155,
+  "colorDetail": "Black",
+  "categoryDetail": "Unisex Accessories",
+  "url": "https://www.alexmill.com/products/maximum-henry-slim-3-piece-1-belt-with-silver-in-black",
+  "thumb": "images/thumbs/001.jpg",
+  "image": null
+ },
+ {
+  "id": 2,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Maximum Henry Slim 3 Piece Belt",
+  "category": "Accessories",
+  "color": "Brown",
+  "occasions": [
+   "hang"
+  ],
+  "price": 155,
+  "colorDetail": "Dark Brown",
+  "categoryDetail": "Unisex Accessories",
+  "url": "https://www.alexmill.com/products/maximum-henry-slim-3-piece-1-belt-with-silver-in-brown",
+  "thumb": "images/thumbs/002.jpg",
+  "image": null
+ },
+ {
+  "id": 3,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Maximum Henry Wide Oval Belt",
+  "category": "Accessories",
+  "color": "Red",
+  "occasions": [
+   "hang"
+  ],
+  "price": 160,
+  "colorDetail": "Oxblood",
+  "categoryDetail": "Unisex Accessories",
+  "url": "https://www.alexmill.com/products/maximum-henry-wide-oval-belt-in-oxblood",
+  "thumb": "images/thumbs/003.jpg",
+  "image": null
+ },
+ {
+  "id": 4,
+  "retailer": "Anthropologie",
+  "brand": "Ro's Garden",
+  "name": "Ro's Garden Jinette 100% Cotton Midi Dress",
+  "category": "Dresses",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 295,
+  "colorDetail": "Beige",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/ros-garden-jinette-100-cotton-midi-dress?color=024&type=STANDARD",
+  "thumb": "images/thumbs/004.jpg",
+  "image": null
+ },
+ {
+  "id": 5,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Marcia Jersey Shirt Dress",
+  "category": "Dresses",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 160,
+  "colorDetail": "Camel, Leopard Fields",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-marcia-jersey-shirt-dress-camel-leopard-fields-d1033oat",
+  "thumb": "images/thumbs/005.jpg",
+  "image": null
+ },
+ {
+  "id": 6,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Cotton High Neck Seamed Midi Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 120,
+  "colorDetail": "Black",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Midi Dresses",
+  "url": "https://www.abercrombie.com/shop/us/p/100-cotton-high-neck-seamed-midi-dress-63616648",
+  "thumb": "images/thumbs/006.jpg",
+  "image": null
+ },
+ {
+  "id": 7,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Bra-Free Ruched Satin Maxi Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 170,
+  "colorDetail": "Black",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Maxi Dresses",
+  "url": "https://www.abercrombie.com/shop/us/p/bra-free-ruched-satin-maxi-dress-63480642",
+  "thumb": "images/thumbs/007.jpg",
+  "image": null
+ },
+ {
+  "id": 8,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Cotton-Silk Blend Cutwork Slip Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 140,
+  "colorDetail": "Black Floral",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Maxi Dresses",
+  "url": "https://www.abercrombie.com/shop/us/p/cotton-silk-blend-cutwork-slip-dress-63007320",
+  "thumb": "images/thumbs/008.jpg",
+  "image": null
+ },
+ {
+  "id": 9,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Pleated Maxi Sweater Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 120,
+  "colorDetail": "Black",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Midi Dresses",
+  "url": "https://www.abercrombie.com/shop/us/p/pleated-maxi-sweater-dress-63502855",
+  "thumb": "images/thumbs/009.jpg",
+  "image": null
+ },
+ {
+  "id": 10,
+  "retailer": "Anthropologie",
+  "brand": "By Anthropologie",
+  "name": "By Anthropologie Sleeveless V-Neck Deco A-Line Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 228,
+  "colorDetail": "Black Floral",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/by-anthropologie-sleeveless-v-neck-deco-a-line-dress?color=520&type=STANDARD",
+  "thumb": "images/thumbs/010.jpg",
+  "image": null
+ },
+ {
+  "id": 11,
+  "retailer": "Anthropologie",
+  "brand": "Celandine",
+  "name": "Celandine Flower Deco Cutout Maxi Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "friend"
+  ],
+  "price": 138,
+  "colorDetail": "Black",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/celandine-flower-deco-cutout-maxi-dress?color=001&type=STANDARD",
+  "thumb": "images/thumbs/011.jpg",
+  "image": null
+ },
+ {
+  "id": 12,
+  "retailer": "Anthropologie",
+  "brand": "LSPACE",
+  "name": "LSPACE Ashton 100% Cotton Maxi Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 165,
+  "colorDetail": "Black",
+  "categoryDetail": "Clothing > Swimwear",
+  "url": "https://www.anthropologie.com/shop/lspace-ashton-100-cotton-maxi-dress?color=001&type=STANDARD",
+  "thumb": "images/thumbs/012.jpg",
+  "image": null
+ },
+ {
+  "id": 13,
+  "retailer": "Anthropologie",
+  "brand": "LSPACE",
+  "name": "LSPACE Mabel Maxi Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 176,
+  "colorDetail": "Black",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/lspace-mabel-maxi-dress?color=001&type=STANDARD",
+  "thumb": "images/thumbs/013.jpg",
+  "image": null
+ },
+ {
+  "id": 14,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Imogen Collared Jersey Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 149,
+  "colorDetail": "Black",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-imogen-collared-jersey-dress-black-d1147blk",
+  "thumb": "images/thumbs/014.jpg",
+  "image": null
+ },
+ {
+  "id": 15,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Jasmine Ruched Jersey Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 149,
+  "colorDetail": "French Navy, Painted Dot Space",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-jasmine-ruched-jersey-dress-french-navy-painted-dot-space-d1764spt",
+  "thumb": "images/thumbs/015.jpg",
+  "image": null
+ },
+ {
+  "id": 16,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Naomi Relaxed Jersey Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 99,
+  "colorDetail": "Black",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-naomi-relaxed-jersey-dress-black-d1053bla",
+  "thumb": "images/thumbs/016.jpg",
+  "image": null
+ },
+ {
+  "id": 17,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Puff Sleeve Ponte Midi Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 199,
+  "colorDetail": "Black",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-puff-sleeve-ponte-midi-dress-black-d1768blk",
+  "thumb": "images/thumbs/017.jpg",
+  "image": null
+ },
+ {
+  "id": 18,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Black Poplin Veranda Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 268,
+  "colorDetail": "Black",
+  "categoryDetail": "Womens Dresses",
+  "url": "https://www.buckmason.com/products/black-poplin-veranda-dress",
+  "thumb": "images/thumbs/018.jpg",
+  "image": null
+ },
+ {
+  "id": 19,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Black Sunset Silk Linen Wrap Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 278,
+  "colorDetail": "Black",
+  "categoryDetail": "Womens Dresses",
+  "url": "https://www.buckmason.com/products/black-sunset-silk-linen-wrap-dress",
+  "thumb": "images/thumbs/019.jpg",
+  "image": null
+ },
+ {
+  "id": 20,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Natasha slip dress in cupro blend",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 178,
+  "colorDetail": "Black",
+  "categoryDetail": "Dresses & Jumpsuits",
+  "url": "https://www.jcrew.com/m/womens/categories/clothing/dresses-and-jumpsuits/MQ218?display=standard&fit=Classic&colorProductCode=CX643&color_name=black",
+  "thumb": "images/thumbs/020.jpg",
+  "image": null
+ },
+ {
+  "id": 21,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Seamed linen dress with removable belt",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": null,
+  "colorDetail": null,
+  "categoryDetail": "Dresses & Jumpsuits",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/dresses-and-jumpsuits/CA671?display=standard&fit=Classic&colorProductCode=CA671&color_name=black",
+  "thumb": "images/thumbs/021.jpg",
+  "image": null
+ },
+ {
+  "id": 22,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Buttoned Wool-Blend Sleeveless Dress",
+  "category": "Dresses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 398,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/buttoned-wool-blend-sleeveless-dress/100095871.html",
+  "thumb": "images/thumbs/022.jpg",
+  "image": null
+ },
+ {
+  "id": 23,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Cotton A&F Sydney Smocked Dipped-Waist Midi Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 96,
+  "colorDetail": "Light Blue Pattern",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Midi Dresses",
+  "url": "https://www.abercrombie.com/shop/us/p/100-cotton-a-and-f-sydney-smocked-dipped-waist-midi-dress-63016904",
+  "thumb": "images/thumbs/023.jpg",
+  "image": null
+ },
+ {
+  "id": 24,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "The A&F Mila Ric-Rac Linen-Blend Midi Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 130,
+  "colorDetail": "Midnight Blue",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Midi Dresses",
+  "url": "https://www.abercrombie.com/shop/us/p/the-a-and-f-mila-ric-rac-linen-blend-midi-dress-63152820",
+  "thumb": "images/thumbs/024.jpg",
+  "image": null
+ },
+ {
+  "id": 25,
+  "retailer": "Anthropologie",
+  "brand": "By Anthropologie",
+  "name": "By Anthropologie Den 100% Cotton Sweater Mini Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "friend"
+  ],
+  "price": 168,
+  "colorDetail": "Navy",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/by-anthropologie-den-100-cotton-sweater-mini-dress?color=041&type=STANDARD",
+  "thumb": "images/thumbs/025.jpg",
+  "image": null
+ },
+ {
+  "id": 26,
+  "retailer": "Anthropologie",
+  "brand": "En Saison",
+  "name": "En Saison 100% Cotton Wrap Shirtdress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 162,
+  "colorDetail": "Blue",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/en-saison-100-cotton-wrap-shirtdress?color=040&type=STANDARD",
+  "thumb": "images/thumbs/026.jpg",
+  "image": null
+ },
+ {
+  "id": 27,
+  "retailer": "Anthropologie",
+  "brand": "English Factory",
+  "name": "English Factory Floral Shirtdress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 130,
+  "colorDetail": "Navy",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/english-factory-floral-shirtdress?color=041&type=STANDARD",
+  "thumb": "images/thumbs/027.jpg",
+  "image": null
+ },
+ {
+  "id": 28,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Button Front Stitch Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 220,
+  "colorDetail": "Navy",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-button-front-stitch-dress-navy-d1761nav",
+  "thumb": "images/thumbs/028.jpg",
+  "image": null
+ },
+ {
+  "id": 29,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Georgia Jersey Midi Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 149,
+  "colorDetail": "Navy",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-georgia-jersey-midi-dress-navy-d1034nar",
+  "thumb": "images/thumbs/029.jpg",
+  "image": null
+ },
+ {
+  "id": 30,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Heidi Jersey Midi Tea Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 160,
+  "colorDetail": "French Navy, Flecked Garden",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-heidi-jersey-midi-tea-dress-french-navy-flecked-garden-d1765nst",
+  "thumb": "images/thumbs/030.jpg",
+  "image": null
+ },
+ {
+  "id": 31,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Honor Column Jersey Midi Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 149,
+  "colorDetail": "Navy",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-honor-column-jersey-midi-dress-navy-d1767nav",
+  "thumb": "images/thumbs/031.jpg",
+  "image": null
+ },
+ {
+  "id": 32,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Imogen Collared Jersey Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 170,
+  "colorDetail": "Navy, Tickled Meadows",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-imogen-collared-jersey-dress-navy-tickled-meadows-d1147nar",
+  "thumb": "images/thumbs/032.jpg",
+  "image": null
+ },
+ {
+  "id": 33,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Jessica Knitted Shirt Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 220,
+  "colorDetail": "Malachite Green, Evening Blue",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-jessica-knitted-shirt-dress-malachite-green-evening-blue-d1824grn",
+  "thumb": "images/thumbs/033.jpg",
+  "image": null
+ },
+ {
+  "id": 34,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Ula Ponte Short Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 190,
+  "colorDetail": "Dark Cherry, Navy",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-ula-ponte-short-dress-dark-cherry-navy-d1820pur",
+  "thumb": "images/thumbs/034.jpg",
+  "image": null
+ },
+ {
+  "id": 35,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Dress Navy Field-Spec Boyfriend Crop Rugby",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 118,
+  "colorDetail": "Dress Navy",
+  "categoryDetail": "Womens Tees",
+  "url": "https://www.buckmason.com/products/dress-navy-field-spec-boyfriend-crop-rugby",
+  "thumb": "images/thumbs/035.jpg",
+  "image": null
+ },
+ {
+  "id": 36,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Belted Striped Shirtdress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 248,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/belted-striped-cotton-shirtdress/638600.html",
+  "thumb": "images/thumbs/036.jpg",
+  "image": null
+ },
+ {
+  "id": 37,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Corduroy A-Line Shirtdress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 298,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/corduroy-a-line-shirtdress/100095875.html",
+  "thumb": "images/thumbs/037.jpg",
+  "image": null
+ },
+ {
+  "id": 38,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Cotton Canvas Tie-Waist Shirtdress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 298,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/cotton-canvas-tie-waist-shirtdress/100087733.html",
+  "thumb": "images/thumbs/038.jpg",
+  "image": null
+ },
+ {
+  "id": 39,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Faux-Wrap Tee Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 299.99,
+  "colorDetail": "Aviator Navy",
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/faux-wrap-tee-dress/100094982.html?dwvar100094982_colorname=Aviator%20Navy",
+  "thumb": "images/thumbs/039.jpg",
+  "image": null
+ },
+ {
+  "id": 40,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Interlock Utility Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy",
+   "outdoors"
+  ],
+  "price": 498,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/interlock-utility-dress/100095858.html",
+  "thumb": "images/thumbs/040.jpg",
+  "image": null
+ },
+ {
+  "id": 41,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Paneled Cotton Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 239.99,
+  "colorDetail": "East Side Royal",
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/paneled-cotton-dress/100087747.html?dwvar100087747_colorname=East%20Side%20Royal",
+  "thumb": "images/thumbs/041.jpg",
+  "image": null
+ },
+ {
+  "id": 42,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Self-Tie Twill Shirtdress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 219.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/self-tie-twill-shirtdress/100084153.html",
+  "thumb": "images/thumbs/042.jpg",
+  "image": null
+ },
+ {
+  "id": 43,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Mock Neck Cable Mini Sweater Dress",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "friend"
+  ],
+  "price": 95,
+  "colorDetail": "Dark Brown",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Mini Dresses",
+  "url": "https://www.abercrombie.com/shop/us/p/mock-neck-mini-sweater-dress-63560819",
+  "thumb": "images/thumbs/043.jpg",
+  "image": null
+ },
+ {
+  "id": 44,
+  "retailer": "Anthropologie",
+  "brand": "Damson Madder",
+  "name": "Damson Madder Emmy Shirred Midi Dress",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 200,
+  "colorDetail": "Cocoa",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/damson-madder-emmy-shirred-midi-dress?color=020&type=STANDARD",
+  "thumb": "images/thumbs/044.jpg",
+  "image": null
+ },
+ {
+  "id": 45,
+  "retailer": "Anthropologie",
+  "brand": "Love The Label",
+  "name": "Love The Label Brinnie 100% Cotton Denim Mini Dress",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "friend",
+   "dressy"
+  ],
+  "price": 324,
+  "colorDetail": "Brown Paneled Denim",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/love-the-label-brinnie-100-cotton-denim-mini-dress?color=544&type=STANDARD",
+  "thumb": "images/thumbs/045.jpg",
+  "image": null
+ },
+ {
+  "id": 46,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Fae Jersey Shirt Dress",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 149,
+  "colorDetail": "Brown Stripe",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-fae-jersey-shirt-dress-brown-stripe-d1762brn",
+  "thumb": "images/thumbs/046.jpg",
+  "image": null
+ },
+ {
+  "id": 47,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Fleur Cord Midi Dress",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 199,
+  "colorDetail": "Raw Umber",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-fleur-cord-midi-dress-raw-umber-d1790brn",
+  "thumb": "images/thumbs/047.jpg",
+  "image": null
+ },
+ {
+  "id": 48,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Grown On Sleeve Midi Dress",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 199,
+  "colorDetail": "Raw Umber, Painted Dot Spaced",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-grown-on-sleeve-midi-dress-raw-umber-painted-dot-spaced-d1753brn",
+  "thumb": "images/thumbs/048.jpg",
+  "image": null
+ },
+ {
+  "id": 49,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Paula Ribbed Crew Dress",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 249,
+  "colorDetail": "Raw Umber, Faded Denim",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-paula-ribbed-crew-dress-raw-umber-faded-denim-d1825brn",
+  "thumb": "images/thumbs/049.jpg",
+  "image": null
+ },
+ {
+  "id": 50,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Smocked maxi dress in cotton voile",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 148,
+  "colorDetail": "Inky Espresso",
+  "categoryDetail": "Dresses & Jumpsuits",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/dresses-and-jumpsuits/CI259?display=standard&fit=Classic&colorProductCode=CI259&color_name=other",
+  "thumb": "images/thumbs/050.jpg",
+  "image": null
+ },
+ {
+  "id": 51,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Corduroy Pleated Shirtdress",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 298,
+  "colorDetail": "Dark Brown",
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/corduroy-pleated-shirtdress/100095864.html?dwvar100095864_colorname=Dark%20Brown",
+  "thumb": "images/thumbs/051.jpg",
+  "image": null
+ },
+ {
+  "id": 52,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Cotton-Linen Belted Shirtdress",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 189.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/cotton-linen-belted-shirtdress/100082651.html",
+  "thumb": "images/thumbs/052.jpg",
+  "image": null
+ },
+ {
+  "id": 53,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Striped Cotton Canvas Utility Shirtdress",
+  "category": "Dresses",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend",
+   "outdoors"
+  ],
+  "price": 298,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/striped-cotton-canvas-utility-shirtdress/100087753.html",
+  "thumb": "images/thumbs/053.jpg",
+  "image": null
+ },
+ {
+  "id": 54,
+  "retailer": "Anthropologie",
+  "brand": "Maeve",
+  "name": "Maeve Denim Embroidered Fit & Flare Mini Dress",
+  "category": "Dresses",
+  "color": "Denim",
+  "occasions": [
+   "dance",
+   "friend"
+  ],
+  "price": 248,
+  "colorDetail": "Dark Denim",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/maeve-denim-embroidered-fit-flare-mini-dress?color=091&type=STANDARD",
+  "thumb": "images/thumbs/054.jpg",
+  "image": null
+ },
+ {
+  "id": 55,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro Greer Denim Midi Shirtdress",
+  "category": "Dresses",
+  "color": "Denim",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 168,
+  "colorDetail": "Light Denim",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/pilcro-greer-denim-midi-shirtdress?color=092&type=STANDARD",
+  "thumb": "images/thumbs/055.jpg",
+  "image": null
+ },
+ {
+  "id": 56,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Long-sleeve mini shirt-dress in denim",
+  "category": "Dresses",
+  "color": "Denim",
+  "occasions": [
+   "friend"
+  ],
+  "price": 106.5,
+  "colorDetail": "Rinse Wash",
+  "categoryDetail": "Dresses & Jumpsuits",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/dresses-and-jumpsuits/CX613?display=standard&fit=Classic&colorProductCode=CX613&color_name=other",
+  "thumb": "images/thumbs/056.jpg",
+  "image": null
+ },
+ {
+  "id": 57,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Emma Carlow Tree of Life Print Poplin Dress",
+  "category": "Dresses",
+  "color": "Denim",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 355,
+  "colorDetail": "Indigo Blue",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://us.toa.st/products/emma-carlow-tree-of-life-print-poplin-dress-indigo-blue",
+  "thumb": "images/thumbs/057.jpg",
+  "image": null
+ },
+ {
+  "id": 58,
+  "retailer": "Anthropologie",
+  "brand": "BHLDN",
+  "name": "BHLDN Floral Chiffon Plunge Long-Sleeve Ruffle Maxi Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "friend",
+   "dressy"
+  ],
+  "price": 298,
+  "colorDetail": "Mint",
+  "categoryDetail": "Weddings > Lingerie & Robes",
+  "url": "https://www.anthropologie.com/shop/bhldn-floral-chiffon-plunge-long-sleeve-ruffle-maxi-dress?color=102&type=STANDARD",
+  "thumb": "images/thumbs/058.jpg",
+  "image": null
+ },
+ {
+  "id": 59,
+  "retailer": "Anthropologie",
+  "brand": "By Anthropologie",
+  "name": "By Anthropologie Slinky Knit Midi Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 248,
+  "colorDetail": "Olive",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/by-anthropologie-slinky-knit-midi-dress?color=230&type=STANDARD",
+  "thumb": "images/thumbs/059.jpg",
+  "image": null
+ },
+ {
+  "id": 60,
+  "retailer": "Anthropologie",
+  "brand": "Ro's Garden",
+  "name": "Ro's Garden Daphne 100% Cotton Midi Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 245,
+  "colorDetail": "Greenarata",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/ros-garden-daphne-100-cotton-midi-dress?color=038&type=STANDARD",
+  "thumb": "images/thumbs/060.jpg",
+  "image": null
+ },
+ {
+  "id": 61,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Fiona Zip Front Knitted Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 220,
+  "colorDetail": "Hunter Green",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-fiona-zip-front-knitted-dress-hunter-green-d1457jad",
+  "thumb": "images/thumbs/061.jpg",
+  "image": null
+ },
+ {
+  "id": 62,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Georgia Jersey Midi Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 149,
+  "colorDetail": "Dark Green, Ditsy Carnation",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-georgia-jersey-midi-dress-dark-green-ditsy-carnation-d1034dgr",
+  "thumb": "images/thumbs/062.jpg",
+  "image": null
+ },
+ {
+  "id": 63,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Grown On Sleeve Midi Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 190,
+  "colorDetail": "Olive",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-grown-on-sleeve-midi-dress-olive-d1753grn",
+  "thumb": "images/thumbs/063.jpg",
+  "image": null
+ },
+ {
+  "id": 64,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Nia Ottoman Long Sleeve Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 119,
+  "colorDetail": "Malachite green",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-nia-ottoman-long-sleeve-dress-malachite-green-d1831dgr",
+  "thumb": "images/thumbs/064.jpg",
+  "image": null
+ },
+ {
+  "id": 65,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Rhoda Cord Short Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 160,
+  "colorDetail": "Forest Green",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-rhoda-cord-short-dress-forest-green-d1828khk",
+  "thumb": "images/thumbs/065.jpg",
+  "image": null
+ },
+ {
+  "id": 66,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Una Cord Midi Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 220,
+  "colorDetail": "Midnight Emerald",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-una-cord-midi-dress-midnight-emerald-d1830grn",
+  "thumb": "images/thumbs/066.jpg",
+  "image": null
+ },
+ {
+  "id": 67,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Arden shirt-dress in cotton poplin",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 178,
+  "colorDetail": "Aged Pine",
+  "categoryDetail": "Dresses & Jumpsuits",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/dresses-and-jumpsuits/CI906?display=standard&fit=Classic&colorProductCode=CI906&color_name=other",
+  "thumb": "images/thumbs/067.jpg",
+  "image": null
+ },
+ {
+  "id": 68,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Lina smocked midi dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 168,
+  "colorDetail": "Vibrant Fern",
+  "categoryDetail": "Dresses & Jumpsuits",
+  "url": "https://www.jcrew.com/m/womens/categories/clothing/dresses-and-jumpsuits/ME850?display=standard&fit=Classic&colorProductCode=CS967",
+  "thumb": "images/thumbs/068.jpg",
+  "image": null
+ },
+ {
+  "id": 69,
+  "retailer": "O'Connell's",
+  "brand": "Lesley Evers",
+  "name": "Lesley Evers Juniper Dress - Chicka Boom Green",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 158,
+  "colorDetail": "Chicka Boom Green",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/lesley-evers-juniper-dress-chicka-boom-green-green-chicka-boom.html",
+  "thumb": "images/thumbs/069.jpg",
+  "image": null
+ },
+ {
+  "id": 70,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Aila Linen Cotton Gingham Check Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 335,
+  "colorDetail": "Beetle Green",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://us.toa.st/products/aila-linen-cotton-gingham-check-dress-beetle-green",
+  "thumb": "images/thumbs/070.jpg",
+  "image": null
+ },
+ {
+  "id": 71,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Collared Garment Dyed Linen Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 415,
+  "colorDetail": "Leaf Green",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://us.toa.st/products/collared-garment-dyed-linen-dress-leaf-green",
+  "thumb": "images/thumbs/071.jpg",
+  "image": null
+ },
+ {
+  "id": 72,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Cotton Needlecord Shirt Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 375,
+  "colorDetail": "Seaweed",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://us.toa.st/products/cotton-needlecord-shirt-dress-seaweed",
+  "thumb": "images/thumbs/072.jpg",
+  "image": null
+ },
+ {
+  "id": 73,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Garment Dyed Linen Sleeveless Dress",
+  "category": "Dresses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 355,
+  "colorDetail": "Dark Olive",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://us.toa.st/products/garment-dyed-linen-sleeveless-dress-dark-olive",
+  "thumb": "images/thumbs/073.jpg",
+  "image": null
+ },
+ {
+  "id": 74,
+  "retailer": "O'Connell's",
+  "brand": "O'Connell's",
+  "name": "O'Connell's Cotton Shirtdress - Flora & Fauna Print (A0258)",
+  "category": "Dresses",
+  "color": "Grey",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 375,
+  "colorDetail": "Flora & Fauna Print",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/oconnells-cotton-shirtdress-flora-fauna-print-a0258-a0258sc-01l-cd-cara.html",
+  "thumb": "images/thumbs/074.jpg",
+  "image": null
+ },
+ {
+  "id": 75,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Belted Wide-Stripe Shirtdress",
+  "category": "Dresses",
+  "color": "Grey",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 248,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/belted-wide-stripe-cotton-shirtdress/638599.html",
+  "thumb": "images/thumbs/075.jpg",
+  "image": null
+ },
+ {
+  "id": 76,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Paneled Cotton Canvas Mini Shirtdress",
+  "category": "Dresses",
+  "color": "Grey",
+  "occasions": [
+   "friend"
+  ],
+  "price": 248,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/paneled-cotton-canvas-mini-shirtdress/100097168.html",
+  "thumb": "images/thumbs/076.jpg",
+  "image": null
+ },
+ {
+  "id": 77,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "EASY KURTA",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 238,
+  "colorDetail": "SHADED GRASS / SUMMER NAVY / INDIGO BLACKWATCH BELGIAN LINEN",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/easy-kurta-shaded-grass-summer-navy-indigo",
+  "thumb": "images/thumbs/077.jpg",
+  "image": null
+ },
+ {
+  "id": 78,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Cotton A&F Sydney Smocked Dipped-Waist Maxi Dress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 130,
+  "colorDetail": "Orange Floral",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Maxi Dresses",
+  "url": "https://www.abercrombie.com/shop/us/p/100-cotton-a-and-f-sydney-smocked-dipped-waist-midi-dress-63299819",
+  "thumb": "images/thumbs/078.jpg",
+  "image": null
+ },
+ {
+  "id": 79,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Crew Neck Jacquard Dress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 220,
+  "colorDetail": "Navy, Camel, Red Check",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-crew-neck-jacquard-dress-navy-camel-red-check-d1822nav",
+  "thumb": "images/thumbs/079.jpg",
+  "image": null
+ },
+ {
+  "id": 80,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Lou Check Shift Dress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 199,
+  "colorDetail": "Camel, Blue Gingham",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-lou-check-shift-dress-camel-blue-gingham-d1779blu",
+  "thumb": "images/thumbs/080.jpg",
+  "image": null
+ },
+ {
+  "id": 81,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Marcia Jersey Shirt Dress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 160,
+  "colorDetail": "Chive and Navy Stripe",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-marcia-jersey-shirt-dress-chive-and-navy-stripe-d1033jad",
+  "thumb": "images/thumbs/081.jpg",
+  "image": null
+ },
+ {
+  "id": 82,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Ruffle-collar mini shirt-dress in striped Greenwich poplin",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "dance",
+   "friend"
+  ],
+  "price": 168,
+  "colorDetail": "Cubeb Berry White",
+  "categoryDetail": "Dresses & Jumpsuits",
+  "url": "https://www.jcrew.com/m/womens/categories/clothing/dresses-and-jumpsuits/MQ221?display=standard&fit=Classic&colorProductCode=CX661",
+  "thumb": "images/thumbs/082.jpg",
+  "image": null
+ },
+ {
+  "id": 83,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Smocked maxi dress in cotton voile vintage daisy print",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": null,
+  "colorDetail": null,
+  "categoryDetail": "Swim",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/swim/CU280?display=standard&fit=Classic&colorProductCode=CU280&color_name=other",
+  "thumb": "images/thumbs/083.jpg",
+  "image": null
+ },
+ {
+  "id": 84,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Belted Striped Cotton Shirtdress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 179.99,
+  "colorDetail": "Polo Tan White",
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/belted-striped-cotton-shirtdress/100084151.html?dwvar100084151_colorname=Polo%20Tan%20White",
+  "thumb": "images/thumbs/084.jpg",
+  "image": null
+ },
+ {
+  "id": 85,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Plaid Paneled Sleeveless Dress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 339.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/plaid-paneled-sleeveless-dress/100082891.html",
+  "thumb": "images/thumbs/085.jpg",
+  "image": null
+ },
+ {
+  "id": 86,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Striped Cotton Tie-Waist Shirtdress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 298,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/striped-cotton-tie-waist-shirtdress/100087751.html",
+  "thumb": "images/thumbs/086.jpg",
+  "image": null
+ },
+ {
+  "id": 87,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Striped Linen Paneled Shirtdress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 239.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/striped-linen-paneled-shirtdress/100090203.html",
+  "thumb": "images/thumbs/087.jpg",
+  "image": null
+ },
+ {
+  "id": 88,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Striped Paneled Linen Dress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 239.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/striped-paneled-linen-dress/100087737.html",
+  "thumb": "images/thumbs/088.jpg",
+  "image": null
+ },
+ {
+  "id": 89,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Market Fish Print Cotton Poplin Dress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 300,
+  "colorDetail": "Slate",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://us.toa.st/products/market-fish-print-cotton-poplin-dress-slate",
+  "thumb": "images/thumbs/089.jpg",
+  "image": null
+ },
+ {
+  "id": 90,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Stripe Cotton Shirt Dress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 315,
+  "colorDetail": "French Blue",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://us.toa.st/products/stripe-cotton-shirt-dress-french-blue",
+  "thumb": "images/thumbs/090.jpg",
+  "image": null
+ },
+ {
+  "id": 91,
+  "retailer": "Anthropologie",
+  "brand": "Rails",
+  "name": "Rails Selani Midi Dress",
+  "category": "Dresses",
+  "color": "Orange/Rust",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 248,
+  "colorDetail": "Spice",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/rails-selani-midi-dress?color=060&type=STANDARD",
+  "thumb": "images/thumbs/091.jpg",
+  "image": null
+ },
+ {
+  "id": 92,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Louise Cord Midi Shirt Dress",
+  "category": "Dresses",
+  "color": "Orange/Rust",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 249,
+  "colorDetail": "Arabian Spice, Flecked Bunch",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-louise-cord-midi-shirt-dress-arabian-spice-flecked-bunch-d1786dbr",
+  "thumb": "images/thumbs/092.jpg",
+  "image": null
+ },
+ {
+  "id": 93,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Rhoda Cord Short Dress",
+  "category": "Dresses",
+  "color": "Orange/Rust",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 190,
+  "colorDetail": "Ginger, Cow Fields",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-rhoda-cord-short-dress-ginger-cow-fields-d1828lbr",
+  "thumb": "images/thumbs/093.jpg",
+  "image": null
+ },
+ {
+  "id": 94,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "BROOKLANDS DRESS IN ORANGE CHECK",
+  "category": "Dresses",
+  "color": "Orange/Rust",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 280,
+  "colorDetail": "Orange Check",
+  "categoryDetail": "Final Editions",
+  "url": "https://www.wmenswear.com/shop/BROOKLANDS-DRESS-IN-ORANGE-CHECK-p823716045",
+  "thumb": "images/thumbs/094.jpg",
+  "image": null
+ },
+ {
+  "id": 95,
+  "retailer": "Anthropologie",
+  "brand": "Beau & Ro",
+  "name": "Beau & Ro Elle 100% Cotton Poplin Midi Dress",
+  "category": "Dresses",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 330,
+  "colorDetail": "Summer Bloom",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/beau-ro-elle-100-cotton-poplin-midi-dress?color=040&type=STANDARD",
+  "thumb": "images/thumbs/095.jpg",
+  "image": null
+ },
+ {
+  "id": 96,
+  "retailer": "Anthropologie",
+  "brand": "By Anthropologie",
+  "name": "By Anthropologie Patchwork Ruffle Midi Dress",
+  "category": "Dresses",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 198,
+  "colorDetail": "Pink Pattern",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/by-anthropologie-patchwork-ruffle-midi-dress?color=266&type=STANDARD",
+  "thumb": "images/thumbs/096.jpg",
+  "image": null
+ },
+ {
+  "id": 97,
+  "retailer": "Anthropologie",
+  "brand": "LSPACE",
+  "name": "LSPACE Mallorca Midi Dress",
+  "category": "Dresses",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 158,
+  "colorDetail": "Pink",
+  "categoryDetail": "Clothing > Swimwear",
+  "url": "https://www.anthropologie.com/shop/lspace-mallorca-midi-dress?color=066&type=STANDARD",
+  "thumb": "images/thumbs/097.jpg",
+  "image": null
+ },
+ {
+  "id": 98,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Louise Cord Midi Shirt Dress",
+  "category": "Dresses",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 220,
+  "colorDetail": "Pink Heather",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-louise-cord-midi-shirt-dress-pink-heather-d1786plm",
+  "thumb": "images/thumbs/098.jpg",
+  "image": null
+ },
+ {
+  "id": 99,
+  "retailer": "O'Connell's",
+  "brand": "Lesley Evers",
+  "name": "Lesley Evers Juniper Dress - Pink Pears",
+  "category": "Dresses",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 158,
+  "colorDetail": "Pink Pears",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/lesley-evers-juniper-dress-pink-pears-pink-pears.html",
+  "thumb": "images/thumbs/099.jpg",
+  "image": null
+ },
+ {
+  "id": 100,
+  "retailer": "Anthropologie",
+  "brand": "Geisha Designs",
+  "name": "Geisha Deep-V Ruffle Maxi Dress",
+  "category": "Dresses",
+  "color": "Purple",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend",
+   "dressy"
+  ],
+  "price": 348,
+  "colorDetail": "Purple",
+  "categoryDetail": "Weddings > Bridesmaid Dresses",
+  "url": "https://www.anthropologie.com/shop/geisha-deep-v-ruffle-maxi-dress?color=050&type=STANDARD",
+  "thumb": "images/thumbs/100.jpg",
+  "image": null
+ },
+ {
+  "id": 101,
+  "retailer": "Anthropologie",
+  "brand": "Maeve",
+  "name": "Maeve Pleated Midi Sweater Dress",
+  "category": "Dresses",
+  "color": "Purple",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 178,
+  "colorDetail": "Plum",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/maeve-pleated-midi-sweater-dress?color=052&type=STANDARD",
+  "thumb": "images/thumbs/101.jpg",
+  "image": null
+ },
+ {
+  "id": 102,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Jessica Knitted Shirt Dress",
+  "category": "Dresses",
+  "color": "Purple",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 220,
+  "colorDetail": "Evening Blue, Deep Wisteria",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-jessica-knitted-shirt-dress-evening-blue-deep-wisteria-d1824blu",
+  "thumb": "images/thumbs/102.jpg",
+  "image": null
+ },
+ {
+  "id": 103,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Kate Pleated Shirt Dress",
+  "category": "Dresses",
+  "color": "Purple",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 199,
+  "colorDetail": "Deep Wisteria",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-kate-pleated-shirt-dress-deep-wisteria-d1793prp",
+  "thumb": "images/thumbs/103.jpg",
+  "image": null
+ },
+ {
+  "id": 104,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Pussybow Jersey Maxi Dress",
+  "category": "Dresses",
+  "color": "Purple",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend",
+   "hang"
+  ],
+  "price": 249,
+  "colorDetail": "Deep Wisteria",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-pussybow-jersey-maxi-dress-deep-wisteria-d1809prp",
+  "thumb": "images/thumbs/104.jpg",
+  "image": null
+ },
+ {
+  "id": 105,
+  "retailer": "O'Connell's",
+  "brand": "O'Connell's",
+  "name": "O'Connell's Brushed Cotton Shirtdress - Mulberry (T630)",
+  "category": "Dresses",
+  "color": "Purple",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 249,
+  "colorDetail": "Mulberry",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/oconnells-womens-brushed-cotton-shirtdress-mulberry-t630-56.html",
+  "thumb": "images/thumbs/105.jpg",
+  "image": null
+ },
+ {
+  "id": 106,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Crepe Utility Shirtdress",
+  "category": "Dresses",
+  "color": "Purple",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy",
+   "outdoors"
+  ],
+  "price": 398,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/crepe-utility-shirtdress/100095870.html",
+  "thumb": "images/thumbs/106.jpg",
+  "image": null
+ },
+ {
+  "id": 107,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Cotton A&F Bra-Free Dylan Midi Dress",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "friend"
+  ],
+  "price": 120,
+  "colorDetail": "Rich Ruby",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Midi Dresses",
+  "url": "https://www.abercrombie.com/shop/us/p/a-and-f-bra-free-dylan-denim-midi-dress-62732319",
+  "thumb": "images/thumbs/107.jpg",
+  "image": null
+ },
+ {
+  "id": 108,
+  "retailer": "Anthropologie",
+  "brand": "The Somerset Collection by Anthropologie",
+  "name": "Somerset Maxi Dress",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 168,
+  "colorDetail": "Red Apple",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/somerset-maxi-dress?color=622&type=STANDARD",
+  "thumb": "images/thumbs/108.jpg",
+  "image": null
+ },
+ {
+  "id": 109,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Cable Stitch Knitted Dress",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 270,
+  "colorDetail": "Crimson Red",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-cable-stitch-knitted-dress-crimson-red-d1823red",
+  "thumb": "images/thumbs/109.jpg",
+  "image": null
+ },
+ {
+  "id": 110,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Hope Zip Detail Jersey Dress",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 149,
+  "colorDetail": "Red Earth",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-hope-zip-detail-jersey-dress-red-earth-d1816red",
+  "thumb": "images/thumbs/110.jpg",
+  "image": null
+ },
+ {
+  "id": 111,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Maeve Cord Midi Shirt Dress",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 230,
+  "colorDetail": "Spiced Apple",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-maeve-cord-midi-shirt-dress-spiced-apple-d1807mbr",
+  "thumb": "images/thumbs/111.jpg",
+  "image": null
+ },
+ {
+  "id": 112,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Rhoda Cord Short Dress",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 160,
+  "colorDetail": "Red Earth",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-rhoda-cord-short-dress-red-earth-d1828red",
+  "thumb": "images/thumbs/112.jpg",
+  "image": null
+ },
+ {
+  "id": 113,
+  "retailer": "O'Connell's",
+  "brand": "O'Connell's",
+  "name": "O'Connell's Merino Wool Sweater Dress - Merlot (M6141)",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 275,
+  "colorDetail": "Merlot",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/oconnells-womens-merino-wool-sweater-dress-merlot-m6141-solid-mulberry.html",
+  "thumb": "images/thumbs/113.jpg",
+  "image": null
+ },
+ {
+  "id": 114,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Cable-Knit Halter Dress",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "friend"
+  ],
+  "price": 219.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/cable-knit-halter-dress/100091534.html",
+  "thumb": "images/thumbs/114.jpg",
+  "image": null
+ },
+ {
+  "id": 115,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Plaid Cotton-Blend Paneled Shirtdress",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 398,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/plaid-cotton-blend-paneled-shirtdress/100094575.html",
+  "thumb": "images/thumbs/115.jpg",
+  "image": null
+ },
+ {
+  "id": 116,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Silk Mini Shirtdress",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 498,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/silk-mini-shirtdress/100097324.html",
+  "thumb": "images/thumbs/116.jpg",
+  "image": null
+ },
+ {
+  "id": 117,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Garment Dyed Linen Shift Dress",
+  "category": "Dresses",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 335,
+  "colorDetail": "Red Chilli",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://us.toa.st/products/garment-dyed-linen-shift-dress-red-chilli",
+  "thumb": "images/thumbs/117.jpg",
+  "image": null
+ },
+ {
+  "id": 118,
+  "retailer": "Anthropologie",
+  "brand": "English Factory",
+  "name": "English Factory Pleated Twofer Mini Dress",
+  "category": "Dresses",
+  "color": "White/Ivory",
+  "occasions": [
+   "dance",
+   "friend"
+  ],
+  "price": 140,
+  "colorDetail": "Cream",
+  "categoryDetail": "Clothing > Activewear & Leisurewear",
+  "url": "https://www.anthropologie.com/shop/english-factory-pleated-twofer-mini-dress?color=012&type=STANDARD",
+  "thumb": "images/thumbs/118.jpg",
+  "image": null
+ },
+ {
+  "id": 119,
+  "retailer": "Anthropologie",
+  "brand": "Susana Monaco",
+  "name": "Susana Monaco 100% Cotton V-Neck Maxi Dress",
+  "category": "Dresses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 228,
+  "colorDetail": "Ivory",
+  "categoryDetail": "Clothing > Dresses",
+  "url": "https://www.anthropologie.com/shop/susana-monaco-100-cotton-v-neck-maxi-dress?color=011&type=STANDARD",
+  "thumb": "images/thumbs/119.jpg",
+  "image": null
+ },
+ {
+  "id": 120,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Etta Piping Detail Ponte Dress",
+  "category": "Dresses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 230,
+  "colorDetail": "Navy, Ivory",
+  "categoryDetail": "Women > Dresses",
+  "url": "https://us.boden.com/products/women-etta-piping-detail-ponte-dress-navy-ivory-d1815nvy",
+  "thumb": "images/thumbs/120.jpg",
+  "image": null
+ },
+ {
+  "id": 121,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Belted shirt-dress",
+  "category": "Dresses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 146.5,
+  "colorDetail": "Antique White",
+  "categoryDetail": "Dresses & Jumpsuits",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/dresses-and-jumpsuits/CX644?display=standard&fit=Classic&colorProductCode=CX644&color_name=white",
+  "thumb": "images/thumbs/121.jpg",
+  "image": null
+ },
+ {
+  "id": 122,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Mathilde dress in luster canvas",
+  "category": "Dresses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": null,
+  "colorDetail": null,
+  "categoryDetail": "Dresses & Jumpsuits",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/dresses-and-jumpsuits/CI451?display=standard&fit=Classic&colorProductCode=CI451&color_name=black",
+  "thumb": "images/thumbs/122.jpg",
+  "image": null
+ },
+ {
+  "id": 123,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Cotton Eyelet Shirtdress",
+  "category": "Dresses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 349.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/cotton-eyelet-shirtdress/100089929.html",
+  "thumb": "images/thumbs/123.jpg",
+  "image": null
+ },
+ {
+  "id": 124,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Linen Paneled Shirtdress",
+  "category": "Dresses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 199.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/linen-paneled-shirtdress/100087748.html",
+  "thumb": "images/thumbs/124.jpg",
+  "image": null
+ },
+ {
+  "id": 125,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Space Dyed Indigo Check Dress",
+  "category": "Dresses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 470,
+  "colorDetail": "Indigo/Ecru",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://us.toa.st/products/space-dyed-indigo-check-dress-indigo-ecru",
+  "thumb": "images/thumbs/125.jpg",
+  "image": null
+ },
+ {
+  "id": 126,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "BROOKLANDS DRESS IN CREAM",
+  "category": "Dresses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 162,
+  "colorDetail": "Cream",
+  "categoryDetail": "Final Editions",
+  "url": "https://www.wmenswear.com/shop/BROOKLANDS-DRESS-IN-CREAM-p823761772",
+  "thumb": "images/thumbs/126.jpg",
+  "image": null
+ },
+ {
+  "id": 127,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Ponte-Bodice Sleeveless Dress",
+  "category": "Dresses",
+  "color": "Yellow/Gold",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 319.99,
+  "colorDetail": "Bird Yellow",
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/ponte-bodice-sleeveless-dress/100087745.html?dwvar100087745_colorname=Bird%20Yellow",
+  "thumb": "images/thumbs/127.jpg",
+  "image": null
+ },
+ {
+  "id": 128,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Tie-Front Crepe Dress",
+  "category": "Dresses",
+  "color": "Yellow/Gold",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 498,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Dresses & Jumpsuits > Dresses",
+  "url": "https://www.ralphlauren.com/women-clothing/tie-front-crepe-dress/100095876.html",
+  "thumb": "images/thumbs/128.jpg",
+  "image": null
+ },
+ {
+  "id": 129,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Martha Natural Dye Stripe Cotton Dress",
+  "category": "Dresses",
+  "color": "Yellow/Gold",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "price": 315,
+  "colorDetail": "Turmeric",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://us.toa.st/products/martha-natural-dye-stripe-cotton-dress-turmeric",
+  "thumb": "images/thumbs/129.jpg",
+  "image": null
+ },
+ {
+  "id": 130,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Cable Wool-Cashmere Puffer Jacket",
+  "category": "Jackets & Coats",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 698,
+  "colorDetail": "Collection Camel Melange",
+  "categoryDetail": "Women > Clothing > Coats & Jackets > Coats",
+  "url": "https://www.ralphlauren.com/women-clothing/cable-wool-cashmere-puffer-jacket/100092704.html?dwvar100092704_colorname=Collection%20Camel%20Melange",
+  "thumb": "images/thumbs/130.jpg",
+  "image": null
+ },
+ {
+  "id": 131,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Lady jacket in textured Italian tweed",
+  "category": "Jackets & Coats",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 268,
+  "colorDetail": "Olive Black Tweed",
+  "categoryDetail": "Blazers > Lady Jacket",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/blazers/lady-jacket/CZ112?display=standard&fit=Classic&colorProductCode=CZ112&color_name=other",
+  "thumb": "images/thumbs/131.jpg",
+  "image": null
+ },
+ {
+  "id": 132,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "CALEB OVERSHIRT",
+  "category": "Jackets & Coats",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 214,
+  "colorDetail": "FAWN / STAG BROWN / DUSTY RED / INDIGO / GOLDENRAY BRUSHED COTTON HERRINGBONE FLANNEL",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/caleb-shirt-red-beige-yellow",
+  "thumb": "images/thumbs/132.jpg",
+  "image": null
+ },
+ {
+  "id": 133,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "PILCHUCK HAND-EMBROIDERED OVERSHIRT",
+  "category": "Jackets & Coats",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 268,
+  "colorDetail": "CLAY / BUTTER /TANGERINE / FOG / ECRU / LAVENDAR COTTON FLANNEL WITH KANTHA STITCHING",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/embroidered-pilchuck-flannel-clay-lavender-ecru",
+  "thumb": "images/thumbs/133.jpg",
+  "image": null
+ },
+ {
+  "id": 134,
+  "retailer": "Post Romantic",
+  "brand": "Post Romantic",
+  "name": "WOMEN’S WASHED WOOL PLAID OVERSHIRT",
+  "category": "Jackets & Coats",
+  "color": "Denim",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 165,
+  "colorDetail": null,
+  "categoryDetail": "Sustainable Women's Clothes > Overshirts",
+  "url": "https://post-romantic.com/product/womens-washed-wool-plaid-overshirt/",
+  "thumb": "images/thumbs/134.jpg",
+  "image": null
+ },
+ {
+  "id": 135,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Lady jacket in striped bouclé",
+  "category": "Jackets & Coats",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 79.5,
+  "colorDetail": "Black Ivory",
+  "categoryDetail": "Sweaters > Cardigan",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/sweaters/cardigan/CX433?display=standard&fit=Classic&colorProductCode=CX433&color_name=other",
+  "thumb": "images/thumbs/135.jpg",
+  "image": null
+ },
+ {
+  "id": 136,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'MENSWEAR ENGINEER'S JACKET IN RED DENIM",
+  "category": "Jackets & Coats",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend",
+   "outdoors"
+  ],
+  "price": 270,
+  "colorDetail": "Red Denim",
+  "categoryDetail": "The Studio Uniform",
+  "url": "https://www.wmenswear.com/shop/WMENSWEAR-ENGINEERS-JACKET-IN-RED-DENIM-p703401326",
+  "thumb": "images/thumbs/136.jpg",
+  "image": null
+ },
+ {
+  "id": 137,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "High Rise Wide Leg Jean",
+  "category": "Jeans",
+  "color": "Black",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 100,
+  "colorDetail": "Black",
+  "categoryDetail": "Women's > Bottoms > Jeans > Wide Leg & Loose Jeans",
+  "url": "https://www.abercrombie.com/shop/us/p/high-rise-wide-leg-jean-61786820",
+  "thumb": "images/thumbs/137.jpg",
+  "image": null
+ },
+ {
+  "id": 138,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "High Rise Barrel Jean",
+  "category": "Jeans",
+  "color": "Brown",
+  "occasions": [
+   "friend",
+   "hang",
+   "outdoors"
+  ],
+  "price": 100,
+  "colorDetail": "Toffee Brown",
+  "categoryDetail": "Women's > Bottoms > Jeans > Classic Fit Jeans",
+  "url": "https://www.abercrombie.com/shop/us/p/high-rise-barrel-jean-63340338",
+  "thumb": "images/thumbs/138.jpg",
+  "image": null
+ },
+ {
+  "id": 139,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "High Rise Wide Leg Trouser Jean",
+  "category": "Jeans",
+  "color": "Brown",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 100,
+  "colorDetail": "Light Brown",
+  "categoryDetail": "Women's > Bottoms > Jeans > Wide Leg & Loose Jeans",
+  "url": "https://www.abercrombie.com/shop/us/p/high-rise-wide-leg-jean-63446829-1",
+  "thumb": "images/thumbs/139.jpg",
+  "image": null
+ },
+ {
+  "id": 140,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "High Rise Wide Leg Cuffed Jean",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 100,
+  "colorDetail": "Medium Cuffed Hem",
+  "categoryDetail": "Women's > Bottoms > Jeans > Wide Leg & Loose Jeans",
+  "url": "https://www.abercrombie.com/shop/us/p/high-rise-wide-leg-cuffed-jean-63328335",
+  "thumb": "images/thumbs/140.jpg",
+  "image": null
+ },
+ {
+  "id": 141,
+  "retailer": "Anthropologie",
+  "brand": "DL1961",
+  "name": "DL1961 Taylor HIGHLUXE™ High-Rise Relaxed Barrel Jeans",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 239,
+  "colorDetail": "Blue Mist",
+  "categoryDetail": "Clothing > Jeans",
+  "url": "https://www.anthropologie.com/shop/dl1961-taylor-highluxetm-high-rise-relaxed-barrel-jeans?color=093&type=STANDARD",
+  "thumb": "images/thumbs/141.jpg",
+  "image": null
+ },
+ {
+  "id": 142,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro High-Rise Balloon Leg Jeans",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 148,
+  "colorDetail": "Light Denim",
+  "categoryDetail": "Clothing > Jeans",
+  "url": "https://www.anthropologie.com/shop/pilcro-high-rise-balloon-leg-jeans?color=092&type=STANDARD",
+  "thumb": "images/thumbs/142.jpg",
+  "image": null
+ },
+ {
+  "id": 143,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro Reese Smocked Pull-On Barrel Jeans in Cross-Weave Cotton",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 118,
+  "colorDetail": "Medium Denim",
+  "categoryDetail": "Clothing > Jeans",
+  "url": "https://www.anthropologie.com/shop/pilcro-reese-smocked-pull-on-barrel-jeans-in-cross-weave-cotton?color=093&type=STANDARD",
+  "thumb": "images/thumbs/143.jpg",
+  "image": null
+ },
+ {
+  "id": 144,
+  "retailer": "Anthropologie",
+  "brand": "Pistola",
+  "name": "Pistola Petite Wes High-Rise Barrel-Leg Jeans",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 198,
+  "colorDetail": "Waves",
+  "categoryDetail": "Clothing > Jeans",
+  "url": "https://www.anthropologie.com/shop/pistola-petite-wes-high-rise-barrel-leg-jeans?color=092&type=STANDARD",
+  "thumb": "images/thumbs/144.jpg",
+  "image": null
+ },
+ {
+  "id": 145,
+  "retailer": "Anthropologie",
+  "brand": "Seventy + Mochi",
+  "name": "Seventy + Mochi Bo Zipper High-Rise Barrel-Leg Jeans",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 195,
+  "colorDetail": "Light Denim",
+  "categoryDetail": "Clothing > Jeans",
+  "url": "https://www.anthropologie.com/shop/seventy-mochi-bo-zipper-high-rise-barrel-leg-jeans?color=092&type=STANDARD",
+  "thumb": "images/thumbs/145.jpg",
+  "image": null
+ },
+ {
+  "id": 146,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "High Rise Wide Leg Jeans",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 160,
+  "colorDetail": "Indigo Rinse",
+  "categoryDetail": "Women > Trousers & Jeans",
+  "url": "https://us.boden.com/products/women-high-rise-wide-leg-jeans-indigo-rinse-r0962ddn",
+  "thumb": "images/thumbs/146.jpg",
+  "image": null
+ },
+ {
+  "id": 147,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Zoe barrel jean",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang",
+   "outdoors"
+  ],
+  "price": 158,
+  "colorDetail": "Reilly Wash",
+  "categoryDetail": "Jeans > Barrel",
+  "url": "https://www.jcrew.com/m/womens/categories/clothing/jeans/barrel/ME840?display=standard&fit=Classic&colorProductCode=CX271",
+  "thumb": "images/thumbs/147.jpg",
+  "image": null
+ },
+ {
+  "id": 148,
+  "retailer": "Levi's",
+  "brand": "Levi's",
+  "name": "Baggy Dad Barrel Women's Jeans",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 49.98,
+  "colorDetail": "Most Wanted - Dark Wash",
+  "categoryDetail": "Clothing > Women > Jeans > Loose",
+  "url": "https://www.levi.com/US/en_US/clothing/women/jeans/loose/baggy-dad-barrel-womens-jeans/p/0039A0001",
+  "thumb": "images/thumbs/148.jpg",
+  "image": null
+ },
+ {
+  "id": 149,
+  "retailer": "Levi's",
+  "brand": "Levi's",
+  "name": "Boyfriend Women's Jeans",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 186.98,
+  "colorDetail": "Medium Wash",
+  "categoryDetail": "Clothing > Women > Jeans > Straight",
+  "url": "https://www.levi.com/US/en_US/clothing/women/jeans/straight/boyfriend-womens-jeans/p/003JD0001",
+  "thumb": "images/thumbs/149.jpg",
+  "image": null
+ },
+ {
+  "id": 150,
+  "retailer": "Levi's",
+  "brand": "Levi's",
+  "name": "Women's Carve Jeans",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 201.98,
+  "colorDetail": "Cerulean Made in Japan - Medium Wash",
+  "categoryDetail": "Clothing > Women > Jeans > Bootcut",
+  "url": "https://www.levi.com/US/en_US/clothing/women/jeans/bootcut/womens-carve-jeans/p/001LA0003",
+  "thumb": "images/thumbs/150.jpg",
+  "image": null
+ },
+ {
+  "id": 151,
+  "retailer": "Levi's",
+  "brand": "Levi's",
+  "name": "Women's Drop Barrel Jeans",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 250,
+  "colorDetail": "Dark Wash",
+  "categoryDetail": "Clothing > Women > Jeans > Loose",
+  "url": "https://www.levi.com/US/en_US/clothing/women/jeans/loose/womens-drop-barrel-jeans/p/003J40000",
+  "thumb": "images/thumbs/151.jpg",
+  "image": null
+ },
+ {
+  "id": 152,
+  "retailer": "Madewell",
+  "brand": "Madewell",
+  "name": "The Perfect Vintage Wide-Leg Jean",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 148,
+  "colorDetail": null,
+  "categoryDetail": "Womens > Clothing > Jeans > Wide-Leg Jeans",
+  "url": "https://www.madewell.com/p/womens/clothing/jeans/wide-leg-jeans/the-perfect-vintage-wide-leg-jean/NW277/?ccode=DM9239",
+  "thumb": "images/thumbs/152.jpg",
+  "image": null
+ },
+ {
+  "id": 153,
+  "retailer": "Madewell",
+  "brand": "Madewell",
+  "name": "The Ultimate Wide-Leg Jean in Airy Denim",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 148,
+  "colorDetail": null,
+  "categoryDetail": "Womens > Clothing > Jeans > Wide-Leg Jeans",
+  "url": "https://www.madewell.com/p/womens/clothing/jeans/wide-leg-jeans/the-ultimate-wide-leg-jean-in-airy-denim/OA854/?ccode=DN0136",
+  "thumb": "images/thumbs/153.jpg",
+  "image": null
+ },
+ {
+  "id": 154,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'MENSWEAR WMENS WORK JEAN IN WASHED DENIM",
+  "category": "Jeans",
+  "color": "Denim",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 290,
+  "colorDetail": "Washed Denim",
+  "categoryDetail": "The Studio Uniform",
+  "url": "https://www.wmenswear.com/shop/WMENSWEAR-WMENS-WORK-JEAN-IN-WASHED-DENIM-p737367505",
+  "thumb": "images/thumbs/154.jpg",
+  "image": null
+ },
+ {
+  "id": 155,
+  "retailer": "Anthropologie",
+  "brand": "Maeve",
+  "name": "Maeve Colette High-Rise Wide-Leg Cropped Jeans",
+  "category": "Jeans",
+  "color": "Green",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 138,
+  "colorDetail": "Mini Fern Wash",
+  "categoryDetail": "Clothing > Jeans",
+  "url": "https://www.anthropologie.com/shop/maeve-colette-high-rise-wide-leg-cropped-jeans?color=091&type=STANDARD",
+  "thumb": "images/thumbs/155.jpg",
+  "image": null
+ },
+ {
+  "id": 156,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro Kayden High-Rise Embroidered Carpenter Barrel Jeans",
+  "category": "Jeans",
+  "color": "Multi/Print",
+  "occasions": [
+   "friend",
+   "hang",
+   "outdoors"
+  ],
+  "price": 168,
+  "colorDetail": "Neutral Pattern",
+  "categoryDetail": "Clothing > Pants",
+  "url": "https://www.anthropologie.com/shop/pilcro-kayden-high-rise-embroidered-carpenter-barrel-jeans?color=015&type=STANDARD",
+  "thumb": "images/thumbs/156.jpg",
+  "image": null
+ },
+ {
+  "id": 157,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Exaggerated barrel jean",
+  "category": "Jeans",
+  "color": "Pink",
+  "occasions": [
+   "friend",
+   "hang",
+   "outdoors"
+  ],
+  "price": 158,
+  "colorDetail": "Shell Pink",
+  "categoryDetail": "Jeans > Barrel",
+  "url": "https://www.jcrew.com/m/womens/categories/clothing/jeans/barrel/MQ195?display=standard&fit=Classic&colorProductCode=CX286",
+  "thumb": "images/thumbs/157.jpg",
+  "image": null
+ },
+ {
+  "id": 158,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro Kayden High-Rise Barrel-Leg Jeans",
+  "category": "Jeans",
+  "color": "White/Ivory",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 168,
+  "colorDetail": "Ecru",
+  "categoryDetail": "Clothing > Jeans",
+  "url": "https://www.anthropologie.com/shop/pilcro-kayden-high-rise-barrel-leg-jeans?color=776&type=STANDARD",
+  "thumb": "images/thumbs/158.jpg",
+  "image": null
+ },
+ {
+  "id": 159,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Barrel Leg Jeans",
+  "category": "Jeans",
+  "color": "White/Ivory",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 160,
+  "colorDetail": "White",
+  "categoryDetail": "Women > Trousers & Jeans",
+  "url": "https://us.boden.com/products/women-barrel-leg-jeans-white-r0961wit",
+  "thumb": "images/thumbs/159.jpg",
+  "image": null
+ },
+ {
+  "id": 160,
+  "retailer": "Anthropologie",
+  "brand": "Ranna Gill",
+  "name": "Ranna Gill Denim Wide-Leg Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "dance"
+  ],
+  "price": 288,
+  "colorDetail": "Black Pattern",
+  "categoryDetail": "Clothing > Jumpsuits & Rompers",
+  "url": "https://www.anthropologie.com/shop/ranna-gill-denim-wide-leg-jumpsuit?color=009&type=STANDARD",
+  "thumb": "images/thumbs/160.jpg",
+  "image": null
+ },
+ {
+  "id": 161,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Wide Leg Cotton Poplin Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "dance"
+  ],
+  "price": 395,
+  "colorDetail": "Navy Blue",
+  "categoryDetail": "Women's Jumpsuits",
+  "url": "https://us.toa.st/products/wide-leg-cotton-poplin-jumpsuit-navy-blue",
+  "thumb": "images/thumbs/161.jpg",
+  "image": null
+ },
+ {
+  "id": 162,
+  "retailer": "Anthropologie",
+  "brand": "Exquise",
+  "name": "Exquise Tobie Printed Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 198,
+  "colorDetail": "Brown Floral",
+  "categoryDetail": "Clothing > Jumpsuits & Rompers",
+  "url": "https://www.anthropologie.com/shop/exquise-tobie-printed-jumpsuit?color=524&type=STANDARD",
+  "thumb": "images/thumbs/162.jpg",
+  "image": null
+ },
+ {
+  "id": 163,
+  "retailer": "Anthropologie",
+  "brand": "Maeve",
+  "name": "Maeve Shirting Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 188,
+  "colorDetail": "Sable",
+  "categoryDetail": "Clothing > Jumpsuits & Rompers",
+  "url": "https://www.anthropologie.com/shop/maeve-shirting-jumpsuit?color=020&type=STANDARD",
+  "thumb": "images/thumbs/163.jpg",
+  "image": null
+ },
+ {
+  "id": 164,
+  "retailer": "Anthropologie",
+  "brand": "The Somerset Collection by Anthropologie",
+  "name": "Somerset Linen Wide-Leg Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "dance"
+  ],
+  "price": 178,
+  "colorDetail": "Brown",
+  "categoryDetail": "Clothing > Jumpsuits & Rompers",
+  "url": "https://www.anthropologie.com/shop/somerset-linen-wide-leg-jumpsuit?color=020&type=STANDARD",
+  "thumb": "images/thumbs/164.jpg",
+  "image": null
+ },
+ {
+  "id": 165,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Cord Pocket Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 335,
+  "colorDetail": "Bitter Chocolate",
+  "categoryDetail": "Women's Jumpsuits",
+  "url": "https://us.toa.st/products/cord-pocket-jumpsuit-bitter-chocolate",
+  "thumb": "images/thumbs/165.jpg",
+  "image": null
+ },
+ {
+  "id": 166,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "High-Neck Linen-Blend Denim Balloon Leg Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Denim",
+  "occasions": [
+   "teaching",
+   "dance"
+  ],
+  "price": 130,
+  "colorDetail": "Dark Wash",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Jumpsuits",
+  "url": "https://www.abercrombie.com/shop/us/p/high-neck-linen-blend-denim-balloon-leg-jumpsuit-62690320",
+  "thumb": "images/thumbs/166.jpg",
+  "image": null
+ },
+ {
+  "id": 167,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Delancey Jumpsuit In Lightweight Twill",
+  "category": "Jumpsuits & Rompers",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 250,
+  "colorDetail": "Washed Cobalt",
+  "categoryDetail": "Women's Jumpsuit",
+  "url": "https://www.alexmill.com/products/delancey-jumpsuit-in-lightweight-twill-in-washed-cobalt",
+  "thumb": "images/thumbs/167.jpg",
+  "image": null
+ },
+ {
+  "id": 168,
+  "retailer": "Anthropologie",
+  "brand": "By Anthropologie",
+  "name": "By Anthropologie Denim Balloon Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Denim",
+  "occasions": [
+   "teaching",
+   "dance"
+  ],
+  "price": 168,
+  "colorDetail": "Rinsed Denim",
+  "categoryDetail": "Clothing > Jumpsuits & Rompers",
+  "url": "https://www.anthropologie.com/shop/by-anthropologie-denim-balloon-jumpsuit?color=094&type=STANDARD",
+  "thumb": "images/thumbs/168.jpg",
+  "image": null
+ },
+ {
+  "id": 169,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro Bubble Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 188,
+  "colorDetail": "Dark Denim",
+  "categoryDetail": "Clothing > Jumpsuits & Rompers",
+  "url": "https://www.anthropologie.com/shop/pilcro-bubble-jumpsuit?color=091&type=STANDARD",
+  "thumb": "images/thumbs/169.jpg",
+  "image": null
+ },
+ {
+  "id": 170,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro Reese Strapless Jumpsuit in Cross-Weave Cotton",
+  "category": "Jumpsuits & Rompers",
+  "color": "Denim",
+  "occasions": [
+   "hang"
+  ],
+  "price": 168,
+  "colorDetail": "Medium Denim",
+  "categoryDetail": "Clothing > Jumpsuits & Rompers",
+  "url": "https://www.anthropologie.com/shop/pilcro-reese-strapless-jumpsuit-in-cross-weave-cotton?color=093&type=STANDARD",
+  "thumb": "images/thumbs/170.jpg",
+  "image": null
+ },
+ {
+  "id": 171,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Delancey Jumpsuit in Lightweight Twill",
+  "category": "Jumpsuits & Rompers",
+  "color": "Green",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 275,
+  "colorDetail": "Puglia Olive",
+  "categoryDetail": "Women's Jumpsuit",
+  "url": "https://www.alexmill.com/products/delancey-jumpsuit-in-lightweight-twill-in-puglia-olive",
+  "thumb": "images/thumbs/171.jpg",
+  "image": null
+ },
+ {
+  "id": 172,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "Wrap Coverall - Green",
+  "category": "Jumpsuits & Rompers",
+  "color": "Green",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 335,
+  "colorDetail": "Green",
+  "categoryDetail": "Dresses and Jumpsuits",
+  "url": "https://standardandstrange.com/products/wrap-coverall-green",
+  "thumb": "images/thumbs/172.jpg",
+  "image": null
+ },
+ {
+  "id": 173,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Wide Leg Cotton Poplin Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "dance"
+  ],
+  "price": 395,
+  "colorDetail": "Bronze Green",
+  "categoryDetail": "Women's Jumpsuits",
+  "url": "https://us.toa.st/products/wide-leg-cotton-poplin-jumpsuit-bronze-green",
+  "thumb": "images/thumbs/173.jpg",
+  "image": null
+ },
+ {
+  "id": 174,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Cord Culotte Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Grey",
+  "occasions": [
+   "teaching",
+   "dance"
+  ],
+  "price": 375,
+  "colorDetail": "Charcoal",
+  "categoryDetail": "Women's Jumpsuits",
+  "url": "https://us.toa.st/products/cord-culotte-jumpsuit-charcoal",
+  "thumb": "images/thumbs/174.jpg",
+  "image": null
+ },
+ {
+  "id": 175,
+  "retailer": "Anthropologie",
+  "brand": "Let Me Be",
+  "name": "Let Me Be Shirting Cotton Jumpsuit",
+  "category": "Jumpsuits & Rompers",
+  "color": "Red",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 198,
+  "colorDetail": "True Red",
+  "categoryDetail": "Clothing > Jumpsuits & Rompers",
+  "url": "https://www.anthropologie.com/shop/let-me-be-shirting-cotton-jumpsuit?color=262&type=STANDARD",
+  "thumb": "images/thumbs/175.jpg",
+  "image": null
+ },
+ {
+  "id": 176,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "9th Street Pant In Fine Wale Cord",
+  "category": "Pants",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "outdoors"
+  ],
+  "price": 195,
+  "colorDetail": "Oatmeal",
+  "categoryDetail": "Women's Pants",
+  "url": "https://www.alexmill.com/products/9th-street-pant-in-fine-wale-cord-in-oatmeal",
+  "thumb": "images/thumbs/176.jpg",
+  "image": null
+ },
+ {
+  "id": 177,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Soho Pant In Cotton Linen",
+  "category": "Pants",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 195,
+  "colorDetail": "Sand",
+  "categoryDetail": "Women's Pants",
+  "url": "https://www.alexmill.com/products/soho-pant-in-cotton-linen-in-sand",
+  "thumb": "images/thumbs/177.jpg",
+  "image": null
+ },
+ {
+  "id": 178,
+  "retailer": "Anthropologie",
+  "brand": "AG Jeans",
+  "name": "AG Caden Wide-Leg Pants",
+  "category": "Pants",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 245,
+  "colorDetail": "Taupe",
+  "categoryDetail": "Clothing > Pants",
+  "url": "https://www.anthropologie.com/shop/ag-caden-wide-leg-pants?color=023&type=STANDARD",
+  "thumb": "images/thumbs/178.jpg",
+  "image": null
+ },
+ {
+  "id": 179,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Stone At Ease Chino",
+  "category": "Pants",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 178,
+  "colorDetail": "Stone",
+  "categoryDetail": "Womens Pants",
+  "url": "https://www.buckmason.com/products/stone-at-ease-chino-1",
+  "thumb": "images/thumbs/179.jpg",
+  "image": null
+ },
+ {
+  "id": 180,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Carys Cotton Wide Leg Pants",
+  "category": "Pants",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 335,
+  "colorDetail": "Deep Khaki",
+  "categoryDetail": "Women's Pants",
+  "url": "https://us.toa.st/products/carys-cotton-wide-leg-trousers-deep-khaki",
+  "thumb": "images/thumbs/180.jpg",
+  "image": null
+ },
+ {
+  "id": 181,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Soho Pant In Cotton Linen",
+  "category": "Pants",
+  "color": "Black",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 195,
+  "colorDetail": "Black",
+  "categoryDetail": "Women's Pants",
+  "url": "https://www.alexmill.com/products/soho-pant-in-cotton-linen-in-dark-black",
+  "thumb": "images/thumbs/181.jpg",
+  "image": null
+ },
+ {
+  "id": 182,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Single Pleat Ponte Culottes",
+  "category": "Pants",
+  "color": "Black",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 160,
+  "colorDetail": "Black",
+  "categoryDetail": "Women > Trousers & Jeans",
+  "url": "https://us.boden.com/products/women-single-pleat-ponte-culottes-black-r0951bla",
+  "thumb": "images/thumbs/182.jpg",
+  "image": null
+ },
+ {
+  "id": 183,
+  "retailer": "Gramicci",
+  "brand": "Gramicci",
+  "name": "Loose Balloon Pant",
+  "category": "Pants",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 140,
+  "colorDetail": "CARBON",
+  "categoryDetail": "Womens Pants",
+  "url": "https://gramicci.com/products/nylon-loose-balloon-pant",
+  "thumb": "images/thumbs/183.jpg",
+  "image": null
+ },
+ {
+  "id": 184,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Barrel Leg Cord Pants",
+  "category": "Pants",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "hang",
+   "outdoors"
+  ],
+  "price": 280,
+  "colorDetail": "Midnight",
+  "categoryDetail": "Women's Pants",
+  "url": "https://us.toa.st/products/barrel-leg-cord-trousers-midnight",
+  "thumb": "images/thumbs/184.jpg",
+  "image": null
+ },
+ {
+  "id": 185,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Twill Barrel Pull-On Pant",
+  "category": "Pants",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "hang",
+   "outdoors"
+  ],
+  "price": 75,
+  "colorDetail": "Dark Coffee",
+  "categoryDetail": "Women's > Bottoms > Pants > Straight Pants",
+  "url": "https://www.abercrombie.com/shop/us/p/barrel-pull-on-pant-63340400",
+  "thumb": "images/thumbs/185.jpg",
+  "image": null
+ },
+ {
+  "id": 186,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "9th Street Pant",
+  "category": "Pants",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 195,
+  "colorDetail": "Brandy Brown",
+  "categoryDetail": "Women's Pants",
+  "url": "https://www.alexmill.com/products/9th-street-pant-in-brandy-brown",
+  "thumb": "images/thumbs/186.jpg",
+  "image": null
+ },
+ {
+  "id": 187,
+  "retailer": "Anthropologie",
+  "brand": "Maeve",
+  "name": "Colette Linen Stretch Wide Leg Pants by Maeve",
+  "category": "Pants",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 148,
+  "colorDetail": "Brown Stripe",
+  "categoryDetail": "Clothing > Bottoms",
+  "url": "https://www.anthropologie.com/shop/colette-linen-stretch-wide-leg-pants-by-maeve?color=544&type=STANDARD",
+  "thumb": "images/thumbs/187.jpg",
+  "image": null
+ },
+ {
+  "id": 188,
+  "retailer": "Anthropologie",
+  "brand": "Whiteroom + Cactus",
+  "name": "Whiteroom + Cactus Wrap Side-Tie Pants",
+  "category": "Pants",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 148,
+  "colorDetail": "Brown",
+  "categoryDetail": "Clothing > Pants",
+  "url": "https://www.anthropologie.com/shop/whiteroom-cactus-wrap-side-tie-pants?color=020&type=STANDARD",
+  "thumb": "images/thumbs/188.jpg",
+  "image": null
+ },
+ {
+  "id": 189,
+  "retailer": "Gramicci",
+  "brand": "Gramicci",
+  "name": "W's Voyager Pant",
+  "category": "Pants",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 110,
+  "colorDetail": "BROWN PIGMENT",
+  "categoryDetail": "Womens Pants",
+  "url": "https://gramicci.com/products/womens-voyager-pant",
+  "thumb": "images/thumbs/189.jpg",
+  "image": null
+ },
+ {
+  "id": 190,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Cotton Pleat Front Pants",
+  "category": "Pants",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 375,
+  "colorDetail": "Breen",
+  "categoryDetail": "Women's Pants",
+  "url": "https://us.toa.st/products/cotton-pleat-front-trousers-breen",
+  "thumb": "images/thumbs/190.jpg",
+  "image": null
+ },
+ {
+  "id": 191,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "Crazy Border Trouser - Denim",
+  "category": "Pants",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 200,
+  "colorDetail": "Denim",
+  "categoryDetail": "Bottoms - Denim",
+  "url": "https://standardandstrange.com/products/crazy-border-trouser-denim",
+  "thumb": "images/thumbs/191.jpg",
+  "image": null
+ },
+ {
+  "id": 192,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "W'menswear x Kardo Maggie Pants - Indigo",
+  "category": "Pants",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 365,
+  "colorDetail": "Indigo",
+  "categoryDetail": "Bottoms - Trousers",
+  "url": "https://standardandstrange.com/products/wmenswear-x-kardo-maggie-pants-indigo",
+  "thumb": "images/thumbs/192.jpg",
+  "image": null
+ },
+ {
+  "id": 193,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "Wendy Trouser - 13 oz Denim",
+  "category": "Pants",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 275,
+  "colorDetail": "13 oz Denim",
+  "categoryDetail": "Bottoms - Denim",
+  "url": "https://standardandstrange.com/products/wendy-trouser-13-oz-denim",
+  "thumb": "images/thumbs/193.jpg",
+  "image": null
+ },
+ {
+  "id": 194,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Twisted Seam Cotton Linen Denim Pants",
+  "category": "Pants",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 315,
+  "colorDetail": "Indigo",
+  "categoryDetail": "Women's Pants",
+  "url": "https://us.toa.st/products/twisted-seam-cotton-linen-denim-trousers-indigo",
+  "thumb": "images/thumbs/194.jpg",
+  "image": null
+ },
+ {
+  "id": 195,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "GOOD 'OL WHATS-HER-FACE UNISEX FREEDOM FATIGUE PANTS IN DENIM",
+  "category": "Pants",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 270,
+  "colorDetail": "Denim",
+  "categoryDetail": "The Heritage Uniform",
+  "url": "https://www.wmenswear.com/shop/GOOD-OL-WHATS-HER-FACE-UNISEX-FREEDOM-FATIGUE-PANTS-IN-DENIM-p781508734",
+  "thumb": "images/thumbs/195.jpg",
+  "image": null
+ },
+ {
+  "id": 196,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'MENSWEAR BURNOUT PANTS IN WASHED DENIM",
+  "category": "Pants",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 171,
+  "colorDetail": "Washed Denim",
+  "categoryDetail": "Final Editions",
+  "url": "https://www.wmenswear.com/shop/WMENSWEAR-BURNOUT-PANTS-IN-WASHED-DENIM-p781178352",
+  "thumb": "images/thumbs/196.jpg",
+  "image": null
+ },
+ {
+  "id": 197,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "A&F Sloane Lightweight Crepe Tailored Wide Leg Pant",
+  "category": "Pants",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 90,
+  "colorDetail": "Aqua Green",
+  "categoryDetail": "Women's > Bottoms > Pants > Wide Leg Pants",
+  "url": "https://www.abercrombie.com/shop/us/p/a-and-f-sloane-crepe-tailored-wide-leg-pant-62504820",
+  "thumb": "images/thumbs/197.jpg",
+  "image": null
+ },
+ {
+  "id": 198,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Curve Love A&F Sloane Chino Tailored Wide Leg Pant",
+  "category": "Pants",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 90,
+  "colorDetail": "Frosty Olive",
+  "categoryDetail": "Women's > Bottoms > Pants > Wide Leg Pants",
+  "url": "https://www.abercrombie.com/shop/us/p/a-and-f-sloane-coastal-tailored-wide-leg-pant-62359822",
+  "thumb": "images/thumbs/198.jpg",
+  "image": null
+ },
+ {
+  "id": 199,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "9th Street Pant",
+  "category": "Pants",
+  "color": "Green",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 195,
+  "colorDetail": "Military Olive",
+  "categoryDetail": "Women's Pants",
+  "url": "https://www.alexmill.com/products/9th-street-pant-in-military-olive",
+  "thumb": "images/thumbs/199.jpg",
+  "image": null
+ },
+ {
+  "id": 200,
+  "retailer": "Anthropologie",
+  "brand": "The Somerset Collection by Anthropologie",
+  "name": "Somerset Linen Cotton Pull-On Pants",
+  "category": "Pants",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 128,
+  "colorDetail": "Green Floral",
+  "categoryDetail": "Clothing > Pants",
+  "url": "https://www.anthropologie.com/shop/somerset-linen-cotton-pull-on-pants?color=525&type=STANDARD",
+  "thumb": "images/thumbs/200.jpg",
+  "image": null
+ },
+ {
+  "id": 201,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Belgravia Cord Pants",
+  "category": "Pants",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "outdoors"
+  ],
+  "price": 180,
+  "colorDetail": "Midnight Teal",
+  "categoryDetail": "Women > Trousers & Jeans",
+  "url": "https://us.boden.com/products/women-belgravia-cord-pants-midnight-teal-r0994grn",
+  "thumb": "images/thumbs/201.jpg",
+  "image": null
+ },
+ {
+  "id": 202,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Mayfair Pleat Detail Pants",
+  "category": "Pants",
+  "color": "Green",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 180,
+  "colorDetail": "Woodland Green",
+  "categoryDetail": "Women > Trousers & Jeans",
+  "url": "https://us.boden.com/products/women-mayfair-pleat-detail-pants-woodland-green-r0966grn",
+  "thumb": "images/thumbs/202.jpg",
+  "image": null
+ },
+ {
+  "id": 203,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Garment Dyed Linen Barrel Leg Pants",
+  "category": "Pants",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 290,
+  "colorDetail": "Dark Olive",
+  "categoryDetail": "Women's Trousers",
+  "url": "https://us.toa.st/products/barrel-leg-garment-dyed-linen-trousers-dark-olive",
+  "thumb": "images/thumbs/203.jpg",
+  "image": null
+ },
+ {
+  "id": 204,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "GOOD 'OL WHATS-HER-FACE FREEDOM FLIGHT TROUSER IN ARMY GREEN CAMO",
+  "category": "Pants",
+  "color": "Green",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 285,
+  "colorDetail": "Army Green Camo",
+  "categoryDetail": "New Editions",
+  "url": "https://www.wmenswear.com/shop/GOOD-OL-WHATS-HER-FACE-FREEDOM-FLIGHT-TROUSER-IN-ARMY-GREEN-CAMO-p823734772",
+  "thumb": "images/thumbs/204.jpg",
+  "image": null
+ },
+ {
+  "id": 205,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Pleated Cotton Wide-Leg Pant",
+  "category": "Pants",
+  "color": "Grey",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 298,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Pants",
+  "url": "https://www.ralphlauren.com/women-clothing/pleated-cotton-wide-leg-pant/100095943.html",
+  "thumb": "images/thumbs/205.jpg",
+  "image": null
+ },
+ {
+  "id": 206,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Corinne Cotton Linen Wide Leg Pants",
+  "category": "Pants",
+  "color": "Grey",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 470,
+  "colorDetail": "Slate",
+  "categoryDetail": "Women's Pants",
+  "url": "https://us.toa.st/products/corinne-cotton-linen-wide-leg-trousers-slate-navy",
+  "thumb": "images/thumbs/206.jpg",
+  "image": null
+ },
+ {
+  "id": 207,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Twisted Seam Cord Pants",
+  "category": "Pants",
+  "color": "Grey",
+  "occasions": [
+   "teaching",
+   "outdoors"
+  ],
+  "price": 300,
+  "colorDetail": "Deep Iron",
+  "categoryDetail": "Women's Pants",
+  "url": "https://us.toa.st/products/twisted-seam-cord-trousers-deep-iron",
+  "thumb": "images/thumbs/207.jpg",
+  "image": null
+ },
+ {
+  "id": 208,
+  "retailer": "Anthropologie",
+  "brand": "Maeve",
+  "name": "Maeve Colette Striped High-Rise Wide-Leg Full-Length Pants",
+  "category": "Pants",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 148,
+  "colorDetail": "Khaki/White Stripe",
+  "categoryDetail": "Clothing > Pants",
+  "url": "https://www.anthropologie.com/shop/maeve-colette-striped-high-rise-wide-leg-full-length-pants?color=542&type=STANDARD",
+  "thumb": "images/thumbs/208.jpg",
+  "image": null
+ },
+ {
+  "id": 209,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Stripe Linen Cotton Barrel Leg Pants",
+  "category": "Pants",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 280,
+  "colorDetail": "Shadow Blue/Black",
+  "categoryDetail": "Women's Pants",
+  "url": "https://us.toa.st/products/stripe-linen-cotton-barrel-leg-trousers-shadow-blue-black",
+  "thumb": "images/thumbs/209.jpg",
+  "image": null
+ },
+ {
+  "id": 210,
+  "retailer": "Anthropologie",
+  "brand": "Maeve",
+  "name": "Maeve Colette High-Rise Wide-Leg Pants in Magic Fabric",
+  "category": "Pants",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 120,
+  "colorDetail": "Geranium",
+  "categoryDetail": "Clothing > Pants",
+  "url": "https://www.anthropologie.com/shop/maeve-colette-high-rise-wide-leg-pants-in-magic-fabric?color=262&type=PETITE",
+  "thumb": "images/thumbs/210.jpg",
+  "image": null
+ },
+ {
+  "id": 211,
+  "retailer": "Anthropologie",
+  "brand": "The Somerset Collection by Anthropologie",
+  "name": "Somerset 100% Linen Pull-On Pants",
+  "category": "Pants",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 118,
+  "colorDetail": "Berry Rose",
+  "categoryDetail": "Clothing > Pants",
+  "url": "https://www.anthropologie.com/shop/somerset-100-linen-pull-on-pants?color=066&type=STANDARD",
+  "thumb": "images/thumbs/211.jpg",
+  "image": null
+ },
+ {
+  "id": 212,
+  "retailer": "Anthropologie",
+  "brand": "Daily Practice",
+  "name": "Daily Practice Ease State Pants",
+  "category": "Pants",
+  "color": "Purple",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 88,
+  "colorDetail": "Purple Haze",
+  "categoryDetail": "Clothing > Activewear & Leisurewear",
+  "url": "https://www.anthropologie.com/shop/daily-practice-ease-state-pants?color=515&type=STANDARD",
+  "thumb": "images/thumbs/212.jpg",
+  "image": null
+ },
+ {
+  "id": 213,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'MENSWEAR WENDY TROUSERS IN RED DENIM",
+  "category": "Pants",
+  "color": "Red",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 285,
+  "colorDetail": "Red Denim",
+  "categoryDetail": "The Studio Uniform",
+  "url": "https://www.wmenswear.com/shop/WMENSWEAR-WENDY-TROUSERS-IN-RED-DENIM-p703401324",
+  "thumb": "images/thumbs/213.jpg",
+  "image": null
+ },
+ {
+  "id": 214,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "High Rise Crepe Tailored Palazzo Pant",
+  "category": "Pants",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 95,
+  "colorDetail": "Cream",
+  "categoryDetail": "Women's > Bottoms > Pants > Ultra Wide Leg Pants",
+  "url": "https://www.abercrombie.com/shop/us/p/high-rise-crepe-tailored-palazzo-pant-62771836",
+  "thumb": "images/thumbs/214.jpg",
+  "image": null
+ },
+ {
+  "id": 215,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Bacall Linen Belted Pant",
+  "category": "Pants",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 219.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Pants",
+  "url": "https://www.ralphlauren.com/women-clothing/bacall-linen-belted-pant/100091160.html",
+  "thumb": "images/thumbs/215.jpg",
+  "image": null
+ },
+ {
+  "id": 216,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Chino Wide-Leg Pant",
+  "category": "Pants",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 198,
+  "colorDetail": "Warm White",
+  "categoryDetail": "Women > Clothing > Pants",
+  "url": "https://www.ralphlauren.com/women-clothing/chino-wide-leg-pant/611097.html?dwvar611097_colorname=Warm%20White",
+  "thumb": "images/thumbs/216.jpg",
+  "image": null
+ },
+ {
+  "id": 217,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "Burnout Pants - Natural",
+  "category": "Pants",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 350,
+  "colorDetail": "Natural",
+  "categoryDetail": "Bottoms - Trousers",
+  "url": "https://standardandstrange.com/products/burnout-pants-natural",
+  "thumb": "images/thumbs/217.jpg",
+  "image": null
+ },
+ {
+  "id": 218,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Cotton Linen Pleat Front Pants",
+  "category": "Pants",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 375,
+  "colorDetail": "Whey",
+  "categoryDetail": "Women's Pants",
+  "url": "https://us.toa.st/products/cotton-linen-pleat-front-trousers-whey",
+  "thumb": "images/thumbs/218.jpg",
+  "image": null
+ },
+ {
+  "id": 219,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Sculptural Seamed Denim Pants",
+  "category": "Pants",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 315,
+  "colorDetail": "Ecru",
+  "categoryDetail": "Women's Pants",
+  "url": "https://us.toa.st/products/sculptural-seamed-denim-trousers-ecru",
+  "thumb": "images/thumbs/219.jpg",
+  "image": null
+ },
+ {
+  "id": 220,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'MENSWEAR JANET DESPATCH PANT IN ECRU",
+  "category": "Pants",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 265,
+  "colorDetail": "Ecru",
+  "categoryDetail": "New Editions",
+  "url": "https://www.wmenswear.com/shop/WMENSWEAR-JANET-DESPATCH-PANT-IN-ECRU-p823688503",
+  "thumb": "images/thumbs/220.jpg",
+  "image": null
+ },
+ {
+  "id": 221,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "Wendy Trouser - Indigo/Gold",
+  "category": "Pants",
+  "color": "Yellow/Gold",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 270,
+  "colorDetail": "Indigo/Gold",
+  "categoryDetail": "Bottoms - Trousers",
+  "url": "https://standardandstrange.com/products/wendy-trouser-indigo-gold",
+  "thumb": "images/thumbs/221.jpg",
+  "image": null
+ },
+ {
+  "id": 222,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "CHAMOIS FLAP POCKET SAM SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 178,
+  "colorDetail": "RUSSETT BROWN / DEEP FOG / ECRU KHADI COTTON OXFORD",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/chamois-flap-pocket-sam-shirt-russett-brown-deep-fog-ecru",
+  "thumb": "images/thumbs/222.jpg",
+  "image": null
+ },
+ {
+  "id": 223,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "SHELTER SERVICE SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Black",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 174,
+  "colorDetail": "MORNING FOLIAGE GREEN HOMEGROWN TWILL",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/shelter-shirt-foliage-green",
+  "thumb": "images/thumbs/223.jpg",
+  "image": null
+ },
+ {
+  "id": 224,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "WOLF BUTTON-DOWN SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Black",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 178,
+  "colorDetail": "BLACK COTTON OXFORD CLOTH",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/wolf-oxford-black-ecru-discharge",
+  "thumb": "images/thumbs/224.jpg",
+  "image": null
+ },
+ {
+  "id": 225,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Long-Sleeve Oversized Tie-Front Gauzy Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Black",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 70,
+  "colorDetail": "Black",
+  "categoryDetail": "Women's > Tops > Shirts & Blouses > Button-Up Shirts",
+  "url": "https://www.abercrombie.com/shop/us/p/long-sleeve-oversized-tie-front-gauzy-shirt-59583820",
+  "thumb": "images/thumbs/225.jpg",
+  "image": null
+ },
+ {
+  "id": 226,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Ribbed Cotton T-Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 49,
+  "colorDetail": "Black",
+  "categoryDetail": "Women > T-Shirts & Vests",
+  "url": "https://us.boden.com/products/women-ribbed-cotton-t-shirt-black-t2159blk",
+  "thumb": "images/thumbs/226.jpg",
+  "image": null
+ },
+ {
+  "id": 227,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Sky Cord Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "outdoors"
+  ],
+  "price": 190,
+  "colorDetail": "Navy, Embroidered",
+  "categoryDetail": "Women > Shirts & Blouses",
+  "url": "https://us.boden.com/products/women-sky-cord-shirt-navy-embroidered-t2196nav",
+  "thumb": "images/thumbs/227.jpg",
+  "image": null
+ },
+ {
+  "id": 228,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Lightweight Cotton Seersucker Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Blue",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 260,
+  "colorDetail": "Navy",
+  "categoryDetail": "Women's Shirts",
+  "url": "https://us.toa.st/products/lightweight-cotton-seersucker-shirt-navy",
+  "thumb": "images/thumbs/228.jpg",
+  "image": null
+ },
+ {
+  "id": 229,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "GALE BOX SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 228,
+  "colorDetail": "FATIGUE OLIVE / BLACK LINEN CHAMBRAY",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/gale-box-shirt-fatigue-olive",
+  "thumb": "images/thumbs/229.jpg",
+  "image": null
+ },
+ {
+  "id": 230,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "WOLF BUTTON-DOWN SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 178,
+  "colorDetail": "SLATE BLACK (THAT'S BROWN!) COTTON OXFORD CLOTH",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/wolf-oxford-slate-black-ecru-discharge",
+  "thumb": "images/thumbs/230.jpg",
+  "image": null
+ },
+ {
+  "id": 231,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Cotton Long-Sleeve Lace-Trim Collared Blouse",
+  "category": "Shirts & Blouses",
+  "color": "Brown",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 75,
+  "colorDetail": "Dark Coffee",
+  "categoryDetail": "Women's > Tops > Shirts & Blouses > Blouses",
+  "url": "https://www.abercrombie.com/shop/us/p/100-cotton-long-sleeve-lace-trim-collared-blouse-63616394",
+  "thumb": "images/thumbs/231.jpg",
+  "image": null
+ },
+ {
+  "id": 232,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Jo Shirt In Cotton Poplin",
+  "category": "Shirts & Blouses",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 145,
+  "colorDetail": "Dark Chocolate",
+  "categoryDetail": "Women's Wovens",
+  "url": "https://www.alexmill.com/products/jo-shirt-in-cotton-poplin-in-dark-chocolate",
+  "thumb": "images/thumbs/232.jpg",
+  "image": null
+ },
+ {
+  "id": 233,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Nina Popover in Cotton Voile",
+  "category": "Shirts & Blouses",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 165,
+  "colorDetail": "Chocolate",
+  "categoryDetail": "Women's Wovens",
+  "url": "https://www.alexmill.com/products/nina-striped-popover-in-double-gauze-in-chocolate",
+  "thumb": "images/thumbs/233.jpg",
+  "image": null
+ },
+ {
+  "id": 234,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro Cropped Plaid Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 118,
+  "colorDetail": "Brown Plaid",
+  "categoryDetail": "Sale > Clothing",
+  "url": "https://www.anthropologie.com/shop/pilcro-cropped-plaid-shirt?color=584&type=STANDARD",
+  "thumb": "images/thumbs/234.jpg",
+  "image": null
+ },
+ {
+  "id": 235,
+  "retailer": "Post Romantic",
+  "brand": "Post Romantic",
+  "name": "UTTERLY NATURAL SHIRT 4: PLANT-DYED, HANDLOOMED",
+  "category": "Shirts & Blouses",
+  "color": "Brown",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 95,
+  "colorDetail": null,
+  "categoryDetail": "Sustainable Women's Clothes > Shirt",
+  "url": "https://post-romantic.com/product/utterly-natural-shirt-4-plant-dyed-hand-loomed/",
+  "thumb": "images/thumbs/235.jpg",
+  "image": null
+ },
+ {
+  "id": 236,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "JESPER VINTAGE BUTTON DOWN SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 178,
+  "colorDetail": "BARELY INDIGO FEATHERWEIGHT KHADI COTTON",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/jesper-vintage-button-down-shirt-barely-indigo",
+  "thumb": "images/thumbs/236.jpg",
+  "image": null
+ },
+ {
+  "id": 237,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "JESPER VINTAGE BUTTON DOWN SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 188,
+  "colorDetail": "TONAL INDIGO / GRAY MELANGE HANDWOVEN EXPLODED SEERSUCKER OXFORD",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/jesper-vintage-button-down-shirt-indigo-white-gray",
+  "thumb": "images/thumbs/237.jpg",
+  "image": null
+ },
+ {
+  "id": 238,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "ORANI STRAIGHT HEM WORK SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Denim",
+  "occasions": [
+   "teaching",
+   "outdoors"
+  ],
+  "price": 178,
+  "colorDetail": "INDIGO / BLACK PENCIL STRIPE FEATHERWEIGHT KHADI",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/orani-straight-hem-work-shirt-indigo-black",
+  "thumb": "images/thumbs/238.jpg",
+  "image": null
+ },
+ {
+  "id": 239,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "DW24 Shrunken Chambray Prep Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 148,
+  "colorDetail": "DW24",
+  "categoryDetail": "Womens Shirts",
+  "url": "https://www.buckmason.com/products/dw24-shrunken-chambray-prep-shirt",
+  "thumb": "images/thumbs/239.jpg",
+  "image": null
+ },
+ {
+  "id": 240,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Étienne cropped button-up shirt in chambray",
+  "category": "Shirts & Blouses",
+  "color": "Denim",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 79.5,
+  "colorDetail": "Koza Indigo Wash",
+  "categoryDetail": "Shirts & Tops",
+  "url": "https://www.jcrew.com/m/womens/categories/clothing/shirts-and-tops/ME311?display=standard&fit=Classic&colorProductCode=CT065",
+  "thumb": "images/thumbs/240.jpg",
+  "image": null
+ },
+ {
+  "id": 241,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Cropped Boxy Denim Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Denim",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 148,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Shirts & Blouses",
+  "url": "https://www.ralphlauren.com/women-clothing/cropped-boxy-denim-shirt/100045480.html",
+  "thumb": "images/thumbs/241.jpg",
+  "image": null
+ },
+ {
+  "id": 242,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "ORANI STRAIGHT HEM WORK SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "outdoors"
+  ],
+  "price": 178,
+  "colorDetail": "NATURAL INDIGO / KELP MELANGE FEATHERWEIGHT KHADI",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/orani-straight-hem-work-shirt-indigo-kelp",
+  "thumb": "images/thumbs/242.jpg",
+  "image": null
+ },
+ {
+  "id": 243,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Jersey Velvet Ribbed Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Green",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 99,
+  "colorDetail": "Forest Green",
+  "categoryDetail": "Women > T-Shirts & Vests",
+  "url": "https://us.boden.com/products/women-jersey-velvet-ribbed-shirt-forest-green-t2267khk",
+  "thumb": "images/thumbs/243.jpg",
+  "image": null
+ },
+ {
+  "id": 244,
+  "retailer": "Post Romantic",
+  "brand": "Post Romantic",
+  "name": "GREEN PLEATED CROPPED SHIRT IN HANDLOOMED COTTON",
+  "category": "Shirts & Blouses",
+  "color": "Green",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 55,
+  "colorDetail": "Green",
+  "categoryDetail": "Sustainable Women's Clothes > Shirt",
+  "url": "https://post-romantic.com/product/green-front-pleated-cropped-shirt-in-handwoven-cotton/",
+  "thumb": "images/thumbs/244.jpg",
+  "image": null
+ },
+ {
+  "id": 245,
+  "retailer": "Post Romantic",
+  "brand": "Post Romantic",
+  "name": "UTTERLY NATURAL SHIRT 1: PLANT DYED, HANDLOOMED",
+  "category": "Shirts & Blouses",
+  "color": "Green",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 95,
+  "colorDetail": null,
+  "categoryDetail": "Sustainable Women's Clothes > Shirt",
+  "url": "https://post-romantic.com/product/utterly-natural-shirt-1-plant-dyed-hand-loomed/",
+  "thumb": "images/thumbs/245.jpg",
+  "image": null
+ },
+ {
+  "id": 246,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Lace-Up Cotton Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Green",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 248,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Shirts & Blouses",
+  "url": "https://www.ralphlauren.com/women-clothing/lace-up-cotton-shirt/100097834.html",
+  "thumb": "images/thumbs/246.jpg",
+  "image": null
+ },
+ {
+  "id": 247,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Pintucked Cotton Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Green",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 179.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Shirts & Blouses",
+  "url": "https://www.ralphlauren.com/women-clothing/pintucked-cotton-shirt/100089399.html",
+  "thumb": "images/thumbs/247.jpg",
+  "image": null
+ },
+ {
+  "id": 248,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "CHAMOIS FLAP POCKET SAM SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Grey",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 178,
+  "colorDetail": "UNDYED / MORNING SKY HANDLOOM COTTON CHAMBRAY",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/chamois-flap-pocket-sam-shirt-undyed-morning-sky",
+  "thumb": "images/thumbs/248.jpg",
+  "image": null
+ },
+ {
+  "id": 249,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "AMER EASTERN BUTTON DOWN SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 248,
+  "colorDetail": "RUSSET BROWN / CLEAR BLUE / GOLDENROD BELGIAN LINEN PLAID WITH WHITE HAND-EMBROIDERED DECO CHECK",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/amer-eastern-button-down-shirt-russet-brown-clear-blue-goldenrod-white",
+  "thumb": "images/thumbs/249.jpg",
+  "image": null
+ },
+ {
+  "id": 250,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Lace Frill Blouse",
+  "category": "Shirts & Blouses",
+  "color": "Multi/Print",
+  "occasions": [
+   "friend",
+   "dressy"
+  ],
+  "price": 110,
+  "colorDetail": "Faded Denim and Ivory Stripe",
+  "categoryDetail": "Women > T-Shirts & Vests",
+  "url": "https://us.boden.com/products/women-lace-frill-blouse-faded-denim-and-ivory-stripe-t2218den",
+  "thumb": "images/thumbs/250.jpg",
+  "image": null
+ },
+ {
+  "id": 251,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Sienna Cropped Cotton Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 99,
+  "colorDetail": "Red, Navy Tram Stripe",
+  "categoryDetail": "Women > Shirts & Blouses",
+  "url": "https://us.boden.com/products/women-sienna-cropped-cotton-shirt-red-navy-tram-stripe-t2167red",
+  "thumb": "images/thumbs/251.jpg",
+  "image": null
+ },
+ {
+  "id": 252,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Sienna Relaxed Cotton Shirt",
+  "category": "Shirts & Blouses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 110,
+  "colorDetail": "Pink and Blue, Hotched Stripe",
+  "categoryDetail": "Women > Shirts & Blouses",
+  "url": "https://us.boden.com/products/women-sienna-relaxed-cotton-shirt-pink-and-blue-hotched-stripe-t2168mul",
+  "thumb": "images/thumbs/252.jpg",
+  "image": null
+ },
+ {
+  "id": 253,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Collared Knitted T-shirt",
+  "category": "Shirts & Blouses",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 99,
+  "colorDetail": "Sheer Pink",
+  "categoryDetail": "Women > Jumpers",
+  "url": "https://us.boden.com/products/women-collared-knitted-t-shirt-sheer-pink-k1284peb",
+  "thumb": "images/thumbs/253.jpg",
+  "image": null
+ },
+ {
+  "id": 254,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Esme cropped button-up shirt in striped cotton poplin",
+  "category": "Shirts & Blouses",
+  "color": "Pink",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 98,
+  "colorDetail": "Rose Stripes",
+  "categoryDetail": "Shirts & Tops",
+  "url": "https://www.jcrew.com/m/womens/categories/clothing/shirts-and-tops/MQ236?display=standard&fit=Classic&colorProductCode=CY968&color_name=rose-stripes",
+  "thumb": "images/thumbs/254.jpg",
+  "image": null
+ },
+ {
+  "id": 255,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "ALBERTO \"PER LAVORO\" SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Red",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 214,
+  "colorDetail": "CHOCOLATE / BLACK WOOL AND LINEN KHADI TWILL",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/alberto-work-shirt-brown-black-twill",
+  "thumb": "images/thumbs/255.jpg",
+  "image": null
+ },
+ {
+  "id": 256,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "JESPER VINTAGE BUTTON DOWN SHIRT",
+  "category": "Shirts & Blouses",
+  "color": "Red",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 188,
+  "colorDetail": "TONAL LAMBRUSCO / GRAY MELANGE HANDWOVEN EXPLODED SEERSUCKER OXFORD",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/jesper-vintage-button-down-shirt-wine",
+  "thumb": "images/thumbs/256.jpg",
+  "image": null
+ },
+ {
+  "id": 257,
+  "retailer": "Post Romantic",
+  "brand": "Post Romantic",
+  "name": "RED SIMPLE SHIRT IN HANDLOOMED COTTON",
+  "category": "Shirts & Blouses",
+  "color": "Red",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 55,
+  "colorDetail": "Red",
+  "categoryDetail": "Sustainable Women's Clothes > Shirt",
+  "url": "https://post-romantic.com/product/red-simple-shirt-in-handloomed-cotton/",
+  "thumb": "images/thumbs/257.jpg",
+  "image": null
+ },
+ {
+  "id": 258,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'MENSWEAR PLAY SHIRT IN BRICK",
+  "category": "Shirts & Blouses",
+  "color": "Red",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 129,
+  "colorDetail": "Brick",
+  "categoryDetail": "Final Editions",
+  "url": "https://www.wmenswear.com/shop/WMENSWEAR-PLAY-SHIRT-IN-BRICK-p823569289",
+  "thumb": "images/thumbs/258.jpg",
+  "image": null
+ },
+ {
+  "id": 259,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Cinched Poplin Shirt",
+  "category": "Shirts & Blouses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 75,
+  "colorDetail": "White",
+  "categoryDetail": "Women's > Tops > Shirts & Blouses > Button-Up Shirts",
+  "url": "https://www.abercrombie.com/shop/us/p/cinched-poplin-shirt-63323319",
+  "thumb": "images/thumbs/259.jpg",
+  "image": null
+ },
+ {
+  "id": 260,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Ara Jersey Shirt",
+  "category": "Shirts & Blouses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 99,
+  "colorDetail": "Ivory",
+  "categoryDetail": "Women > T-Shirts & Vests",
+  "url": "https://us.boden.com/products/women-ara-jersey-shirt-ivory-t2149ivo",
+  "thumb": "images/thumbs/260.jpg",
+  "image": null
+ },
+ {
+  "id": 261,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Space Dyed Indigo Check Shirt",
+  "category": "Shirts & Blouses",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 335,
+  "colorDetail": "Indigo/Ecru",
+  "categoryDetail": "Women's Shirts",
+  "url": "https://us.toa.st/products/space-dyed-indigo-check-shirt-indigo-ecru",
+  "thumb": "images/thumbs/261.jpg",
+  "image": null
+ },
+ {
+  "id": 262,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Linen High Rise Maxi Skirt",
+  "category": "Skirts",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 95,
+  "colorDetail": "Oatmeal",
+  "categoryDetail": "Women's > Bottoms > Skirts > Maxi Skirts",
+  "url": "https://www.abercrombie.com/shop/us/p/100-linen-high-rise-maxi-skirt-63080322",
+  "thumb": "images/thumbs/262.jpg",
+  "image": null
+ },
+ {
+  "id": 263,
+  "retailer": "Anthropologie",
+  "brand": "By Anthropologie",
+  "name": "By Anthropologie Olivette Linen Cotton Maxi Skirt",
+  "category": "Skirts",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 158,
+  "colorDetail": "White Putty",
+  "categoryDetail": "Clothing > Skirts",
+  "url": "https://www.anthropologie.com/shop/by-anthropologie-olivette-linen-cotton-maxi-skirt2?color=010&type=STANDARD",
+  "thumb": "images/thumbs/263.jpg",
+  "image": null
+ },
+ {
+  "id": 264,
+  "retailer": "O'Connell's",
+  "brand": "O'Connell's",
+  "name": "O'Connell's Women's Camel A-Line Pocket Skirt - Wool & Cashmere",
+  "category": "Skirts",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 295,
+  "colorDetail": "Camel",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/oconnells-womens-camel-a-line-pocket-skirt-woolcashmere-1094sb-01-a-line-pocket-skirt-w-trim.html",
+  "thumb": "images/thumbs/264.jpg",
+  "image": null
+ },
+ {
+  "id": 265,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Sarah Skirt In Cotton",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 175,
+  "colorDetail": "Black",
+  "categoryDetail": "Women's Dresses",
+  "url": "https://www.alexmill.com/products/sarah-skirt-in-cotton-in-black",
+  "thumb": "images/thumbs/265.jpg",
+  "image": null
+ },
+ {
+  "id": 266,
+  "retailer": "Anthropologie",
+  "brand": "Hutch",
+  "name": "Hutch Teigan 100% Cotton Pleated Skirt",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 255,
+  "colorDetail": "Black Floral",
+  "categoryDetail": "Clothing > Skirts",
+  "url": "https://www.anthropologie.com/shop/hutch-teigan-100-cotton-pleated-skirt?color=520&type=STANDARD",
+  "thumb": "images/thumbs/266.jpg",
+  "image": null
+ },
+ {
+  "id": 267,
+  "retailer": "Anthropologie",
+  "brand": "The Somerset Collection by Anthropologie",
+  "name": "Somerset Maxi Skirt",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 148,
+  "colorDetail": "Onyx",
+  "categoryDetail": "Clothing > Skirts",
+  "url": "https://www.anthropologie.com/shop/somerset-maxi-skirt?color=201&type=STANDARD",
+  "thumb": "images/thumbs/267.jpg",
+  "image": null
+ },
+ {
+  "id": 268,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Rosaline Jersey Skirt",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 130,
+  "colorDetail": "Black",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-rosaline-jersey-skirt-black-r0742blk",
+  "thumb": "images/thumbs/268.jpg",
+  "image": null
+ },
+ {
+  "id": 269,
+  "retailer": "Gramicci",
+  "brand": "Gramicci",
+  "name": "Nylon Packable Midi Skirt",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend",
+   "outdoors"
+  ],
+  "price": 100,
+  "colorDetail": "BLACK",
+  "categoryDetail": "Womens Skirts",
+  "url": "https://gramicci.com/products/nylon-packable-midi-skirt-1",
+  "thumb": "images/thumbs/269.jpg",
+  "image": null
+ },
+ {
+  "id": 270,
+  "retailer": "Gramicci",
+  "brand": "Gramicci",
+  "name": "WR Convertible Skirt",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend",
+   "outdoors"
+  ],
+  "price": 160,
+  "colorDetail": "BLACK",
+  "categoryDetail": "Womens Skirts",
+  "url": "https://gramicci.com/products/wr-convertible-skirt",
+  "thumb": "images/thumbs/270.jpg",
+  "image": null
+ },
+ {
+  "id": 271,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "A-line skirt in bouclé",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 168,
+  "colorDetail": "Black",
+  "categoryDetail": "Skirts > A-line",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/skirts/a-line/CM751?display=standard&fit=Classic&colorProductCode=CM751&color_name=black",
+  "thumb": "images/thumbs/271.jpg",
+  "image": null
+ },
+ {
+  "id": 272,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Mini knit sweater-skirt in stripe",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "friend"
+  ],
+  "price": null,
+  "colorDetail": null,
+  "categoryDetail": "Skirts > A-line",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/skirts/a-line/CX737?display=standard&fit=Classic&colorProductCode=CX737&color_name=other",
+  "thumb": "images/thumbs/272.jpg",
+  "image": null
+ },
+ {
+  "id": 273,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Cotton Satin Smocked Skirt",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 450,
+  "colorDetail": "Midnight",
+  "categoryDetail": "Women's Skirts",
+  "url": "https://us.toa.st/products/cotton-satin-smocked-skirt-midnight",
+  "thumb": "images/thumbs/273.jpg",
+  "image": null
+ },
+ {
+  "id": 274,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Cotton A&F Dylan Poplin Ultra High Rise Midi Skirt",
+  "category": "Skirts",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 95,
+  "colorDetail": "Navy Check",
+  "categoryDetail": "Women's > Bottoms > Skirts > Midi Skirts",
+  "url": "https://www.abercrombie.com/shop/us/p/100-cotton-a-and-f-dylan-poplin-ultra-high-rise-midi-skirt-63616679",
+  "thumb": "images/thumbs/274.jpg",
+  "image": null
+ },
+ {
+  "id": 275,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Aya Ponte Skirt",
+  "category": "Skirts",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 149,
+  "colorDetail": "Navy",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-aya-ponte-skirt-navy-r0953nav",
+  "thumb": "images/thumbs/275.jpg",
+  "image": null
+ },
+ {
+  "id": 276,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Pleated Midi Kilt",
+  "category": "Skirts",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 299,
+  "colorDetail": "Navy Herringbone",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-pleated-midi-kilt-navy-herringbone-r1014nvy",
+  "thumb": "images/thumbs/276.jpg",
+  "image": null
+ },
+ {
+  "id": 277,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Val Button Cord Midi Skirt",
+  "category": "Skirts",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 180,
+  "colorDetail": "Navy",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-val-button-cord-midi-skirt-navy-r1000nav",
+  "thumb": "images/thumbs/277.jpg",
+  "image": null
+ },
+ {
+  "id": 278,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Crinkled A-Line Wrap Skirt",
+  "category": "Skirts",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 215.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Skirts",
+  "url": "https://www.ralphlauren.com/women-clothing/crinkled-a-line-wrap-skirt/100069606.html",
+  "thumb": "images/thumbs/278.jpg",
+  "image": null
+ },
+ {
+  "id": 279,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'MENSWEAR RIDER SKIRT IN BABY BLUE",
+  "category": "Skirts",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 189,
+  "colorDetail": "Baby Blue",
+  "categoryDetail": "Final Editions",
+  "url": "https://www.wmenswear.com/shop/WMENSWEAR-RIDER-SKIRT-IN-BABY-BLUE-p823688534",
+  "thumb": "images/thumbs/279.jpg",
+  "image": null
+ },
+ {
+  "id": 280,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Cotton Godet Midi Skirt",
+  "category": "Skirts",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 80,
+  "colorDetail": "Light Brown Pattern",
+  "categoryDetail": "Women's > Bottoms > Skirts > Midi Skirts",
+  "url": "https://www.abercrombie.com/shop/us/p/godet-midi-skirt-62206319",
+  "thumb": "images/thumbs/280.jpg",
+  "image": null
+ },
+ {
+  "id": 281,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Cotton High Rise Maxi Skirt",
+  "category": "Skirts",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 90,
+  "colorDetail": "Brown Plaid",
+  "categoryDetail": "Women's > Bottoms > Skirts > Maxi Skirts",
+  "url": "https://www.abercrombie.com/shop/us/p/100-cotton-high-rise-maxi-skirt-62771332",
+  "thumb": "images/thumbs/281.jpg",
+  "image": null
+ },
+ {
+  "id": 282,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Cotton Maxi Skirt",
+  "category": "Skirts",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 71.25,
+  "colorDetail": "Brown Plaid",
+  "categoryDetail": "Women's > Bottoms > Skirts > Maxi Skirts",
+  "url": "https://www.abercrombie.com/shop/us/p/100-cotton-maxi-skirt-63353320",
+  "thumb": "images/thumbs/282.jpg",
+  "image": null
+ },
+ {
+  "id": 283,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Val Button Cord Midi Skirt",
+  "category": "Skirts",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 180,
+  "colorDetail": "Gingerbread",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-val-button-cord-midi-skirt-gingerbread-r1000tan",
+  "thumb": "images/thumbs/283.jpg",
+  "image": null
+ },
+ {
+  "id": 284,
+  "retailer": "Gramicci",
+  "brand": "Gramicci",
+  "name": "Long Baker Skirt",
+  "category": "Skirts",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 118,
+  "colorDetail": "BARK PIGMENT",
+  "categoryDetail": "Womens Skirts",
+  "url": "https://gramicci.com/products/long-baker-skirt",
+  "thumb": "images/thumbs/284.jpg",
+  "image": null
+ },
+ {
+  "id": 285,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "Fly Pocket Skirt - Brown",
+  "category": "Skirts",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 285,
+  "colorDetail": "Brown",
+  "categoryDetail": "Bottoms - Skirts",
+  "url": "https://standardandstrange.com/products/fly-pocket-skirt-brown",
+  "thumb": "images/thumbs/285.jpg",
+  "image": null
+ },
+ {
+  "id": 286,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Aya Denim Skirt",
+  "category": "Skirts",
+  "color": "Denim",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 149,
+  "colorDetail": "Mid Vintage",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-aya-denim-skirt-mid-vintage-r0958mdn",
+  "thumb": "images/thumbs/286.jpg",
+  "image": null
+ },
+ {
+  "id": 287,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Pleated Denim Midi Skirt",
+  "category": "Skirts",
+  "color": "Denim",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 298,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Skirts",
+  "url": "https://www.ralphlauren.com/women-clothing/pleated-denim-midi-skirt/100091224.html",
+  "thumb": "images/thumbs/287.jpg",
+  "image": null
+ },
+ {
+  "id": 288,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro Button Panel Midi Skirt",
+  "category": "Skirts",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 168,
+  "colorDetail": "Moss",
+  "categoryDetail": "Clothing > Skirts",
+  "url": "https://www.anthropologie.com/shop/pilcro-button-panel-midi-skirt?color=031&type=STANDARD",
+  "thumb": "images/thumbs/288.jpg",
+  "image": null
+ },
+ {
+  "id": 289,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Pleated Raised Stripe Cotton Skirt",
+  "category": "Skirts",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 315,
+  "colorDetail": "Cedar Green",
+  "categoryDetail": "Women's Skirts",
+  "url": "https://us.toa.st/products/pleated-raised-stripe-cotton-skirt-cedar-green",
+  "thumb": "images/thumbs/289.jpg",
+  "image": null
+ },
+ {
+  "id": 290,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Cotton Linen Poplin Box Pleat Skirt",
+  "category": "Skirts",
+  "color": "Grey",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 450,
+  "colorDetail": "Slate",
+  "categoryDetail": "Women's Skirts",
+  "url": "https://us.toa.st/products/cotton-linen-poplin-box-pleat-skirt-slate",
+  "thumb": "images/thumbs/290.jpg",
+  "image": null
+ },
+ {
+  "id": 291,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "High Rise Flowy Maxi Set Skirt",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 90,
+  "colorDetail": "Brown Floral",
+  "categoryDetail": "Women's > Dresses & Jumpsuits > Two-Piece Dresses & Jumpsuits",
+  "url": "https://www.abercrombie.com/shop/us/p/high-rise-flowy-maxi-set-skirt-63108432",
+  "thumb": "images/thumbs/291.jpg",
+  "image": null
+ },
+ {
+  "id": 292,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Tiered Ruffle Midi Skirt",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 199,
+  "colorDetail": "Multi, Flecked Garden",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-tiered-ruffle-midi-skirt-multi-flecked-garden-r0979mul",
+  "thumb": "images/thumbs/292.jpg",
+  "image": null
+ },
+ {
+  "id": 293,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Wool Blend Slip Skirt",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "friend"
+  ],
+  "price": 249,
+  "colorDetail": "Brown Check",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-wool-blend-slip-skirt-brown-check-r0987brn",
+  "thumb": "images/thumbs/293.jpg",
+  "image": null
+ },
+ {
+  "id": 294,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Pull-on midi skirt in cotton poplin",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": null,
+  "colorDetail": null,
+  "categoryDetail": "Skirts > A-line",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/skirts/a-line/CS864?display=standard&fit=Classic&colorProductCode=CS864&color_name=white",
+  "thumb": null,
+  "image": null
+ },
+ {
+  "id": 295,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Tall pull-on midi skirt in cotton poplin",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": null,
+  "colorDetail": null,
+  "categoryDetail": "Skirts > A-line",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/skirts/a-line/CS864?display=standard&fit=Tall&colorProductCode=CS864&color_name=other",
+  "thumb": null,
+  "image": null
+ },
+ {
+  "id": 296,
+  "retailer": "O'Connell's",
+  "brand": "Lesley Evers",
+  "name": "Lesley Evers Kylie Cotton Skirt - Clover Stripe (1051-113)",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 135,
+  "colorDetail": "Clover Stripe",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/kylie-skirt-clover-stripe-cotton-sateen-kylie-skirt-clover-stripe.html",
+  "thumb": "images/thumbs/296.jpg",
+  "image": null
+ },
+ {
+  "id": 297,
+  "retailer": "O'Connell's",
+  "brand": "Nora Gardner",
+  "name": "Nora Gardner Buffy Skirt - Jacquard - Black & White (1612)",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 175,
+  "colorDetail": "Black & White",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/nora-gardner-buffy-skirt-blackwhite-jacquard-1612.html",
+  "thumb": "images/thumbs/297.jpg",
+  "image": null
+ },
+ {
+  "id": 298,
+  "retailer": "O'Connell's",
+  "brand": "Papillon Blanc",
+  "name": "Papillon Blanc Ponte Skirt - Plaid - Burgundy & Tan (9669)",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 165,
+  "colorDetail": "Burgundy & Tan",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/papillon-blanc-plaid-ponte-skirt-merlotgreymulti-9669-9669-plaid-passion.html",
+  "thumb": "images/thumbs/298.jpg",
+  "image": null
+ },
+ {
+  "id": 299,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "Ripcord Skirt - Multi",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 395,
+  "colorDetail": "Multi",
+  "categoryDetail": "Bottoms - Skirts",
+  "url": "https://standardandstrange.com/products/ripcord-skirt-multi",
+  "thumb": "images/thumbs/299.jpg",
+  "image": null
+ },
+ {
+  "id": 300,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Harvest Print Cotton Linen Poplin Skirt",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 490,
+  "colorDetail": "Black/Parchment",
+  "categoryDetail": "Women's Skirts",
+  "url": "https://us.toa.st/products/harvest-print-cotton-linen-poplin-skirt-black-parchment",
+  "thumb": "images/thumbs/300.jpg",
+  "image": null
+ },
+ {
+  "id": 301,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Lore Ikat Pleated Cotton Skirt",
+  "category": "Skirts",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 450,
+  "colorDetail": "Indigo",
+  "categoryDetail": "Women's Skirts",
+  "url": "https://us.toa.st/products/lore-ikat-pleated-cotton-skirt-indigo",
+  "thumb": "images/thumbs/301.jpg",
+  "image": null
+ },
+ {
+  "id": 302,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Aya Cotton Skirt",
+  "category": "Skirts",
+  "color": "Orange/Rust",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 149,
+  "colorDetail": "Ginger",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-aya-cotton-skirt-ginger-r0954brn",
+  "thumb": "images/thumbs/302.jpg",
+  "image": null
+ },
+ {
+  "id": 303,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Cord A Line Skirt",
+  "category": "Skirts",
+  "color": "Orange/Rust",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 315,
+  "colorDetail": "Golden Amber",
+  "categoryDetail": "Women's Skirts",
+  "url": "https://us.toa.st/products/cord-a-line-skirt-golden-amber",
+  "thumb": "images/thumbs/303.jpg",
+  "image": null
+ },
+ {
+  "id": 304,
+  "retailer": "Anthropologie",
+  "brand": "By Anthropologie",
+  "name": "By Anthropologie Olivette Linen Cotton Maxi Skirt",
+  "category": "Skirts",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "price": 158,
+  "colorDetail": "Mauvewood",
+  "categoryDetail": "Clothing > Skirts",
+  "url": "https://www.anthropologie.com/shop/by-anthropologie-olivette-linen-cotton-maxi-skirt?color=054&type=STANDARD",
+  "thumb": "images/thumbs/304.jpg",
+  "image": null
+ },
+ {
+  "id": 305,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Sarah Skirt In Cotton",
+  "category": "Skirts",
+  "color": "Purple",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 175,
+  "colorDetail": "Plum",
+  "categoryDetail": "Women's Skirts",
+  "url": "https://www.alexmill.com/products/sarah-skirt-in-cotton-in-plum",
+  "thumb": "images/thumbs/305.jpg",
+  "image": null
+ },
+ {
+  "id": 306,
+  "retailer": "O'Connell's",
+  "brand": "Lesley Evers",
+  "name": "Lesley Evers Kylie Cotton Skirt - Red & Violet Crisscross (1051-113)",
+  "category": "Skirts",
+  "color": "Purple",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 135,
+  "colorDetail": "Red & Violet Crisscross",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/kylie-skirt-violet-crisscross-cotton-sateen-kylie-skirt-violet-crsscrss.html",
+  "thumb": "images/thumbs/306.jpg",
+  "image": null
+ },
+ {
+  "id": 307,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "A&F Dylan Poplin Ultra High Rise Midi Skirt",
+  "category": "Skirts",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 95,
+  "colorDetail": "Fiery Red",
+  "categoryDetail": "Women's > Bottoms > Skirts > Midi Skirts",
+  "url": "https://www.abercrombie.com/shop/us/p/a-and-f-dylan-poplin-ultra-high-rise-midi-skirt-63480608",
+  "thumb": "images/thumbs/307.jpg",
+  "image": null
+ },
+ {
+  "id": 308,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Evelyn Button Cord Wrap Skirt",
+  "category": "Skirts",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 110,
+  "colorDetail": "Dark Crimson",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-evelyn-button-cord-wrap-skirt-dark-crimson-r0959red",
+  "thumb": "images/thumbs/308.jpg",
+  "image": null
+ },
+ {
+  "id": 309,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Pleat Side Split Midi Skirt",
+  "category": "Skirts",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 180,
+  "colorDetail": "Dark Cherry",
+  "categoryDetail": "Women > Skirts",
+  "url": "https://us.boden.com/products/women-pleat-side-split-midi-skirt-dark-cherry-r0986prp",
+  "thumb": "images/thumbs/309.jpg",
+  "image": null
+ },
+ {
+  "id": 310,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Plaid Tweed Yoke Skirt",
+  "category": "Skirts",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 398,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Skirts",
+  "url": "https://www.ralphlauren.com/women-clothing/plaid-tweed-yoke-skirt/100095928.html",
+  "thumb": "images/thumbs/310.jpg",
+  "image": null
+ },
+ {
+  "id": 311,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Slanted Pleat Cotton Skirt",
+  "category": "Skirts",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 375,
+  "colorDetail": "Brick",
+  "categoryDetail": "Women's Skirts",
+  "url": "https://us.toa.st/products/slanted-pleat-cotton-skirt-brick",
+  "thumb": "images/thumbs/311.jpg",
+  "image": null
+ },
+ {
+  "id": 312,
+  "retailer": "Anthropologie",
+  "brand": "Jacquie The Label",
+  "name": "Jacquie The Label Maggie 100% Cotton Midi Skirt",
+  "category": "Skirts",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 96,
+  "colorDetail": "Red Natural",
+  "categoryDetail": "Clothing > Skirts",
+  "url": "https://www.anthropologie.com/shop/jacquie-the-label-maggie-100-cotton-midi-skirt?color=060&type=STANDARD",
+  "thumb": "images/thumbs/312.jpg",
+  "image": null
+ },
+ {
+  "id": 313,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Linen Wrap Skirt",
+  "category": "Skirts",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 279.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Skirts",
+  "url": "https://www.ralphlauren.com/women-clothing/linen-wrap-skirt/100087369.html",
+  "thumb": "images/thumbs/313.jpg",
+  "image": null
+ },
+ {
+  "id": 314,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Sally Pointelle Cardigan in Wool Cotton",
+  "category": "Sweaters & Knitwear",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 198,
+  "colorDetail": "Light Camel",
+  "categoryDetail": "Women's Sweaters",
+  "url": "https://www.alexmill.com/products/gracie-sweater-in-wool-cotton-in-light-camel",
+  "thumb": "images/thumbs/314.jpg",
+  "image": null
+ },
+ {
+  "id": 315,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Heather Oat California Cashmere Polo",
+  "category": "Sweaters & Knitwear",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 298,
+  "colorDetail": "Heather Oat",
+  "categoryDetail": "Womens Sweaters",
+  "url": "https://www.buckmason.com/products/heather-oat-california-cashmere-polo-1",
+  "thumb": "images/thumbs/315.jpg",
+  "image": null
+ },
+ {
+  "id": 316,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Cashmere Crewneck Short-Sleeve Cardigan",
+  "category": "Sweaters & Knitwear",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 339.99,
+  "colorDetail": "Deck Tan Heather",
+  "categoryDetail": "Women > Clothing > Sweaters",
+  "url": "https://www.ralphlauren.com/women-clothing/cashmere-crewneck-short-sleeve-cardigan/100084087.html?dwvar100084087_colorname=Deck%20Tan%20Heather",
+  "thumb": "images/thumbs/316.jpg",
+  "image": null
+ },
+ {
+  "id": 317,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "REVERSIBLE DJ CREWNECK SWEATSHIRT",
+  "category": "Sweaters & Knitwear",
+  "color": "Black",
+  "occasions": [
+   "hang"
+  ],
+  "price": 178,
+  "colorDetail": "BLACK 19oz. ALL COTTON FLEECE",
+  "categoryDetail": "Knits",
+  "url": "https://18east.co/products/reversible-dj-crewneck-sweatshirt-black",
+  "thumb": "images/thumbs/317.jpg",
+  "image": null
+ },
+ {
+  "id": 318,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Liz Henley Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Black",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 140,
+  "colorDetail": "Black",
+  "categoryDetail": "Women > Jumpers",
+  "url": "https://us.boden.com/products/women-liz-henley-sweater-black-k1199blk",
+  "thumb": "images/thumbs/318.jpg",
+  "image": null
+ },
+ {
+  "id": 319,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Black Coastal Linen Pointelle Polo",
+  "category": "Sweaters & Knitwear",
+  "color": "Black",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 138,
+  "colorDetail": "Black",
+  "categoryDetail": "Womens Sweaters",
+  "url": "https://www.buckmason.com/products/black-coastal-linen-pointelle-polo",
+  "thumb": "images/thumbs/319.jpg",
+  "image": null
+ },
+ {
+  "id": 320,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Bond St Polo In Cotton Cashmere",
+  "category": "Sweaters & Knitwear",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 168,
+  "colorDetail": "Navy",
+  "categoryDetail": "Women's Sweaters",
+  "url": "https://www.alexmill.com/products/bond-st-polo-in-cotton-cashmere-in-navy",
+  "thumb": "images/thumbs/320.jpg",
+  "image": null
+ },
+ {
+  "id": 321,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Bond St Polo In Cotton Cashmere",
+  "category": "Sweaters & Knitwear",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 168,
+  "colorDetail": "Cunningham Blue",
+  "categoryDetail": "Women's Sweaters",
+  "url": "https://www.alexmill.com/products/bond-st-polo-in-cotton-cashmere-in-cunningham-blue",
+  "thumb": "images/thumbs/321.jpg",
+  "image": null
+ },
+ {
+  "id": 322,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Belted Wrap Knitted Cardigan",
+  "category": "Sweaters & Knitwear",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 249,
+  "colorDetail": "Navy",
+  "categoryDetail": "Women > Cardigans",
+  "url": "https://us.boden.com/products/women-belted-wrap-knitted-cardigan-navy-k1320nav",
+  "thumb": "images/thumbs/322.jpg",
+  "image": null
+ },
+ {
+  "id": 323,
+  "retailer": "Bosie Knitwear",
+  "brand": "Bosie Knitwear",
+  "name": "Luskentyre Chunky Fair Isle Glenugie Nep Women's Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 194,
+  "colorDetail": "Jura Navy",
+  "categoryDetail": "Sweater",
+  "url": "https://bosie.co/products/luskentyre-chunky-fair-isle-glenugie-nep-womens-sweater-jura",
+  "thumb": "images/thumbs/323.jpg",
+  "image": null
+ },
+ {
+  "id": 324,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Cashmere Short-Sleeve Crewneck Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 199.99,
+  "colorDetail": "Hunter Navy",
+  "categoryDetail": "Women > Clothing > Sweaters",
+  "url": "https://www.ralphlauren.com/women-clothing/cashmere-short-sleeve-crewneck-sweater/638620.html?dwvar638620_colorname=Hunter%20Navy",
+  "thumb": "images/thumbs/324.jpg",
+  "image": null
+ },
+ {
+  "id": 325,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'MENSWEAR PULLOVER SMOCK IN BABY BLUE",
+  "category": "Sweaters & Knitwear",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 144,
+  "colorDetail": "Baby Blue",
+  "categoryDetail": "Final Editions",
+  "url": "https://www.wmenswear.com/shop/WMENSWEAR-PULLOVER-SMOCK-IN-BABY-BLUE-p823569300",
+  "thumb": "images/thumbs/325.jpg",
+  "image": null
+ },
+ {
+  "id": 326,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Bond St. Striped Polo in Cotton Cashmere",
+  "category": "Sweaters & Knitwear",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 168,
+  "colorDetail": "Chocolate",
+  "categoryDetail": "Women's Sweaters",
+  "url": "https://www.alexmill.com/products/bond-st-striped-polo-in-cotton-cashmere-in-deep-chocolate",
+  "thumb": "images/thumbs/326.jpg",
+  "image": null
+ },
+ {
+  "id": 327,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro Campbell 100% Cotton Roll Neck Sweater Tank",
+  "category": "Sweaters & Knitwear",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 88,
+  "colorDetail": "Chocolate",
+  "categoryDetail": "Clothing > Sweaters",
+  "url": "https://www.anthropologie.com/shop/pilcro-campbell-100-cotton-roll-neck-sweater-tank?color=021&type=STANDARD",
+  "thumb": "images/thumbs/327.jpg",
+  "image": null
+ },
+ {
+  "id": 328,
+  "retailer": "Bosie Knitwear",
+  "brand": "Bosie Knitwear",
+  "name": "Islander Yoke Fair Isle Glenugie Nep Women's Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 208,
+  "colorDetail": "Knoydart Brown",
+  "categoryDetail": "Sweater",
+  "url": "https://bosie.co/products/islander-yoke-fair-isle-glenugie-nep-womens-sweater-knoydart",
+  "thumb": "images/thumbs/328.jpg",
+  "image": null
+ },
+ {
+  "id": 329,
+  "retailer": "Madewell",
+  "brand": "Madewell",
+  "name": "Embroidered Pintuck Crewneck Top",
+  "category": "Sweaters & Knitwear",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 110,
+  "colorDetail": null,
+  "categoryDetail": "Womens > Clothing > Tops & Shirts > Tops",
+  "url": "https://www.madewell.com/p/womens/clothing/tops-shirts/tops/embroidered-pintuck-crewneck-top/OB085/?ccode=NA6235",
+  "thumb": "images/thumbs/329.jpg",
+  "image": null
+ },
+ {
+  "id": 330,
+  "retailer": "Morrison",
+  "brand": "Howlin'",
+  "name": "Living In The Light",
+  "category": "Sweaters & Knitwear",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 365.15,
+  "colorDetail": "Brownish",
+  "categoryDetail": "Knitwear Women",
+  "url": "https://morrison.be/products/living-in-the-light-brownish-women-aw26",
+  "thumb": "images/thumbs/330.jpg",
+  "image": null
+ },
+ {
+  "id": 331,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Color-Blocked Cable-Knit Tank Top",
+  "category": "Sweaters & Knitwear",
+  "color": "Brown",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 179.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Sweaters",
+  "url": "https://www.ralphlauren.com/women-clothing/color-blocked-cable-knit-tank-top/100091074.html",
+  "thumb": "images/thumbs/331.jpg",
+  "image": null
+ },
+ {
+  "id": 332,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Marianne Merino Wool Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 160,
+  "colorDetail": "Hunter Green",
+  "categoryDetail": "Women > Jumpers",
+  "url": "https://us.boden.com/products/women-marianne-merino-wool-sweater-hunter-green-k1301grn",
+  "thumb": "images/thumbs/332.jpg",
+  "image": null
+ },
+ {
+  "id": 333,
+  "retailer": "Bosie Knitwear",
+  "brand": "Bosie Knitwear",
+  "name": "Astrid Fair Isle Geelong Women's Cardigan",
+  "category": "Sweaters & Knitwear",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 229,
+  "colorDetail": "Lugano Dark Teal",
+  "categoryDetail": "Cardigan",
+  "url": "https://bosie.co/products/astrid-fair-isle-geelong-womens-cardigan-lugano-dark-teal",
+  "thumb": "images/thumbs/333.jpg",
+  "image": null
+ },
+ {
+  "id": 334,
+  "retailer": "Bosie Knitwear",
+  "brand": "Bosie Knitwear",
+  "name": "Braemar Yoke Brushed Fair Isle Women's Lambswool Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 170,
+  "colorDetail": "Tempest (Storm Dark Teal)",
+  "categoryDetail": "Sweater",
+  "url": "https://bosie.co/products/braemar-yoke-brushed-fair-isle-womens-lambswool-sweater-tempest",
+  "thumb": "images/thumbs/334.jpg",
+  "image": null
+ },
+ {
+  "id": 335,
+  "retailer": "Bosie Knitwear",
+  "brand": "Bosie Knitwear",
+  "name": "Islander Yoke Fair Isle Glenugie Women's Cardigan",
+  "category": "Sweaters & Knitwear",
+  "color": "Green",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 245,
+  "colorDetail": "Raasay Green",
+  "categoryDetail": "Cardigan",
+  "url": "https://bosie.co/products/new-islander-yoke-fair-isle-glenugie-womens-cardigan-raasay-green",
+  "thumb": "images/thumbs/335.jpg",
+  "image": null
+ },
+ {
+  "id": 336,
+  "retailer": "Morrison",
+  "brand": "Howlin'",
+  "name": "Broken Flowers",
+  "category": "Sweaters & Knitwear",
+  "color": "Grey",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 318.78,
+  "colorDetail": "Charcoal",
+  "categoryDetail": "Knitwear Women",
+  "url": "https://morrison.be/products/broken-flowers-charcoal-women-aw26",
+  "thumb": "images/thumbs/336.jpg",
+  "image": null
+ },
+ {
+  "id": 337,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Aran-Knit Cotton Polo-Collar Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Grey",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 239.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Sweaters",
+  "url": "https://www.ralphlauren.com/women-clothing/aran-knit-cotton-polo-collar-sweater/100093811.html",
+  "thumb": "images/thumbs/337.jpg",
+  "image": null
+ },
+ {
+  "id": 338,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Geo-Motif Wool-Cashmere Cardigan",
+  "category": "Sweaters & Knitwear",
+  "color": "Grey",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 598,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Sweaters",
+  "url": "https://www.ralphlauren.com/women-clothing/geo-motif-wool-cashmere-cardigan/100087729.html",
+  "thumb": "images/thumbs/338.jpg",
+  "image": null
+ },
+ {
+  "id": 339,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Ffion Wool Cashmere Boxy Cardigan",
+  "category": "Sweaters & Knitwear",
+  "color": "Grey",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 430,
+  "colorDetail": "Charcoal",
+  "categoryDetail": "Women's Cardigans",
+  "url": "https://us.toa.st/products/ffion-wool-cashmere-boxy-cardigan-charcoal",
+  "thumb": "images/thumbs/339.jpg",
+  "image": null
+ },
+ {
+  "id": 340,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Edie Fair Isle Cardigan",
+  "category": "Sweaters & Knitwear",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 180,
+  "colorDetail": "Pink fair isle",
+  "categoryDetail": "Women > Cardigans",
+  "url": "https://us.boden.com/products/women-edie-fair-isle-cardigan-pink-fair-isle-k0851peb",
+  "thumb": "images/thumbs/340.jpg",
+  "image": null
+ },
+ {
+  "id": 341,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Sweater-tee in striped merino wool",
+  "category": "Sweaters & Knitwear",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 98,
+  "colorDetail": "Ivory Multi Stripe",
+  "categoryDetail": "Sweaters > Crewneck",
+  "url": "https://www.jcrew.com/m/womens/categories/clothing/sweaters/crewneck/MQ190?display=standard&fit=Classic&colorProductCode=CX430",
+  "thumb": "images/thumbs/341.jpg",
+  "image": null
+ },
+ {
+  "id": 342,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Tiny Rollneck™ in colorblock tweed stitch",
+  "category": "Sweaters & Knitwear",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 138,
+  "colorDetail": "Black Ivory Blue",
+  "categoryDetail": "Sweaters > Rollneck",
+  "url": "https://www.jcrew.com/m/womens/categories/clothing/sweaters/rollneck/MQ315?display=standard&fit=Classic&colorProductCode=CY782",
+  "thumb": "images/thumbs/342.jpg",
+  "image": null
+ },
+ {
+  "id": 343,
+  "retailer": "Anthropologie",
+  "brand": "Pilcro",
+  "name": "Pilcro 100% Cotton Knit Swing Top",
+  "category": "Sweaters & Knitwear",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 118,
+  "colorDetail": "Peach",
+  "categoryDetail": "Clothing > Sweaters",
+  "url": "https://www.anthropologie.com/shop/pilcro-100-cotton-knit-swing-top?color=067&type=STANDARD",
+  "thumb": "images/thumbs/343.jpg",
+  "image": null
+ },
+ {
+  "id": 344,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Elsie Cashmere Crew Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 170,
+  "colorDetail": "Pink Heather",
+  "categoryDetail": "Women > Jumpers",
+  "url": "https://us.boden.com/products/women-elsie-cashmere-crew-sweater-pink-heather-k1298peb",
+  "thumb": "images/thumbs/344.jpg",
+  "image": null
+ },
+ {
+  "id": 345,
+  "retailer": "Bosie Knitwear",
+  "brand": "Bosie Knitwear",
+  "name": "Borealis Yoke Brushed Fair Isle Women's Lambswool Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 178,
+  "colorDetail": "Zinnia",
+  "categoryDetail": "Sweater",
+  "url": "https://bosie.co/products/borealis-yoke-brushed-fair-isle-womens-lambswool-sweater-zinnia",
+  "thumb": "images/thumbs/345.jpg",
+  "image": null
+ },
+ {
+  "id": 346,
+  "retailer": "J.Crew",
+  "brand": "J.Crew",
+  "name": "Sweater-tee in alpaca blend",
+  "category": "Sweaters & Knitwear",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 98,
+  "colorDetail": "Sweet Blossom",
+  "categoryDetail": "Sweaters > Crewneck",
+  "url": "https://www.jcrew.com/p/womens/categories/clothing/sweaters/crewneck/CX414?display=standard&fit=Classic&colorProductCode=CX414&color_name=pink",
+  "thumb": "images/thumbs/346.jpg",
+  "image": null
+ },
+ {
+  "id": 347,
+  "retailer": "Morrison",
+  "brand": "Howlin'",
+  "name": "Forevernevermore",
+  "category": "Sweaters & Knitwear",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 249.23,
+  "colorDetail": "Pinkypie",
+  "categoryDetail": "Knitwear Women",
+  "url": "https://morrison.be/products/forevernevermore-pinkypie-women-aw26",
+  "thumb": "images/thumbs/347.jpg",
+  "image": null
+ },
+ {
+  "id": 348,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Odette Sweater Tank In Cotton Cashmere",
+  "category": "Sweaters & Knitwear",
+  "color": "Purple",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "price": 148,
+  "colorDetail": "Plum",
+  "categoryDetail": "Women's Sweaters",
+  "url": "https://www.alexmill.com/products/odette-sweater-tank-in-cotton-cashmere-in-plum",
+  "thumb": "images/thumbs/348.jpg",
+  "image": null
+ },
+ {
+  "id": 349,
+  "retailer": "Morrison",
+  "brand": "Howlin'",
+  "name": "Love On A Knitted Train",
+  "category": "Sweaters & Knitwear",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "friend"
+  ],
+  "price": 341.96,
+  "colorDetail": "Velvet Kiss",
+  "categoryDetail": "Knitwear Women",
+  "url": "https://morrison.be/products/love-on-a-knitted-train-velvet-kiss-women-aw26",
+  "thumb": "images/thumbs/349.jpg",
+  "image": null
+ },
+ {
+  "id": 350,
+  "retailer": "18 East",
+  "brand": "18 East",
+  "name": "HOMER “SWEATER” POLO",
+  "category": "Sweaters & Knitwear",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 268,
+  "colorDetail": "WHITE HANDLOOM COTTON BLANKETING",
+  "categoryDetail": "Shirts",
+  "url": "https://18east.co/products/homer-polo-white",
+  "thumb": "images/thumbs/350.jpg",
+  "image": null
+ },
+ {
+  "id": 351,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Marled Gypsum Seafarer Cotton Cropped Cardigan",
+  "category": "Sweaters & Knitwear",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "price": 238,
+  "colorDetail": "Marled Gypsum",
+  "categoryDetail": "Womens Sweaters",
+  "url": "https://www.buckmason.com/products/marled-gypsum-seafarer-cotton-cropped-cardigan",
+  "thumb": "images/thumbs/351.jpg",
+  "image": null
+ },
+ {
+  "id": 352,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Natural Coastline Cotton Wool Popover",
+  "category": "Sweaters & Knitwear",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 198,
+  "colorDetail": "Natural",
+  "categoryDetail": "Womens Sweaters",
+  "url": "https://www.buckmason.com/products/natural-coastline-cotton-wool-popover",
+  "thumb": "images/thumbs/352.jpg",
+  "image": null
+ },
+ {
+  "id": 353,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Cable-Knit Cotton Cropped Vest",
+  "category": "Sweaters & Knitwear",
+  "color": "White/Ivory",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 99.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Sweaters",
+  "url": "https://www.ralphlauren.com/women-clothing/cable-knit-cotton-cropped-vest/100045506.html",
+  "thumb": "images/thumbs/353.jpg",
+  "image": null
+ },
+ {
+  "id": 354,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Mini-Cable Short-Sleeve Henley Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "White/Ivory",
+  "occasions": [
+   "hang"
+  ],
+  "price": 168,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Sweaters",
+  "url": "https://www.ralphlauren.com/women-clothing/mini-cable-short-sleeve-henley-sweater/100087725.html",
+  "thumb": "images/thumbs/354.jpg",
+  "image": null
+ },
+ {
+  "id": 355,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Bra-Free 90s Cami",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 29,
+  "colorDetail": "Black",
+  "categoryDetail": "Women's > Tops > Camis & Tank Tops",
+  "url": "https://www.abercrombie.com/shop/us/p/bra-free-90s-cami-59708444",
+  "thumb": "images/thumbs/355.jpg",
+  "image": null
+ },
+ {
+  "id": 356,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Linen-Blend Bandana Top",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "hang"
+  ],
+  "price": 70,
+  "colorDetail": "Black",
+  "categoryDetail": "Women's > Tops > Shirts & Blouses > Blouses",
+  "url": "https://www.abercrombie.com/shop/us/p/linen-blend-bandana-top-60578345",
+  "thumb": "images/thumbs/356.jpg",
+  "image": null
+ },
+ {
+  "id": 357,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "365 Ribbed Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 68,
+  "colorDetail": "Black",
+  "categoryDetail": "Women's Knits",
+  "url": "https://www.alexmill.com/products/365-ribbed-tank-in-black",
+  "thumb": "images/thumbs/357.jpg",
+  "image": null
+ },
+ {
+  "id": 358,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Lace Trim V-Neck Velvet Top",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 99,
+  "colorDetail": "Black",
+  "categoryDetail": "Women > T-Shirts & Vests",
+  "url": "https://us.boden.com/products/women-lace-trim-v-neck-velvet-top-black-t2259blk",
+  "thumb": "images/thumbs/358.jpg",
+  "image": null
+ },
+ {
+  "id": 359,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Ruffle V-neck Lace Top",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 130,
+  "colorDetail": "Black",
+  "categoryDetail": "Women > Shirts & Blouses",
+  "url": "https://us.boden.com/products/women-ruffle-v-neck-lace-top-black-t2180blk",
+  "thumb": "images/thumbs/359.jpg",
+  "image": null
+ },
+ {
+  "id": 360,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Black Field-Spec Boyfriend Crop Tee",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 62,
+  "colorDetail": "Black",
+  "categoryDetail": "Womens Tees",
+  "url": "https://www.buckmason.com/products/black-field-spec-boyfriend-crop-tee",
+  "thumb": "images/thumbs/360.jpg",
+  "image": null
+ },
+ {
+  "id": 361,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Black Surplus Rib Scoop Neck Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 48,
+  "colorDetail": "Black",
+  "categoryDetail": "Womens Tanks",
+  "url": "https://www.buckmason.com/products/black-surplus-rib-scoop-neck-tank",
+  "thumb": "images/thumbs/361.jpg",
+  "image": null
+ },
+ {
+  "id": 362,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Black The A Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 58,
+  "colorDetail": "Black",
+  "categoryDetail": "Womens Tanks",
+  "url": "https://www.buckmason.com/products/black-the-a-tank",
+  "thumb": "images/thumbs/362.jpg",
+  "image": null
+ },
+ {
+  "id": 363,
+  "retailer": "Madewell",
+  "brand": "Madewell",
+  "name": "The Boxy Crop Tee in Allday Jersey",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 48,
+  "colorDetail": null,
+  "categoryDetail": "Womens > Clothing > Tees",
+  "url": "https://www.madewell.com/p/womens/clothing/tees/the-boxy-crop-tee-in-allday-jersey/NZ387/?ccode=GR0546",
+  "thumb": "images/thumbs/363.jpg",
+  "image": null
+ },
+ {
+  "id": 364,
+  "retailer": "O'Connell's",
+  "brand": "O'Connell's",
+  "name": "O'Connell's Women's Merino Wool Scoop Neck Shell - Mary - Black (9307)",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "teaching"
+  ],
+  "price": 175,
+  "colorDetail": "Black",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/oconnells-womens-merino-wool-scoop-neck-shell-mary-black-9307-m9307.html",
+  "thumb": "images/thumbs/364.jpg",
+  "image": null
+ },
+ {
+  "id": 365,
+  "retailer": "O'Connell's",
+  "brand": "O'Connell's",
+  "name": "O'Connell's Women's V-Neck Travel Tank Top - Black (AB156)",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 99,
+  "colorDetail": "Black",
+  "categoryDetail": "Home > Women's",
+  "url": "https://oconnellsclothing.com/oconnells-womens-v-neck-travel-tank-top-black-ab156-ab156.html",
+  "thumb": "images/thumbs/365.jpg",
+  "image": null
+ },
+ {
+  "id": 366,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Oversize Satin Long-Sleeve Tee",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 159.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Shirts & Blouses",
+  "url": "https://www.ralphlauren.com/women-clothing/oversize-satin-long-sleeve-tee/100092035.html",
+  "thumb": "images/thumbs/366.jpg",
+  "image": null
+ },
+ {
+  "id": 367,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "W'mens Tank - Black Cotton/Hemp",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 73,
+  "colorDetail": "Black Cotton/Hemp",
+  "categoryDetail": "Tops - Tanks",
+  "url": "https://standardandstrange.com/products/wmens-tank-black-cotton-hemp",
+  "thumb": "images/thumbs/367.jpg",
+  "image": null
+ },
+ {
+  "id": 368,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Lace-Trim Cinched Button-Through Cami",
+  "category": "Tops & Tees",
+  "color": "Blue",
+  "occasions": [
+   "dressy"
+  ],
+  "price": 52,
+  "colorDetail": "Blue Floral",
+  "categoryDetail": "Women's > Tops > Shirts & Blouses > Blouses",
+  "url": "https://www.abercrombie.com/shop/us/p/lace-trim-cinched-button-through-cami-62501822",
+  "thumb": "images/thumbs/368.jpg",
+  "image": null
+ },
+ {
+  "id": 369,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Lucia Top in Ramie",
+  "category": "Tops & Tees",
+  "color": "Blue",
+  "occasions": [
+   "hang"
+  ],
+  "price": 225,
+  "colorDetail": "Cornflower",
+  "categoryDetail": "Women's Wovens",
+  "url": "https://www.alexmill.com/products/lucia-top-in-ramie-in-cornflower",
+  "thumb": "images/thumbs/369.jpg",
+  "image": null
+ },
+ {
+  "id": 370,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Crew Neck Henley Tank",
+  "category": "Tops & Tees",
+  "color": "Blue",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 69,
+  "colorDetail": "Navy",
+  "categoryDetail": "Women > T-Shirts & Vests",
+  "url": "https://us.boden.com/products/women-crew-neck-henley-tank-navy-t2215nav",
+  "thumb": "images/thumbs/370.jpg",
+  "image": null
+ },
+ {
+  "id": 371,
+  "retailer": "Ralph Lauren",
+  "brand": "Polo Ralph Lauren",
+  "name": "Crinkled Button-Front Top",
+  "category": "Tops & Tees",
+  "color": "Blue",
+  "occasions": [
+   "hang"
+  ],
+  "price": 259.99,
+  "colorDetail": null,
+  "categoryDetail": "Women > Clothing > Shirts & Blouses",
+  "url": "https://www.ralphlauren.com/women-clothing/crinkled-button-front-top/100069560.html",
+  "thumb": "images/thumbs/371.jpg",
+  "image": null
+ },
+ {
+  "id": 372,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "YPB studioFLEX Double-Layered Tank",
+  "category": "Tops & Tees",
+  "color": "Brown",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 50,
+  "colorDetail": "Chocolate Mousse Check",
+  "categoryDetail": "Women's > Tops > Camis & Tank Tops",
+  "url": "https://www.abercrombie.com/shop/us/p/ypb-studioflex-double-layered-tank-63548319",
+  "thumb": "images/thumbs/372.jpg",
+  "image": null
+ },
+ {
+  "id": 373,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Violet Cotton Top",
+  "category": "Tops & Tees",
+  "color": "Brown",
+  "occasions": [
+   "hang"
+  ],
+  "price": 190,
+  "colorDetail": "Brown Beaded",
+  "categoryDetail": "Women > Shirts & Blouses",
+  "url": "https://us.boden.com/products/women-violet-cotton-top-brown-beaded-t2192brn",
+  "thumb": "images/thumbs/373.jpg",
+  "image": null
+ },
+ {
+  "id": 374,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Hickory Coastline Crochet Tee",
+  "category": "Tops & Tees",
+  "color": "Brown",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 198,
+  "colorDetail": "Hickory",
+  "categoryDetail": "Womens Tees",
+  "url": "https://www.buckmason.com/products/hickory-coastline-crochet-tee",
+  "thumb": "images/thumbs/374.jpg",
+  "image": null
+ },
+ {
+  "id": 375,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'MENSWEAR DRILL TANK IN INDIGO",
+  "category": "Tops & Tees",
+  "color": "Denim",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 156,
+  "colorDetail": "Indigo",
+  "categoryDetail": "New Editions",
+  "url": "https://www.wmenswear.com/shop/WMENSWEAR-DRILL-TANK-IN-INDIGO-p823507506",
+  "thumb": "images/thumbs/375.jpg",
+  "image": null
+ },
+ {
+  "id": 376,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Lucia Top in Ramie",
+  "category": "Tops & Tees",
+  "color": "Green",
+  "occasions": [
+   "hang"
+  ],
+  "price": 225,
+  "colorDetail": "Dark Green",
+  "categoryDetail": "Women's Wovens",
+  "url": "https://www.alexmill.com/products/lucia-top-in-ramie-in-dark-green",
+  "thumb": "images/thumbs/376.jpg",
+  "image": null
+ },
+ {
+  "id": 377,
+  "retailer": "Buck Mason",
+  "brand": "Buck Mason",
+  "name": "Heather Laurel Surplus Rib Tank",
+  "category": "Tops & Tees",
+  "color": "Green",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 48,
+  "colorDetail": "Heather Laurel",
+  "categoryDetail": "Womens Tanks",
+  "url": "https://www.buckmason.com/products/heather-laurel-surplus-rib-tank",
+  "thumb": "images/thumbs/377.jpg",
+  "image": null
+ },
+ {
+  "id": 378,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Alda Cotton Easy Tee",
+  "category": "Tops & Tees",
+  "color": "Green",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 105,
+  "colorDetail": "Olive",
+  "categoryDetail": "Women's Tees",
+  "url": "https://us.toa.st/products/alda-cotton-easy-tee-olive",
+  "thumb": "images/thumbs/378.jpg",
+  "image": null
+ },
+ {
+  "id": 379,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Bra-Free Rib Scoop Neck Tank",
+  "category": "Tops & Tees",
+  "color": "Grey",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 25,
+  "colorDetail": "Light Gray",
+  "categoryDetail": "Women's > Tops > Camis & Tank Tops",
+  "url": "https://www.abercrombie.com/shop/us/p/bra-free-rib-scoopneck-tank-61765319",
+  "thumb": "images/thumbs/379.jpg",
+  "image": null
+ },
+ {
+  "id": 380,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "W'mens Tank - Grey",
+  "category": "Tops & Tees",
+  "color": "Grey",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 75,
+  "colorDetail": "Grey",
+  "categoryDetail": "Tops - Tanks",
+  "url": "https://standardandstrange.com/products/wmens-tank-grey",
+  "thumb": "images/thumbs/380.jpg",
+  "image": null
+ },
+ {
+  "id": 381,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "A Line Linen Cotton Top",
+  "category": "Tops & Tees",
+  "color": "Grey",
+  "occasions": [
+   "hang"
+  ],
+  "price": 240,
+  "colorDetail": "Soft Charcoal",
+  "categoryDetail": "Women's Tops",
+  "url": "https://us.toa.st/products/a-line-linen-cotton-top-soft-charcoal",
+  "thumb": "images/thumbs/381.jpg",
+  "image": null
+ },
+ {
+  "id": 382,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'menswear Combat Tank in Grey",
+  "category": "Tops & Tees",
+  "color": "Grey",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 72,
+  "colorDetail": "Grey",
+  "categoryDetail": "All",
+  "url": "https://www.wmenswear.com/shop/Wmenswear-Combat-Tank-in-Grey-p136208747",
+  "thumb": "images/thumbs/382.jpg",
+  "image": null
+ },
+ {
+  "id": 383,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Garcon Striped Tee In Linen Cotton",
+  "category": "Tops & Tees",
+  "color": "Multi/Print",
+  "occasions": [
+   "dance",
+   "friend",
+   "hang"
+  ],
+  "price": 88,
+  "colorDetail": "Off White/Blue",
+  "categoryDetail": "Women's Knits",
+  "url": "https://www.alexmill.com/products/garcon-striped-tee-in-linen-cotton-in-off-white-blue",
+  "thumb": "images/thumbs/383.jpg",
+  "image": null
+ },
+ {
+  "id": 384,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Pia Ruffle Detail Top",
+  "category": "Tops & Tees",
+  "color": "Multi/Print",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 99,
+  "colorDetail": "Burnt Orange Stripe",
+  "categoryDetail": "Women > T-Shirts & Vests",
+  "url": "https://us.boden.com/products/women-pia-ruffle-detail-top-burnt-orange-stripe-t2148brn",
+  "thumb": "images/thumbs/384.jpg",
+  "image": null
+ },
+ {
+  "id": 385,
+  "retailer": "Standard & Strange",
+  "brand": "W'menswear",
+  "name": "Freedom Sheepskin Vest - Multi",
+  "category": "Tops & Tees",
+  "color": "Multi/Print",
+  "occasions": [
+   "friend",
+   "hang"
+  ],
+  "price": 750,
+  "colorDetail": "Multi",
+  "categoryDetail": "Tops - Vests",
+  "url": "https://standardandstrange.com/products/freedom-sheepskin-vest-multi",
+  "thumb": "images/thumbs/385.jpg",
+  "image": null
+ },
+ {
+  "id": 386,
+  "retailer": "TOAST",
+  "brand": "TOAST",
+  "name": "Striped Donegal Wool Buttoned Tank",
+  "category": "Tops & Tees",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend",
+   "hang"
+  ],
+  "price": 355,
+  "colorDetail": "Flax/Charcoal",
+  "categoryDetail": "Women's Tanks",
+  "url": "https://us.toa.st/products/striped-donegal-wool-buttoned-tank-flax-charcoal",
+  "thumb": "images/thumbs/386.jpg",
+  "image": null
+ },
+ {
+  "id": 387,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Elsie Cashmere Tank",
+  "category": "Tops & Tees",
+  "color": "Pink",
+  "occasions": [
+   "teaching",
+   "dance",
+   "hang"
+  ],
+  "price": 149,
+  "colorDetail": "Pink Heather",
+  "categoryDetail": "Women > Jumpers",
+  "url": "https://us.boden.com/products/women-elsie-cashmere-tank-pink-heather-k1274ros",
+  "thumb": "images/thumbs/387.jpg",
+  "image": null
+ },
+ {
+  "id": 388,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "Flutter Sleeve Slash Top",
+  "category": "Tops & Tees",
+  "color": "Red",
+  "occasions": [
+   "hang"
+  ],
+  "price": 45,
+  "colorDetail": "Red Wine",
+  "categoryDetail": "Women's > Tops > T-Shirts",
+  "url": "https://www.abercrombie.com/shop/us/p/flutter-sleeve-slash-top-63080819",
+  "thumb": "images/thumbs/388.jpg",
+  "image": null
+ },
+ {
+  "id": 389,
+  "retailer": "Alex Mill",
+  "brand": "Alex Mill",
+  "name": "Garcon Tee In Linen Cotton",
+  "category": "Tops & Tees",
+  "color": "Red",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 88,
+  "colorDetail": "Tomato",
+  "categoryDetail": "Women's Knits",
+  "url": "https://www.alexmill.com/products/garcon-tee-in-linen-cotton-in-tomato",
+  "thumb": "images/thumbs/389.jpg",
+  "image": null
+ },
+ {
+  "id": 390,
+  "retailer": "Anthropologie",
+  "brand": "By Anthropologie",
+  "name": "By Anthropologie 100% Cotton Cropped Bubble-Hem Top",
+  "category": "Tops & Tees",
+  "color": "White/Ivory",
+  "occasions": [
+   "hang"
+  ],
+  "price": 98,
+  "colorDetail": "White",
+  "categoryDetail": "Tops & Tees",
+  "url": "https://www.anthropologie.com/shop/by-anthropologie-100-cotton-cropped-bubble-hem-top?color=010&type=STANDARD",
+  "thumb": "images/thumbs/390.jpg",
+  "image": null
+ },
+ {
+  "id": 391,
+  "retailer": "Anthropologie",
+  "brand": "By Anthropologie",
+  "name": "By Anthropologie 100% Cotton Sleeveless Top",
+  "category": "Tops & Tees",
+  "color": "White/Ivory",
+  "occasions": [
+   "hang"
+  ],
+  "price": 98,
+  "colorDetail": "Off White",
+  "categoryDetail": "Tops & Tees",
+  "url": "https://www.anthropologie.com/shop/by-anthropologie-100-cotton-sleeveless-top?color=011&type=STANDARD",
+  "thumb": "images/thumbs/391.jpg",
+  "image": null
+ },
+ {
+  "id": 392,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Brooke Double Layer Tank",
+  "category": "Tops & Tees",
+  "color": "White/Ivory",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 45,
+  "colorDetail": "White",
+  "categoryDetail": "Women > T-Shirts & Vests",
+  "url": "https://us.boden.com/products/women-brooke-double-layer-tank-white-t2033wht",
+  "thumb": "images/thumbs/392.jpg",
+  "image": null
+ },
+ {
+  "id": 393,
+  "retailer": "Boden",
+  "brand": "Boden",
+  "name": "Ribbed Racer Vest",
+  "category": "Tops & Tees",
+  "color": "White/Ivory",
+  "occasions": [
+   "hang"
+  ],
+  "price": 39,
+  "colorDetail": "White",
+  "categoryDetail": "Women > T-Shirts & Vests",
+  "url": "https://us.boden.com/products/women-ribbed-racer-vest-white-t2139wht",
+  "thumb": "images/thumbs/393.jpg",
+  "image": null
+ },
+ {
+  "id": 394,
+  "retailer": "W'menswear",
+  "brand": "W'menswear",
+  "name": "W'MENSWEAR FOOTBALL TEE IN OFF-WHITE",
+  "category": "Tops & Tees",
+  "color": "White/Ivory",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "price": 122,
+  "colorDetail": "Off-White",
+  "categoryDetail": "New Editions",
+  "url": "https://www.wmenswear.com/shop/WMENSWEAR-FOOTBALL-TEE-IN-OFF-WHITE-p823596766",
+  "thumb": "images/thumbs/394.jpg",
+  "image": null
+ },
+ {
+  "id": 395,
+  "retailer": "Abercrombie & Fitch",
+  "brand": "Abercrombie & Fitch",
+  "name": "100% Cotton Smocked Tie-Back Top",
+  "category": "Tops & Tees",
+  "color": "Yellow/Gold",
+  "occasions": [
+   "hang"
+  ],
+  "price": 75,
+  "colorDetail": "Yellow Floral",
+  "categoryDetail": "Women's > Tops > Shirts & Blouses > Blouses",
+  "url": "https://www.abercrombie.com/shop/us/p/100-cotton-tie-back-smocked-top-63333367",
+  "thumb": "images/thumbs/395.jpg",
+  "image": null
+ }
+]
