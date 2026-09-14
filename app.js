@@ -29,7 +29,7 @@
 
   // ---------- state ----------
   const state = {
-    q: '', sort: 'shuffle',
+    q: '', sort: 'default',
     category: new Set(), color: new Set(), brand: new Set(), occasion: new Set(), price: new Set(),
     saved: new Set(), shuffleOrder: null, view: [], modalIndex: -1,
   };
@@ -93,9 +93,21 @@
         if (!state.shuffleOrder) reshuffle();
         const pos = state.shuffleOrder; l.sort((a, b) => pos.get(a.id) - pos.get(b.id)); break;
       }
-      default: break;
+      default: { const pos = defaultOrder(); l.sort((a, b) => pos.get(a.id) - pos.get(b.id)); break; }
     }
     return l;
+  }
+  // A fixed, seeded shuffle: looks mixed, but identical on every visit.
+  const DEFAULT_SEED = 54;
+  let _defaultOrder = null;
+  function defaultOrder() {
+    if (_defaultOrder) return _defaultOrder;
+    let t = DEFAULT_SEED >>> 0;
+    const rnd = () => { t = (t + 0x6D2B79F5) >>> 0; let r = Math.imul(t ^ (t >>> 15), 1 | t); r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r; return ((r ^ (r >>> 14)) >>> 0) / 4294967296; };
+    const ids = ITEMS.map(i => i.id);
+    for (let i = ids.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [ids[i], ids[j]] = [ids[j], ids[i]]; }
+    _defaultOrder = new Map(ids.map((id, k) => [id, k]));
+    return _defaultOrder;
   }
   function reshuffle() {
     const ids = ITEMS.map(i => i.id);
