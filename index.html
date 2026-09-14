@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=6">
+<link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
 
@@ -40,9 +40,31 @@
     <p class="tagline"><span id="hero-count">393</span> curated pieces for Rebecca Pruente</p>
     <div class="ornament" aria-hidden="true"><span></span><svg viewBox="0 0 24 24" width="14" height="14"><use href="#i-heart"/></svg><span></span></div>
     <p class="hero-note">Tap a heart to tuck something away. Your saved list lives right here in this browser, and you can email it to yourself whenever you like.</p>
-    <button class="about-link" id="open-about" type="button">About this closet</button>
+    <div class="about-links">
+      <button class="about-link" id="open-about" type="button">About this closet</button>
+      <span class="dot" aria-hidden="true">·</span>
+      <button class="about-link" id="open-becca" type="button">About Becca</button>
+    </div>
   </div>
 </header>
+
+<dialog class="about becca" id="becca" aria-labelledby="becca-title">
+  <div class="about-card">
+    <button class="icon-btn about-close" type="button" data-close aria-label="Close"><svg width="20" height="20"><use href="#i-x"/></svg></button>
+    <p class="eyebrow">The one this closet is for</p>
+    <h2 id="becca-title">About Becca</h2>
+    <div class="collage">
+      <img src="images/becca/06.jpg" alt="Becca holding a bowl of pasta she made" loading="lazy">
+      <img src="images/becca/01.jpg" alt="Becca in a garden in a long patterned dress" loading="lazy">
+      <img src="images/becca/03.jpg" alt="Becca with Slothie" loading="lazy">
+      <img src="images/becca/02.jpg" alt="Becca with friends outdoors" loading="lazy">
+      <img src="images/becca/04.jpg" alt="Becca outside with a bottle of wine" loading="lazy">
+      <img src="images/becca/05.jpg" alt="Becca in a cabin bunk with Slothie" loading="lazy">
+    </div>
+    <p class="becca-text">Becca is a clothes-wearing, French-teaching, baking Lindy Hopper who loves her friends and her community. She lives in Portland, Maine, with her sloth, Slothie.</p>
+    <div class="ornament" aria-hidden="true"><span></span><svg viewBox="0 0 24 24" width="14" height="14"><use href="#i-heart"/></svg><span></span></div>
+  </div>
+</dialog>
 
 <dialog class="about" id="about" aria-labelledby="about-title">
   <div class="about-card">
@@ -136,6 +158,6 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script src="data.js?v=2"></script>
-<script src="app.js?v=5"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>

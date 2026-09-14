@@ -312,6 +312,7 @@
     switch (t.id) {
       case 'open-saved': openPanel('#drawer'); break;
       case 'open-about': $('#about').showModal(); break;
+      case 'open-becca': $('#becca').showModal(); break;
       case 'open-filters': openPanel('#filters'); break;
       case 'close-drawer': case 'close-filters': case 'apply-filters': closePanels(); break;
       case 'surprise': reshuffle(); state.sort = 'shuffle'; $('#sort').value = 'shuffle'; render(); window.scrollTo({ top: $('#topbar').offsetTop, behavior: 'smooth' }); toast('Shuffled ✨'); break;
@@ -341,7 +342,7 @@
     if ($('#modal').open) { if (e.key === 'ArrowRight') navModal(1); if (e.key === 'ArrowLeft') navModal(-1); return; }
     if (e.key === 'Escape') closePanels();
   });
-  ['#modal', '#about'].forEach(sel => $(sel).addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); }));
+  ['#modal', '#about', '#becca'].forEach(sel => $(sel).addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); }));
   window.addEventListener('hashchange', () => { loadSaved().forEach(id => state.saved.add(id)); persist(); updateSavedUi(); render(); });
   function clearAll() { ['category', 'color', 'brand', 'occasion', 'price'].forEach(k => state[k].clear()); state.q = ''; $('#q').value = ''; }
 
