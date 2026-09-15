@@ -103,7 +103,7 @@ for r in results:
     promo = bool(hm) and hm['maxoff'] >= 20 and (hm['sitewide'] or hm['event'])
     jump = base is not None and share >= 0.3 and share >= base * 2
     if promo or jump:
-        events[name] = dict(off=hm['maxoff'] if promo and hm['maxoff'] else (int(round(f['depth'] * 100)) if f else 0), event=hm.get('event') if hm else None, why='promo' if promo else 'jump', checked=TODAY)
+        events[name] = dict(off=hm['maxoff'] if promo and hm['maxoff'] else (int(round(f['depth'] * 100)) if f else 0), event=hm.get('event') if hm else None, why='promo' if promo else 'jump', checked=TODAY, site=next((b['site'] for b in brands if b['name'] == name), None))
     notes[name] = dict(share=share, checked=bool(f), promo=promo)
 json.dump(hist, open(HIST_PATH, 'w'))
 open('sales.js', 'w').write('window.SALES = ' + json.dumps({'checked': TODAY, 'items': {str(k): v for k, v in items.items()}, 'events': events, 'brands': notes}, separators=(',', ':')) + ';\n')

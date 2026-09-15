@@ -296,7 +296,9 @@
     const reduced = salesFresh ? ITEMS.filter(i => SALE_ITEMS[String(i.id)] && !state.passed.has(i.id)).length : 0;
     const banner = $('#sale-banner');
     if ((season || events.length || reduced) && state.tab === 'closet') {
-      const list = events.length <= 1 ? esc(events.join('')) : events.slice(0, -1).map(esc).join(', ') + ' and ' + esc(events[events.length - 1]);
+      const brandLink = b => SALE_EVENTS[b].site ? `<a class="bl" href="${esc(SALE_EVENTS[b].site)}" target="_blank" rel="noopener">${esc(b)}</a>` : esc(b);
+      const names = events.map(brandLink);
+      const list = names.length <= 1 ? names.join('') : names.slice(0, -1).join(', ') + ' and ' + names[names.length - 1];
       banner.hidden = false;
       banner.innerHTML = `<svg class="bh" viewBox="0 0 24 24"><use href="#i-heart"/></svg><span>` +
         (season ? `It\u2019s ${season}, when most of these brands mark things down. ` : '') +
@@ -469,7 +471,7 @@
           <span class="tag col">${esc(it.colorDetail || it.color)}</span>
           ${it.occasions.map(o => `<span class="tag occ">${OCC_LABEL[o] || o}</span>`).join('')}
         </div>
-        ${onSale(it) ? `<p class="sale-line">${Math.abs((it.price || 0) - saleInfo(it).now) < 1 ? `Marked down at ${esc(it.retailer)} from ${money(saleInfo(it).was)} to ${money(saleInfo(it).now)}, as of ${esc(asOfLabel())}.` : `Marked down at ${esc(it.retailer)} right now: ${money(saleInfo(it).now)}, was ${money(saleInfo(it).was)}, as of ${esc(asOfLabel())}.`}</p>` : (brandEvent(it) ? `<p class="sale-line">${esc(it.retailer)} is running a sale event right now${brandEvent(it).off ? ', up to ' + brandEvent(it).off + '% off' : ''}. This piece isn\u2019t showing as reduced in what we can see, but it\u2019s worth a look.</p>` : '')}
+        ${onSale(it) ? `<p class="sale-line">${Math.abs((it.price || 0) - saleInfo(it).now) < 1 ? `Marked down at ${esc(it.retailer)} from ${money(saleInfo(it).was)} to ${money(saleInfo(it).now)}, as of ${esc(asOfLabel())}.` : `Marked down at ${esc(it.retailer)} right now: ${money(saleInfo(it).now)}, was ${money(saleInfo(it).was)}, as of ${esc(asOfLabel())}.`}</p>` : (brandEvent(it) ? `<p class="sale-line">${brandEvent(it).site ? `<a href="${esc(brandEvent(it).site)}" target="_blank" rel="noopener">${esc(it.retailer)}</a>` : esc(it.retailer)} is running a sale event right now${brandEvent(it).off ? ', up to ' + brandEvent(it).off + '% off' : ''}. This piece isn\u2019t showing as reduced in what we can see, but it\u2019s worth a look.</p>` : '')}
         ${it.fabric ? `<p class="fabric-line">${esc(it.fabric)}</p>` : ''}
         ${it.desc ? `<div class="about"><h3>About this piece</h3><p>${esc(it.desc)}</p></div>` : ''}
         ${it.details && it.details.length ? `<div class="about"><h3>Cut, fabric &amp; care</h3><ul class="details">${it.details.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div>` : ''}
