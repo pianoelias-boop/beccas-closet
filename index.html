@@ -171,8 +171,11 @@
 <div class="toast" id="toast" role="status" aria-live="polite"><span id="toast-msg"></span><button class="toast-action" id="toast-action" type="button" hidden></button></div>
 
 <script src="data.js?v=4"></script>
-<script src="suggestions.js?v=2"></script>
-<script src="sales.js?v=2"></script>
+<script>
+  // suggestions.js and sales.js change on their own schedules (weekly and daily), so load them with an
+  // hourly cache-busting stamp instead of a hand-bumped version.
+  (function () { var d = new Date(), stamp = d.toISOString().slice(0, 13); ['suggestions.js', 'sales.js'].forEach(function (f) { document.write('<script src="' + f + '?t=' + stamp + '"><\/script>'); }); })();
+</script>
 <script src="app.js?v=23"></script>
 </body>
 </html>
