@@ -36,10 +36,13 @@
   const byId = new Map(ITEMS.concat(IDEAS).map(i => [i.id, i]));
   const isIdea = id => { const it = byId.get(id); return !!(it && it.idea); };
   // ---------- sales: brand flags from the daily check, plus calendar nudges ----------
-  const SALES = (window.SALES && window.SALES.brands) || {};
+  const SALE_ITEMS = (window.SALES && window.SALES.items) || {};     // pieces actually marked down, by id
+  const SALE_EVENTS = (window.SALES && window.SALES.events) || {};   // brands running a real sale event
   const salesFresh = (() => { const d = window.SALES && window.SALES.checked; return d ? (Date.now() - new Date(d + 'T12:00:00Z').getTime()) < 3 * 86400000 : false; })();
-  const onSale = it => salesFresh && !!(SALES[it.retailer] && SALES[it.retailer].on || SALES[it.brand] && SALES[it.brand].on);
-  const saleInfo = it => SALES[it.retailer] && SALES[it.retailer].on ? SALES[it.retailer] : SALES[it.brand];
+  const onSale = it => salesFresh && !!SALE_ITEMS[String(it.id)];
+  const saleInfo = it => SALE_ITEMS[String(it.id)];
+  const brandEvent = it => salesFresh ? (SALE_EVENTS[it.retailer] || SALE_EVENTS[it.brand]) : null;
+  const asOfLabel = () => new Date(window.SALES.checked + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   function saleSeason() {
     const d = new Date(), y = d.getFullYear(), m = d.getMonth(), day = d.getDate(), dow = d.getDay();
     const nth = (mo, n, wd) => { const first = new Date(y, mo, 1).getDay(); return 1 + ((wd - first + 7) % 7) + (n - 1) * 7; };
@@ -265,7 +268,7 @@
       facet('Category', 'category', CATEGORY_ORDER.map(c => opt('category', c, c, cCat.get(c))).join('')) +
       facet('Color', 'color', COLOR_ORDER.map(c => opt('color', c, c, cCol.get(c), `<span class="sw" style="background:${COLOR_SWATCH[c]}"></span>`)).join('')) +
       facet('Price', 'price', PRICE_BANDS.map(b => pill('price', b.key, b.label)).join('')) +
-      facet('Brand', 'brand', `<input class="facet-search" id="brand-q" type="search" placeholder="Find a brand…" autocomplete="off"><div class="brand-list" id="brand-list">${brands.map(b => opt('brand', b, b, cBrand.get(b), salesFresh && SALES[b] && SALES[b].on ? '<span class="sale-dot" title="On sale now"></span>' : '')).join('')}</div>`, state.brand.size > 0);
+      facet('Brand', 'brand', `<input class="facet-search" id="brand-q" type="search" placeholder="Find a brand…" autocomplete="off"><div class="brand-list" id="brand-list">${brands.map(b => opt('brand', b, b, cBrand.get(b), salesFresh && SALE_EVENTS[b] ? '<span class="sale-dot" title="Running a sale event"></span>' : '')).join('')}</div>`, state.brand.size > 0);
     const saleN = pool().filter(i => onSale(i) && !state.passed.has(i.id)).length;
     $('#sale-toggle').hidden = saleN === 0 && !state.onlySale; $('#sale-count').textContent = saleN; $('#only-sale').checked = state.onlySale;
   }
@@ -278,7 +281,7 @@
       ${ribbon ? `<span class="ribbon">${ribbon}</span>` : ''}
       <button class="heart ${on ? 'on' : ''}" type="button" aria-label="${on ? 'Remove from saved' : 'Save'}" aria-pressed="${on}">${heartSvg}</button>
       <button class="pass" type="button" aria-label="${passed ? 'Bring back' : 'Not for me'}" title="${passed ? 'Bring back' : 'Not for me'}"><svg><use href="#i-x"/></svg></button>
-      <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}>${onSale(it) ? `<span class="sale">On sale${saleInfo(it).off ? ' · ' + saleInfo(it).off + '% off' : ''}</span>` : ''}</div>
+      <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}>${onSale(it) ? `<span class="sale">On sale · now ${money(saleInfo(it).now)}</span>` : ''}</div>
       <div class="meta" data-open="${it.id}">
         <p class="brand">${esc(it.brand)}</p>
         <h3 class="name">${esc(it.name)}</h3>
@@ -289,16 +292,17 @@
     document.body.classList.toggle('tab-ideas', state.tab === 'ideas');
     const season = saleSeason();
     const closetBrands = new Set(ITEMS.map(i => i.retailer).concat(ITEMS.map(i => i.brand)));
-    const liveSale = Object.keys(SALES).filter(b => salesFresh && SALES[b].on && closetBrands.has(b)).sort();
+    const events = salesFresh ? Object.keys(SALE_EVENTS).filter(b => closetBrands.has(b)).sort() : [];
+    const reduced = salesFresh ? ITEMS.filter(i => SALE_ITEMS[String(i.id)] && !state.passed.has(i.id)).length : 0;
     const banner = $('#sale-banner');
-    if ((season || liveSale.length) && state.tab === 'closet') {
-      const list = liveSale.length <= 1 ? esc(liveSale.join('')) : liveSale.slice(0, -1).map(esc).join(', ') + ' and ' + esc(liveSale[liveSale.length - 1]);
-      const asOf = new Date(window.SALES.checked + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    if ((season || events.length || reduced) && state.tab === 'closet') {
+      const list = events.length <= 1 ? esc(events.join('')) : events.slice(0, -1).map(esc).join(', ') + ' and ' + esc(events[events.length - 1]);
       banner.hidden = false;
       banner.innerHTML = `<svg class="bh" viewBox="0 0 24 24"><use href="#i-heart"/></svg><span>` +
         (season ? `It\u2019s ${season}, when most of these brands mark things down. ` : '') +
-        (liveSale.length ? `On sale right now at ${list}, as of ${esc(asOf)}. ` : '') +
-        (liveSale.length && !state.onlySale ? `<button class="link" type="button" id="see-sale">See sale items</button>` : '') + `</span>`;
+        (events.length ? `${list} ${events.length === 1 ? 'is' : 'are'} running a sale event as of ${esc(asOfLabel())}. ` : '') +
+        (reduced ? `${events.length ? 'And ' : ''}${reduced} piece${reduced === 1 ? '' : 's'} in the closet ${reduced === 1 ? 'is' : 'are'} marked down right now. ` : '') +
+        (reduced && !state.onlySale ? `<button class="link" type="button" id="see-sale">See them</button>` : '') + `</span>`;
     } else banner.hidden = true;
     $('#ideas-intro').hidden = state.tab !== 'ideas';
     const all = pool();
@@ -328,7 +332,7 @@
     state.price.forEach(v => add('price', v, PRICE_BANDS.find(b => b.key === v).label));
     state.brand.forEach(v => add('brand', v, v));
     if (state.q) add('q', state.q, `“${state.q}”`);
-    if (state.onlySale) add('sale', 'sale', 'On sale now');
+    if (state.onlySale) add('sale', 'sale', 'Marked down right now');
     const html = chips.join('') + (chips.length > 1 ? `<button class="link" type="button" data-chip="all">Clear all</button>` : '');
     $('#chips').innerHTML = html; $('#chips-m').innerHTML = html;
   }
@@ -465,7 +469,7 @@
           <span class="tag col">${esc(it.colorDetail || it.color)}</span>
           ${it.occasions.map(o => `<span class="tag occ">${OCC_LABEL[o] || o}</span>`).join('')}
         </div>
-        ${onSale(it) ? `<p class="sale-line">${esc(it.retailer)} is running a sale right now${saleInfo(it).off ? ', around ' + saleInfo(it).off + '% off' : ''}. Worth checking their site.</p>` : ''}
+        ${onSale(it) ? `<p class="sale-line">Marked down at ${esc(it.retailer)} right now: ${money(saleInfo(it).now)}, was ${money(saleInfo(it).was)}, as of ${esc(asOfLabel())}.</p>` : (brandEvent(it) ? `<p class="sale-line">${esc(it.retailer)} is running a sale event right now${brandEvent(it).off ? ', up to ' + brandEvent(it).off + '% off' : ''}. This piece isn\u2019t showing as reduced in what we can see, but it\u2019s worth a look.</p>` : '')}
         ${it.fabric ? `<p class="fabric-line">${esc(it.fabric)}</p>` : ''}
         ${it.desc ? `<div class="about"><h3>About this piece</h3><p>${esc(it.desc)}</p></div>` : ''}
         ${it.details && it.details.length ? `<div class="about"><h3>Cut, fabric &amp; care</h3><ul class="details">${it.details.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div>` : ''}

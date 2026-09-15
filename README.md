@@ -61,9 +61,13 @@ explains how a round is run and how new brands are vetted and approved in `build
   approved brands and writes a shortlist to `build/suggest/pending/`. A Claude Code routine may then judge it
   and open a pull request; if nothing has been opened by noon, the fallback picks by score and opens the pull
   request itself. Nothing publishes until the pull request is merged. Run by hand from the Actions tab.
-- **Daily sale check** (`.github/workflows/sales.yml`): 5 am ET, writes `sales.js`. The site shows an
-  "On sale" ribbon, an "On sale now" filter and a banner when a brand's discounted share jumps above its own
-  normal, plus a calendar nudge on the big US sale weekends. Flags expire if the check is older than three days.
+- **Daily sale check** (`.github/workflows/sales.yml`): 5 am ET, writes `sales.js` with two separate signals.
+  *Items*: closet pieces actually marked down right now, matched by product handle in the brand's feed; these
+  get an "On sale · now $X" pill and a "Marked down right now" filter. *Events*: brands running a real online
+  sale event (a sitewide or holiday promotion on the homepage, or a clear jump against the brand's own
+  baseline); these are named in the banner and get a dot in the brand list. A permanent sale rack counts as
+  neither. Brands without a feed (Anthropologie, J.Crew, Ralph Lauren…) can only be checked for events.
+  Flags expire if the check is older than three days.
 
 ## Hearts, passes and the notebook
 
