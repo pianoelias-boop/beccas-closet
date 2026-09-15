@@ -22,6 +22,11 @@ for it in items:
         colorDetail=it['colorDetail'], categoryDetail=it['categoryDetail'], url=it['url'],
         img=full if hi else it['thumb'], hi=hi,
         desc=d.get('desc'), details=d.get('details') or [], fabric=d.get('fabric')))
+import os as _os
+if _os.path.exists('build/extras.json'):
+    extras = json.load(open('build/extras.json'))
+    out.extend(e for e in extras if _os.path.exists(e['img']))
+    print('added', len(extras), 'extra items')
 with open('data.js','w') as f:
     f.write('window.CLOSET = ' + json.dumps(out, ensure_ascii=False, separators=(',',':')) + ';\n')
 print(len(out), 'items,', sum(1 for o in out if o['hi']), 'hi-res,', sum(1 for o in out if not o['hi']), 'thumbnail-only,', retagged, 'retagged,', sum(1 for o in out if o['desc']), 'with description')

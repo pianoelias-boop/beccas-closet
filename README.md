@@ -40,6 +40,9 @@ To update the site, commit and push to `main`; Pages redeploys within a minute o
 - The headline copy lives in `index.html` under `<header class="hero">`.
 - To change the catalog, edit the spreadsheet and rerun `build/extract.py`, `build/merge_desc.py`, then
   `build/make_data.py` (see the scripts for paths).
+- Pieces added after the spreadsheet live in `build/extras.json` (currently the Mixed by Nasrin
+  additions, built by `build/add_extras.py` from the store's Shopify JSON). `build/make_data.py` appends
+  them automatically; give new items ids above 395 and put their photo in `images/full/`.
 - Occasion tags were re-assigned from each item's fabric and cut using this rubric: *teaching* = polished,
   modest, comfortable all day; *dance* = breathable fabric, room to move, hides sweat; *hang* = casual and
   comfy; plus *friend*, *dressy*, *outdoors*. Each item's detail view shows the one-line reason. To override a
