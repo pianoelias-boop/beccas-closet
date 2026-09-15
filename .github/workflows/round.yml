@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 10 * * 6'    # Saturday 06:00 US Eastern (daylight) — stage 1: notebook, sweep, shortlist
     - cron: '0 16 * * 6'    # Saturday 12:00 US Eastern — fallback if no round was judged
+  push:
+    branches: [main]
+    paths: ['build/suggest/pending/picks_claude.json']   # the judgment routine saved its picks
   workflow_dispatch:
     inputs:
       stage:
@@ -17,6 +20,40 @@ permissions:
 concurrency: round
 
 jobs:
+  judged:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install pillow
+      - name: Skip if a round PR is already open
+        id: check
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: echo "skip=$([ "$(gh pr list --label round --state open --json number --jq 'length')" != "0" ] && echo yes || echo no)" >> $GITHUB_OUTPUT
+      - name: Finalize the round from Claude's picks
+        if: steps.check.outputs.skip == 'no'
+        env: { ROUND_BRANCH: 'round/claude-${{ github.run_id }}' }
+        run: |
+          test -f build/suggest/pending/shortlist.json || python3 build/suggest/round.py stage1
+          cp build/suggest/pending/picks_claude.json build/suggest/pending/picks.json
+          python3 build/suggest/round.py finalize --by claude
+      - name: Open the pull request
+        if: steps.check.outputs.skip == 'no'
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          git config user.name "closet-bot"; git config user.email "closet-bot@users.noreply.github.com"
+          b="round/claude-${{ github.run_id }}"; git checkout -b "$b"
+          n=$(python3 -c "import json;print(json.load(open('build/suggest/pending/last_round.json'))['round'])")
+          git add build/suggest/round_*.json images/ideas images/full suggestions.js data.js build/extras.json build/suggest/retired.json build/suggest/pending/last_round.json build/suggest/pending/pr_body.md build/suggest/pending/picks.json
+          git commit -m "Round $n (chosen by Claude)"
+          git fetch origin main && (git rebase origin/main || (git rebase --abort; echo "rebase skipped"))
+          git push -u origin "$b"
+          gh label create round --color D4879A --description "Weekly ideas awaiting review" 2>/dev/null || true
+          gh pr create --title "Round $n: 8 ideas for Based on your likes (chosen by Claude)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b"
+
   stage1:
     if: github.event.schedule == '0 10 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'fallback')
     runs-on: ubuntu-latest
@@ -36,6 +73,7 @@ jobs:
 
   fallback:
     if: always() && (github.event.schedule == '0 16 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'stage1'))
+    # (a push of picks_claude.json never reaches here: needs stage1, which is skipped, and the condition above)
     needs: [stage1]
     runs-on: ubuntu-latest
     steps:
