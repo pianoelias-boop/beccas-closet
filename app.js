@@ -11,7 +11,9 @@
   const META_KEY = 'beccas-closet-meta-v1';      // per-item timestamps, for cross-device merging
   const QUEUE_KEY = 'beccas-closet-queue-v1';    // events not yet delivered to the notebook
   const CLOSET_KEY = 'becca';                    // one shared list for this closet
-  const SYNC_URL = (document.querySelector('meta[name="closet-sync"]') || {}).content || '';
+  let SYNC_URL = (document.querySelector('meta[name="closet-sync"]') || {}).content || '';
+  // Never let a local copy of the site write into the real notebook: on localhost only a local endpoint counts.
+  if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname) && !/localhost|127\.0\.0\.1/.test(SYNC_URL)) SYNC_URL = '';
 
   const OCC_LABEL = { teaching: 'For teaching', dance: 'For dancing', friend: 'With friends', hang: 'Hanging out', dressy: 'Dressy', outdoors: 'Outdoors' };
   const OCC_ORDER = ['teaching', 'dance', 'friend', 'hang', 'dressy', 'outdoors'];
@@ -30,7 +32,9 @@
   ];
 
   const ITEMS = window.CLOSET;
-  const byId = new Map(ITEMS.map(i => [i.id, i]));
+  const IDEAS = (window.SUGGESTIONS || []).map(i => Object.assign({ idea: true }, i));
+  const byId = new Map(ITEMS.concat(IDEAS).map(i => [i.id, i]));
+  const isIdea = id => { const it = byId.get(id); return !!(it && it.idea); };
 
   // ---------- state ----------
   const state = {
@@ -182,7 +186,7 @@
         if (!state.shuffleOrder) reshuffle();
         const pos = state.shuffleOrder; l.sort((a, b) => pos.get(a.id) - pos.get(b.id)); break;
       }
-      default: { const pos = defaultOrder(); l.sort((a, b) => pos.get(a.id) - pos.get(b.id)); break; }
+      default: { const pos = defaultOrder(); l.sort((a, b) => (pos.has(a.id) ? pos.get(a.id) : -1) - (pos.has(b.id) ? pos.get(b.id) : -1)); break; }
     }
     return l;
   }
@@ -240,7 +244,7 @@
   // ---------- grid ----------
   function cardHtml(it) {
     const on = state.saved.has(it.id), passed = state.passed.has(it.id);
-    return `<article class="card ${passed ? 'is-passed' : ''}" data-id="${it.id}">
+    return `<article class="card ${passed ? 'is-passed' : ''} ${it.idea ? 'is-idea' : ''}" data-id="${it.id}">
       <button class="heart ${on ? 'on' : ''}" type="button" aria-label="${on ? 'Remove from saved' : 'Save'}" aria-pressed="${on}">${heartSvg}</button>
       <button class="pass" type="button" aria-label="${passed ? 'Bring back' : 'Not for me'}" title="${passed ? 'Bring back' : 'Not for me'}"><svg><use href="#i-x"/></svg></button>
       <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}></div>
@@ -251,9 +255,9 @@
       </div></article>`;
   }
   function render() {
-    state.view = sorted(ITEMS.filter(matches));
+    state.view = sorted(ITEMS.concat(IDEAS.filter(i => state.saved.has(i.id))).filter(matches));
     const n = state.view.length;
-    const total = ITEMS.length - (state.showPassed ? 0 : state.passed.size);
+    const total = ITEMS.length + IDEAS.filter(i => state.saved.has(i.id)).length - (state.showPassed ? 0 : [...state.passed].filter(id => !isIdea(id)).length);
     $('#grid').innerHTML = state.view.map(cardHtml).join('');
     $('#empty').hidden = n > 0;
     $('#results-count').innerHTML = n === total ? `All <b>${n}</b> pieces` : `<b>${n}</b> of ${total} pieces`;
@@ -264,6 +268,7 @@
     renderChips();
     renderFacets();
     renderPassed();
+    renderIdeas();
   }
   function renderChips() {
     const chips = [];
@@ -285,6 +290,7 @@
     stamp(id, 's', !was);
     if (!was && state.passed.has(id)) { state.passed.delete(id); stamp(id, 'p', false); persist(); render(); }
     persist(); updateSavedUi();
+    if (isIdea(id)) render();   // an idea joins or leaves the grid when hearted or un-hearted
     document.querySelectorAll(`.card[data-id="${id}"] .heart, .modal-heart[data-id="${id}"]`).forEach(b => {
       b.classList.toggle('on', !was); b.setAttribute('aria-pressed', String(!was)); b.setAttribute('aria-label', !was ? 'Remove from saved' : 'Save');
       if (!was) { b.classList.remove('pop'); void b.offsetWidth; b.classList.add('pop'); }
@@ -312,8 +318,24 @@
     }
     if ($('#drawer').classList.contains('open')) renderDrawer();
   }
+  function renderIdeas() {
+    const open = IDEAS.filter(i => !state.saved.has(i.id) && !state.passed.has(i.id));
+    const facet = $('#ideas-facet');
+    facet.hidden = open.length === 0;
+    $('#ideas-count').textContent = open.length;
+    $('#ideas-list').innerHTML = open.map(it => `<div class="idea" data-open="${it.id}">${it.newBrand ? '<span class="tag-new">New label</span>' : ''}<img src="${it.img}" alt="" loading="lazy"><p class="ib">${esc(it.brand)}</p><div class="in">${esc(it.name)}</div><div class="ip">${money(it.price)}</div></div>`).join('');
+    let seen = []; try { seen = JSON.parse(localStorage.getItem('beccas-closet-ideas-seen') || '[]'); } catch (e) { }
+    const unseen = open.some(i => !seen.includes(i.id));
+    const fb = $('#open-filters'); let dot = fb.querySelector('.dot');
+    if (unseen && !dot) { dot = document.createElement('span'); dot.className = 'dot'; fb.appendChild(dot); }
+    if (!unseen && dot) dot.remove();
+  }
+  function markIdeasSeen() {
+    try { localStorage.setItem('beccas-closet-ideas-seen', JSON.stringify(IDEAS.map(i => i.id))); } catch (e) { }
+    const dot = $('#open-filters').querySelector('.dot'); if (dot) dot.remove();
+  }
   function renderPassed() {
-    const items = [...state.passed].map(id => byId.get(id)).filter(Boolean);
+    const items = [...state.passed].map(id => byId.get(id)).filter(it => it && !it.idea);
     const facet = $('#passed-facet');
     facet.hidden = items.length === 0;
     $('#passed-count').textContent = items.length;
@@ -375,7 +397,7 @@
         <img src="${it.img}" alt="${esc(it.name)}">
         <div class="arch"></div>
         <button class="heart modal-heart ${on ? 'on' : ''}" type="button" data-id="${it.id}" aria-pressed="${on}" aria-label="${on ? 'Remove from saved' : 'Save'}">${heartSvg}</button>
-        <button class="modal-pass ${state.passed.has(id) ? 'on' : ''}" type="button" data-pass="${it.id}"><svg><use href="#i-x"/></svg> ${state.passed.has(id) ? 'Bring back' : 'Not for me'}</button>
+        ${it.idea && !on ? `<button class="modal-add" type="button" data-add="${it.id}"><svg><use href="#i-heart"/></svg> Add to my closet</button>` : `<button class="modal-pass ${state.passed.has(id) ? 'on' : ''}" type="button" data-pass="${it.id}"><svg><use href="#i-x"/></svg> ${state.passed.has(id) ? 'Bring back' : 'Not for me'}</button>`}
         ${state.modalIndex >= 0 && state.view.length > 1 ? `<div class="modal-nav"><button type="button" data-nav="-1" aria-label="Previous"><svg><use href="#i-arrow"/></svg></button><button type="button" data-nav="1" aria-label="Next"><svg><use href="#i-arrow"/></svg></button></div>` : ''}
       </div>
       <div class="modal-body">
@@ -392,6 +414,8 @@
         ${it.desc ? `<div class="about"><h3>About this piece</h3><p>${esc(it.desc)}</p></div>` : ''}
         ${it.details && it.details.length ? `<div class="about"><h3>Cut, fabric &amp; care</h3><ul class="details">${it.details.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div>` : ''}
         ${!it.desc && !(it.details && it.details.length) ? `<p class="lowres-note">${esc(it.retailer)} keeps its details behind a login wall, so the full description lives on their site.</p>` : ''}
+        ${it.idea && it.reason ? `<div class="idea-why"><b>Why this idea</b>${esc(it.reason)}</div>` : ''}
+        ${it.idea && !on ? `<p class="detail-row"><button class="link" type="button" data-pass="${it.id}">Not for me</button></p>` : ''}
         ${it.why ? `<p class="why"><span>Why these occasions</span> ${esc(it.why)}</p>` : ''}
         ${it.categoryDetail && it.categoryDetail !== it.category ? `<p class="detail-row">Listed as <b>${esc(it.categoryDetail)}</b></p>` : ''}
         <div class="links">
@@ -432,6 +456,7 @@
     if (t.classList.contains('heart')) { e.preventDefault(); toggleSaved(Number(t.dataset.id || t.closest('.card').dataset.id), t); return; }
     if (t.classList.contains('pass')) { e.preventDefault(); togglePassed(Number(t.closest('.card').dataset.id)); return; }
     if (t.dataset.pass) { togglePassed(Number(t.dataset.pass)); return; }
+    if (t.dataset.add) { const id = Number(t.dataset.add); if (!state.saved.has(id)) toggleSaved(id); $('#modal').close(); toast('Added to your closet ♥'); return; }
     if (t.dataset.unpass) { togglePassed(Number(t.dataset.unpass)); return; }
     if (t.id === 'toast-action') { const fn = toastAction; toastAction = null; $('#toast').classList.remove('show'); if (fn) fn(); return; }
     if (t.dataset.open) { openModal(Number(t.dataset.open)); return; }
@@ -458,6 +483,7 @@
     }
   });
   $('#scrim').addEventListener('click', closePanels);
+  $('#ideas-facet').addEventListener('toggle', e => { if (e.target.open) markIdeasSeen(); });
   $('#show-passed').addEventListener('change', e => { state.showPassed = e.target.checked; render(); });
   $('#facets').addEventListener('change', e => {
     const cb = e.target; if (!cb.dataset.facet) return;

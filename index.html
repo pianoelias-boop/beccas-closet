@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=12">
+<link rel="stylesheet" href="styles.css?v=13">
 </head>
 <body>
 
@@ -116,6 +116,13 @@
       <button class="icon-btn close-filters" id="close-filters" type="button" aria-label="Close filters"><svg width="20" height="20"><use href="#i-x"/></svg></button>
     </div>
     <div id="facets"></div>
+    <details class="facet ideas-facet" id="ideas-facet" hidden>
+      <summary>New ideas<span class="n" id="ideas-count">0</span></summary>
+      <div class="facet-body">
+        <p class="ideas-intro">A few pieces from beyond the closet, picked from what's been saved so far. Add one and it joins the grid; pass and it goes away.</p>
+        <div class="ideas-list" id="ideas-list"></div>
+      </div>
+    </details>
     <details class="facet passed-facet" id="passed-facet" hidden>
       <summary>Not for me<span class="n" id="passed-count">0</span></summary>
       <div class="facet-body">
@@ -164,6 +171,7 @@
 <div class="toast" id="toast" role="status" aria-live="polite"><span id="toast-msg"></span><button class="toast-action" id="toast-action" type="button" hidden></button></div>
 
 <script src="data.js?v=3"></script>
-<script src="app.js?v=13"></script>
+<script src="suggestions.js?v=1"></script>
+<script src="app.js?v=16"></script>
 </body>
 </html>
