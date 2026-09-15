@@ -48,6 +48,16 @@ To update the site, commit and push to `main`; Pages redeploys within a minute o
   comfy; plus *friend*, *dressy*, *outdoors*. Each item's detail view shows the one-line reason. To override a
   tag, edit the matching entry in `build/occ/out_*.json` and rerun `build/make_data.py`.
 
+## Hearts, passes and the notebook
+
+- The heart saves a piece; the ✕ on a card (or "Not for me" in the detail view) tucks it out of sight.
+  Passed pieces collect in a "Not for me" section at the bottom of the Refine panel, where they can be
+  shown greyed in the grid or brought back.
+- Both lists live in the browser and in the share link (`#saved=…&passed=…`).
+- Optional cross-device sync: `sync/SETUP.md` explains how to deploy `sync/Code.gs` as a Google Apps
+  Script web app backed by a Google Sheet. Paste its URL into the `closet-sync` meta tag in `index.html`.
+  With the URL empty the site behaves exactly as before.
+
 ## How the saved list works
 
 Hearts are stored in the browser's local storage and mirrored into the page URL as

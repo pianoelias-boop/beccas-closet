@@ -7,6 +7,11 @@
   const HER_EMAIL = 'beccapruente@gmail.com';
   const BCC_EMAIL = '';   // optional: an address to quietly copy on every emailed list
   const STORAGE_KEY = 'beccas-closet-saved-v1';
+  const PASSED_KEY = 'beccas-closet-passed-v1';
+  const META_KEY = 'beccas-closet-meta-v1';      // per-item timestamps, for cross-device merging
+  const QUEUE_KEY = 'beccas-closet-queue-v1';    // events not yet delivered to the notebook
+  const CLOSET_KEY = 'becca';                    // one shared list for this closet
+  const SYNC_URL = (document.querySelector('meta[name="closet-sync"]') || {}).content || '';
 
   const OCC_LABEL = { teaching: 'For teaching', dance: 'For dancing', friend: 'With friends', hang: 'Hanging out', dressy: 'Dressy', outdoors: 'Outdoors' };
   const OCC_ORDER = ['teaching', 'dance', 'friend', 'hang', 'dressy', 'outdoors'];
@@ -31,27 +36,107 @@
   const state = {
     q: '', sort: 'default',
     category: new Set(), color: new Set(), brand: new Set(), occasion: new Set(), price: new Set(),
-    saved: new Set(), shuffleOrder: null, view: [], modalIndex: -1,
+    saved: new Set(), passed: new Set(), showPassed: false, meta: {}, shuffleOrder: null, view: [], modalIndex: -1,
   };
 
   // ---------- persistence ----------
-  function loadSaved() {
+  function readList(key, hashName) {
     const ids = new Set();
-    try { (JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')).forEach(n => byId.has(n) && ids.add(n)); } catch (e) { }
-    const m = location.hash.match(/saved=([\d.,]+)/);
+    try { (JSON.parse(localStorage.getItem(key) || '[]')).forEach(n => byId.has(n) && ids.add(n)); } catch (e) { }
+    const m = location.hash.match(new RegExp(hashName + '=([\\d.,]+)'));
     if (m) m[1].split(/[.,]/).map(Number).forEach(n => byId.has(n) && ids.add(n));
     return ids;
   }
+  function loadLists() {
+    state.saved = readList(STORAGE_KEY, 'saved');
+    state.passed = readList(PASSED_KEY, 'passed');
+    state.passed.forEach(id => state.saved.delete(id));
+    try { state.meta = JSON.parse(localStorage.getItem(META_KEY) || '{}'); } catch (e) { state.meta = {}; }
+  }
+  function hashFor() {
+    const parts = [];
+    if (state.saved.size) parts.push('saved=' + [...state.saved].join('.'));
+    if (state.passed.size) parts.push('passed=' + [...state.passed].join('.'));
+    return parts.length ? '#' + parts.join('&') : '';
+  }
   function persist() {
-    const ids = [...state.saved];
-    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(ids)); } catch (e) { }
-    const hash = ids.length ? '#saved=' + ids.join('.') : '';
-    history.replaceState(null, '', location.pathname + location.search + hash);
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify([...state.saved]));
+      localStorage.setItem(PASSED_KEY, JSON.stringify([...state.passed]));
+      localStorage.setItem(META_KEY, JSON.stringify(state.meta));
+    } catch (e) { }
+    history.replaceState(null, '', location.pathname + location.search + hashFor());
   }
-  function shareLink() {
-    const ids = [...state.saved];
-    return location.origin + location.pathname + (ids.length ? '#saved=' + ids.join('.') : '');
+  function shareLink() { return location.origin + location.pathname + hashFor(); }
+
+  // ---------- the notebook (optional Google Sheet sync) ----------
+  // Each heart/pass is stamped with a time. On load we fetch the notebook's view of every item and keep,
+  // per item and per kind, whichever side is newer. Local storage stays the instant source of truth, so the
+  // page works fully without the notebook; the notebook only makes lists follow her between devices.
+  const CLIENT_ID = (() => { try { let c = localStorage.getItem('beccas-closet-client'); if (!c) { c = Math.random().toString(36).slice(2, 10); localStorage.setItem('beccas-closet-client', c); } return c; } catch (e) { return 'anon'; } })();
+  function stamp(id, kind, on) {
+    const m = state.meta[id] = state.meta[id] || {};
+    m[kind] = { on: on ? 1 : 0, ts: Date.now() };
+    const it = byId.get(id);
+    enqueue({ key: CLOSET_KEY, item: id, kind, on: on ? 1 : 0, ts: m[kind].ts, name: it ? it.name : '', brand: it ? it.brand : '', client: CLIENT_ID });
   }
+  function readQueue() { try { return JSON.parse(localStorage.getItem(QUEUE_KEY) || '[]'); } catch (e) { return []; } }
+  function writeQueue(q) { try { localStorage.setItem(QUEUE_KEY, JSON.stringify(q)); } catch (e) { } }
+  let flushTimer = null;
+  function enqueue(ev) {
+    if (!SYNC_URL) return;
+    const q = readQueue(); q.push(ev); writeQueue(q);
+    clearTimeout(flushTimer); flushTimer = setTimeout(flushQueue, 600);   // batch rapid taps
+  }
+  async function flushQueue() {
+    if (!SYNC_URL || !navigator.onLine) return;
+    const q = readQueue(); if (!q.length) return;
+    try {
+      const r = await fetch(SYNC_URL, { method: 'POST', body: JSON.stringify({ events: q }), redirect: 'follow' });
+      if (!r.ok) throw new Error('status ' + r.status);
+      const rest = readQueue().slice(q.length); writeQueue(rest);   // drop only what we sent
+    } catch (e) { /* keep the queue; retried on the next load or when back online */ }
+  }
+  async function pullNotebook() {
+    if (!SYNC_URL) return;
+    try {
+      const r = await fetch(SYNC_URL + (SYNC_URL.includes('?') ? '&' : '?') + 'key=' + encodeURIComponent(CLOSET_KEY), { redirect: 'follow' });
+      if (!r.ok) throw new Error('status ' + r.status);
+      const data = await r.json();
+      const items = data.items || {};
+      let changed = false;
+      const pushBack = [];
+      // Hearts and passes made before the notebook existed carry no timestamp. Give them a very old one,
+      // so they reach the notebook but any newer decision made elsewhere wins over them.
+      state.saved.forEach(id => { const m = state.meta[id] = state.meta[id] || {}; if (!m.s) m.s = { on: 1, ts: 1 }; });
+      state.passed.forEach(id => { const m = state.meta[id] = state.meta[id] || {}; if (!m.p) m.p = { on: 1, ts: 1 }; });
+      const allIds = new Set([...Object.keys(items), ...Object.keys(state.meta)]);
+      for (const idStr of allIds) {
+        const id = Number(idStr); if (!byId.has(id)) continue;
+        for (const kind of ['s', 'p']) {
+          const remote = items[idStr] && items[idStr][kind];
+          const local = state.meta[id] && state.meta[id][kind];
+          if (remote && (!local || remote.ts > local.ts)) {
+            (state.meta[id] = state.meta[id] || {})[kind] = { on: remote.on ? 1 : 0, ts: remote.ts };
+            const set = kind === 's' ? state.saved : state.passed;
+            const had = set.has(id);
+            remote.on ? set.add(id) : set.delete(id);
+            if (had !== set.has(id)) changed = true;
+          } else if (local && (!remote || local.ts > remote.ts) && !(remote && remote.on === local.on)) {
+            const it = byId.get(id);
+            pushBack.push({ key: CLOSET_KEY, item: id, kind, on: local.on, ts: local.ts, name: it.name, brand: it.brand, client: CLIENT_ID });
+          }
+        }
+      }
+      state.passed.forEach(id => { if (state.saved.has(id)) { const sm = state.meta[id]; if (sm && sm.p && sm.s && sm.p.ts >= sm.s.ts) state.saved.delete(id); else state.passed.delete(id); changed = true; } });
+      if (pushBack.length) { const q = readQueue(); writeQueue(q.concat(pushBack)); }
+      persist();
+      if (changed) { updateSavedUi(); render(); if ($('#drawer').classList.contains('open')) renderDrawer(); }
+      flushQueue();
+    } catch (e) { /* notebook unreachable: carry on from local storage */ }
+  }
+  window.addEventListener('online', flushQueue);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') pullNotebook(); });
 
   // ---------- helpers ----------
   const $ = s => document.querySelector(s);
@@ -59,10 +144,13 @@
   const money = n => n == null ? 'Sold out' : '$' + (Number.isInteger(n) ? n.toLocaleString() : n.toFixed(2));
   const P = n => n == null ? Infinity : n;   // unpriced (sold-out) pieces sort last
   const heartSvg = '<svg><use href="#i-heart"/></svg>';
-  let toastTimer;
-  function toast(msg) {
-    const t = $('#toast'); t.textContent = msg; t.classList.add('show');
-    clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 1800);
+  let toastTimer, toastAction = null;
+  function toast(msg, actionLabel, action) {
+    const t = $('#toast'); $('#toast-msg').textContent = msg;
+    const b = $('#toast-action'); toastAction = action || null;
+    b.hidden = !actionLabel; b.textContent = actionLabel || '';
+    t.classList.add('show');
+    clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.classList.remove('show'); toastAction = null; }, actionLabel ? 4500 : 1800);
   }
   function searchUrl(site, item) {
     const q = encodeURIComponent(`${item.brand} ${item.name}`);
@@ -72,6 +160,7 @@
 
   // ---------- filtering ----------
   function matches(item) {
+    if (!state.showPassed && state.passed.has(item.id)) return false;
     if (state.category.size && !state.category.has(item.category)) return false;
     if (state.color.size && !state.color.has(item.color)) return false;
     if (state.brand.size && !state.brand.has(item.brand)) return false;
@@ -150,9 +239,10 @@
 
   // ---------- grid ----------
   function cardHtml(it) {
-    const on = state.saved.has(it.id);
-    return `<article class="card" data-id="${it.id}">
+    const on = state.saved.has(it.id), passed = state.passed.has(it.id);
+    return `<article class="card ${passed ? 'is-passed' : ''}" data-id="${it.id}">
       <button class="heart ${on ? 'on' : ''}" type="button" aria-label="${on ? 'Remove from saved' : 'Save'}" aria-pressed="${on}">${heartSvg}</button>
+      <button class="pass" type="button" aria-label="${passed ? 'Bring back' : 'Not for me'}" title="${passed ? 'Bring back' : 'Not for me'}"><svg><use href="#i-x"/></svg></button>
       <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}></div>
       <div class="meta" data-open="${it.id}">
         <p class="brand">${esc(it.brand)}</p>
@@ -163,15 +253,17 @@
   function render() {
     state.view = sorted(ITEMS.filter(matches));
     const n = state.view.length;
+    const total = ITEMS.length - (state.showPassed ? 0 : state.passed.size);
     $('#grid').innerHTML = state.view.map(cardHtml).join('');
     $('#empty').hidden = n > 0;
-    $('#results-count').innerHTML = n === ITEMS.length ? `All <b>${n}</b> pieces` : `<b>${n}</b> of ${ITEMS.length} pieces`;
+    $('#results-count').innerHTML = n === total ? `All <b>${n}</b> pieces` : `<b>${n}</b> of ${total} pieces`;
     $('#apply-count').textContent = `${n} piece${n === 1 ? '' : 's'}`;
     const fc = activeFilterCount();
     $('#filter-count').textContent = fc ? String(fc) : '';
     $('#filter-count').hidden = !fc;
     renderChips();
     renderFacets();
+    renderPassed();
   }
   function renderChips() {
     const chips = [];
@@ -190,6 +282,8 @@
   function toggleSaved(id, sourceBtn) {
     const was = state.saved.has(id);
     was ? state.saved.delete(id) : state.saved.add(id);
+    stamp(id, 's', !was);
+    if (!was && state.passed.has(id)) { state.passed.delete(id); stamp(id, 'p', false); persist(); render(); }
     persist(); updateSavedUi();
     document.querySelectorAll(`.card[data-id="${id}"] .heart, .modal-heart[data-id="${id}"]`).forEach(b => {
       b.classList.toggle('on', !was); b.setAttribute('aria-pressed', String(!was)); b.setAttribute('aria-label', !was ? 'Remove from saved' : 'Save');
@@ -201,6 +295,30 @@
   function updateSavedUi() {
     const n = state.saved.size;
     $('#saved-count').textContent = n;
+  }
+  function togglePassed(id) {
+    const was = state.passed.has(id);
+    if (was) {
+      state.passed.delete(id); stamp(id, 'p', false); persist(); render();
+      toast('Brought back');
+    } else {
+      state.passed.add(id); stamp(id, 'p', true);
+      if (state.saved.has(id)) { state.saved.delete(id); stamp(id, 's', false); updateSavedUi(); }
+      persist();
+      const card = document.querySelector(`.card[data-id="${id}"]`);
+      if (card && !state.showPassed) { card.classList.add('leaving'); setTimeout(render, 360); } else render();
+      if ($('#modal').open) $('#modal').close();
+      toast('Tucked out of sight', 'Undo', () => togglePassed(id));
+    }
+    if ($('#drawer').classList.contains('open')) renderDrawer();
+  }
+  function renderPassed() {
+    const items = [...state.passed].map(id => byId.get(id)).filter(Boolean);
+    const facet = $('#passed-facet');
+    facet.hidden = items.length === 0;
+    $('#passed-count').textContent = items.length;
+    $('#show-passed').checked = state.showPassed;
+    $('#passed-list').innerHTML = items.map(it => `<div class="passed-row"><img src="${it.img}" alt="" data-open="${it.id}"><span class="nm">${esc(it.name)}</span><button class="link" type="button" data-unpass="${it.id}">Bring back</button></div>`).join('');
   }
   function savedItems() { return [...state.saved].map(id => byId.get(id)).filter(Boolean); }
   function renderDrawer() {
@@ -257,6 +375,7 @@
         <img src="${it.img}" alt="${esc(it.name)}">
         <div class="arch"></div>
         <button class="heart modal-heart ${on ? 'on' : ''}" type="button" data-id="${it.id}" aria-pressed="${on}" aria-label="${on ? 'Remove from saved' : 'Save'}">${heartSvg}</button>
+        <button class="modal-pass ${state.passed.has(id) ? 'on' : ''}" type="button" data-pass="${it.id}"><svg><use href="#i-x"/></svg> ${state.passed.has(id) ? 'Bring back' : 'Not for me'}</button>
         ${state.modalIndex >= 0 && state.view.length > 1 ? `<div class="modal-nav"><button type="button" data-nav="-1" aria-label="Previous"><svg><use href="#i-arrow"/></svg></button><button type="button" data-nav="1" aria-label="Next"><svg><use href="#i-arrow"/></svg></button></div>` : ''}
       </div>
       <div class="modal-body">
@@ -311,6 +430,10 @@
     const t = e.target.closest('button, a, .frame, .meta, [data-open]');
     if (!t) return;
     if (t.classList.contains('heart')) { e.preventDefault(); toggleSaved(Number(t.dataset.id || t.closest('.card').dataset.id), t); return; }
+    if (t.classList.contains('pass')) { e.preventDefault(); togglePassed(Number(t.closest('.card').dataset.id)); return; }
+    if (t.dataset.pass) { togglePassed(Number(t.dataset.pass)); return; }
+    if (t.dataset.unpass) { togglePassed(Number(t.dataset.unpass)); return; }
+    if (t.id === 'toast-action') { const fn = toastAction; toastAction = null; $('#toast').classList.remove('show'); if (fn) fn(); return; }
     if (t.dataset.open) { openModal(Number(t.dataset.open)); return; }
     if (t.dataset.remove) { toggleSaved(Number(t.dataset.remove)); return; }
     if (t.dataset.nav) { navModal(Number(t.dataset.nav)); return; }
@@ -335,6 +458,7 @@
     }
   });
   $('#scrim').addEventListener('click', closePanels);
+  $('#show-passed').addEventListener('change', e => { state.showPassed = e.target.checked; render(); });
   $('#facets').addEventListener('change', e => {
     const cb = e.target; if (!cb.dataset.facet) return;
     cb.checked ? state[cb.dataset.facet].add(cb.value) : state[cb.dataset.facet].delete(cb.value);
@@ -355,14 +479,15 @@
     if (e.key === 'Escape') closePanels();
   });
   ['#modal', '#about', '#becca'].forEach(sel => $(sel).addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); }));
-  window.addEventListener('hashchange', () => { loadSaved().forEach(id => state.saved.add(id)); persist(); updateSavedUi(); render(); });
+  window.addEventListener('hashchange', () => { const s = readList(STORAGE_KEY, 'saved'), p = readList(PASSED_KEY, 'passed'); s.forEach(id => state.saved.add(id)); p.forEach(id => { state.passed.add(id); state.saved.delete(id); }); persist(); updateSavedUi(); render(); });
   function clearAll() { ['category', 'color', 'brand', 'occasion', 'price'].forEach(k => state[k].clear()); state.q = ''; $('#q').value = ''; }
 
   // ---------- go ----------
-  state.saved = loadSaved(); persist();
+  loadLists(); persist();
   $('#hero-count').textContent = ITEMS.length;
   $('#about-count').textContent = ITEMS.length;
   $('#about-brands').textContent = new Set(ITEMS.map(i => i.brand)).size;
   updateSavedUi();
   render();
+  pullNotebook();
 })();
