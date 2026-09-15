@@ -48,6 +48,13 @@ To update the site, commit and push to `main`; Pages redeploys within a minute o
   comfy; plus *friend*, *dressy*, *outdoors*. Each item's detail view shows the one-line reason. To override a
   tag, edit the matching entry in `build/occ/out_*.json` and rerun `build/make_data.py`.
 
+## New ideas
+
+A "New ideas" section at the bottom of the Refine panel offers a handful of pieces from beyond the closet,
+chosen against her hearts and passes. Adding one hearts it and it joins the grid; passing it removes it.
+The ideas live in `suggestions.js`, built from `build/suggest/round_*.json`; `build/suggest/README.md`
+explains how a round is run and how new brands are vetted and approved in `build/suggest/brands.json`.
+
 ## Hearts, passes and the notebook
 
 - The heart saves a piece; the ✕ on a card (or "Not for me" in the detail view) tucks it out of sight.
