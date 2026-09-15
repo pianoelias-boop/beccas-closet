@@ -120,6 +120,19 @@ STOP = {'the', 'in', 'and', 'with', 'a', 'of', 'for', 'women', "women's", 'women
 def sim_key(c):  # same brand + same descriptive words, ignoring colour and order -> colourways collapse together
     words = sorted(set(re.findall(r'[a-z]+', title_key(c)[1])) - STOP); return (c['brand'], c['category'], ' '.join(words))
 GENERIC = {'fab:cotton', 'cut:pocket', 'cut:button', 'cut:elastic'}
+COLOR_WORDS = set(w for _, pat in COLOR_MAP for w in re.findall(r'[a-z]{3,}', pat)) | {'washed', 'wash', 'dark', 'light', 'deep', 'pale', 'heather', 'used', 'vintage'}
+def garment_key(brand, name):
+    base = re.split(r'\s+(?:in|-|–|—|/|\|)\s+', name.lower(), 1)[0]
+    words = sorted(set(re.findall(r'[a-z]+', base)) - STOP - COLOR_WORDS - {'organic', 'womens', 'w', 's', 'wide', 'leg'} )
+    return (brand.lower(), ' '.join(words))
+def existing_garments():
+    keys = set()
+    for it in catalogue(): keys.add(garment_key(it['brand'], it['name']))
+    for p in round_files():
+        for it in json.load(open(p)): keys.add(garment_key(it['brand'], it['name']))
+    if os.path.exists(f'{P}/retired.json'):
+        for it in json.load(open(f'{P}/retired.json')): keys.add(garment_key(it['brand'], it['name']))
+    return keys
 
 def stage1():
     import sweep
@@ -132,11 +145,14 @@ def stage1():
     for p in round_files()[-3:]: recent_brands |= {i['brand'] for i in json.load(open(p))}
     for p in passed:
         if p['idea']: passed_brands[p['item']['brand']] += 1
+    have = existing_garments()
     seen = set(); scored = []
     for c in cands:
         k = title_key(c)
         if k in seen: continue
-        seen.add(k); sc, hits = score(c, w, closet_share, recent_brands, passed_brands, median_price); c['score'] = round(sc, 2); c['hits'] = hits; scored.append(c)
+        seen.add(k); sc, hits = score(c, w, closet_share, recent_brands, passed_brands, median_price); c['score'] = round(sc, 2); c['hits'] = hits
+        c['recolour'] = garment_key(c['brand'], c['title']) in have   # another colour of something already in the closet or a past round
+        scored.append(c)
     scored.sort(key=lambda c: -c['score'])
     per_brand = collections.Counter(); per_cat = collections.Counter(); short = []; keys = set()
     def take(c):
@@ -153,7 +169,7 @@ def stage1():
     with open(f'{PEND}/shortlist.md', 'w') as f:
         f.write(f'# Shortlist for the round of {TODAY}\n\nHearts: {len(saved)} · Not for me: {len(passed)} · candidates swept: {len(cands)} from {sum(1 for r in report if r[1])} brands.\n\n')
         for i, c in enumerate(short, 1):
-            f.write(f"{i}. [{c['brand']}] {c['title']} — {c['category']} — ${c['price']:.0f}" + (f" (list ${c['list']:.0f})" if c['list'] != c['price'] else '') + f" — {c.get('fabric') or 'fibre not stated'} — score {c['score']}\n   {(c.get('desc') or '')[:220]}\n   {c['url']}\n")
+            f.write(f"{i}. [{c['brand']}] {c['title']} — {c['category']} — ${c['price']:.0f}" + (f" (list ${c['list']:.0f})" if c['list'] != c['price'] else '') + f" — {c.get('fabric') or 'fibre not stated'} — score {c['score']}" + (" — ANOTHER COLOUR of a piece already in the closet" if c.get('recolour') else '') + f"\n   {(c.get('desc') or '')[:220]}\n   {c['url']}\n")
     json.dump({'date': TODAY, 'stage1': NOW.isoformat(), 'brands_ok': [r[0] for r in report if r[1]], 'brands_failed': [r[0] for r in report if r[2]]}, open(f'{PEND}/round_meta.json', 'w'), indent=1)
     print(f'stage1 done: {len(saved)} hearts, {len(passed)} passes, {len(cands)} candidates, shortlist {len(short)}; feeds failed: {[r[0] for r in report if r[2]]}')
 
@@ -161,17 +177,20 @@ def fallback():
     short = json.load(open(f'{PEND}/shortlist.json')); sig = json.load(open(f'{PEND}/signals.json'))
     picks = []; per_brand = collections.Counter(); cats = collections.Counter()
     need = {'Dresses': 1}; want_one_of = {'Jumpsuits & Rompers', 'Skirts'}
-    for c in short:                       # first satisfy the quotas
+    for c in short:                       # first satisfy the quotas (with pieces that are new to her)
+        if c.get('recolour'): continue
         if c['category'] in need and cats[c['category']] < need[c['category']]: picks.append(c); per_brand[c['brand']] += 1; cats[c['category']] += 1
     if not any(p['category'] in want_one_of for p in picks):
         for c in short:
             if c['category'] in want_one_of and c not in picks: picks.append(c); per_brand[c['brand']] += 1; cats[c['category']] += 1; break
     bc = collections.Counter((p['brand'], p['category']) for p in picks)
+    recolours = sum(1 for p in picks if p.get('recolour'))
     for c in short:
         if len(picks) >= R['ideas_per_round']: break
         if c in picks or per_brand[c['brand']] >= 2 or cats[c['category']] >= 3 or bc[(c['brand'], c['category'])] >= 1: continue
         if c['category'] == 'Jackets & Coats' and cats['Jackets & Coats'] >= 1: continue
-        picks.append(c); per_brand[c['brand']] += 1; cats[c['category']] += 1; bc[(c['brand'], c['category'])] += 1
+        if c.get('recolour') and recolours >= 1: continue          # one new colour of something she has, at most
+        picks.append(c); per_brand[c['brand']] += 1; cats[c['category']] += 1; bc[(c['brand'], c['category'])] += 1; recolours += c.get('recolour', False)
     saved_items, _ = signals()
     out = []
     for c in picks:
