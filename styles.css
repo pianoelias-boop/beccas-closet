@@ -232,17 +232,18 @@ a{color:inherit}
 .why{margin:0;font-size:13px;color:var(--ink-soft);font-style:italic;font-family:var(--serif);font-size:15px}
 .why span{font-style:normal;font-family:var(--sans);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-right:6px}
 
-/* ---------- new ideas ---------- */
-.ideas-intro{font-size:12.5px;color:var(--ink-soft);margin:0 0 10px;line-height:1.45}
-.ideas-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.idea{position:relative;cursor:pointer}
-.idea img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:999px 999px 10px 10px;background:var(--blush);display:block}
-.idea .ib{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin:6px 0 1px}
-.idea .in{font-family:var(--serif);font-size:14px;line-height:1.2;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.idea .ip{font-size:12px;color:var(--ink-soft)}
-.idea .tag-new{position:absolute;top:8px;left:8px;background:var(--butter);color:#7a6236;font-size:9px;letter-spacing:.14em;text-transform:uppercase;padding:3px 7px;border-radius:999px}
-.tool-filters .dot{width:7px;height:7px;border-radius:50%;background:var(--rose-deep);display:inline-block;margin-left:2px}
-.card.is-idea .frame::before{content:"New idea";position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:1;background:var(--butter);color:#7a6236;font-size:10px;letter-spacing:.16em;text-transform:uppercase;padding:3px 9px;border-radius:999px}
+/* ---------- suggestions tab ---------- */
+.tabs{display:flex;gap:6px;margin:0 0 16px;border-bottom:1px solid var(--line)}
+.tab{position:relative;padding:10px 4px 12px;margin-right:18px;font-family:var(--serif);font-size:20px;font-style:italic;color:var(--ink-soft);border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s}
+.tab b{font-style:normal;font-family:var(--sans);font-weight:500;font-size:11px;letter-spacing:.06em;background:var(--blush);color:var(--rose-deep);border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.tab.on{color:var(--ink);border-bottom-color:var(--rose-deep)}
+.tab .dot{position:absolute;top:8px;right:-10px;width:7px;height:7px;border-radius:50%;background:var(--rose-deep)}
+.ideas-intro{margin:-4px 0 18px;font-size:14px;color:var(--ink-soft);max-width:640px;line-height:1.5}
+body.tab-ideas .search,body.tab-ideas .tools{display:none}
+body.tab-ideas .topbar-inner{justify-content:flex-end}
+body.tab-ideas .shell{grid-template-columns:minmax(0,1fr)}
+body.tab-ideas .filters{display:none}
+.card .ribbon{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:1;background:var(--butter);color:#7a6236;font-size:10px;letter-spacing:.16em;text-transform:uppercase;padding:3px 9px;border-radius:999px;white-space:nowrap}
 .modal-add{position:absolute;top:18px;left:62px;z-index:2;background:var(--rose-deep);color:#fff;border-radius:999px;padding:8px 14px;font-size:12px;letter-spacing:.06em;display:inline-flex;align-items:center;gap:6px;box-shadow:0 4px 12px -4px rgba(88,52,66,.4)}
 .modal-add svg{width:12px;height:12px;fill:currentColor}
 .idea-why{background:var(--butter);border-radius:14px;padding:12px 14px;font-size:14px;color:#5b4a2a;line-height:1.5}
@@ -307,6 +308,8 @@ a{color:inherit}
   .name{font-size:17px}
   .frame{border-radius:999px 999px 14px 14px}
   .heart{width:34px;height:34px;top:8px;right:8px}
+  .tab{font-size:18px;margin-right:12px}
+  body.tab-ideas .topbar-inner{display:flex}
   .pass{opacity:.75;top:8px;left:8px;width:30px;height:30px}
   .modal-pass{left:58px;top:14px}
   .hero{padding:40px 20px 20px}

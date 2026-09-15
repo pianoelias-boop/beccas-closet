@@ -10,7 +10,8 @@ Updated 2026-09-15 from the notebook (9 hearts, 0 passes) plus the closet's own 
 
 ## Read of the signals
 - **Fabric is the driver:** corduroy above all (5 of 9), then heavy cotton twill/denim and tweed. Texture and weight, not prints.
-- **Shapes:** trousers first (wide, barrel, culotte), then A-line and button-front midi skirts, then a jumpsuit. No dresses yet, despite dresses being a third of the closet.
+- **Shapes:** trousers first (wide, barrel, culotte), then A-line and button-front midi skirts, then a jumpsuit.
+- **Caveat from the owner (2026-09-15):** she has so far only scrolled the skirts and trousers, not the dresses. The absence of dress hearts is browsing order, not a verdict. Do not down-weight dresses until she has seen them.
 - **Colours:** grey, black, rust, indigo, natural, red plaid. Autumn and earth tones; nothing pastel or floral so far.
 - **Price:** comfortable up to about $400 list.
 - **Brands:** TOAST (4), W'menswear (3), Boden, Ralph Lauren.
@@ -18,6 +19,6 @@ Updated 2026-09-15 from the notebook (9 hearts, 0 passes) plus the closet's own 
 
 ## Guidance for rounds
 - Lead with corduroy, cotton twill, denim, wool flannel and tweed in trousers, skirts and utility jumpsuits.
-- Keep dresses to one per round at most until she hearts one.
+- Include one or two dresses per round in her fabrics and colours (cord, cotton twill, jersey, wool; darks and earth tones) so the signal on dresses can develop.
 - Favour earth tones and darks; a print is fine if it is on a dark ground or a check/plaid.
 - Rules from the owner: $50–$400 list, at least 70% natural fibre, reputable brands only.

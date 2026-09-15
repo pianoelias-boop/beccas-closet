@@ -40,7 +40,7 @@
   const state = {
     q: '', sort: 'default',
     category: new Set(), color: new Set(), brand: new Set(), occasion: new Set(), price: new Set(),
-    saved: new Set(), passed: new Set(), showPassed: false, meta: {}, shuffleOrder: null, view: [], modalIndex: -1,
+    saved: new Set(), passed: new Set(), showPassed: false, meta: {}, shuffleOrder: null, view: [], modalIndex: -1, tab: 'closet',
   };
 
   // ---------- persistence ----------
@@ -244,7 +244,9 @@
   // ---------- grid ----------
   function cardHtml(it) {
     const on = state.saved.has(it.id), passed = state.passed.has(it.id);
+    const ribbon = it.idea ? (state.tab === 'ideas' ? (it.newBrand ? 'New label' : '') : 'New idea') : '';
     return `<article class="card ${passed ? 'is-passed' : ''} ${it.idea ? 'is-idea' : ''}" data-id="${it.id}">
+      ${ribbon ? `<span class="ribbon">${ribbon}</span>` : ''}
       <button class="heart ${on ? 'on' : ''}" type="button" aria-label="${on ? 'Remove from saved' : 'Save'}" aria-pressed="${on}">${heartSvg}</button>
       <button class="pass" type="button" aria-label="${passed ? 'Bring back' : 'Not for me'}" title="${passed ? 'Bring back' : 'Not for me'}"><svg><use href="#i-x"/></svg></button>
       <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}></div>
@@ -255,6 +257,18 @@
       </div></article>`;
   }
   function render() {
+    document.body.classList.toggle('tab-ideas', state.tab === 'ideas');
+    $('#ideas-intro').hidden = state.tab !== 'ideas';
+    if (state.tab === 'ideas') {
+      state.view = IDEAS.filter(i => !state.passed.has(i.id) && !state.saved.has(i.id)).sort((a, b) => (b.round - a.round) || (a.id - b.id));
+      const n = state.view.length;
+      $('#grid').innerHTML = state.view.map(cardHtml).join('');
+      $('#empty').hidden = n > 0;
+      $('#results-count').innerHTML = n ? `<b>${n}</b> suggestion${n === 1 ? '' : 's'} waiting` : 'Nothing waiting. Anything you added is in the closet.';
+      $('#chips').innerHTML = '';
+      renderIdeas();
+      return;
+    }
     state.view = sorted(ITEMS.concat(IDEAS.filter(i => state.saved.has(i.id))).filter(matches));
     const n = state.view.length;
     const total = ITEMS.length + IDEAS.filter(i => state.saved.has(i.id)).length - (state.showPassed ? 0 : [...state.passed].filter(id => !isIdea(id)).length);
@@ -295,7 +309,7 @@
       b.classList.toggle('on', !was); b.setAttribute('aria-pressed', String(!was)); b.setAttribute('aria-label', !was ? 'Remove from saved' : 'Save');
       if (!was) { b.classList.remove('pop'); void b.offsetWidth; b.classList.add('pop'); }
     });
-    toast(was ? 'Taken out of your saved pieces' : 'Tucked away ♥');
+    toast(was ? (isIdea(id) ? 'Back in suggestions' : 'Taken out of your saved pieces') : (isIdea(id) ? 'Added to your closet ♥' : 'Tucked away ♥'));
     if ($('#drawer').classList.contains('open')) renderDrawer();
   }
   function updateSavedUi() {
@@ -320,22 +334,27 @@
   }
   function renderIdeas() {
     const open = IDEAS.filter(i => !state.saved.has(i.id) && !state.passed.has(i.id));
-    const facet = $('#ideas-facet');
-    facet.hidden = open.length === 0;
+    $('#tabs').hidden = IDEAS.length === 0;
     $('#ideas-count').textContent = open.length;
-    $('#ideas-list').innerHTML = open.map(it => `<div class="idea" data-open="${it.id}">${it.newBrand ? '<span class="tag-new">New label</span>' : ''}<img src="${it.img}" alt="" loading="lazy"><p class="ib">${esc(it.brand)}</p><div class="in">${esc(it.name)}</div><div class="ip">${money(it.price)}</div></div>`).join('');
+    document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.dataset.tab === state.tab));
     let seen = []; try { seen = JSON.parse(localStorage.getItem('beccas-closet-ideas-seen') || '[]'); } catch (e) { }
-    const unseen = open.some(i => !seen.includes(i.id));
-    const fb = $('#open-filters'); let dot = fb.querySelector('.dot');
-    if (unseen && !dot) { dot = document.createElement('span'); dot.className = 'dot'; fb.appendChild(dot); }
+    const unseen = state.tab !== 'ideas' && open.some(i => !seen.includes(i.id));
+    const tab = document.querySelector('.tab[data-tab="ideas"]'); let dot = tab.querySelector('.dot');
+    if (unseen && !dot) { dot = document.createElement('span'); dot.className = 'dot'; tab.appendChild(dot); }
     if (!unseen && dot) dot.remove();
   }
   function markIdeasSeen() {
     try { localStorage.setItem('beccas-closet-ideas-seen', JSON.stringify(IDEAS.map(i => i.id))); } catch (e) { }
-    const dot = $('#open-filters').querySelector('.dot'); if (dot) dot.remove();
+  }
+  function switchTab(tab) {
+    state.tab = tab;
+    if (tab === 'ideas') markIdeasSeen();
+    if ($('#modal').open) $('#modal').close();
+    render();
+    window.scrollTo({ top: $('#topbar').offsetTop, behavior: 'smooth' });
   }
   function renderPassed() {
-    const items = [...state.passed].map(id => byId.get(id)).filter(it => it && !it.idea);
+    const items = [...state.passed].map(id => byId.get(id)).filter(Boolean);
     const facet = $('#passed-facet');
     facet.hidden = items.length === 0;
     $('#passed-count').textContent = items.length;
@@ -457,6 +476,7 @@
     if (t.classList.contains('pass')) { e.preventDefault(); togglePassed(Number(t.closest('.card').dataset.id)); return; }
     if (t.dataset.pass) { togglePassed(Number(t.dataset.pass)); return; }
     if (t.dataset.add) { const id = Number(t.dataset.add); if (!state.saved.has(id)) toggleSaved(id); $('#modal').close(); toast('Added to your closet ♥'); return; }
+    if (t.dataset.tab) { switchTab(t.dataset.tab); return; }
     if (t.dataset.unpass) { togglePassed(Number(t.dataset.unpass)); return; }
     if (t.id === 'toast-action') { const fn = toastAction; toastAction = null; $('#toast').classList.remove('show'); if (fn) fn(); return; }
     if (t.dataset.open) { openModal(Number(t.dataset.open)); return; }
@@ -483,7 +503,6 @@
     }
   });
   $('#scrim').addEventListener('click', closePanels);
-  $('#ideas-facet').addEventListener('toggle', e => { if (e.target.open) markIdeasSeen(); });
   $('#show-passed').addEventListener('change', e => { state.showPassed = e.target.checked; render(); });
   $('#facets').addEventListener('change', e => {
     const cb = e.target; if (!cb.dataset.facet) return;
