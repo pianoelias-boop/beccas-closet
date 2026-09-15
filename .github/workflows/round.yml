@@ -52,7 +52,7 @@ jobs:
           git fetch origin main && (git rebase origin/main || (git rebase --abort; echo "rebase skipped"))
           git push -u origin "$b"
           gh label create round --color D4879A --description "Weekly ideas awaiting review" 2>/dev/null || true
-          gh pr create --title "Round $n: 8 ideas for Based on your likes (chosen by Claude)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b"
+          gh pr create --title "Round $n: 8 ideas for Based on your likes (chosen by Claude)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee pianoelias-boop --reviewer pianoelias-boop
 
   stage1:
     if: github.event.schedule == '0 10 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'fallback')
@@ -110,4 +110,4 @@ jobs:
           git fetch origin main && (git rebase origin/main || (git rebase --abort; echo "rebase skipped"))
           git push -u origin "$b"
           gh label create round --color D4879A --description "Weekly ideas awaiting review" 2>/dev/null || true
-          gh pr create --title "Round $(python3 -c "import json;print(json.load(open('build/suggest/pending/last_round.json'))['round'])"): 8 ideas for Based on your likes (by score)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b"
+          gh pr create --title "Round $(python3 -c "import json;print(json.load(open('build/suggest/pending/last_round.json'))['round'])"): 8 ideas for Based on your likes (by score)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee pianoelias-boop --reviewer pianoelias-boop

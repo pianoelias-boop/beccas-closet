@@ -299,7 +299,7 @@ def finalize(by):
     subprocess.run([sys.executable, f'{P}/make_suggestions.py'], check=True); subprocess.run([sys.executable, 'build/make_data.py'], check=True)
     branch = os.environ.get('ROUND_BRANCH', 'main'); repo = os.environ.get('GITHUB_REPOSITORY', 'pianoelias-boop/beccas-closet')
     with open(f'{PEND}/pr_body.md', 'w') as f:
-        f.write(f"## Round {n} · {TODAY} · {'chosen by Claude' if by == 'claude' else 'chosen by score (no model)'}\n\n{len(out)} ideas for **Based on your likes**. Merge to publish; close to skip this week.\n\n")
+        f.write(f"## Round {n} · {TODAY} · {'chosen by Claude' if by == 'claude' else 'chosen by score (no model)'}\n\n@pianoelias-boop — {len(out)} ideas for **Based on your likes**. Merge to publish; close to skip this week.\n\n")
         for r in out:
             f.write(f"### {r['brand']} — {r['name']} · ${r['price']:.0f}\n<img src=\"https://raw.githubusercontent.com/{repo}/{branch}/{r['img']}\" width=\"220\">\n\n{r['reason']}  \n*{r['fabric'] or 'fibre not stated'} · {', '.join(r['occasions'])}* · [product page]({r['url']})\n\n")
     json.dump({'round': n, 'by': by, 'date': TODAY, 'ids': [r['id'] for r in out]}, open(f'{PEND}/last_round.json', 'w'))
