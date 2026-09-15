@@ -1,52 +1,52 @@
-## Round 2 · 2026-09-15 · chosen by score (no model)
+## Round 3 · 2026-09-15 · chosen by score (no model)
 
-8 ideas for **Based on your likes**. Merge to publish; close to skip this week.
+@pianoelias-boop — 8 ideas for **Based on your likes**. Merge to publish; close to skip this week.
 
-### TOAST — Cord Button Shirtdress | Charcoal · $355
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34984241013/images/ideas/5019.jpg" width="220">
+### TOAST — Check Linen Cotton Shirt Dress | Dark Chocolate/Ecru · $355
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34995578504/images/ideas/5027.jpg" width="220">
 
-Cord, relaxed and shirt dress, like the TOAST Cord Culotte Jumpsuit you saved.  
-*100% cotton · dance, teaching, friend* · [product page](https://us.toa.st/products/cord-button-shirtdress-charcoal)
+Linen, relaxed and shirt dress from TOAST, in the fabrics and colours you keep coming back to.  
+*54% linen, 46% cotton · dance, teaching, friend* · [product page](https://us.toa.st/products/check-linen-cotton-shirt-dress-dark-chocolate-ecru)
 
-### TOAST — Cord Pocket Jumpsuit | Denim Blue · $335
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34984241013/images/ideas/5020.jpg" width="220">
+### TOAST — Pleated Cotton Linen Poplin Skirt | Enamel Blue · $355
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34995578504/images/ideas/5028.jpg" width="220">
 
-Cord, denim and sleeveless, like the TOAST Cord Culotte Jumpsuit you saved.  
-*100% cotton · teaching, friend* · [product page](https://us.toa.st/products/organic-cord-pocket-jumpsuit-denim-blue)
+Linen, poplin and pleat from TOAST, in the fabrics and colours you keep coming back to.  
+*95% cotton, 5% linen · dance, teaching, dressy* · [product page](https://us.toa.st/products/pleated-cotton-linen-poplin-skirt-enamel-blue)
 
-### Howlin' — Cosmic Pants - Corduroy - Sand · $210
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34984241013/images/ideas/5021.jpg" width="220">
+### Howlin' — Cosmic Pants - Corduroy - Navy · $210
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34995578504/images/ideas/5029.jpg" width="220">
 
-Cord, pleat and relaxed, like the TOAST Barrel Leg Cord Pants you saved.  
-*100% cotton · dance, teaching, hang* · [product page](https://howlinknitwear.com/products/cosmic-pants-corduroy-sand-aw26)
+Cord, pleat and relaxed from Howlin', in the fabrics and colours you keep coming back to.  
+*100% cotton · dance, teaching, hang* · [product page](https://howlinknitwear.com/products/cosmic-pants-corduroy-navy-aw26)
 
-### Margaret Howell — MHL. UTILITY TROUSERS | 8 WALE COTTON CORDUROY | SLATE · $325
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34984241013/images/ideas/5022.jpg" width="220">
+### Margaret Howell — MHL. PLEATED CULOTTES | SOFT DENSE COTTON | KHAKI · $325
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34995578504/images/ideas/5030.jpg" width="220">
 
-Cord, cropped and straight leg, like the TOAST Barrel Leg Cord Pants you saved.  
-*8 wale cotton corduroy · outdoors, hang* · [product page](https://www.margarethowell.co.uk/products/mhl-utility-trousers-8-wale-cotton-corduroy-slate)
+Culotte, pleat and pleated from Margaret Howell, in the fabrics and colours you keep coming back to.  
+*fibre not stated · dance, teaching, hang* · [product page](https://www.margarethowell.co.uk/products/mhl-pleated-culottes-soft-dense-cotton-khaki)
 
-### Standard & Strange — 1940s 5.5oz Selvage US Army Field Jacket - Indigo Chambray · $310
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34984241013/images/ideas/5023.jpg" width="220">
+### Filson — Rustic Canvas Barn Coat - Indigo · $259
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34995578504/images/ideas/5031.jpg" width="220">
 
-Chambray, denim and collar, like the W'menswear Wendy Trouser - 13 oz Denim you saved.  
-*100% cotton · outdoors, friend* · [product page](https://standardandstrange.com/products/1940s-5-5oz-selvage-us-army-field-jacket-indigo-chambray)
+Canvas, cord and collar from Filson, in the fabrics and colours you keep coming back to.  
+*100% cotton corduroy for next-to-skin comfort · teaching, outdoors, friend* · [product page](https://www.filson.com/products/rustic-canvas-barn-coat-indigo)
 
-### Standard & Strange — Para Shirt - Off White · $350
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34984241013/images/ideas/5024.jpg" width="220">
+### Standard & Strange — Workers Chino - Black · $280
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34995578504/images/ideas/5032.jpg" width="220">
 
-Cropped, fitted and mini, like the W'menswear Burnout Pants - Natural you saved.  
-*89% cotton / 11% kapok · dance, outdoors, friend* · [product page](https://standardandstrange.com/products/para-shirt-off-white)
+Denim from Standard & Strange, in the fabrics and colours you keep coming back to.  
+*100% cotton · teaching, hang* · [product page](https://standardandstrange.com/products/workers-chino-black)
 
-### Gramicci — Corduroy Gramicci Pant · $138
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34984241013/images/ideas/5025.jpg" width="220">
+### Studio Nicholson — Ruthe Straight Leg Denim Pant in Optic White · $115
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34995578504/images/ideas/5033.jpg" width="220">
 
-Cord, relaxed and tapered, like the TOAST Barrel Leg Cord Pants you saved.  
-*100% cotton · dance, teaching, hang* · [product page](https://gramicci.com/products/corduroy-gramicci-pant-2)
+Denim, cropped and straight leg from Studio Nicholson, in the fabrics and colours you keep coming back to.  
+*Denim pant in optic white · hang* · [product page](https://www.studionicholson.com/products/ruthe-selvedge-straight-leg-denim-in-optic-white)
 
-### Gramicci — Buttoned Down Midi Skirt · $83
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34984241013/images/ideas/5026.jpg" width="220">
+### Filson — Rustic Canvas Jac-shirt - Natural Seed · $125
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/34995578504/images/ideas/5034.jpg" width="220">
 
-Cord and midi, like the Boden Val Button Cord Midi Skirt you saved.  
-*100% cotton 10w corduroy fabric · teaching, friend* · [product page](https://gramicci.com/products/buttoned-down-midi-skirt)
+Canvas, cord and collar from Filson, in the fabrics and colours you keep coming back to.  
+*100% cotton corduroy for next-to-skin comfort · teaching, outdoors, friend* · [product page](https://www.filson.com/products/rustic-canvas-jac-shirt-natural-seed)
 
