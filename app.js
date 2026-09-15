@@ -420,7 +420,7 @@
       </div>`).join('');
     const total = items.reduce((s, i) => s + (i.price || 0), 0);
     const unpriced = items.filter(i => i.price == null).length;
-    foot.innerHTML = `<div class="total"><span>${items.length} piece${items.length === 1 ? '' : 's'}${unpriced ? ` <small>(${unpriced} unpriced)</small>` : ''}</span><b>${money(total)}</b></div>
+    foot.innerHTML = `<div class="total"><span>${items.length} piece${items.length === 1 ? '' : 's'} saved</span></div>
       <div class="drawer-actions">
         <a class="btn rose full" id="mail-list" href="${mailtoHref(items, total)}">Email me my list</a>
         <button class="btn" id="copy-link" type="button">Copy share link</button>
@@ -433,7 +433,7 @@
     let lines = items.map(i => `♥ ${i.brand} — ${i.name} (${i.color}) — ${money(i.price)}\n   ${i.url}`);
     let body;
     for (; ;) {
-      body = `My saved pieces from Becca's Closet:\n\n${lines.join('\n\n')}\n\nTotal: ${money(total)}\n\nOpen the list anytime: ${link}\n`;
+      body = `My saved pieces from Becca's Closet:\n\n${lines.join('\n\n')}\n\nOpen the list anytime: ${link}\n`;
       if (encodeURIComponent(body).length < 1800 || lines.length <= 1) break;   // keep the mailto short enough for every mail app
       lines = items.slice(0, Math.max(1, lines.length - 1)).map(i => `♥ ${i.brand} — ${i.name} — ${money(i.price)}`);
       if (lines.length < items.length) lines.push(`…and ${items.length - lines.length} more, all in the link below.`);
