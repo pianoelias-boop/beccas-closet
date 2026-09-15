@@ -35,10 +35,11 @@
 0.7222222222222222
 ],
 [
-"cat:Pants",
+"brand:TOAST",
 0.6111111111111112
 ]
-]
+],
+"recolour": true
 },
 {
 "brand": "TOAST",
@@ -79,19 +80,20 @@
 "price:300+",
 0.6666666666666666
 ]
-]
+],
+"recolour": true
 },
 {
 "brand": "Howlin'",
 "status": "approved",
-"title": "Cosmic Pants - Corduroy - Sand",
+"title": "Cosmic Pants - Corduroy - Navy",
 "category": "Pants",
 "price": 210.0,
 "list": 210.0,
 "fabric": "100% cotton",
 "natural": 1.0,
-"url": "https://howlinknitwear.com/products/cosmic-pants-corduroy-sand-aw26",
-"img": "https://cdn.shopify.com/s/files/1/0465/5477/5710/files/COSMICPANTS-CORDUROY_SAND_1_1.jpg?v=1784214745",
+"url": "https://howlinknitwear.com/products/cosmic-pants-corduroy-navy-aw26",
+"img": "https://cdn.shopify.com/s/files/1/0465/5477/5710/files/COSMICPANTS-CORDUROY_NAVY_1_1.jpg?v=1784214859",
 "tags": [
 "AW26",
 "AW26SALEALL",
@@ -102,7 +104,7 @@
 ],
 "desc": "Cosmic Pants are the (in)famous trousers with a slightly wider fit, made in Belgium. It's crafted from a premium corduroy fabric with a touch of stretch, offering elevated comfort without compromising on quality. Designed with a relaxed silhouette, the pants feature an elasticated waistband for an easy fit and front pleats for a tailored touch, finished with large patch pockets at the back. Each garment is produced in small batches with close attention to detail in our Howlin' atelier. 100% cotton Elastic waist and belt loops Front pleats Large patch pockets at the back Metallic button closure",
 "published": "2026-08-28",
-"score": 6.14,
+"score": 5.95,
 "hits": [
 [
 "fab:cotton",
@@ -120,89 +122,8 @@
 "cat:Pants",
 0.6111111111111112
 ]
-]
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Cord Button Shirtdress | Charcoal",
-"category": "Dresses",
-"price": 355.0,
-"list": 355.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://us.toa.st/products/cord-button-shirtdress-charcoal",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LDRWW14_charcoal.jpg?v=1787627935",
-"tags": [
-"also-shown: vibae-roma-mules-bitter-chocolate",
-"badge: NEW",
-"base_colour: Black",
-"collection: aw26_ww_newsep",
-"collection: womens_clothing",
-"collection: womens_corduroy"
 ],
-"desc": "Our shirt dress is made from an organic cotton cord to a relaxed shape, falling to the lower calf and shaped with darts at the hem. Finished with corozo buttons running down the front. Organic cotton cord. Lower-calf length. Side pockets. Herringbone hanging loop. Corozo buttons. ### Details 100% cotton. Made in China. Size & Fit Easy fit. Length: Lower calf. Sleeve: Full length. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size S. Care Guide Machine wash at 30°C.",
-"published": "2026-08-26",
-"score": 5.86,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
-],
-[
-"price:300+",
-0.6666666666666666
-]
-]
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Cord Pocket Jumpsuit | Denim Blue",
-"category": "Jumpsuits & Rompers",
-"price": 335.0,
-"list": 335.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://us.toa.st/products/organic-cord-pocket-jumpsuit-denim-blue",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LAOWS08_denimblue_0.jpg?v=1785339279",
-"tags": [
-"also-shown: vibae-roma-mules-black",
-"base_colour: Blue",
-"collection: ss26_ww_febfav",
-"collection: ss26_ww_newdec",
-"collection: womens_clothing",
-"collection: womens_corduroy"
-],
-"desc": "Organic cord brings soft structure to our jumpsuit, which has a wide, easy silhouette with a square neck and back. Finished with large side and back patch pockets, falling to ankle-skimming legs. Soft 13-wale organic cotton cord. Square neck and back. Large side patch pocket. Back patch pocket. Wide ankle-skimming legs. Side corozo buttons. ### Details Machine wash 30ºC. 100% cotton. Made in China. Size & Fit Regular fit. Length: Ankle skimming. Sleeve: Sleeveless. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size 8.",
-"published": "2025-12-03",
-"score": 5.79,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
-],
-[
-"price:300+",
-0.6666666666666666
-]
-]
+"recolour": true
 },
 {
 "brand": "TOAST",
@@ -243,7 +164,8 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -284,7 +206,8 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -325,82 +248,8 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
-},
-{
-"brand": "Margaret Howell",
-"status": "approved",
-"title": "MHL. UTILITY TROUSERS | 8 WALE COTTON CORDUROY | SLATE",
-"category": "Pants",
-"price": 325.0,
-"list": 325.0,
-"fabric": "cotton",
-"natural": null,
-"url": "https://www.margarethowell.co.uk/products/mhl-utility-trousers-8-wale-cotton-corduroy-slate",
-"img": "https://cdn.shopify.com/s/files/1/0712/0791/1458/files/Margaret-Howell-MHL-AW26-Women-Look-26a.jpg?v=1787847134",
-"tags": [
-"CPSC PRODUCT"
 ],
-"desc": "The MHL. Utility Trousers have a regular, straight leg cut and are cropped at the ankle. They are fabricated in heavyweight cotton corduroy with a soft hand feel, in colours exclusive to MHL. The high-waisted trousers are constructed with an offset button-fastening waistband, a flat front with side opening, stitch-through slanted pockets, and a deep hem. The trousers can be paired with the matching MHL. Field Jacket.",
-"published": "2026-09-07",
-"score": 5.47,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
-],
-[
-"price:300+",
-0.6666666666666666
-]
-]
-},
-{
-"brand": "Standard & Strange",
-"status": "approved",
-"title": "1940s 5.5oz Selvage US Army Field Jacket - Indigo Chambray",
-"category": "Jackets & Coats",
-"price": 310.0,
-"list": 310.0,
-"fabric": "100% cotton, 100% cotton",
-"natural": 1.0,
-"url": "https://standardandstrange.com/products/1940s-5-5oz-selvage-us-army-field-jacket-indigo-chambray",
-"img": "https://cdn.shopify.com/s/files/1/0352/5633/files/BlackSign-1940s5.5ozSelvageUSArmyFieldJacket-IndigoChambray-Flat-263.jpg?v=1785886503",
-"tags": [
-"homepage",
-"ss26",
-"treet-app",
-"webshop"
-],
-"desc": "The 1940s Army Field Jacket is a super old school cropped jacket with a unique collar closure and a silhouette reminiscent of Type-II denim jackets. The overlapped placket can be worn up for a more classic collar, or if the top button is left undone, can be let down into a dress collar, with short and wide lapels. It's got two external pockets on the chest for storage, with one more on the inside as well, making for a very functional everyday jacket. While it's cropped in length, the torso and sleeves are still fairly relaxed and roomy, preventing things from feeling too small or restrictive. ",
-"published": "2026-08-07",
-"score": 5.36,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"cut:button",
-0.5555555555555556
-]
-]
+"recolour": false
 },
 {
 "brand": "Margaret Howell",
@@ -434,46 +283,8 @@
 "cat:Pants",
 0.6111111111111112
 ]
-]
-},
-{
-"brand": "Standard & Strange",
-"status": "approved",
-"title": "Para Shirt - Off White",
-"category": "Shirts & Blouses",
-"price": 350.0,
-"list": 350.0,
-"fabric": "89% cotton",
-"natural": 1.0,
-"url": "https://standardandstrange.com/products/para-shirt-off-white",
-"img": "https://cdn.shopify.com/s/files/1/0352/5633/files/W_Menswear-ParaShirt-OffWhiteSmall-Flats-27.jpg?v=1757459808",
-"tags": [
-"fem",
-"fw25",
-"treet-app",
-"webshop"
 ],
-"desc": "The Para Shirt takes inspiration from military utility shirts, with details evocative of OD fatigue shirts but featuring some subtly-feminine twists. It's cut relaxed, with a wide, blouse-y fit through the torso and an almost-cropped length — the sleeves are exaggerated, wide at the shoulder and fitted at the cuffs, for a more dramatic silhouette. It closes up with dark contrasting buttons, and has two pleated chest pockets for storage, as a nice additional detail. It's made from a lightweight blended check plaid fabric from Japan, woven with a mixture of cotton and kapok yarns. Kapok is a nat",
-"published": "2025-09-11",
-"score": 5.28,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"cut:button",
-0.5555555555555556
-]
-]
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -514,48 +325,8 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
-},
-{
-"brand": "Gramicci",
-"status": "approved",
-"title": "Corduroy Gramicci Pant",
-"category": "Pants",
-"price": 138.0,
-"list": 138.0,
-"fabric": "100% cotton, 100% cotton",
-"natural": 1.0,
-"url": "https://gramicci.com/products/corduroy-gramicci-pant-2",
-"img": "https://cdn.shopify.com/s/files/1/0060/2030/0890/files/Gramicci-G6FM-P070_SMOKEYGREY_mens-pants_1_2ef0e208-e51e-47fc-9e05-05190d69cf56.jpg?v=1787171538",
-"tags": [
-"FW26",
-"Gender_Mens",
-"Gender_Womens",
-"Material_Corduroy",
-"Material_Cotton",
-"mens new arrivals"
 ],
-"desc": "Made with 100% cotton 10 wale corduroy Two straight side pockets and two back welt pockets Elastic waistband with gusset crotch Stone washed for total softness Inseam 32\" Male model height is 5'11'' - Wearing size Medium Our Corduroy Gramicci Pants bring a modern spin to a fabric that's been part of the outdoor uniform for decades. Crafted from 100% cotton stone-washed corduroy, they have that tapered fit and relaxed, mid-weight feel that makes them just as good for wandering around town as they are for getting up to something more ambitious. The elastic waistband and signature diamond crotch ",
-"published": "2026-08-20",
-"score": 5.16,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
-],
-[
-"cat:Pants",
-0.6111111111111112
-]
-]
+"recolour": false
 },
 {
 "brand": "Filson",
@@ -591,7 +362,8 @@
 "cut:button",
 0.5555555555555556
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "Margaret Howell",
@@ -627,7 +399,8 @@
 "price:300+",
 0.6666666666666666
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -668,46 +441,8 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
-},
-{
-"brand": "Standard & Strange",
-"status": "approved",
-"title": "Workers Chino - Black",
-"category": "Pants",
-"price": 280.0,
-"list": 280.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://standardandstrange.com/products/workers-chino-black",
-"img": "https://cdn.shopify.com/s/files/1/0352/5633/files/Freenote-WorkersChino-Black-Flat-01.jpg?v=1778893818",
-"tags": [
-"no-treet",
-"ss24",
-"treet-app",
-"webshop"
 ],
-"desc": "Freenote makes chinos that undo all the trauma of casual Fridays. These are seven-day-a-week replacements for your favorite denim. The robust, comfortable 10oz fabric is perfectly substantial without being too heavy, and Freenote's focus on production quality means these will be on your legs for a good long time. The cut is Freenote's slim-straight chino fit, with a comfortable medium rise, athletic thigh, and a narrow (but not skinny) leg that still fits over boots. Two slash pockets give you a place for your hands, while two welted rear pockets (one with a button and flap, one without) give ",
-"published": "2026-05-16",
-"score": 5.0,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"cat:Pants",
-0.6111111111111112
-],
-[
-"cut:button",
-0.5555555555555556
-]
-]
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -748,7 +483,8 @@
 "cut:button",
 0.5555555555555556
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -789,7 +525,8 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -830,7 +567,8 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -871,7 +609,8 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -912,7 +651,129 @@
 "brand:TOAST",
 0.6111111111111112
 ]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Oyo Stripe Cotton Jumpsuit | Aqua/Cornflower",
+"category": "Jumpsuits & Rompers",
+"price": 300.0,
+"list": 300.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://us.toa.st/products/oyo-stripe-cotton-jumpsuit-aqua-cornflower",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LAOWS05_aquacornflower_0.jpg?v=1789399254",
+"tags": [
+"also-shown: vibae-leather-fisherman-buckle-sandals-tan",
+"base_colour: Blue",
+"collection: ss26_ww_newmay",
+"collection: womens_clothing",
+"collection: womens_holiday_shop",
+"collection: womens_jumpsuits"
+],
+"desc": "Pleats at the front and back of our jumpsuit bring movement to the wide-leg shape. Crafted from striped organic cotton with a square neckline and finished with an elasticated back. Striped organic cotton. Square neck. Elasticated back. Front and back pleats. Side pockets. Wide legs. ### Details Machine wash 30ºC gentle cycle. 100% cotton. Made in India. Size & Fit Easy fit. Length: Crop. Sleeve: Sleeveless. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size 8.",
+"published": "2026-04-29",
+"score": 4.86,
+"hits": [
+[
+"fab:cotton",
+1.0555555555555556
+],
+[
+"cut:pocket",
+0.9444444444444444
+],
+[
+"price:300+",
+0.6666666666666666
+],
+[
+"brand:TOAST",
+0.6111111111111112
 ]
+],
+"recolour": false
+},
+{
+"brand": "Margaret Howell",
+"status": "approved",
+"title": "MHL. WIDE LEG JOGGERS  | WORKWEAR COTTON TWILL  | OFF WHITE",
+"category": "Pants",
+"price": 245.0,
+"list": 245.0,
+"fabric": "cotton",
+"natural": null,
+"url": "https://www.margarethowell.co.uk/products/men-mhl-wide-leg-joggers-workwear-cotton-twill-off-white",
+"img": "https://cdn.shopify.com/s/files/1/0712/0791/1458/files/Margaret-Howell-MHL-AW26-Men-Look-17c.jpg?v=1785925884",
+"tags": [
+"MHL."
+],
+"desc": "Cotton twill Wide Leg Joggers. Relaxed cut. Elasticated waist with herringbone tape draw cord. Deep welt pockets. Patch back pocket with stitch-through detailing.",
+"published": "2026-07-07",
+"score": 4.86,
+"hits": [
+[
+"fab:cotton",
+1.0555555555555556
+],
+[
+"cut:pocket",
+0.9444444444444444
+],
+[
+"fab:cord",
+0.7222222222222222
+],
+[
+"cat:Pants",
+0.6111111111111112
+]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Wide Sleeve Indigo Denim Jacket | Indigo",
+"category": "Jackets & Coats",
+"price": 355.0,
+"list": 355.0,
+"fabric": "98% cotton, 2% elastane",
+"natural": 0.98,
+"url": "https://us.toa.st/products/wide-sleeve-organic-indigo-denim-jacket-indigo",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WJKTW13_indigo_0_5e7b9c18-ac8b-4d6e-b2e8-0a31bac5b4b0.jpg?v=1784344701",
+"tags": [
+"also-shown: relaxed-wide-leg-denim-trousers-ecru",
+"collection: essentials-collection",
+"collection: womens-foundation",
+"collection: womens_clothing",
+"collection: womens_coats_and_jackets",
+"collection: womens_denim"
+],
+"desc": "Our jacket is crafted from organic cotton denim which is dyed with a technique that uses up to 70% less water than regular processes. Cut to a boxy shape with wide sleeves and a yoke panel, then finished with an internal hanging loop. Organic cotton denim. Easy shape. Yoke panel. Wide sleeves. Side patch pockets. Internal hanging loop. Low-hip length. Corozo buttons. ### Details Machine wash 30ºC. 98% organic cotton, 2% elastane. Made in Turkiye. This piece is finished with corozo buttons, which do not contain any parts of animal origin. There may be some colour rub, so please keep away from l",
+"published": "2023-06-30",
+"score": 4.84,
+"hits": [
+[
+"fab:cotton",
+1.0555555555555556
+],
+[
+"cut:pocket",
+0.9444444444444444
+],
+[
+"price:300+",
+0.6666666666666666
+],
+[
+"brand:TOAST",
+0.6111111111111112
+]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -953,29 +814,71 @@
 "brand:TOAST",
 0.6111111111111112
 ]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Renewed Cotton Linen Pinafore Dress Size 6 (118) | Slate Blue",
+"category": "Dresses",
+"price": 375.0,
+"list": 375.0,
+"fabric": "81% cotton, 19% linen",
+"natural": 1.0,
+"url": "https://us.toa.st/products/renewed-cotton-linen-pinafore-dress-size-6-118-slate-blue",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/RNWDRSS27S6118_slateblue.jpg?v=1762141803",
+"tags": [
+"base_colour: blue",
+"commodity_code: 6204420090",
+"coo: China",
+"delivery-message: This item has been creatively repaired as shown.",
+"disclaimer_code: RENEWED",
+"harper-exclude"
+],
+"desc": "A small mark on the front pocket of our pinafore dress was covered with a cotton patch, secured with topstitching. Crafted from organic cotton and linen-blend twill with a square neckline and side buttoned tabs, then finished with large patch pockets. Organic cotton and linen-blend twill. Topstitch and patch repair. Square neck. Side buttoned tabs. Large side pockets. Back patch pockets. Lower-calf length. Horn buttons. This style is part of TOAST Renewed, a collection of creatively repaired pieces that have been given a new lease of life, for increased longevity. TOAST Renewed pieces are crea",
+"published": "2026-08-22",
+"score": 4.76,
+"hits": [
+[
+"fab:cotton",
+1.0555555555555556
+],
+[
+"cut:pocket",
+0.9444444444444444
+],
+[
+"price:300+",
+0.6666666666666666
+],
+[
+"brand:TOAST",
+0.6111111111111112
 ]
+],
+"recolour": false
 },
 {
 "brand": "Standard & Strange",
 "status": "approved",
-"title": "Denim Overlap Skirt - Denim Used",
-"category": "Skirts",
-"price": 215.0,
-"list": 215.0,
-"fabric": "100% cotton, 100% cotton",
+"title": "Workers Chino - Black",
+"category": "Pants",
+"price": 280.0,
+"list": 280.0,
+"fabric": "100% cotton",
 "natural": 1.0,
-"url": "https://standardandstrange.com/products/denim-overlap-skirt-denim-used",
-"img": "https://cdn.shopify.com/s/files/1/0352/5633/files/OrSlow-DenimOverlapSkirt-DenimUsed-Flat-33.jpg?v=1744152241",
+"url": "https://standardandstrange.com/products/workers-chino-black",
+"img": "https://cdn.shopify.com/s/files/1/0352/5633/files/Freenote-WorkersChino-Black-Flat-01.jpg?v=1778893818",
 "tags": [
-"fem",
-"homepage",
-"ss25",
+"no-treet",
+"ss24",
 "treet-app",
 "webshop"
 ],
-"desc": "OrSlow is consistently one of our most popular brands, and for good reason - their combinations of great fits, custom fabrics, and handsome styles fit easily into almost any wardrobe. Founded in 2005 by designer Ichiro Nakatsu, OrSlow takes it’s name from Ichiro’s desire to make the opposite of fast fashion, or ‘slow clothing’, as he would put it. The Denim Overlap Skirt is part of OrSlow's women's line, cut with button front and two bucket pockets. It's a very minimal piece, with workwear details in the construction — chainstitching, double-needle felled seams, and bartack reinforcements will",
-"published": "2025-04-09",
-"score": 4.71,
+"desc": "Freenote makes chinos that undo all the trauma of casual Fridays. These are seven-day-a-week replacements for your favorite denim. The robust, comfortable 10oz fabric is perfectly substantial without being too heavy, and Freenote's focus on production quality means these will be on your legs for a good long time. The cut is Freenote's slim-straight chino fit, with a comfortable medium rise, athletic thigh, and a narrow (but not skinny) leg that still fits over boots. Two slash pockets give you a place for your hands, while two welted rear pockets (one with a button and flap, one without) give ",
+"published": "2026-05-16",
+"score": 4.7,
 "hits": [
 [
 "fab:cotton",
@@ -986,35 +889,35 @@
 0.9444444444444444
 ],
 [
-"cut:button",
-0.5555555555555556
+"cat:Pants",
+0.6111111111111112
 ],
 [
-"price:200-300",
-0.3888888888888889
+"cut:button",
+0.5555555555555556
 ]
-]
+],
+"recolour": false
 },
 {
-"brand": "Gramicci",
+"brand": "Standard & Strange",
 "status": "approved",
-"title": "Buttoned Down Midi Skirt",
-"category": "Skirts",
-"price": 82.8,
-"list": 138.0,
-"fabric": "100% cotton, 100% cotton",
+"title": "Shifter Pant - 9oz Tan",
+"category": "Pants",
+"price": 300.0,
+"list": 300.0,
+"fabric": "100% cotton",
 "natural": 1.0,
-"url": "https://gramicci.com/products/buttoned-down-midi-skirt",
-"img": "https://cdn.shopify.com/s/files/1/0060/2030/0890/files/Gramicci-G5FW-SK069_CAMEL_womens-skirt_1.jpg?v=1754592710",
+"url": "https://standardandstrange.com/products/shifter-pant-9oz-tan",
+"img": "https://cdn.shopify.com/s/files/1/0352/5633/files/Freenote-ShifterPant-9ozTan-Flat-19.jpg?v=1778893338",
 "tags": [
-"FW25",
-"Gender_Womens",
-"sale",
-"wairgroup:Womens"
+"homepage",
+"treet-app",
+"webshop"
 ],
-"desc": "Made from 100% cotton 10w corduroy fabric Mid-length silhouette Button-down front closure Two front pockets and two rear welt pockets Female Model is 5'7\" - Wearing Size Small The Gramicci Women's Buttoned Down Midi Skirt is proof that corduroy isn't just for autumn anymore, though let's be honest, it was always too good to be seasonal anyway. This 100% cotton 10w corduroy brings that perfect weight that's not too heavy, not too light, but just right for year-round wear, like the Goldilocks of corduroy fabrics that somehow manages to be both sophisticated and completely unpretentious about its",
-"published": "2025-08-20",
-"score": 4.66,
+"desc": "The Shifter Pant is an updated fit built off of their extremely popular Worker's Chino design. It's a little more relaxed all around, cut with a higher rise and roomier top block, with comfortably wide, straight legs. It's also got totally clean finishing through the interior, with a lined top block, bound seams, and herringbone pocket bags from Japan. It's made from a Japanese yarn-dyed cotton twill, with a rinsed finish that gives it a slightly weathered look and softens the fabric considerably. It's a comfortable medium weight, with a decently sturdy drape that's suitable for most temperatu",
+"published": "2026-05-16",
+"score": 4.69,
 "hits": [
 [
 "fab:cotton",
@@ -1025,14 +928,57 @@
 0.9444444444444444
 ],
 [
-"fab:cord",
-0.7222222222222222
+"price:300+",
+0.6666666666666666
 ],
 [
-"cut:button",
-0.5555555555555556
+"cat:Pants",
+0.6111111111111112
 ]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Totem Print Cotton Poplin Shirt | Ink/Dove",
+"category": "Shirts & Blouses",
+"price": 300.0,
+"list": 300.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://us.toa.st/products/totem-print-cotton-poplin-shirt-ink-dove",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WWTWW33_inkdove_0.jpg?v=1783941670",
+"tags": [
+"also-shown: garland-stripe-cotton-skirt-copper-ecru",
+"also-shown: sturlini-square-toe-leather-shoes-black",
+"base_colour: Blue",
+"collection: AW26_ww_newjuly",
+"collection: AW26_ww_newjune",
+"collection: womens-printed-pieces"
+],
+"desc": "Totem Print creates a unique print using original artwork Les Arches Brunes by Virginie Hucher. A large patch pocket balances the sharp point collar. Made to a boxy shape, then finished with a placket that conceals the corozo buttons. Totem-print organic cotton poplin. Patch pocket. Boxy shape. Concealed-button placket. Corozo buttons. Virginie Hucher is a French artist who works across painting, sculpture, drawing and performance. Her paintings feature large abstract forms that act as talismans, inviting a contemplative relationship with the world. Discover more of Virginie Hucher’s work at V",
+"published": "2026-08-28",
+"score": 4.63,
+"hits": [
+[
+"fab:cotton",
+1.0555555555555556
+],
+[
+"cut:pocket",
+0.9444444444444444
+],
+[
+"price:300+",
+0.6666666666666666
+],
+[
+"brand:TOAST",
+0.6111111111111112
 ]
+],
+"recolour": false
 },
 {
 "brand": "Studio Nicholson",
@@ -1073,7 +1019,8 @@
 "price:200-300",
 0.3888888888888889
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -1114,7 +1061,8 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "Filson",
@@ -1150,7 +1098,8 @@
 "cut:button",
 0.5555555555555556
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "Filson",
@@ -1189,7 +1138,8 @@
 "cut:button",
 0.5555555555555556
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "Loup",
@@ -1228,7 +1178,49 @@
 "cut:button",
 0.5555555555555556
 ]
+],
+"recolour": false
+},
+{
+"brand": "Standard & Strange",
+"status": "approved",
+"title": "Denim Overlap Skirt - Denim Used",
+"category": "Skirts",
+"price": 215.0,
+"list": 215.0,
+"fabric": "100% cotton, 100% cotton",
+"natural": 1.0,
+"url": "https://standardandstrange.com/products/denim-overlap-skirt-denim-used",
+"img": "https://cdn.shopify.com/s/files/1/0352/5633/files/OrSlow-DenimOverlapSkirt-DenimUsed-Flat-33.jpg?v=1744152241",
+"tags": [
+"fem",
+"homepage",
+"ss25",
+"treet-app",
+"webshop"
+],
+"desc": "OrSlow is consistently one of our most popular brands, and for good reason - their combinations of great fits, custom fabrics, and handsome styles fit easily into almost any wardrobe. Founded in 2005 by designer Ichiro Nakatsu, OrSlow takes it’s name from Ichiro’s desire to make the opposite of fast fashion, or ‘slow clothing’, as he would put it. The Denim Overlap Skirt is part of OrSlow's women's line, cut with button front and two bucket pockets. It's a very minimal piece, with workwear details in the construction — chainstitching, double-needle felled seams, and bartack reinforcements will",
+"published": "2025-04-09",
+"score": 4.41,
+"hits": [
+[
+"fab:cotton",
+1.0555555555555556
+],
+[
+"cut:pocket",
+0.9444444444444444
+],
+[
+"cut:button",
+0.5555555555555556
+],
+[
+"cat:Skirts",
+0.3888888888888889
 ]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -1269,7 +1261,8 @@
 "cut:button",
 0.5555555555555556
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -1310,7 +1303,8 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "18 East",
@@ -1347,7 +1341,50 @@
 "cut:button",
 0.5555555555555556
 ]
+],
+"recolour": false
+},
+{
+"brand": "Studio Nicholson",
+"status": "approved",
+"title": "Denjo Straight Leg Denim Pant in Washed Black",
+"category": "Jeans",
+"price": 250.0,
+"list": 250.0,
+"fabric": "cotton",
+"natural": null,
+"url": "https://www.studionicholson.com/products/denjo-straight-leg-denim-pant-in-washed-black",
+"img": "https://cdn.shopify.com/s/files/1/1070/4650/files/25.02.18_SN_SU25_W_EC_037_LORDISNW-1538MATTEVISCSEPINRIBDARKESTNAVY_023.jpg?v=1740744939",
+"tags": [
+"buy",
+"CONTINUITY",
+"denim",
+"denimpants",
+"FARFETCH",
+"fp"
+],
+"desc": "The Denjo jeans have a wide leg that’s softly shaped with a forward seam, creating an ergonomic fit that feels relaxed and wearable. This pair is cut from denim woven with regenerative cotton in a rich washed-indigo shade. --- - Five-pocket construction - Metal rivets - Button and zip fly - Wide leg with front seam - Cut from denim made with regenerative cotton",
+"published": "2025-03-17",
+"score": 4.28,
+"hits": [
+[
+"fab:cotton",
+1.0555555555555556
+],
+[
+"cut:pocket",
+0.9444444444444444
+],
+[
+"cut:button",
+0.5555555555555556
+],
+[
+"price:200-300",
+0.3888888888888889
 ]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -1388,7 +1425,8 @@
 "cut:button",
 0.5555555555555556
 ]
-]
+],
+"recolour": false
 },
 {
 "brand": "TOAST",
@@ -1429,6 +1467,7 @@
 "brand:TOAST",
 0.6111111111111112
 ]
-]
+],
+"recolour": false
 }
 ]

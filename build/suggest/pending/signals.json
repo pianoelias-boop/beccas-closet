@@ -4,13 +4,13 @@
    "id": 174,
    "name": "Cord Culotte Jumpsuit",
    "brand": "TOAST",
-   "age_days": 0.1
+   "age_days": 0.2
   },
   {
    "id": 184,
    "name": "Barrel Leg Cord Pants",
    "brand": "TOAST",
-   "age_days": 0.1
+   "age_days": 0.2
   },
   {
    "id": 193,
@@ -46,7 +46,7 @@
    "id": 303,
    "name": "Cord A Line Skirt",
    "brand": "TOAST",
-   "age_days": 0.1
+   "age_days": 0.2
   },
   {
    "id": 310,
@@ -57,44 +57,44 @@
  ],
  "passed": [],
  "weights": {
-  "cut:pocket": 0.9444444444444444,
-  "fab:cord": 0.7222222222222222,
-  "cut:elastic": 0.5,
   "brand:TOAST": 0.6111111111111112,
-  "cat:Jumpsuits & Rompers": 0.16666666666666666,
   "cut:culotte": 0.16666666666666666,
-  "price:300+": 0.6666666666666666,
-  "cut:button": 0.5555555555555556,
+  "cat:Jumpsuits & Rompers": 0.16666666666666666,
   "fab:cotton": 1.0555555555555556,
+  "cut:elastic": 0.5,
   "color:Grey": 0.2777777777777778,
-  "cat:Pants": 0.6111111111111112,
-  "price:200-300": 0.3888888888888889,
+  "fab:cord": 0.7222222222222222,
+  "cut:pocket": 0.9444444444444444,
+  "cut:button": 0.5555555555555556,
+  "price:300+": 0.6666666666666666,
   "cut:pull on": 0.16666666666666666,
-  "cut:cropped": 0.2777777777777778,
   "cut:barrel": 0.2777777777777778,
   "color:Black": 0.16666666666666666,
-  "color:Denim": 0.1111111111111111,
-  "brand:W'menswear": 0.3333333333333333,
+  "cat:Pants": 0.6111111111111112,
+  "cut:cropped": 0.2777777777777778,
+  "price:200-300": 0.3888888888888889,
   "fab:denim": 0.2222222222222222,
   "cut:tapered": 0.1111111111111111,
   "cut:relaxed": 0.3333333333333333,
+  "brand:W'menswear": 0.3333333333333333,
   "cut:high rise": 0.3333333333333333,
+  "color:Denim": 0.1111111111111111,
   "cut:pleated": 0.1111111111111111,
   "color:White/Ivory": 0.1111111111111111,
   "cut:pleat": 0.1111111111111111,
-  "cut:straight leg": 0.1111111111111111,
   "color:Yellow/Gold": 0.1111111111111111,
+  "cut:straight leg": 0.1111111111111111,
+  "cat:Skirts": 0.3888888888888889,
   "cut:mini": 0.1111111111111111,
   "color:Blue": 0.1111111111111111,
-  "brand:Boden": 0.1111111111111111,
-  "cat:Skirts": 0.3888888888888889,
-  "price:100-200": 0.1111111111111111,
   "cut:midi": 0.1111111111111111,
-  "color:Orange/Rust": 0.16666666666666666,
+  "brand:Boden": 0.1111111111111111,
+  "price:100-200": 0.1111111111111111,
   "cut:a line": 0.16666666666666666,
-  "color:Red": 0.1111111111111111,
+  "color:Orange/Rust": 0.16666666666666666,
   "brand:Polo Ralph Lauren": 0.1111111111111111,
+  "color:Red": 0.1111111111111111,
   "fab:tweed": 0.1111111111111111
  },
- "fetched": "2026-09-15T14:39:08.956888+00:00"
+ "fetched": "2026-09-15T16:32:01.128040+00:00"
 }
