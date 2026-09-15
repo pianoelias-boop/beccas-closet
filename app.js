@@ -281,7 +281,7 @@
       ${ribbon ? `<span class="ribbon">${ribbon}</span>` : ''}
       <button class="heart ${on ? 'on' : ''}" type="button" aria-label="${on ? 'Remove from saved' : 'Save'}" aria-pressed="${on}">${heartSvg}</button>
       <button class="pass" type="button" aria-label="${passed ? 'Bring back' : 'Not for me'}" title="${passed ? 'Bring back' : 'Not for me'}"><svg><use href="#i-x"/></svg></button>
-      <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}>${onSale(it) ? `<span class="sale">On sale · now ${money(saleInfo(it).now)}</span>` : ''}</div>
+      <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}>${onSale(it) ? `<span class="sale">On sale · ${Math.abs((it.price || 0) - saleInfo(it).now) < 1 ? 'was ' + money(saleInfo(it).was) : 'now ' + money(saleInfo(it).now)}</span>` : ''}</div>
       <div class="meta" data-open="${it.id}">
         <p class="brand">${esc(it.brand)}</p>
         <h3 class="name">${esc(it.name)}</h3>
@@ -469,7 +469,7 @@
           <span class="tag col">${esc(it.colorDetail || it.color)}</span>
           ${it.occasions.map(o => `<span class="tag occ">${OCC_LABEL[o] || o}</span>`).join('')}
         </div>
-        ${onSale(it) ? `<p class="sale-line">Marked down at ${esc(it.retailer)} right now: ${money(saleInfo(it).now)}, was ${money(saleInfo(it).was)}, as of ${esc(asOfLabel())}.</p>` : (brandEvent(it) ? `<p class="sale-line">${esc(it.retailer)} is running a sale event right now${brandEvent(it).off ? ', up to ' + brandEvent(it).off + '% off' : ''}. This piece isn\u2019t showing as reduced in what we can see, but it\u2019s worth a look.</p>` : '')}
+        ${onSale(it) ? `<p class="sale-line">${Math.abs((it.price || 0) - saleInfo(it).now) < 1 ? `Marked down at ${esc(it.retailer)} from ${money(saleInfo(it).was)} to ${money(saleInfo(it).now)}, as of ${esc(asOfLabel())}.` : `Marked down at ${esc(it.retailer)} right now: ${money(saleInfo(it).now)}, was ${money(saleInfo(it).was)}, as of ${esc(asOfLabel())}.`}</p>` : (brandEvent(it) ? `<p class="sale-line">${esc(it.retailer)} is running a sale event right now${brandEvent(it).off ? ', up to ' + brandEvent(it).off + '% off' : ''}. This piece isn\u2019t showing as reduced in what we can see, but it\u2019s worth a look.</p>` : '')}
         ${it.fabric ? `<p class="fabric-line">${esc(it.fabric)}</p>` : ''}
         ${it.desc ? `<div class="about"><h3>About this piece</h3><p>${esc(it.desc)}</p></div>` : ''}
         ${it.details && it.details.length ? `<div class="about"><h3>Cut, fabric &amp; care</h3><ul class="details">${it.details.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div>` : ''}

@@ -20,6 +20,27 @@ by_handle = {}
 for it in pieces:
     m = re.search(r'/products/([^/?#]+)', it['url'])
     if m: by_handle.setdefault(m.group(1).lower(), []).append(it)
+def norm(s): return re.sub(r'[^a-z0-9 ]', ' ', (s or '').lower()).split()
+def colour_hint(it):
+    # the closet item's own colour: the product's colour detail, else the tail of its name after "in", "-", "|"
+    tail = re.split(r'\s+(?:in|-|–|—|/|\|)\s+', it['name'], 1)
+    return [w for w in norm((it.get('colorDetail') or '') + ' ' + (tail[1] if len(tail) > 1 else '')) if w not in ('print', 'as', 'shown', 'the', 'and')]
+def variants_for(it, product):
+    # narrow the product's variants to the item's colour: exact variant id from the URL, else a colour option match,
+    # else (no colour option) every variant; returns (variants, matched_by)
+    vs = [v for v in product.get('variants', []) if v.get('available')]
+    m = re.search(r'[?&]variant=(\d+)', it['url'])
+    if m:
+        exact = [v for v in vs if str(v.get('id')) == m.group(1)]
+        if exact: return exact, 'variant'
+    names = [o['name'].lower() for o in product.get('options', [])]
+    ci = next((i for i, n in enumerate(names) if re.search(r'colou?r|shade|wash|print|pattern', n)), None)
+    if ci is None: return vs, 'all'
+    hint = colour_hint(it)
+    if not hint: return [], 'nohint'
+    def val(v): return norm(v.get(f'option{ci + 1}') or '')
+    matched = [v for v in vs if val(v) and (set(val(v)) <= set(hint) or set(hint) <= set(val(v)) or (val(v)[0] in hint))]
+    return matched, ('colour' if matched else 'nomatch')
 HIST_PATH = 'build/sales/history.json'; hist = json.load(open(HIST_PATH)) if os.path.exists(HIST_PATH) else {}
 def get(u, timeout=30): return urllib.request.urlopen(urllib.request.Request(u, headers=H), timeout=timeout, context=ctx).read().decode('utf-8', 'ignore')
 def feed(base):
@@ -32,10 +53,18 @@ def feed(base):
             vs = [v for v in p.get('variants', []) if v.get('available')]
             if not vs: continue
             n += 1
-            sale = [(float(v['price']), float(v['compare_at_price'])) for v in vs if v.get('compare_at_price') and float(v['compare_at_price']) > float(v['price'])]
+            def reduced(v): return v.get('compare_at_price') and float(v['compare_at_price']) > float(v['price'])
+            sale = [(float(v['price']), float(v['compare_at_price'])) for v in vs if reduced(v)]
             if sale:
                 disc += 1; now, was = min(sale); depths.append(1 - now / was)
-                for it in by_handle.get(p['handle'].lower(), []): items[it['id']] = dict(now=round(now, 2), was=round(was, 2), off=int(round((1 - now / was) * 100)))
+            for it in by_handle.get(p['handle'].lower(), []):
+                cand, how = variants_for(it, p)
+                if how in ('nomatch', 'nohint'):            # cannot tell which colour: only flag a product-wide markdown
+                    cand = vs if vs and all(reduced(v) for v in vs) else []
+                red = [(float(v['price']), float(v['compare_at_price'])) for v in cand if reduced(v)]
+                if red:
+                    n_, w_ = min(red)
+                    items[it['id']] = dict(now=round(n_, 2), was=round(w_, 2), off=int(round((1 - n_ / w_) * 100)), how=how, listed=it.get('price'))
     return dict(kind='feed', products=n, share=round(disc / n, 3) if n else 0, depth=round(statistics.median(depths), 2) if depths else 0, items=items)
 def homepage(site):
     page = html.unescape(get(site)); text = re.sub(r'<script.*?</script>|<style.*?</style>', ' ', page, flags=re.S); text = re.sub(r'<[^>]+>', ' ', text); text = re.sub(r'\s+', ' ', text)
@@ -80,7 +109,7 @@ json.dump(hist, open(HIST_PATH, 'w'))
 open('sales.js', 'w').write('window.SALES = ' + json.dumps({'checked': TODAY, 'items': {str(k): v for k, v in items.items()}, 'events': events, 'brands': notes}, separators=(',', ':')) + ';\n')
 byb = {}
 for iid, v in items.items():
-    it = next(i for i in pieces if i['id'] == iid); byb.setdefault(it['brand'], []).append(f"{it['name'][:34]} ${v['now']:.0f} was ${v['was']:.0f}")
+    it = next(i for i in pieces if i['id'] == iid); byb.setdefault(it['brand'], []).append(f"{it['name'][:34]} [{v['how']}] ${v['now']:.0f} was ${v['was']:.0f} (closet ${it.get('price')})")
 print(f"closet pieces actually marked down: {len(items)}")
 for b, L in sorted(byb.items()): print(f"  {b}: " + '; '.join(L[:4]) + (f" (+{len(L)-4} more)" if len(L) > 4 else ''))
 print('sale events:', {k: (v['why'], v['off'], v['event']) for k, v in events.items()} or 'none')
