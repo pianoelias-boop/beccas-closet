@@ -43,7 +43,7 @@ def homepage(site):
     # not an in-store-only, selected-styles, or sign-up offer.
     SITE = r'sitewide|site-wide|everything|all full[- ]price|entire (?:site|store)|storewide'
     EVENT = r"labor day|memorial day|black friday|cyber monday|presidents'? day|fourth of july|4th of july|end of season|semi-?annual|anniversary sale|friends (?:&|and) family|flash sale|(?:summer|winter|fall|spring) sale"
-    EXCL = r'in[- ]store only|in person|selected|select styles|first (?:purchase|order)|sign up|newsletter|subscribe|closing'
+    EXCL = r'in[- ]store only|in person|selected|select styles|first (?:purchase|order)|newsletter|subscribe|closing|when you (?:sign up|join)'
     best = 0; event = None; sitewide = False
     for m in re.finditer(r'(\d{2})\s?%\s?off', text, re.I):
         win = text[max(0, m.start() - 90): m.end() + 90]
