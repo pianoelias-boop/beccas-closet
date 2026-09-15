@@ -163,6 +163,9 @@
   }
 
   // ---------- filtering ----------
+  function pool() {
+    return state.tab === 'ideas' ? IDEAS.filter(i => !state.saved.has(i.id)) : ITEMS.concat(IDEAS.filter(i => state.saved.has(i.id)));
+  }
   function matches(item) {
     if (!state.showPassed && state.passed.has(item.id)) return false;
     if (state.category.size && !state.category.has(item.category)) return false;
@@ -186,7 +189,10 @@
         if (!state.shuffleOrder) reshuffle();
         const pos = state.shuffleOrder; l.sort((a, b) => pos.get(a.id) - pos.get(b.id)); break;
       }
-      default: { const pos = defaultOrder(); l.sort((a, b) => (pos.has(a.id) ? pos.get(a.id) : -1) - (pos.has(b.id) ? pos.get(b.id) : -1)); break; }
+      default: {
+        if (state.tab === 'ideas') { l.sort((a, b) => (b.round - a.round) || (a.id - b.id)); break; }
+        const pos = defaultOrder(); l.sort((a, b) => (pos.has(a.id) ? pos.get(a.id) : -1) - (pos.has(b.id) ? pos.get(b.id) : -1)); break;
+      }
     }
     return l;
   }
@@ -210,16 +216,17 @@
   function activeFilterCount() { return state.category.size + state.color.size + state.brand.size + state.occasion.size + state.price.size; }
 
   // ---------- facets ----------
+  const pool_ = () => pool();
   function countBy(key, values, getter) {
     // counts respect every OTHER active facet, so numbers stay honest as you refine
     const saved = new Set(state[key]); state[key].clear();
-    const pool = ITEMS.filter(matches); state[key] = saved;
+    const pool = pool_().filter(matches); state[key] = saved;
     const c = new Map(values.map(v => [v, 0]));
     pool.forEach(it => getter(it).forEach(v => c.has(v) && c.set(v, c.get(v) + 1)));
     return c;
   }
   function renderFacets() {
-    const brands = [...new Set(ITEMS.map(i => i.brand))].sort((a, b) => a.localeCompare(b));
+    const brands = [...new Set(pool().map(i => i.brand))].sort((a, b) => a.localeCompare(b));
     const cCat = countBy('category', CATEGORY_ORDER, i => [i.category]);
     const cCol = countBy('color', COLOR_ORDER, i => [i.color]);
     const cOcc = countBy('occasion', OCC_ORDER, i => i.occasions);
@@ -259,22 +266,15 @@
   function render() {
     document.body.classList.toggle('tab-ideas', state.tab === 'ideas');
     $('#ideas-intro').hidden = state.tab !== 'ideas';
-    if (state.tab === 'ideas') {
-      state.view = IDEAS.filter(i => !state.passed.has(i.id) && !state.saved.has(i.id)).sort((a, b) => (b.round - a.round) || (a.id - b.id));
-      const n = state.view.length;
-      $('#grid').innerHTML = state.view.map(cardHtml).join('');
-      $('#empty').hidden = n > 0;
-      $('#results-count').innerHTML = n ? `<b>${n}</b> suggestion${n === 1 ? '' : 's'} waiting` : 'Nothing waiting. Anything you added is in the closet.';
-      $('#chips').innerHTML = '';
-      renderIdeas();
-      return;
-    }
-    state.view = sorted(ITEMS.concat(IDEAS.filter(i => state.saved.has(i.id))).filter(matches));
+    const all = pool();
+    state.view = sorted(all.filter(matches));
     const n = state.view.length;
-    const total = ITEMS.length + IDEAS.filter(i => state.saved.has(i.id)).length - (state.showPassed ? 0 : [...state.passed].filter(id => !isIdea(id)).length);
+    const total = all.length - (state.showPassed ? 0 : all.filter(i => state.passed.has(i.id)).length);
+    const noun = state.tab === 'ideas' ? 'suggestion' : 'piece';
     $('#grid').innerHTML = state.view.map(cardHtml).join('');
     $('#empty').hidden = n > 0;
-    $('#results-count').innerHTML = n === total ? `All <b>${n}</b> pieces` : `<b>${n}</b> of ${total} pieces`;
+    if (state.tab === 'ideas' && total === 0) $('#results-count').innerHTML = 'Nothing waiting. Anything you added is in the closet.';
+    else $('#results-count').innerHTML = n === total ? `All <b>${n}</b> ${noun}${n === 1 ? '' : 's'}` : `<b>${n}</b> of ${total} ${noun}s`;
     $('#apply-count').textContent = `${n} piece${n === 1 ? '' : 's'}`;
     const fc = activeFilterCount();
     $('#filter-count').textContent = fc ? String(fc) : '';
