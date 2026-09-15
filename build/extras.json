@@ -467,5 +467,304 @@
    "Perfect alone in 50-60F weather, or layered when temps drop lower"
   ],
   "fabric": "100% cotton"
+ },
+ {
+  "id": 412,
+  "brand": "Unbound Merino",
+  "retailer": "Unbound Merino",
+  "name": "Women's Merino Rib Scoop Neck Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "friend",
+   "hang"
+  ],
+  "why": "ultrafine merino rib with stretch, wicks and resists odour, fitted, black",
+  "price": 70,
+  "colorDetail": "Black",
+  "categoryDetail": "Merino tank",
+  "url": "https://unboundmerino.com/products/womens-merino-rib-scoop-neck-tank",
+  "img": "images/full/412.jpg",
+  "hi": true,
+  "desc": "Designed with a touch of added stretch, this ribbed essential delivers Merino performance in a fitted silhouette made for easy layering, or for wearing on its own.",
+  "details": [
+   "96% merino wool, 4% spandex",
+   "210 gsm, 16.5 micron ultrafine merino",
+   "Fitted rib; runs slightly small, size up for a regular fit",
+   "Machine wash cold, lay flat to dry"
+  ],
+  "fabric": "96% merino wool, 4% spandex",
+  "note": "The most \"real top\" of the merino tanks: a fitted rib that hides damp and passes for going out. The heaviest of the ten, so best for cooler rooms."
+ },
+ {
+  "id": 413,
+  "brand": "Unbound Merino",
+  "retailer": "Unbound Merino",
+  "name": "Women's Relaxed Merino Scoop Neck Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang",
+   "friend"
+  ],
+  "why": "lightweight all-merino jersey, relaxed and airy, black",
+  "price": 85,
+  "colorDetail": "Black",
+  "categoryDetail": "Merino tank",
+  "url": "https://unboundmerino.com/products/womens-relaxed-merino-scoop-neck-tank",
+  "img": "images/full/413.jpg",
+  "hi": true,
+  "desc": "Crafted from a lightweight Merino jersey, this soft tank features a scooped neckline and an easy, relaxed fit that sits away from the body. Ideal for warm days and effortless layering.",
+  "details": [
+   "100% merino wool jersey",
+   "175 gsm, 16.5 micron ultrafine merino",
+   "Relaxed fit with extra room in chest and waist",
+   "Front length 22.5\" in a medium",
+   "Machine wash cold, lay flat to dry"
+  ],
+  "fabric": "100% merino wool jersey",
+  "note": "The airiest of the Unbound tanks. Pure merino jersey with no stretch fibre, cut to hang away from the body."
+ },
+ {
+  "id": 414,
+  "brand": "Woolly Clothing Co.",
+  "retailer": "Woolly Clothing Co.",
+  "name": "Racerback Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "outdoors",
+   "hang"
+  ],
+  "why": "stretch merino, racerback frees the shoulders, athletic fit, black",
+  "price": 78,
+  "colorDetail": "Black",
+  "categoryDetail": "Merino tank",
+  "url": "https://www.woolly.clothing/products/w-ul-tank",
+  "img": "images/full/414.jpg",
+  "hi": true,
+  "desc": "A simple, classic racerback that is comfortable enough for home and technical enough for the trail: low-bulk athletic fit, moisture-wicking and odour-resistant, in ultra-soft Australian merino with a touch of elastane.",
+  "details": [
+   "95% Australian merino, 5% elastane",
+   "175 gsm, 17.5 micron",
+   "Low-bulk athletic fit",
+   "Racerback",
+   "Responsible Wool Standard certified",
+   "Sizes XS to XXL"
+  ],
+  "fabric": "95% Australian merino, 5% elastane",
+  "note": "A strong dance pick: elastane keeps the shape when damp, and the racerback frees the shoulders."
+ },
+ {
+  "id": 415,
+  "brand": "Woolly Clothing Co.",
+  "retailer": "Woolly Clothing Co.",
+  "name": "Crew Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang",
+   "friend"
+  ],
+  "why": "stretch merino, everyday weight, classic tank cut, black",
+  "price": 78,
+  "colorDetail": "Black",
+  "categoryDetail": "Merino tank",
+  "url": "https://www.woolly.clothing/products/w-tank-crew",
+  "img": "images/full/415.jpg",
+  "hi": true,
+  "desc": "A versatile companion that transitions from home to trail. Premium Australian merino with natural temperature regulation and freedom of movement, in an everyday 175 gsm weight with ultra-soft 17.5 micron fibres.",
+  "details": [
+   "95% Australian merino, 5% elastane",
+   "175 gsm, 17.5 micron",
+   "Regular straps, scooped crew neckline",
+   "Responsible Wool Standard certified",
+   "Sizes XS to XXL"
+  ],
+  "fabric": "95% Australian merino, 5% elastane",
+  "note": "The same cloth as the racerback with regular straps and a flattering neckline, per its reviews."
+ },
+ {
+  "id": 416,
+  "brand": "Icebreaker",
+  "retailer": "Icebreaker",
+  "name": "Merino 150 Siren Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang",
+   "outdoors"
+  ],
+  "why": "light corespun merino with stretch, slim, wicks and dries fast, black",
+  "price": 75,
+  "colorDetail": "Black",
+  "categoryDetail": "Merino tank",
+  "url": "https://na.icebreaker.com/en-us/womens-underwear/merino-150-siren-tank/103213.html",
+  "img": "images/full/416.jpg",
+  "hi": true,
+  "desc": "A soft, stretchy tank with a sleek, feminine design for everyday comfort, in durable corespun merino wool blend fabric. Sold as a base layer, worn on its own constantly; Icebreaker's most reviewed tank.",
+  "details": [
+   "83% merino wool, 12% nylon, 5% elastane",
+   "150 gsm, 18.9 micron",
+   "Slim fit, close to the body",
+   "Corespun merino for durability",
+   "Sizes XS to XL"
+  ],
+  "fabric": "83% merino wool, 12% nylon, 5% elastane",
+  "note": "Icebreaker's most reviewed tank, light and stretchy. Filed under base layers on their site but worn solo all the time."
+ },
+ {
+  "id": 417,
+  "brand": "Icebreaker",
+  "retailer": "Icebreaker",
+  "name": "Merino Blend 125 Cool-Lite Sphere III Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang",
+   "outdoors"
+  ],
+  "why": "coolest fabric of the set, merino and Tencel, regular fit, black",
+  "price": 80,
+  "colorDetail": "Black",
+  "categoryDetail": "Merino tank",
+  "url": "https://na.icebreaker.com/en-us/products/merino-blend-125-cool-lite-sphere-tank-ib0a56zq001",
+  "img": "images/full/417.jpg",
+  "hi": true,
+  "desc": "Soft, comfortable and versatile for warm-weather activity. Lightweight Cool-Lite merino and Tencel jersey with offset shoulder seams and a drop-tail hem.",
+  "details": [
+   "60% Tencel lyocell, 40% merino wool",
+   "Cool-Lite jersey, the lightest weight Icebreaker makes",
+   "Regular fit, drop-tail hem",
+   "Offset shoulder seams",
+   "Sizes XS to XL"
+  ],
+  "fabric": "60% Tencel lyocell, 40% merino wool",
+  "note": "The coolest fabric here for a hot dance floor: merino blended with Tencel, which adds drape and dries even faster."
+ },
+ {
+  "id": 418,
+  "brand": "Ridge Merino",
+  "retailer": "Ridge Merino",
+  "name": "Women's Journey Merino Wool Tank Top",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "outdoors",
+   "hang"
+  ],
+  "why": "light corespun merino, relaxed, tough for the price, black",
+  "price": 45,
+  "colorDetail": "Black",
+  "categoryDetail": "Merino tank",
+  "url": "https://ridgemerino.com/products/womens-journey-merino-wool-tank-top",
+  "img": "images/full/418.jpg",
+  "hi": true,
+  "desc": "A versatile staple made from the same soft, breathable merino fabric as Ridge's bestselling Journey Tee. Nylon corespun merino for durability; naturally wicks sweat, dries quickly, resists odour and has built-in sun protection.",
+  "details": [
+   "87% merino wool, 13% nylon corespun",
+   "150 gsm",
+   "Relaxed fit",
+   "UPF sun protection",
+   "Sizes XS to XL"
+  ],
+  "fabric": "87% merino wool, 13% nylon",
+  "note": "The value pick. The nylon core makes it more durable than most merino at this weight, for $45."
+ },
+ {
+  "id": 419,
+  "brand": "Ibex",
+  "retailer": "Ibex",
+  "name": "Women's GOAT Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang",
+   "outdoors"
+  ],
+  "why": "light merino-nylon, relaxed, curved hem tucks in, black",
+  "price": 75,
+  "colorDetail": "Black",
+  "categoryDetail": "Merino tank",
+  "url": "https://ibex.com/products/womens-goat-tank",
+  "img": "images/full/419.jpg",
+  "hi": true,
+  "desc": "Ibex's favourite merino tank, now stronger and softer. Naturally moisture-wicking and odour-resistant, breathable for layering, with low-profile saddle stitching, offset shoulder seams and a curved hem made for tucking.",
+  "details": [
+   "89% merino wool, 11% nylon",
+   "150 gsm",
+   "Relaxed fit",
+   "Curved hem",
+   "Black in S to XXL"
+  ],
+  "fabric": "89% merino wool, 11% nylon",
+  "note": "A relaxed, tuckable merino tank from a long-running Vermont wool brand. Black runs S to XXL."
+ },
+ {
+  "id": 420,
+  "brand": "Mons Royale",
+  "retailer": "Mons Royale",
+  "name": "Folo Merino Tank",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "outdoors",
+   "hang"
+  ],
+  "why": "lightest merino here, stretch, slim scoop neck, black",
+  "price": 74.95,
+  "colorDetail": "Black",
+  "categoryDetail": "Merino tank",
+  "url": "https://www.monsroyale.com/products/folo-merino-tank-black-womens",
+  "img": "images/full/420.jpg",
+  "hi": true,
+  "desc": "First on, last off. With a slim fit, scoop neck and straight hem, this merino tank is an essential all year. Ultralight and breathable, it regulates body temperature in all conditions.",
+  "details": [
+   "83% merino wool, 13% nylon, 4% elastane",
+   "140 gsm, the lightest of the set",
+   "Slim fit, scoop neck, straight hem",
+   "Sizes XS to XL"
+  ],
+  "fabric": "83% merino wool, 13% nylon, 4% elastane",
+  "note": "The lightest tank of the ten, from a New Zealand bike-and-ski brand. Slim, stretchy and built for sweating in."
+ },
+ {
+  "id": 421,
+  "brand": "Minus33",
+  "retailer": "Minus33",
+  "name": "Lafayette Lightweight Wool Tank Top",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang",
+   "outdoors"
+  ],
+  "why": "all-merino lightweight jersey, plain and honest, black",
+  "price": 59.99,
+  "colorDetail": "Black",
+  "categoryDetail": "Merino tank",
+  "url": "https://www.minus33.com/products/lafayette-womens-lightweight-wool-tank-top",
+  "img": "images/full/421.jpg",
+  "hi": true,
+  "desc": "When it is so hot all you want is the beach, this is the tank. Lightweight and breathable 100% merino jersey that keeps you cool and dry through the day.",
+  "details": [
+   "100% merino wool",
+   "170 gsm lightweight jersey, 17.5 micron",
+   "Straight cut",
+   "Machine washable",
+   "Sizes XS to XL"
+  ],
+  "fabric": "100% merino wool",
+  "note": "The plainest and one of the cheapest all-wool options, from a New Hampshire base-layer maker."
  }
 ]

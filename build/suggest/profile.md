@@ -17,6 +17,9 @@ Updated 2026-09-15 from the notebook (9 hearts, 0 passes) plus the closet's own 
 - **Brands:** TOAST (4), W'menswear (3), Boden, Ralph Lauren.
 - **Occasions implied:** teaching and hanging out; workwear-leaning pieces that move.
 
+## Told in person
+- 2026-09-15: she wants a merino wool tank top, black, for dancing. Ten were added to the closet by the owner (ids 412–421, Tops & Tees, dance tag). Watch which she hearts; that tells us fitted vs relaxed and how light she likes it.
+
 ## Guidance for rounds
 - Lead with corduroy, cotton twill, denim, wool flannel and tweed in trousers, skirts and utility jumpsuits.
 - Include one or two dresses per round in her fabrics and colours (cord, cotton twill, jersey, wool; darks and earth tones) so the signal on dresses can develop.

@@ -300,6 +300,48 @@
    "site": "https://www.marinelayer.com",
    "status": "proposed",
    "note": "SF; soft casual basics, lower price end"
+  },
+  {
+   "name": "Unbound Merino",
+   "site": "https://unboundmerino.com",
+   "status": "approved",
+   "note": "merino tanks, added by hand 2026-09-15"
+  },
+  {
+   "name": "Woolly Clothing Co.",
+   "site": "https://www.woolly.clothing",
+   "status": "approved",
+   "note": "merino tanks, added by hand 2026-09-15"
+  },
+  {
+   "name": "Icebreaker",
+   "site": "https://na.icebreaker.com",
+   "status": "approved",
+   "note": "merino tanks, added by hand 2026-09-15"
+  },
+  {
+   "name": "Ridge Merino",
+   "site": "https://ridgemerino.com",
+   "status": "approved",
+   "note": "merino tanks, added by hand 2026-09-15"
+  },
+  {
+   "name": "Ibex",
+   "site": "https://ibex.com",
+   "status": "approved",
+   "note": "merino tanks, added by hand 2026-09-15"
+  },
+  {
+   "name": "Mons Royale",
+   "site": "https://www.monsroyale.com",
+   "status": "approved",
+   "note": "merino tanks, added by hand 2026-09-15"
+  },
+  {
+   "name": "Minus33",
+   "site": "https://www.minus33.com",
+   "status": "approved",
+   "note": "merino tanks, added by hand 2026-09-15"
   }
  ]
 }
