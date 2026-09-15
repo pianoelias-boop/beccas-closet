@@ -12,6 +12,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 os.chdir(ROOT)
 P = 'build/suggest'; PEND = f'{P}/pending'
+os.makedirs(PEND, exist_ok=True); os.makedirs('images/ideas', exist_ok=True)
 ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
 H = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36', 'Accept': 'application/json,image/*,*/*'}
 cfg = json.load(open(f'{P}/brands.json')); R = cfg['rules']
