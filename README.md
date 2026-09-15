@@ -50,7 +50,7 @@ To update the site, commit and push to `main`; Pages redeploys within a minute o
 
 ## New ideas
 
-A "New ideas" section at the bottom of the Refine panel offers a handful of pieces from beyond the closet,
+A "Based on your likes" tab above the grid offers a handful of pieces from beyond the closet,
 chosen against her hearts and passes. Adding one hearts it and it joins the grid; passing it removes it.
 The ideas live in `suggestions.js`, built from `build/suggest/round_*.json`; `build/suggest/README.md`
 explains how a round is run and how new brands are vetted and approved in `build/suggest/brands.json`.
