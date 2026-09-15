@@ -1,0 +1,100 @@
+{
+ "saved": [
+  {
+   "id": 174,
+   "name": "Cord Culotte Jumpsuit",
+   "brand": "TOAST",
+   "age_days": 0.1
+  },
+  {
+   "id": 184,
+   "name": "Barrel Leg Cord Pants",
+   "brand": "TOAST",
+   "age_days": 0.1
+  },
+  {
+   "id": 193,
+   "name": "Wendy Trouser - 13 oz Denim",
+   "brand": "W'menswear",
+   "age_days": 999
+  },
+  {
+   "id": 207,
+   "name": "Twisted Seam Cord Pants",
+   "brand": "TOAST",
+   "age_days": 999
+  },
+  {
+   "id": 217,
+   "name": "Burnout Pants - Natural",
+   "brand": "W'menswear",
+   "age_days": 999
+  },
+  {
+   "id": 221,
+   "name": "Wendy Trouser - Indigo/Gold",
+   "brand": "W'menswear",
+   "age_days": 999
+  },
+  {
+   "id": 277,
+   "name": "Val Button Cord Midi Skirt",
+   "brand": "Boden",
+   "age_days": 999
+  },
+  {
+   "id": 303,
+   "name": "Cord A Line Skirt",
+   "brand": "TOAST",
+   "age_days": 0.1
+  },
+  {
+   "id": 310,
+   "name": "Plaid Tweed Yoke Skirt",
+   "brand": "Polo Ralph Lauren",
+   "age_days": 999
+  }
+ ],
+ "passed": [],
+ "weights": {
+  "cut:button": 0.5555555555555556,
+  "color:Grey": 0.2777777777777778,
+  "cut:pocket": 0.9444444444444444,
+  "fab:cord": 0.7222222222222222,
+  "cut:culotte": 0.16666666666666666,
+  "brand:TOAST": 0.6111111111111112,
+  "cut:elastic": 0.5,
+  "cat:Jumpsuits & Rompers": 0.16666666666666666,
+  "fab:cotton": 1.0555555555555556,
+  "price:300+": 0.6666666666666666,
+  "price:200-300": 0.3888888888888889,
+  "cat:Pants": 0.6111111111111112,
+  "color:Black": 0.16666666666666666,
+  "cut:cropped": 0.2777777777777778,
+  "cut:pull on": 0.16666666666666666,
+  "cut:barrel": 0.2777777777777778,
+  "cut:relaxed": 0.3333333333333333,
+  "brand:W'menswear": 0.3333333333333333,
+  "cut:high rise": 0.3333333333333333,
+  "cut:tapered": 0.1111111111111111,
+  "color:Denim": 0.1111111111111111,
+  "fab:denim": 0.2222222222222222,
+  "color:White/Ivory": 0.1111111111111111,
+  "cut:pleated": 0.1111111111111111,
+  "cut:pleat": 0.1111111111111111,
+  "cut:straight leg": 0.1111111111111111,
+  "color:Yellow/Gold": 0.1111111111111111,
+  "brand:Boden": 0.1111111111111111,
+  "cut:midi": 0.1111111111111111,
+  "cut:mini": 0.1111111111111111,
+  "cat:Skirts": 0.3888888888888889,
+  "color:Blue": 0.1111111111111111,
+  "price:100-200": 0.1111111111111111,
+  "color:Orange/Rust": 0.16666666666666666,
+  "cut:a line": 0.16666666666666666,
+  "fab:tweed": 0.1111111111111111,
+  "color:Red": 0.1111111111111111,
+  "brand:Polo Ralph Lauren": 0.1111111111111111
+ },
+ "fetched": "2026-09-15T14:39:13.978754+00:00"
+}
