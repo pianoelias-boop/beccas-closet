@@ -11,6 +11,9 @@ Five minutes, once. Needs your Google account.
    - Who has access: **Anyone**
    Click **Deploy**, approve the permissions prompt (it only asks for access to this spreadsheet),
    and copy the **Web app URL**. It ends in `/exec`.
+   Google will show a "Google hasn't verified this app" screen: click **Advanced**, then
+   "Go to … (unsafe)", then **Allow**. The app is your own script; the first line of the code
+   limits its permission to this one spreadsheet.
 4. Paste that URL into `index.html` on the line
    `<meta name="closet-sync" content="">` between the quotes, commit and push.
    (Or hand the URL to Claude and it will do this step.)

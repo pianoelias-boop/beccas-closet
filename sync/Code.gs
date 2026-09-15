@@ -1,5 +1,7 @@
+/** @OnlyCurrentDoc */
 /**
  * Becca's Closet notebook — Google Apps Script web app.
+ * The @OnlyCurrentDoc line above limits the script's permission to this one spreadsheet.
  *
  * Sheets used (created automatically):
  *   events  — one row per heart/pass action, newest at the bottom
@@ -29,7 +31,8 @@ function doPost(e) {
   const events = Array.isArray(body) ? body : (body.events || [body]);
   const sh = sheet_('events', EVENT_HEADERS);
   const now = new Date();
-  const rows = events.filter(ev => ev && ev.item != null && (ev.kind === 's' || ev.kind === 'p')).map(ev => [
+  const MAX_ITEM = 100000;   // ignore anything that is not a plausible closet item number
+  const rows = events.filter(ev => ev && Number.isInteger(Number(ev.item)) && Number(ev.item) > 0 && Number(ev.item) < MAX_ITEM && (ev.kind === 's' || ev.kind === 'p')).slice(0, 200).map(ev => [
     Number(ev.ts) || Date.now(), new Date(Number(ev.ts) || Date.now()), String(ev.key || 'becca'), Number(ev.item),
     ev.kind, ev.on ? 1 : 0, String(ev.name || ''), String(ev.brand || ''), String(ev.client || ''), now
   ]);
