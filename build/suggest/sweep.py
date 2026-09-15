@@ -3,8 +3,15 @@ import json, re, ssl, urllib.request, html, sys, time, concurrent.futures as cf
 ctx=ssl.create_default_context(); ctx.check_hostname=False; ctx.verify_mode=ssl.CERT_NONE
 H={'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36','Accept':'application/json'}
 cfg=json.load(open('build/suggest/brands.json')); R=cfg['rules']
-statuses=set(sys.argv[1].split(',')) if len(sys.argv)>1 else {'approved','proposed'}
-existing=json.load(open('build/items_raw.json'))+json.load(open('build/extras.json'))
+def _existing():
+    ex=json.load(open('build/items_raw.json'))+json.load(open('build/extras.json'))
+    import glob
+    for p in glob.glob('build/suggest/round_*.json'):
+        if not p.endswith('_raw.json'): ex+=json.load(open(p))
+    import os
+    if os.path.exists('build/suggest/retired.json'): ex+=json.load(open('build/suggest/retired.json'))
+    return ex
+existing=_existing()
 exist_urls={i['url'].split('?')[0].rstrip('/').lower() for i in existing}
 exist_titles={(i['brand'].lower(), re.sub(r'[^a-z0-9]','',i['name'].lower())) for i in existing}
 NATURAL={'cotton','linen','wool','silk','cashmere','hemp','ramie','alpaca','mohair','tencel','lyocell','modal','cupro','viscose','rayon','merino','lambswool','flax','jute','yak','camel','ecovero'}
@@ -30,6 +37,7 @@ def category(title, ptype, tags):
     blob=f'{title} {ptype} {" ".join(tags or [])}'.lower()
     if EXCL.search(blob) and not re.search(r'dress|jumpsuit|skirt|pant|jean|shirt|blouse|sweater|cardigan|top\b', title.lower()): return None
     if re.search(r"\bmen'?s\b|\bunisex\b", blob) and 'women' not in blob: return None
+    if re.search(r'\bshorts?\b(?! sleeve)', title.lower()) and not re.search(r'short sleeve', title.lower()): return None
     for cat,pat in CAT_RULES:
         if re.search(pat, title.lower()) or re.search(pat, (ptype or '').lower()): return cat
     return None
@@ -66,11 +74,18 @@ def sweep(b):
     except Exception as e:
         note=f'{type(e).__name__}: {str(e)[:60]}'
     return b['name'], out, note
-brands=[b for b in cfg['brands'] if b['status'] in statuses]
-allc=[]; report=[]
-with cf.ThreadPoolExecutor(6) as ex:
-    for name,out,note in ex.map(sweep, brands):
-        allc+=out; report.append((name,len(out),note))
-json.dump(allc, open('build/suggest/candidates.json','w'), indent=0, ensure_ascii=False)
-for name,n,note in sorted(report, key=lambda r:-r[1]): print(f'{name:24s} {n:4d}  {note or ""}')
-print('TOTAL candidates', len(allc))
+def sweep_brands(statuses={'approved'}, workers=6, quiet=False):
+    brands=[b for b in cfg['brands'] if b['status'] in statuses]
+    allc=[]; report=[]
+    with cf.ThreadPoolExecutor(workers) as ex:
+        for name,out,note in ex.map(sweep, brands):
+            allc+=out; report.append((name,len(out),note))
+    if not quiet:
+        for name,n,note in sorted(report, key=lambda r:-r[1]): print(f'{name:24s} {n:4d}  {note or ""}')
+        print('TOTAL candidates', len(allc))
+    return allc, report
+
+if __name__=='__main__':
+    statuses=set(sys.argv[1].split(',')) if len(sys.argv)>1 else {'approved','proposed'}
+    allc,report=sweep_brands(statuses)
+    json.dump(allc, open('build/suggest/candidates.json','w'), indent=0, ensure_ascii=False)

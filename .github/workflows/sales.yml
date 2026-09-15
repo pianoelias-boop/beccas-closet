@@ -1,0 +1,27 @@
+name: Daily sale check
+
+on:
+  schedule:
+    - cron: '0 9 * * *'     # 05:00 US Eastern (daylight)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: sales
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Check the brands
+        run: python3 build/sales/check.py
+      - name: Publish if anything changed
+        run: |
+          git config user.name "closet-bot"; git config user.email "closet-bot@users.noreply.github.com"
+          git add sales.js build/sales/history.json
+          git commit -m "Sale check $(date -u +%F)" || echo "no change"
+          git push

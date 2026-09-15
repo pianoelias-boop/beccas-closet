@@ -55,6 +55,16 @@ chosen against her hearts and passes. Adding one hearts it and it joins the grid
 The ideas live in `suggestions.js`, built from `build/suggest/round_*.json`; `build/suggest/README.md`
 explains how a round is run and how new brands are vetted and approved in `build/suggest/brands.json`.
 
+## Schedules (GitHub Actions)
+
+- **Weekly round** (`.github/workflows/round.yml`): Saturday 6 am ET stage 1 reads the notebook, sweeps the
+  approved brands and writes a shortlist to `build/suggest/pending/`. A Claude Code routine may then judge it
+  and open a pull request; if nothing has been opened by noon, the fallback picks by score and opens the pull
+  request itself. Nothing publishes until the pull request is merged. Run by hand from the Actions tab.
+- **Daily sale check** (`.github/workflows/sales.yml`): 5 am ET, writes `sales.js`. The site shows an
+  "On sale" ribbon, an "On sale now" filter and a banner when a brand's discounted share jumps above its own
+  normal, plus a calendar nudge on the big US sale weekends. Flags expire if the check is older than three days.
+
 ## Hearts, passes and the notebook
 
 - The heart saves a piece; the ✕ on a card (or "Not for me" in the detail view) tucks it out of sight.

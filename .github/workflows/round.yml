@@ -1,0 +1,73 @@
+name: Weekly round of ideas
+
+on:
+  schedule:
+    - cron: '0 10 * * 6'    # Saturday 06:00 US Eastern (daylight) — stage 1: notebook, sweep, shortlist
+    - cron: '0 16 * * 6'    # Saturday 12:00 US Eastern — fallback if no round was judged
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: "stage1 | fallback | both"
+        default: both
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency: round
+
+jobs:
+  stage1:
+    if: github.event.schedule == '0 10 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'fallback')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install pillow
+      - name: Stage 1 (notebook, sweep, shortlist)
+        run: python3 build/suggest/round.py stage1
+      - name: Save the shortlist for the judge
+        run: |
+          git config user.name "closet-bot"; git config user.email "closet-bot@users.noreply.github.com"
+          git add build/suggest/pending build/suggest/profile.md
+          git commit -m "Round: shortlist for $(date -u +%F)" || echo "nothing new"
+          git push
+
+  fallback:
+    if: github.event.schedule == '0 16 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'stage1')
+    needs: []
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install pillow
+      - name: Is a round already waiting or done this week?
+        id: check
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          git pull --ff-only
+          open=$(gh pr list --label round --state open --json number --jq 'length')
+          judged=$(python3 -c "import json,os,datetime;m=json.load(open('build/suggest/pending/last_round.json')) if os.path.exists('build/suggest/pending/last_round.json') else {};print(1 if m.get('date','')>=(datetime.date.today()-datetime.timedelta(days=6)).isoformat() else 0)")
+          echo "skip=$([ "$open" != "0" ] || [ "$judged" = "1" ] && echo yes || echo no)" >> $GITHUB_OUTPUT
+      - name: Make sure a shortlist exists
+        if: steps.check.outputs.skip == 'no'
+        run: test -f build/suggest/pending/shortlist.json || python3 build/suggest/round.py stage1
+      - name: Fallback picks and finalize
+        if: steps.check.outputs.skip == 'no'
+        env: { ROUND_BRANCH: 'round/${{ github.run_id }}' }
+        run: |
+          python3 build/suggest/round.py fallback
+          python3 build/suggest/round.py finalize --by score
+      - name: Open the pull request
+        if: steps.check.outputs.skip == 'no'
+        env: { GH_TOKEN: '${{ github.token }}' }
+        run: |
+          git config user.name "closet-bot"; git config user.email "closet-bot@users.noreply.github.com"
+          b="round/${{ github.run_id }}"; git checkout -b "$b"
+          git add -A; git commit -m "Round $(python3 -c "import json;print(json.load(open('build/suggest/pending/last_round.json'))['round'])") (by score)"
+          git push -u origin "$b"
+          gh label create round --color D4879A --description "Weekly ideas awaiting review" 2>/dev/null || true
+          gh pr create --title "Round $(python3 -c "import json;print(json.load(open('build/suggest/pending/last_round.json'))['round'])"): 8 ideas for Based on your likes (by score)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b"

@@ -35,12 +35,31 @@
   const IDEAS = (window.SUGGESTIONS || []).map(i => Object.assign({ idea: true }, i));
   const byId = new Map(ITEMS.concat(IDEAS).map(i => [i.id, i]));
   const isIdea = id => { const it = byId.get(id); return !!(it && it.idea); };
+  // ---------- sales: brand flags from the daily check, plus calendar nudges ----------
+  const SALES = (window.SALES && window.SALES.brands) || {};
+  const salesFresh = (() => { const d = window.SALES && window.SALES.checked; return d ? (Date.now() - new Date(d + 'T12:00:00Z').getTime()) < 3 * 86400000 : false; })();
+  const onSale = it => salesFresh && !!(SALES[it.retailer] && SALES[it.retailer].on || SALES[it.brand] && SALES[it.brand].on);
+  const saleInfo = it => SALES[it.retailer] && SALES[it.retailer].on ? SALES[it.retailer] : SALES[it.brand];
+  function saleSeason() {
+    const d = new Date(), y = d.getFullYear(), m = d.getMonth(), day = d.getDate(), dow = d.getDay();
+    const nth = (mo, n, wd) => { const first = new Date(y, mo, 1).getDay(); return 1 + ((wd - first + 7) % 7) + (n - 1) * 7; };
+    const lastMon = (mo) => { const last = new Date(y, mo + 1, 0); return last.getDate() - ((last.getDay() + 6) % 7); };
+    const within = (mo, dd, before, after) => { const t = new Date(y, mo, dd), diff = (d - t) / 86400000; return diff >= -before && diff <= after; };
+    if (within(1, nth(1, 3, 1), 3, 1)) return 'Presidents\u2019 Day weekend';
+    if (within(4, lastMon(4), 4, 1)) return 'Memorial Day weekend';
+    if (within(6, 4, 3, 2)) return 'the Fourth of July';
+    if (within(8, nth(8, 1, 1), 4, 1)) return 'Labor Day weekend';
+    const tg = nth(10, 4, 4); if (within(10, tg, 2, 5)) return 'Black Friday and Cyber Monday';
+    if ((m === 11 && day >= 26) || (m === 0 && day <= 2)) return 'the after-Christmas sales';
+    if ((m === 0 && day >= 20) || (m === 6 && day >= 20)) return 'end-of-season sales';
+    return null;
+  }
 
   // ---------- state ----------
   const state = {
     q: '', sort: 'default',
     category: new Set(), color: new Set(), brand: new Set(), occasion: new Set(), price: new Set(),
-    saved: new Set(), passed: new Set(), showPassed: false, meta: {}, shuffleOrder: null, view: [], modalIndex: -1, tab: 'closet',
+    saved: new Set(), passed: new Set(), showPassed: false, onlySale: false, meta: {}, shuffleOrder: null, view: [], modalIndex: -1, tab: 'closet',
   };
 
   // ---------- persistence ----------
@@ -168,6 +187,7 @@
   }
   function matches(item) {
     if (!state.showPassed && state.passed.has(item.id)) return false;
+    if (state.onlySale && !onSale(item)) return false;
     if (state.category.size && !state.category.has(item.category)) return false;
     if (state.color.size && !state.color.has(item.color)) return false;
     if (state.brand.size && !state.brand.has(item.brand)) return false;
@@ -245,7 +265,9 @@
       facet('Category', 'category', CATEGORY_ORDER.map(c => opt('category', c, c, cCat.get(c))).join('')) +
       facet('Color', 'color', COLOR_ORDER.map(c => opt('color', c, c, cCol.get(c), `<span class="sw" style="background:${COLOR_SWATCH[c]}"></span>`)).join('')) +
       facet('Price', 'price', PRICE_BANDS.map(b => pill('price', b.key, b.label)).join('')) +
-      facet('Brand', 'brand', `<input class="facet-search" id="brand-q" type="search" placeholder="Find a brand…" autocomplete="off"><div class="brand-list" id="brand-list">${brands.map(b => opt('brand', b, b, cBrand.get(b))).join('')}</div>`, state.brand.size > 0);
+      facet('Brand', 'brand', `<input class="facet-search" id="brand-q" type="search" placeholder="Find a brand…" autocomplete="off"><div class="brand-list" id="brand-list">${brands.map(b => opt('brand', b, b, cBrand.get(b), salesFresh && SALES[b] && SALES[b].on ? '<span class="sale-dot" title="On sale now"></span>' : '')).join('')}</div>`, state.brand.size > 0);
+    const saleN = pool().filter(i => onSale(i) && !state.passed.has(i.id)).length;
+    $('#sale-toggle').hidden = saleN === 0 && !state.onlySale; $('#sale-count').textContent = saleN; $('#only-sale').checked = state.onlySale;
   }
 
   // ---------- grid ----------
@@ -254,6 +276,7 @@
     const ribbon = it.idea ? (state.tab === 'ideas' ? (it.newBrand ? 'New label' : '') : 'New idea') : '';
     return `<article class="card ${passed ? 'is-passed' : ''} ${it.idea ? 'is-idea' : ''}" data-id="${it.id}">
       ${ribbon ? `<span class="ribbon">${ribbon}</span>` : ''}
+      ${onSale(it) ? `<span class="sale">On sale${saleInfo(it).off ? ' · ' + saleInfo(it).off + '% off' : ''}</span>` : ''}
       <button class="heart ${on ? 'on' : ''}" type="button" aria-label="${on ? 'Remove from saved' : 'Save'}" aria-pressed="${on}">${heartSvg}</button>
       <button class="pass" type="button" aria-label="${passed ? 'Bring back' : 'Not for me'}" title="${passed ? 'Bring back' : 'Not for me'}"><svg><use href="#i-x"/></svg></button>
       <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}></div>
@@ -265,6 +288,12 @@
   }
   function render() {
     document.body.classList.toggle('tab-ideas', state.tab === 'ideas');
+    const season = saleSeason(); const liveSale = Object.keys(SALES).filter(b => salesFresh && SALES[b].on);
+    const banner = $('#sale-banner');
+    if (season || liveSale.length) {
+      banner.hidden = false;
+      banner.innerHTML = (season ? `<b>It\u2019s ${season}.</b> Most of these brands mark things down this week, so it\u2019s a good moment to look. ` : '') + (liveSale.length ? `<b>On sale right now:</b> ${liveSale.slice(0, 8).map(esc).join(', ')}${liveSale.length > 8 ? ' and more' : ''} (checked ${esc(window.SALES.checked)}).` : '');
+    } else banner.hidden = true;
     $('#ideas-intro').hidden = state.tab !== 'ideas';
     const all = pool();
     state.view = sorted(all.filter(matches));
@@ -293,6 +322,7 @@
     state.price.forEach(v => add('price', v, PRICE_BANDS.find(b => b.key === v).label));
     state.brand.forEach(v => add('brand', v, v));
     if (state.q) add('q', state.q, `“${state.q}”`);
+    if (state.onlySale) add('sale', 'sale', 'On sale now');
     const html = chips.join('') + (chips.length > 1 ? `<button class="link" type="button" data-chip="all">Clear all</button>` : '');
     $('#chips').innerHTML = html; $('#chips-m').innerHTML = html;
   }
@@ -429,6 +459,7 @@
           <span class="tag col">${esc(it.colorDetail || it.color)}</span>
           ${it.occasions.map(o => `<span class="tag occ">${OCC_LABEL[o] || o}</span>`).join('')}
         </div>
+        ${onSale(it) ? `<p class="sale-line">${esc(it.retailer)} is running a sale right now${saleInfo(it).off ? ', around ' + saleInfo(it).off + '% off' : ''}. Worth checking their site.</p>` : ''}
         ${it.fabric ? `<p class="fabric-line">${esc(it.fabric)}</p>` : ''}
         ${it.desc ? `<div class="about"><h3>About this piece</h3><p>${esc(it.desc)}</p></div>` : ''}
         ${it.details && it.details.length ? `<div class="about"><h3>Cut, fabric &amp; care</h3><ul class="details">${it.details.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div>` : ''}
@@ -486,6 +517,7 @@
     if (t.dataset.chip) {
       if (t.dataset.chip === 'all') clearAll();
       else if (t.dataset.chip === 'q') { state.q = ''; $('#q').value = ''; }
+      else if (t.dataset.chip === 'sale') { state.onlySale = false; }
       else state[t.dataset.chip].delete(t.dataset.value);
       render(); return;
     }
@@ -504,6 +536,7 @@
   });
   $('#scrim').addEventListener('click', closePanels);
   $('#show-passed').addEventListener('change', e => { state.showPassed = e.target.checked; render(); });
+  $('#only-sale').addEventListener('change', e => { state.onlySale = e.target.checked; render(); });
   $('#facets').addEventListener('change', e => {
     const cb = e.target; if (!cb.dataset.facet) return;
     cb.checked ? state[cb.dataset.facet].add(cb.value) : state[cb.dataset.facet].delete(cb.value);
@@ -525,7 +558,7 @@
   });
   ['#modal', '#about', '#becca'].forEach(sel => $(sel).addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); }));
   window.addEventListener('hashchange', () => { const s = readList(STORAGE_KEY, 'saved'), p = readList(PASSED_KEY, 'passed'); s.forEach(id => state.saved.add(id)); p.forEach(id => { state.passed.add(id); state.saved.delete(id); }); persist(); updateSavedUi(); render(); });
-  function clearAll() { ['category', 'color', 'brand', 'occasion', 'price'].forEach(k => state[k].clear()); state.q = ''; $('#q').value = ''; }
+  function clearAll() { ['category', 'color', 'brand', 'occasion', 'price'].forEach(k => state[k].clear()); state.q = ''; $('#q').value = ''; state.onlySale = false; }
 
   // ---------- go ----------
   loadLists(); persist();

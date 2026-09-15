@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=16">
+<link rel="stylesheet" href="styles.css?v=17">
 </head>
 <body>
 
@@ -115,6 +115,7 @@
       <button class="link" id="clear-all" type="button">Clear all</button>
       <button class="icon-btn close-filters" id="close-filters" type="button" aria-label="Close filters"><svg width="20" height="20"><use href="#i-x"/></svg></button>
     </div>
+    <label class="opt sale-toggle" id="sale-toggle" hidden><input type="checkbox" id="only-sale"><span class="box"></span><span class="lbl">On sale now</span><span class="cnt" id="sale-count"></span></label>
     <div id="facets"></div>
     <details class="facet passed-facet" id="passed-facet" hidden>
       <summary>Not for me<span class="n" id="passed-count">0</span></summary>
@@ -129,6 +130,7 @@
   </aside>
 
   <main class="main">
+    <p class="sale-banner" id="sale-banner" hidden></p>
     <div class="tabs" id="tabs" hidden>
       <button class="tab on" type="button" data-tab="closet">The closet</button>
       <button class="tab" type="button" data-tab="ideas">Based on your likes <b id="ideas-count">0</b></button>
@@ -170,6 +172,7 @@
 
 <script src="data.js?v=4"></script>
 <script src="suggestions.js?v=2"></script>
-<script src="app.js?v=19"></script>
+<script src="sales.js?v=1"></script>
+<script src="app.js?v=20"></script>
 </body>
 </html>
