@@ -276,10 +276,9 @@
     const ribbon = it.idea ? (state.tab === 'ideas' ? (it.newBrand ? 'New label' : '') : 'New idea') : '';
     return `<article class="card ${passed ? 'is-passed' : ''} ${it.idea ? 'is-idea' : ''}" data-id="${it.id}">
       ${ribbon ? `<span class="ribbon">${ribbon}</span>` : ''}
-      ${onSale(it) ? `<span class="sale">On sale${saleInfo(it).off ? ' · ' + saleInfo(it).off + '% off' : ''}</span>` : ''}
       <button class="heart ${on ? 'on' : ''}" type="button" aria-label="${on ? 'Remove from saved' : 'Save'}" aria-pressed="${on}">${heartSvg}</button>
       <button class="pass" type="button" aria-label="${passed ? 'Bring back' : 'Not for me'}" title="${passed ? 'Bring back' : 'Not for me'}"><svg><use href="#i-x"/></svg></button>
-      <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}></div>
+      <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}>${onSale(it) ? `<span class="sale">On sale${saleInfo(it).off ? ' · ' + saleInfo(it).off + '% off' : ''}</span>` : ''}</div>
       <div class="meta" data-open="${it.id}">
         <p class="brand">${esc(it.brand)}</p>
         <h3 class="name">${esc(it.name)}</h3>
@@ -288,11 +287,18 @@
   }
   function render() {
     document.body.classList.toggle('tab-ideas', state.tab === 'ideas');
-    const season = saleSeason(); const liveSale = Object.keys(SALES).filter(b => salesFresh && SALES[b].on);
+    const season = saleSeason();
+    const closetBrands = new Set(ITEMS.map(i => i.retailer).concat(ITEMS.map(i => i.brand)));
+    const liveSale = Object.keys(SALES).filter(b => salesFresh && SALES[b].on && closetBrands.has(b)).sort();
     const banner = $('#sale-banner');
-    if (season || liveSale.length) {
+    if ((season || liveSale.length) && state.tab === 'closet') {
+      const list = liveSale.length <= 1 ? esc(liveSale.join('')) : liveSale.slice(0, -1).map(esc).join(', ') + ' and ' + esc(liveSale[liveSale.length - 1]);
+      const asOf = new Date(window.SALES.checked + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
       banner.hidden = false;
-      banner.innerHTML = (season ? `<b>It\u2019s ${season}.</b> Most of these brands mark things down this week, so it\u2019s a good moment to look. ` : '') + (liveSale.length ? `<b>On sale right now:</b> ${liveSale.slice(0, 8).map(esc).join(', ')}${liveSale.length > 8 ? ' and more' : ''} (checked ${esc(window.SALES.checked)}).` : '');
+      banner.innerHTML = `<svg class="bh" viewBox="0 0 24 24"><use href="#i-heart"/></svg><span>` +
+        (season ? `It\u2019s ${season}, when most of these brands mark things down. ` : '') +
+        (liveSale.length ? `On sale right now at ${list}, as of ${esc(asOf)}. ` : '') +
+        (liveSale.length && !state.onlySale ? `<button class="link" type="button" id="see-sale">See sale items</button>` : '') + `</span>`;
     } else banner.hidden = true;
     $('#ideas-intro').hidden = state.tab !== 'ideas';
     const all = pool();
@@ -524,6 +530,7 @@
     switch (t.id) {
       case 'open-saved': openPanel('#drawer'); break;
       case 'open-about': $('#about').showModal(); break;
+      case 'see-sale': state.onlySale = true; state.tab = 'closet'; render(); window.scrollTo({ top: $('#topbar').offsetTop, behavior: 'smooth' }); break;
       case 'open-becca': $('#becca').showModal(); break;
       case 'open-filters': openPanel('#filters'); break;
       case 'close-drawer': case 'close-filters': case 'apply-filters': closePanels(); break;
