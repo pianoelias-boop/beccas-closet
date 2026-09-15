@@ -1,5 +1,18 @@
 # Becca's taste profile
 
+<!-- auto:start (rewritten by round.py, 2026-09-15) -->
+## What the notebook says (2026-09-15)
+- Hearts: 9  ·  Not for me: 0
+- Brands she saves: TOAST (0.6), W'menswear (0.3), Boden (0.1), Polo Ralph Lauren (0.1)
+- Categories: Pants (0.6), Skirts (0.4), Jumpsuits & Rompers (0.2)
+- Colours: Grey (0.3), Black (0.2), Orange/Rust (0.2), Denim (0.1), White/Ivory (0.1), Yellow/Gold (0.1)
+- Fabrics: cotton (1.1), cord (0.7), denim (0.2), tweed (0.1)
+- Cuts and details: pocket (0.9), button (0.6), elastic (0.5), relaxed (0.3), high rise (0.3), cropped (0.3), barrel (0.3), culotte (0.2), pull on (0.2), a line (0.2)
+- Price bands: 300+ (0.7), 200-300 (0.4), 100-200 (0.1)
+- Steer away from: nothing yet
+- Most recent hearts: TOAST Cord A Line Skirt; TOAST Cord Culotte Jumpsuit; TOAST Barrel Leg Cord Pants; W'menswear Wendy Trouser - 13 oz Denim; TOAST Twisted Seam Cord Pants; W'menswear Burnout Pants - Natural; W'menswear Wendy Trouser - Indigo/Gold; Boden Val Button Cord Midi Skirt
+<!-- auto:end -->
+
 Updated 2026-09-15 from the notebook (9 hearts, 0 passes) plus the closet's own curation.
 
 ## What she has hearted so far
