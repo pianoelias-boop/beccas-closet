@@ -242,6 +242,7 @@ a{color:inherit}
 .sale-toggle{margin:0 0 8px;padding:8px 10px;background:var(--blush);border-radius:12px}
 .sale-toggle .lbl{color:var(--rose-deep);font-weight:400}
 .frame .sale{position:absolute;left:50%;bottom:10px;transform:translateX(-50%);z-index:1;background:rgba(255,253,249,.92);color:var(--rose-deep);font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:4px 10px;border-radius:999px;white-space:nowrap;box-shadow:0 4px 10px -4px rgba(88,52,66,.35);border:1px solid var(--blush-deep)}
+.frame .sale.event{background:rgba(248,235,211,.95);color:#6b5330;border-color:#e6d3a8}
 .opt .sale-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--rose-deep);margin-left:6px;vertical-align:middle}
 .sale-line{font-size:13px;color:var(--rose-deep);margin:-6px 0 0}
 

@@ -39,7 +39,8 @@
   const SALE_ITEMS = (window.SALES && window.SALES.items) || {};     // pieces actually marked down, by id
   const SALE_EVENTS = (window.SALES && window.SALES.events) || {};   // brands running a real sale event
   const salesFresh = (() => { const d = window.SALES && window.SALES.checked; return d ? (Date.now() - new Date(d + 'T12:00:00Z').getTime()) < 3 * 86400000 : false; })();
-  const onSale = it => salesFresh && !!SALE_ITEMS[String(it.id)];
+  const onSale = it => salesFresh && (!!SALE_ITEMS[String(it.id)] || !!(SALE_EVENTS[it.retailer] || SALE_EVENTS[it.brand]));
+  const verifiedSale = it => salesFresh && !!SALE_ITEMS[String(it.id)];
   const saleInfo = it => SALE_ITEMS[String(it.id)];
   const brandEvent = it => salesFresh ? (SALE_EVENTS[it.retailer] || SALE_EVENTS[it.brand]) : null;
   const asOfLabel = () => new Date(window.SALES.checked + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
@@ -281,7 +282,7 @@
       ${ribbon ? `<span class="ribbon">${ribbon}</span>` : ''}
       <button class="heart ${on ? 'on' : ''}" type="button" aria-label="${on ? 'Remove from saved' : 'Save'}" aria-pressed="${on}">${heartSvg}</button>
       <button class="pass" type="button" aria-label="${passed ? 'Bring back' : 'Not for me'}" title="${passed ? 'Bring back' : 'Not for me'}"><svg><use href="#i-x"/></svg></button>
-      <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}>${onSale(it) ? `<span class="sale">On sale · ${Math.abs((it.price || 0) - saleInfo(it).now) < 1 ? 'was ' + money(saleInfo(it).was) : 'now ' + money(saleInfo(it).now)}</span>` : ''}</div>
+      <div class="frame" data-open="${it.id}"><img loading="lazy" src="${it.img}" alt="${esc(it.name)}" ${it.hi ? '' : 'class="soft"'}>${verifiedSale(it) ? `<span class="sale">On sale · ${Math.abs((it.price || 0) - saleInfo(it).now) < 1 ? 'was ' + money(saleInfo(it).was) : 'now ' + money(saleInfo(it).now)}</span>` : (onSale(it) ? `<span class="sale event">Sale event</span>` : '')}</div>
       <div class="meta" data-open="${it.id}">
         <p class="brand">${esc(it.brand)}</p>
         <h3 class="name">${esc(it.name)}</h3>
@@ -293,7 +294,7 @@
     const season = saleSeason();
     const closetBrands = new Set(ITEMS.map(i => i.retailer).concat(ITEMS.map(i => i.brand)));
     const events = salesFresh ? Object.keys(SALE_EVENTS).filter(b => closetBrands.has(b)).sort() : [];
-    const reduced = salesFresh ? ITEMS.filter(i => SALE_ITEMS[String(i.id)] && !state.passed.has(i.id)).length : 0;
+    const reduced = salesFresh ? ITEMS.filter(i => onSale(i) && !state.passed.has(i.id)).length : 0;
     const banner = $('#sale-banner');
     if ((season || events.length || reduced) && state.tab === 'closet') {
       const brandLink = b => SALE_EVENTS[b].site ? `<a class="bl" href="${esc(SALE_EVENTS[b].site)}" target="_blank" rel="noopener">${esc(b)}</a>` : esc(b);
@@ -303,7 +304,7 @@
       banner.innerHTML = `<svg class="bh" viewBox="0 0 24 24"><use href="#i-heart"/></svg><span>` +
         (season ? `It\u2019s ${season}, when most of these brands mark things down. ` : '') +
         (events.length ? `${list} ${events.length === 1 ? 'is' : 'are'} running a sale event as of ${esc(asOfLabel())}. ` : '') +
-        (reduced ? `${events.length ? 'And ' : ''}${reduced} piece${reduced === 1 ? '' : 's'} in the closet ${reduced === 1 ? 'is' : 'are'} marked down right now. ` : '') +
+        (reduced ? (events.length ? `That puts ${reduced} piece${reduced === 1 ? '' : 's'} in the closet possibly on sale right now. ` : `${reduced} piece${reduced === 1 ? '' : 's'} in the closet ${reduced === 1 ? 'is' : 'are'} on sale right now. `) : '') +
         (reduced && !state.onlySale ? `<button class="link" type="button" id="see-sale">See them</button>` : '') + `</span>`;
     } else banner.hidden = true;
     $('#ideas-intro').hidden = state.tab !== 'ideas';
@@ -334,7 +335,7 @@
     state.price.forEach(v => add('price', v, PRICE_BANDS.find(b => b.key === v).label));
     state.brand.forEach(v => add('brand', v, v));
     if (state.q) add('q', state.q, `“${state.q}”`);
-    if (state.onlySale) add('sale', 'sale', 'Marked down right now');
+    if (state.onlySale) add('sale', 'sale', 'On sale now');
     const html = chips.join('') + (chips.length > 1 ? `<button class="link" type="button" data-chip="all">Clear all</button>` : '');
     $('#chips').innerHTML = html; $('#chips-m').innerHTML = html;
   }
@@ -471,7 +472,7 @@
           <span class="tag col">${esc(it.colorDetail || it.color)}</span>
           ${it.occasions.map(o => `<span class="tag occ">${OCC_LABEL[o] || o}</span>`).join('')}
         </div>
-        ${onSale(it) ? `<p class="sale-line">${Math.abs((it.price || 0) - saleInfo(it).now) < 1 ? `Marked down at ${esc(it.retailer)} from ${money(saleInfo(it).was)} to ${money(saleInfo(it).now)}, as of ${esc(asOfLabel())}.` : `Marked down at ${esc(it.retailer)} right now: ${money(saleInfo(it).now)}, was ${money(saleInfo(it).was)}, as of ${esc(asOfLabel())}.`}</p>` : (brandEvent(it) ? `<p class="sale-line">${brandEvent(it).site ? `<a href="${esc(brandEvent(it).site)}" target="_blank" rel="noopener">${esc(it.retailer)}</a>` : esc(it.retailer)} is running a sale event right now${brandEvent(it).off ? ', up to ' + brandEvent(it).off + '% off' : ''}. This piece isn\u2019t showing as reduced in what we can see, but it\u2019s worth a look.</p>` : '')}
+        ${verifiedSale(it) ? `<p class="sale-line">${Math.abs((it.price || 0) - saleInfo(it).now) < 1 ? `Marked down at ${esc(it.retailer)} from ${money(saleInfo(it).was)} to ${money(saleInfo(it).now)}, as of ${esc(asOfLabel())}.` : `Marked down at ${esc(it.retailer)} right now: ${money(saleInfo(it).now)}, was ${money(saleInfo(it).was)}, as of ${esc(asOfLabel())}.`}</p>` : (brandEvent(it) ? `<p class="sale-line">${brandEvent(it).site ? `<a href="${esc(brandEvent(it).site)}" target="_blank" rel="noopener">${esc(it.retailer)}</a>` : esc(it.retailer)} is running a sale event right now${brandEvent(it).off ? ', ' + brandEvent(it).off + '% off' : ''}, as of ${esc(asOfLabel())}. This piece is possibly on sale; check the product page.</p>` : '')}
         ${it.fabric ? `<p class="fabric-line">${esc(it.fabric)}</p>` : ''}
         ${it.desc ? `<div class="about"><h3>About this piece</h3><p>${esc(it.desc)}</p></div>` : ''}
         ${it.details && it.details.length ? `<div class="about"><h3>Cut, fabric &amp; care</h3><ul class="details">${it.details.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div>` : ''}
