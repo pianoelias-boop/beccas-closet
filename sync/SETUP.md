@@ -18,7 +18,9 @@ Five minutes, once. Needs your Google account.
    `<meta name="closet-sync" content="">` between the quotes, commit and push.
    (Or hand the URL to Claude and it will do this step.)
 5. Open the closet, heart something, and look at the sheet: an `events` tab fills with one row per
-   action and a `latest` tab shows the current state per item.
+   action and a `latest` tab lists what is currently saved or marked not for me, newest change first.
+   (If the `latest` tab still has old column headings from an earlier version, delete that tab; the script
+   recreates it on the next tap.)
 
 Notes
 - If you ever edit `Code.gs`, choose **Deploy → Manage deployments → edit → Version: New version**.

@@ -5,7 +5,7 @@
  *
  * Sheets used (created automatically):
  *   events  — one row per heart/pass action, newest at the bottom
- *   latest  — one row per item, the current state, for reading at a glance
+ *   latest  — one row per piece currently saved or marked not for me, newest change first
  *
  * Deploy: Extensions → Apps Script → paste this → Deploy → New deployment → Web app,
  *   "Execute as: Me", "Who has access: Anyone" → copy the Web app URL into index.html
@@ -76,11 +76,13 @@ function rebuildLatest_(key) {
     if (kind === 'p' && ts > row.pTs) { row.pTs = ts; row.passed = Number(on) ? 'yes' : ''; }
     if (ts > row.lastTs) row.lastTs = ts;
   });
-  const out = sheet_('latest', ['item', 'brand', 'name', 'saved', 'not for me', 'last change']);
+  const out = sheet_('latest', ['item', 'brand', 'name', 'status', 'since']);
   out.getRange(2, 1, Math.max(out.getLastRow(), 2), 6).clearContent();
-  const list = Object.values(rows).sort((a, b) => b.lastTs - a.lastTs)
-    .map(r => [r.item, r.brand, r.name, r.saved, r.passed, new Date(r.lastTs)]);
-  if (list.length) out.getRange(2, 1, list.length, 6).setValues(list);
+  // Only pieces that are currently saved or marked "not for me". Undone actions drop off this tab
+  // (they stay in "events").
+  const list = Object.values(rows).filter(r => r.saved || r.passed).sort((a, b) => b.lastTs - a.lastTs)
+    .map(r => [r.item, r.brand, r.name, r.saved ? 'saved' : 'not for me', new Date(r.lastTs)]);
+  if (list.length) out.getRange(2, 1, list.length, 5).setValues(list);
 }
 
 function json_(obj) {
