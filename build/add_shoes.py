@@ -46,8 +46,8 @@ T = [
       details=['6E extra-extra-roomy fitting; sizes 5 to 11', 'Opens right out: both straps release the whole vamp', 'Strap extensions for extremely swollen feet: Patty Strap Extensions, $9, at cosyfeet.com/usa/patty-strap-extensions', 'Stretch elastane upper, short shaft that stops below the calf', COSY_SHIP],
       fabric='Elastane upper', why='the boot Cosyfeet designed for bandage days; short shaft, straps set as loose as the Arizonas',
       note=BANDAGE + ' Cosyfeet does not split sizes on boots, so it is two pairs.'),
- dict(id=426, brand='Cosyfeet', name='Ali', price=149, color='Black', colorDetail='Black Cheetah (also Black Croc, Blue Leopard, Denim Metallica, Leopard Shimmer, Stone Cheetah)',
-      url='https://www.cosyfeet.com/usa/ali', img=('url', 'https://www.cosyfeet.com/media/catalog/product/a/l/ali824_hero.jpg'),
+ dict(id=426, brand='Cosyfeet', name='Ali', price=149, color='Blue', colorDetail='Blue Leopard (also Denim Metallica, Black Croc, Black Cheetah, Leopard Shimmer, Stone Cheetah)',
+      url='https://www.cosyfeet.com/usa/ali', img=('url', 'https://www.cosyfeet.com/media/catalog/product/a/l/ali201_hero.jpg'),
       categoryDetail='Strap shoe, opens right out', occasions=['teaching', 'hang'],
       desc='Made on Cosyfeet’s deepest last with a generous fit across the toe and instep. Two touch-fastening straps run right down to the toe and the shoe opens right out, so it goes on over a bandage and closes loosely, the way her Arizonas do.',
       details=['6E fitting; sizes 6 to 11', 'Two straps right down to the toe; opens right out', 'Strap extensions: Ali Strap Extensions, $9, at cosyfeet.com/usa/ali-strap-extensions', 'Leather upper, cushioned sole', COSY_SHIP],
@@ -82,7 +82,7 @@ T = [
       fabric='Suede upper, EVA sole', why='between a slipper and a shoe; goes outside',
       note=BANDAGE),
  dict(id=431, brand='Converse', name='Chuck 70 High, Wide', price=95, color='Black', colorDetail='Black',
-      url='https://www.converse.com/shop/p/chuck-70-canvas-unisex-high-top-shoe/162050C.html', img=('url', 'https://n.nordstrommedia.com/it/056c3498-1809-4f1f-92fe-f8c9c7a20311.jpeg?w=1200&h=1200&crop=pad&trim=color'),
+      url='https://www.converse.com/shop/p/chuck-70-canvas-unisex-high-top-shoe/162050C.html', img=('file', 'build/shoes/chuck70_black.jpg'),
       categoryDetail='Canvas high-top', occasions=['hang', 'friend', 'teaching'],
       desc='The Chuck geometry is the point: eight eyelets start just behind the rubber toe cap, so unlaced the canvas throat opens flat to the toe, and the high collar holds the shoe on. The 70 has a thicker sole and cushioned insole than the classic Chuck.',
       details=['Choose the Wide width on converse.com (Standard/Wide selector); unisex sizing, runs long, so size down half', 'Eyelets from the toe cap; wear it unlaced or loosely laced', NORDSTROM + '. Nordstrom stocks the standard-width Chuck 70 High at $95 (nordstrom.com/s/converse-chuck-70-high-top-sneaker-men/9064356)', 'Add a firm insole; the sole flexes'],
@@ -102,7 +102,7 @@ extras = [e for e in extras if e['id'] < 422]
 for t in T:
     kind, src = t.pop('img')
     if kind == 'shopify': src = shopify_side(src)
-    im = Image.open(io.BytesIO(get(src))); im.load()
+    im = Image.open(src) if kind == 'file' else Image.open(io.BytesIO(get(src))); im.load()
     if im.mode in ('RGBA', 'LA', 'P'):
         bg = Image.new('RGB', im.size, (255, 255, 255)); bg.paste(im.convert('RGBA'), mask=im.convert('RGBA').split()[-1]); im = bg
     else: im = im.convert('RGB')
