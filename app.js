@@ -23,7 +23,7 @@
     'Orange/Rust': '#c96f3e', 'Yellow/Gold': '#e0b84c', 'Multi/Print': 'linear-gradient(135deg,#e9a3b6,#e0b84c,#6f8f6a,#5b7fc4)'
   };
   const COLOR_ORDER = ['Black', 'Grey', 'White/Ivory', 'Beige/Tan', 'Brown', 'Denim', 'Blue', 'Green', 'Red', 'Pink', 'Purple', 'Orange/Rust', 'Yellow/Gold', 'Multi/Print'];
-  const CATEGORY_ORDER = ['Dresses', 'Skirts', 'Pants', 'Jeans', 'Shirts & Blouses', 'Tops & Tees', 'Sweaters & Knitwear', 'Jumpsuits & Rompers', 'Jackets & Coats', 'Accessories'];
+  const CATEGORY_ORDER = ['Dresses', 'Skirts', 'Pants', 'Jeans', 'Shirts & Blouses', 'Tops & Tees', 'Sweaters & Knitwear', 'Jumpsuits & Rompers', 'Jackets & Coats', 'Shoes', 'Accessories'];
   const PRICE_BANDS = [
     { key: 'u100', label: 'Under $100', test: p => p < 100 },
     { key: '100-200', label: '$100 – $200', test: p => p >= 100 && p < 200 },

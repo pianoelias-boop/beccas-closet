@@ -766,5 +766,323 @@
   ],
   "fabric": "100% merino wool",
   "note": "The plainest and one of the cheapest all-wool options, from a New Hampshire base-layer maker."
+ },
+ {
+  "id": 422,
+  "brand": "BILLY Footwear",
+  "retailer": "BILLY Footwear",
+  "name": "Goat Classic High, 6E",
+  "category": "Shoes",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "hang",
+   "friend"
+  ],
+  "why": "zips shut over anything and stays on without lacing; a plain black high-top for trousers or a skirt",
+  "price": 150,
+  "colorDetail": "Black/White",
+  "categoryDetail": "Zip-open high-top",
+  "url": "https://billyfootwear.com/products/womens-black-white-billy-goat-classic-high",
+  "img": "images/full/422.jpg",
+  "hi": true,
+  "desc": "Designed with certified orthotists for braces, orthotics and prosthetics. The Full Wrap zipper runs down the side and around the toe, so the whole upper folds open, then zips shut without squeezing anything. Canvas high-top with a padded collar and a custom last that adds width and volume in the toe box.",
+  "details": [
+   "Choose width 6E (Extra-Extra-Wide), the widest BILLY makes; women’s 6 to 16",
+   "If her size is missing in 6E here, the men’s listing is the same shoe in B to 6E from a men’s 4 (men’s size = women’s minus 1.5)",
+   "Single shoes in any size per foot: email info@billyfootwear.com, then order with their single-shoe code",
+   "Also at Nordstrom in men’s sizing, wide and extra wide. Nordstrom sells a split pair (two different sizes) for the price of one when the sizes differ by 1.5 or more: call 1-888-282-6060 or ask in store",
+   "Canvas upper, triple-layer knit lining, removable insole"
+  ],
+  "fabric": "Canvas upper, rubber sole",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up. The zipper closes with no pressure, so it holds like a boot without being one."
+ },
+ {
+  "id": 423,
+  "brand": "BILLY Footwear",
+  "retailer": "BILLY Footwear",
+  "name": "Comfort Chukka, men’s 3E",
+  "category": "Shoes",
+  "color": "Beige/Tan",
+  "occasions": [
+   "teaching",
+   "hang",
+   "friend"
+  ],
+  "why": "the dressiest full-open shoe BILLY makes; reads as an ordinary chukka",
+  "price": 135,
+  "colorDetail": "Sand suede",
+  "categoryDetail": "Zip-open chukka",
+  "url": "https://billyfootwear.com/products/mens-sand-suede-billy-comfort-chukkas",
+  "img": "images/full/423.jpg",
+  "hi": true,
+  "desc": "A real suede desert boot with BILLY’s Full Wrap zipper: the entire top lifts away to the toe (their product page shows it open), so the foot drops in unobstructed and the zipper does the closing. Multilayer, multi-density insole that aligns and cushions.",
+  "details": [
+   "Men’s sizing 7 to 14; choose 3E (Wide). A men’s 7 is about a women’s 8.5",
+   "Full Wrap zipper plus decorative adjustable laces",
+   "Suede upper, low chukka collar",
+   "Single shoes in any size per foot: email info@billyfootwear.com, then order with their single-shoe code"
+  ],
+  "fabric": "Suede leather upper",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up. Low collar, so the zipper alone holds it on, which it does."
+ },
+ {
+  "id": 424,
+  "brand": "BILLY Footwear",
+  "retailer": "BILLY Footwear",
+  "name": "CS High, 3E",
+  "category": "Shoes",
+  "color": "Purple",
+  "occasions": [
+   "hang",
+   "friend"
+  ],
+  "why": "cheapest full-open high-top, for testing the idea before buying two Goats",
+  "price": 90,
+  "colorDetail": "Purple/Gold (White and Wine listed, purple in stock)",
+  "categoryDetail": "Zip-open canvas high-top",
+  "url": "https://billyfootwear.com/products/womens-purple-gold-billy-cs-high",
+  "img": "images/full/424.jpg",
+  "hi": true,
+  "desc": "A skate-style canvas high-top with the same Full Wrap zipper as the Goat: down the side, around the toe, whole upper folds open. Padded ribbed collar that supports the ankle without restricting it.",
+  "details": [
+   "Choose 3E (Extra-Wide), the widest this style comes in; women’s 6 to 16",
+   "Full Wrap zipper with adjustable laces",
+   "Softer sole than the Goat; a cheaper way to test the fold-open idea",
+   "Single shoes in any size per foot: email info@billyfootwear.com, then order with their single-shoe code"
+  ],
+  "fabric": "Canvas upper",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up."
+ },
+ {
+  "id": 425,
+  "brand": "Cosyfeet",
+  "retailer": "Cosyfeet",
+  "name": "Patty",
+  "category": "Shoes",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "why": "the boot Cosyfeet designed for bandage days; short shaft, straps set as loose as the Arizonas",
+  "price": 175,
+  "colorDetail": "Black",
+  "categoryDetail": "Strap boot for bandaged feet",
+  "url": "https://www.cosyfeet.com/usa/patty",
+  "img": "images/full/425.jpg",
+  "hi": true,
+  "desc": "A lightweight, extra roomy boot in soft, stretchy elastane, made to fit very swollen feet and ankles as well as bandaged feet and legs. Two touch-fastening straps; it opens right out so it is easy to get on and off, then closes as loosely as she likes.",
+  "details": [
+   "6E extra-extra-roomy fitting; sizes 5 to 11",
+   "Opens right out: both straps release the whole vamp",
+   "Strap extensions for extremely swollen feet: Patty Strap Extensions, $9, at cosyfeet.com/usa/patty-strap-extensions",
+   "Stretch elastane upper, short shaft that stops below the calf",
+   "Ships from the UK: about $20, free over $150; 90-day returns"
+  ],
+  "fabric": "Elastane upper",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up. Cosyfeet does not split sizes on boots, so it is two pairs."
+ },
+ {
+  "id": 426,
+  "brand": "Cosyfeet",
+  "retailer": "Cosyfeet",
+  "name": "Ali",
+  "category": "Shoes",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "why": "an everyday shoe that opens flat; the straps hold it on without a shaft",
+  "price": 149,
+  "colorDetail": "Black Cheetah (also Black Croc, Blue Leopard, Denim Metallica, Leopard Shimmer, Stone Cheetah)",
+  "categoryDetail": "Strap shoe, opens right out",
+  "url": "https://www.cosyfeet.com/usa/ali",
+  "img": "images/full/426.jpg",
+  "hi": true,
+  "desc": "Made on Cosyfeet’s deepest last with a generous fit across the toe and instep. Two touch-fastening straps run right down to the toe and the shoe opens right out, so it goes on over a bandage and closes loosely, the way her Arizonas do.",
+  "details": [
+   "6E fitting; sizes 6 to 11",
+   "Two straps right down to the toe; opens right out",
+   "Strap extensions: Ali Strap Extensions, $9, at cosyfeet.com/usa/ali-strap-extensions",
+   "Leather upper, cushioned sole",
+   "Ships from the UK: about $20, free over $150; 90-day returns"
+  ],
+  "fabric": "Leather upper",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up."
+ },
+ {
+  "id": 427,
+  "brand": "Cosyfeet",
+  "retailer": "Cosyfeet",
+  "name": "Alison",
+  "category": "Shoes",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "why": "the most conventional-looking of the strap shoes; teaching days",
+  "price": 159,
+  "colorDetail": "Claret (also Black, Taupe)",
+  "categoryDetail": "Three-strap leather shoe",
+  "url": "https://www.cosyfeet.com/usa/alison",
+  "img": "images/full/427.jpg",
+  "hi": true,
+  "desc": "A seam-free leather shoe with three touch-fastening straps that opens right out, so it goes on even when the foot is bandaged or very swollen. Cushioned underfoot with nothing inside to rub.",
+  "details": [
+   "6E fitting; sizes 5 to 12",
+   "Three leather straps; opens almost down to the toe",
+   "Strap extensions: Alison Strap Extensions, $9, at cosyfeet.com/usa/alison-strap-extensions",
+   "Seam-free lining",
+   "Ships from the UK: about $20, free over $150; 90-day returns"
+  ],
+  "fabric": "Leather upper",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up."
+ },
+ {
+  "id": 428,
+  "brand": "Cosyfeet",
+  "retailer": "Cosyfeet",
+  "name": "Luna",
+  "category": "Shoes",
+  "color": "Red",
+  "occasions": [
+   "teaching",
+   "hang"
+  ],
+  "why": "a warmer, dressier sibling of the Patty for cold teaching days",
+  "price": 165,
+  "colorDetail": "Claret (also Black Leopard)",
+  "categoryDetail": "Strap ankle boot",
+  "url": "https://www.cosyfeet.com/usa/luna",
+  "img": "images/full/428.jpg",
+  "hi": true,
+  "desc": "Crafted from hand-polished leathers, this ankle boot opens right out to get on a swollen foot. One wide touch-fastening strap, a warm lining and a deep, seam-free toe area for sensitive toes.",
+  "details": [
+   "6E fitting; sizes 6 to 11",
+   "One wide strap; opens right out",
+   "Strap extensions: Luna Strap Extensions, $9, at cosyfeet.com/usa/luna-strap-extensions",
+   "Polished leather, warm lining, short shaft",
+   "Ships from the UK: about $20, free over $150; 90-day returns"
+  ],
+  "fabric": "Leather upper",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up. Single strap, so check the vamp lifts as far as the Patty’s."
+ },
+ {
+  "id": 429,
+  "brand": "Cosyfeet",
+  "retailer": "Cosyfeet",
+  "name": "Emma house shoe",
+  "category": "Shoes",
+  "color": "Blue",
+  "occasions": [
+   "hang"
+  ],
+  "why": "for the house, the studio and quick errands on bandage days",
+  "price": 85,
+  "colorDetail": "Navy",
+  "categoryDetail": "Wrap-around house shoe",
+  "url": "https://www.cosyfeet.com/usa/emma",
+  "img": "images/full/429.jpg",
+  "hi": true,
+  "desc": "Designed to fit the most difficult or swollen feet. The wrap-around style opens out completely flat, then rolls up around the foot and fastens with two touch-fastening straps, one over the foot and one at the heel, so it stays on however loosely it is closed.",
+  "details": [
+   "6E extra-extra-roomy fitting; sizes 5 to 11",
+   "Opens out completely flat; heel strap holds it on",
+   "Cosyfeet’s own pick for heavily bandaged feet",
+   "Rubber sole for indoors and out",
+   "Strap extensions: Emma Strap Extensions, $9, at cosyfeet.com/usa/emma-strap-extensions",
+   "Ships from the UK: about $20, free over $150; 90-day returns"
+  ],
+  "fabric": "Soft textile upper, rubber sole",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up."
+ },
+ {
+  "id": 430,
+  "brand": "Cosyfeet",
+  "retailer": "Cosyfeet",
+  "name": "Rowan Suede",
+  "category": "Shoes",
+  "color": "Black",
+  "occasions": [
+   "hang"
+  ],
+  "why": "between a slipper and a shoe; goes outside",
+  "price": 129,
+  "colorDetail": "Black (also Burgundy, Navy; leather version $139)",
+  "categoryDetail": "Slipper-shoe, opens down the front",
+  "url": "https://www.cosyfeet.com/usa/rowan",
+  "img": "images/full/430.jpg",
+  "hi": true,
+  "desc": "Designed for swelling or heavy bandaging, Rowan is for when nothing else fits. Supple as a slipper but supportive as a shoe, with one long touch-fastening strap and a front that opens right down to the toe. Surprisingly neat on the foot.",
+  "details": [
+   "Extra roomy unisex fitting; sizes 6 to 14",
+   "One long strap; the front opens right down",
+   "Suede upper, EVA sole",
+   "Ships from the UK: about $20, free over $150; 90-day returns"
+  ],
+  "fabric": "Suede upper, EVA sole",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up."
+ },
+ {
+  "id": 431,
+  "brand": "Converse",
+  "retailer": "Converse",
+  "name": "Chuck 70 High, Wide",
+  "category": "Shoes",
+  "color": "Black",
+  "occasions": [
+   "hang",
+   "friend",
+   "teaching"
+  ],
+  "why": "the everyday high-top that goes with a skirt and opens to the toe",
+  "price": 95,
+  "colorDetail": "Black",
+  "categoryDetail": "Canvas high-top",
+  "url": "https://www.converse.com/shop/p/chuck-70-canvas-unisex-high-top-shoe/162050C.html",
+  "img": "images/full/431.jpg",
+  "hi": true,
+  "desc": "The Chuck geometry is the point: eight eyelets start just behind the rubber toe cap, so unlaced the canvas throat opens flat to the toe, and the high collar holds the shoe on. The 70 has a thicker sole and cushioned insole than the classic Chuck.",
+  "details": [
+   "Choose the Wide width on converse.com (Standard/Wide selector); unisex sizing, runs long, so size down half",
+   "Eyelets from the toe cap; wear it unlaced or loosely laced",
+   "Nordstrom sells a split pair (two different sizes) for the price of one when the sizes differ by 1.5 or more: call 1-888-282-6060 or ask in store. Nordstrom stocks the standard-width Chuck 70 High at $95 (nordstrom.com/s/converse-chuck-70-high-top-sneaker-men/9064356)",
+   "Add a firm insole; the sole flexes"
+  ],
+  "fabric": "Canvas upper, rubber sole",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up. Two pairs, or one split pair through Nordstrom in the standard width."
+ },
+ {
+  "id": 432,
+  "brand": "Steger Mukluks",
+  "retailer": "Steger Mukluks",
+  "name": "Arctic, Double Wide",
+  "category": "Shoes",
+  "color": "Beige/Tan",
+  "occasions": [
+   "hang",
+   "outdoors"
+  ],
+  "why": "the gentlest thing to put over a bandage and the warmest thing for a Maine winter",
+  "price": 249.95,
+  "colorDetail": "Natural canvas, maple leather",
+  "categoryDetail": "Mukluk",
+  "url": "https://mukluks.com/products/arctic-ladies",
+  "img": "images/full/432.jpg",
+  "hi": true,
+  "desc": "Steger’s expedition mukluk: a soft moosehide moccasin foot with nothing crossing the instep, and a weather-treated canvas shaft that cinches with straps around the leg. Full-grain leather, 9 mm wool felt liner, 9 mm wool felt insole, and their aggressively treaded sole. Rated for colder than minus 40, with larger and wider sizes rated colder still.",
+  "details": [
+   "Ladies sizes 5 to 11 in Regular, Wide and Double Wide; choose Double Wide, and Steger says to buy wider for a high instep",
+   "Nothing crosses the foot: the moccasin drapes over a bandage",
+   "16-inch shaft of soft cloth, so it does not fight a calf wrap",
+   "The felt liner lifts out (spare liners $33.95)",
+   "Soft sole and not waterproof: slush is the enemy",
+   "Made in Ely, Minnesota"
+  ],
+  "fabric": "Moosehide, full-grain leather, treated canvas, wool felt",
+  "note": "Bandage days: left foot in her usual size, right foot one to two sizes up. Full sizes only."
  }
 ]
