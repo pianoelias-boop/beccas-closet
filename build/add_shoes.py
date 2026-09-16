@@ -107,8 +107,9 @@ for t in T:
         bg = Image.new('RGB', im.size, (255, 255, 255)); bg.paste(im.convert('RGBA'), mask=im.convert('RGBA').split()[-1]); im = bg
     else: im = im.convert('RGB')
     im.thumbnail((900, 900)); path = f"images/full/{t['id']}.jpg"; im.save(path, 'JPEG', quality=84, optimize=True)
+    details = [t['note']] + t['details']   # the modal shows details, not note; lead with the sizing line
     extras.append(dict(id=t['id'], brand=t['brand'], retailer=t['brand'], name=t['name'], category='Shoes', color=t['color'], occasions=t['occasions'], why=t['why'], price=t['price'],
-                       colorDetail=t['colorDetail'], categoryDetail=t['categoryDetail'], url=t['url'], img=path, hi=True, desc=t['desc'], details=t['details'], fabric=t['fabric'], note=t['note']))
+                       colorDetail=t['colorDetail'], categoryDetail=t['categoryDetail'], url=t['url'], img=path, hi=True, desc=t['desc'], details=details, fabric=t['fabric'], note=t['note']))
     print(t['id'], t['brand'], t['name'], '| photo', im.size, '<-', src[:70])
 json.dump(extras, open('build/extras.json', 'w'), indent=1, ensure_ascii=False)
 print(len(extras), 'extras written')
