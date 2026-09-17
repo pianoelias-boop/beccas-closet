@@ -84,3 +84,9 @@ explains how a round is run and how new brands are vetted and approved in `build
 Hearts are stored in the browser's local storage and mirrored into the page URL as
 `#saved=…`. Reloading keeps the list; copying the share link carries it to any other
 device; "Email me my list" opens a pre-written email with every piece and the link.
+
+## Return terms per store
+
+`build/returns/retailers.json` holds each store's return window, who pays return shipping, exceptions and the policy URL, as stated for US orders, with a `checked` date. `python3 build/returns/make.py` writes `retailers.js`, which the page loads with an hourly cache stamp. The site shows a "Returns at …" line in every item's detail view and lists all stores behind the storefront count in the About dialog.
+
+The daily sale workflow also runs `build/returns/check.py`, which hashes the return-terms sentences on each policy page and opens a GitHub issue when a store's terms change. Stores that block scripted fetches (J.Crew, Madewell, Ralph Lauren, Converse, Abercrombie & Fitch, O'Connell's) are on its manual list; re-read those by hand now and then. After any change: edit retailers.json, bump `checked`, run make.py, commit retailers.js.

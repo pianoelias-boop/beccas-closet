@@ -43,6 +43,16 @@
   const verifiedSale = it => salesFresh && !!SALE_ITEMS[String(it.id)];
   const saleInfo = it => SALE_ITEMS[String(it.id)];
   const brandEvent = it => salesFresh ? (SALE_EVENTS[it.retailer] || SALE_EVENTS[it.brand]) : null;
+  const RET = (window.RETAILERS && window.RETAILERS.stores) || {};
+  const RET_CHECKED = (window.RETAILERS && window.RETAILERS.checked) || '';
+  const retFor = it => RET[it.retailer] || RET[it.brand] || null;
+  const retLine = it => { const r = retFor(it); if (!r) return ''; return `<p class="returns-line"><span>Returns at ${esc(it.retailer)}</span> ${esc(r.window)} · ${esc(r.ship)}${r.note ? '. ' + esc(r.note) : ''}. <a href="${esc(r.policy)}" target="_blank" rel="noopener">Their policy</a></p>`; };
+  function renderStores() {
+    const counts = new Map(); ITEMS.forEach(i => counts.set(i.retailer, (counts.get(i.retailer) || 0) + 1));
+    const names = Object.keys(RET).sort((a, b) => a.localeCompare(b));
+    $('#stores-list').innerHTML = names.map(n => { const r = RET[n]; const c = counts.get(n) || 0; return `<div class="store"><div class="store-head"><a href="${esc(r.site)}" target="_blank" rel="noopener">${esc(n)}</a><span>${c} ${c === 1 ? 'piece' : 'pieces'}</span></div><p>${esc(r.window)} · ${esc(r.ship)}${r.note ? '. ' + esc(r.note) : ''}. <a class="pol" href="${esc(r.policy)}" target="_blank" rel="noopener">Their policy</a></p></div>`; }).join('');
+    $('#stores-checked').textContent = RET_CHECKED ? new Date(RET_CHECKED + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) : 'an unknown date';
+  }
   const asOfLabel = () => new Date(window.SALES.checked + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   function saleSeason() {
     const d = new Date(), y = d.getFullYear(), m = d.getMonth(), day = d.getDate(), dow = d.getDay();
@@ -481,6 +491,7 @@
         ${it.idea && !on ? `<p class="detail-row"><button class="link" type="button" data-pass="${it.id}">Not for me</button></p>` : ''}
         ${it.why ? `<p class="why"><span>Why these occasions</span> ${esc(it.why)}</p>` : ''}
         ${it.categoryDetail && it.categoryDetail !== it.category ? `<p class="detail-row">Listed as <b>${esc(it.categoryDetail)}</b></p>` : ''}
+        ${retLine(it)}
         <div class="links">
           <a href="${esc(it.url)}" target="_blank" rel="noopener"><span>See it at ${esc(it.retailer)} <small>· original listing</small></span><svg><use href="#i-arrow"/></svg></a>
           <a href="${searchUrl('ebay', it)}" target="_blank" rel="noopener"><span>Find it on eBay <small>· search</small></span><svg><use href="#i-arrow"/></svg></a>
@@ -537,6 +548,7 @@
     switch (t.id) {
       case 'open-saved': openPanel('#drawer'); break;
       case 'open-about': $('#about').showModal(); break;
+      case 'open-stores': renderStores(); $('#stores').showModal(); break;
       case 'see-sale': state.onlySale = true; state.tab = 'closet'; render(); window.scrollTo({ top: $('#topbar').offsetTop, behavior: 'smooth' }); break;
       case 'open-becca': $('#becca').showModal(); break;
       case 'open-filters': openPanel('#filters'); break;

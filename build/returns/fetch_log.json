@@ -1,0 +1,483 @@
+{
+ "Boden": {
+  "retailer": "Boden",
+  "count": 73,
+  "domain": "us.boden.com",
+  "tried": [
+   [
+    "https://us.boden.com/en-us/customer-service/returns",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://us.boden.com/en-us/customer-service/returns",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://us.boden.com/en-us/help/returns-and-refunds",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://us.boden.com/en-us/help/returns-and-refunds",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://us.boden.com/en-us/help",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://us.boden.com/en-us/help",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ]
+  ],
+  "ok": null
+ },
+ "Anthropologie": {
+  "retailer": "Anthropologie",
+  "count": 59,
+  "domain": "anthropologie.com",
+  "tried": [],
+  "ok": "https://www.anthropologie.com/help/returns-exchanges",
+  "chars": 12007
+ },
+ "Ralph Lauren": {
+  "retailer": "Ralph Lauren",
+  "count": 46,
+  "domain": "ralphlauren.com",
+  "tried": [
+   [
+    "https://www.ralphlauren.com/customer-service-returns",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://www.ralphlauren.com/customer-service-returns",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ]
+  ],
+  "ok": "https://www.ralphlauren.com/returns",
+  "chars": 2510
+ },
+ "TOAST": {
+  "retailer": "TOAST",
+  "count": 37,
+  "domain": "us.toa.st",
+  "tried": [],
+  "ok": "https://us.toa.st/policies/refund-policy",
+  "chars": 10156
+ },
+ "Abercrombie & Fitch": {
+  "retailer": "Abercrombie & Fitch",
+  "count": 35,
+  "domain": "abercrombie.com",
+  "tried": [
+   [
+    "https://www.abercrombie.com/shop/us/help/return-exchange-policy",
+    "HTTPError",
+    "HTTP Error 404: OK"
+   ],
+   [
+    "https://www.abercrombie.com/shop/us/help/return-exchange-policy",
+    "HTTPError",
+    "HTTP Error 404: OK"
+   ],
+   [
+    "https://www.abercrombie.com/shop/us/help/returns-exchanges",
+    "HTTPError",
+    "HTTP Error 404: OK"
+   ],
+   [
+    "https://www.abercrombie.com/shop/us/help/returns-exchanges",
+    "HTTPError",
+    "HTTP Error 404: OK"
+   ]
+  ],
+  "ok": null
+ },
+ "Alex Mill": {
+  "retailer": "Alex Mill",
+  "count": 24,
+  "domain": "alexmill.com",
+  "tried": [],
+  "ok": "https://www.alexmill.com/policies/refund-policy",
+  "chars": 3423
+ },
+ "J.Crew": {
+  "retailer": "J.Crew",
+  "count": 21,
+  "domain": "jcrew.com",
+  "tried": [
+   [
+    "https://www.jcrew.com/help/returns_exchanges",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.jcrew.com/help/returns_exchanges",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.jcrew.com/help/returns-exchanges",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.jcrew.com/help/returns-exchanges",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ]
+  ],
+  "ok": null
+ },
+ "18 East": {
+  "retailer": "18 East",
+  "count": 18,
+  "domain": "18east.co",
+  "tried": [],
+  "ok": "https://18east.co/policies/refund-policy",
+  "chars": 1452
+ },
+ "Mixed by Nasrin": {
+  "retailer": "Mixed by Nasrin",
+  "count": 16,
+  "domain": "mixedbynasrin.com",
+  "tried": [],
+  "ok": "https://mixedbynasrin.com/policies/refund-policy",
+  "chars": 4404
+ },
+ "W'menswear": {
+  "retailer": "W'menswear",
+  "count": 15,
+  "domain": "wmenswear.com",
+  "tried": [
+   [
+    "https://wmenswear.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://wmenswear.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://www.wmenswear.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://www.wmenswear.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ]
+  ],
+  "ok": null
+ },
+ "Buck Mason": {
+  "retailer": "Buck Mason",
+  "count": 14,
+  "domain": "buckmason.com",
+  "tried": [
+   [
+    "https://buckmason.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 308: Permanent Redirect"
+   ],
+   [
+    "https://buckmason.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 308: Permanent Redirect"
+   ],
+   [
+    "https://www.buckmason.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://www.buckmason.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ]
+  ],
+  "ok": null
+ },
+ "O'Connell's": {
+  "retailer": "O'Connell's",
+  "count": 12,
+  "domain": "oconnellsclothing.com",
+  "tried": [
+   [
+    "https://oconnellsclothing.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://oconnellsclothing.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.oconnellsclothing.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.oconnellsclothing.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ]
+  ],
+  "ok": null
+ },
+ "Standard & Strange": {
+  "retailer": "Standard & Strange",
+  "count": 11,
+  "domain": "standardandstrange.com",
+  "tried": [],
+  "ok": "https://standardandstrange.com/policies/refund-policy",
+  "chars": 3124
+ },
+ "Bosie Knitwear": {
+  "retailer": "Bosie Knitwear",
+  "count": 6,
+  "domain": "bosie.co",
+  "tried": [],
+  "ok": "https://bosie.co/policies/refund-policy",
+  "chars": 6252
+ },
+ "Cosyfeet": {
+  "retailer": "Cosyfeet",
+  "count": 6,
+  "domain": "cosyfeet.com",
+  "tried": [],
+  "ok": "https://www.cosyfeet.com/usa/help/delivery-and-returns",
+  "chars": 4773
+ },
+ "Post Romantic": {
+  "retailer": "Post Romantic",
+  "count": 5,
+  "domain": "post-romantic.com",
+  "tried": [
+   [
+    "https://post-romantic.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://post-romantic.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://www.post-romantic.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://www.post-romantic.com/policies/refund-policy",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ]
+  ],
+  "ok": null
+ },
+ "Gramicci": {
+  "retailer": "Gramicci",
+  "count": 5,
+  "domain": "gramicci.com",
+  "tried": [],
+  "ok": "https://gramicci.com/policies/refund-policy",
+  "chars": 7009
+ },
+ "Levi's": {
+  "retailer": "Levi's",
+  "count": 4,
+  "domain": "levi.com",
+  "tried": [
+   [
+    "https://www.levi.com/US/en_US/features/returns",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.levi.com/US/en_US/features/returns",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.levi.com/US/en_US/customer-service/returns",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.levi.com/US/en_US/customer-service/returns",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ]
+  ],
+  "ok": null
+ },
+ "Madewell": {
+  "retailer": "Madewell",
+  "count": 4,
+  "domain": "madewell.com",
+  "tried": [
+   [
+    "https://www.madewell.com/help/returns.html",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.madewell.com/help/returns.html",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.madewell.com/help/returns-exchanges.html",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.madewell.com/help/returns-exchanges.html",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ]
+  ],
+  "ok": null
+ },
+ "Morrison": {
+  "retailer": "Morrison",
+  "count": 4,
+  "domain": "morrison.be",
+  "tried": [],
+  "ok": "https://howlinknitwear.com/en-us/policies/refund-policy",
+  "chars": 1031
+ },
+ "BILLY Footwear": {
+  "retailer": "BILLY Footwear",
+  "count": 3,
+  "domain": "billyfootwear.com",
+  "tried": [],
+  "ok": "https://billyfootwear.com/policies/refund-policy",
+  "chars": 13786
+ },
+ "Unbound Merino": {
+  "retailer": "Unbound Merino",
+  "count": 2,
+  "domain": "unboundmerino.com",
+  "tried": [],
+  "ok": "https://unboundmerino.com/policies/refund-policy",
+  "chars": 1697
+ },
+ "Woolly Clothing Co.": {
+  "retailer": "Woolly Clothing Co.",
+  "count": 2,
+  "domain": "woolly.clothing",
+  "tried": [],
+  "ok": "https://www.woolly.clothing/policies/refund-policy",
+  "chars": 2901
+ },
+ "Icebreaker": {
+  "retailer": "Icebreaker",
+  "count": 2,
+  "domain": "na.icebreaker.com",
+  "tried": [
+   [
+    "https://na.icebreaker.com/en-us/help/returns.html",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://na.icebreaker.com/en-us/help/returns.html",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://na.icebreaker.com/en-us/returns.html",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ],
+   [
+    "https://na.icebreaker.com/en-us/returns.html",
+    "HTTPError",
+    "HTTP Error 404: Not Found"
+   ]
+  ],
+  "ok": null
+ },
+ "Ridge Merino": {
+  "retailer": "Ridge Merino",
+  "count": 1,
+  "domain": "ridgemerino.com",
+  "tried": [],
+  "ok": "https://www.ridgemerino.com/policies/refund-policy",
+  "chars": 4456
+ },
+ "Ibex": {
+  "retailer": "Ibex",
+  "count": 1,
+  "domain": "ibex.com",
+  "tried": [],
+  "ok": "https://ibex.com/policies/refund-policy",
+  "chars": 3405
+ },
+ "Mons Royale": {
+  "retailer": "Mons Royale",
+  "count": 1,
+  "domain": "monsroyale.com",
+  "tried": [],
+  "ok": "https://monsroyale.com/policies/refund-policy",
+  "chars": 6155
+ },
+ "Minus33": {
+  "retailer": "Minus33",
+  "count": 1,
+  "domain": "minus33.com",
+  "tried": [],
+  "ok": "https://minus33.com/policies/refund-policy",
+  "chars": 14712
+ },
+ "Converse": {
+  "retailer": "Converse",
+  "count": 1,
+  "domain": "converse.com",
+  "tried": [
+   [
+    "https://www.converse.com/help/returns",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.converse.com/help/returns",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.converse.com/shop/help/returns",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ],
+   [
+    "https://www.converse.com/shop/help/returns",
+    "HTTPError",
+    "HTTP Error 403: Forbidden"
+   ]
+  ],
+  "ok": null
+ },
+ "Steger Mukluks": {
+  "retailer": "Steger Mukluks",
+  "count": 1,
+  "domain": "mukluks.com",
+  "tried": [],
+  "ok": "https://mukluks.com/policies/refund-policy",
+  "chars": 5046
+ }
+}

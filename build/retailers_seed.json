@@ -1,0 +1,152 @@
+[
+ {
+  "retailer": "Boden",
+  "count": 73,
+  "domain": "us.boden.com"
+ },
+ {
+  "retailer": "Anthropologie",
+  "count": 59,
+  "domain": "anthropologie.com"
+ },
+ {
+  "retailer": "Ralph Lauren",
+  "count": 46,
+  "domain": "ralphlauren.com"
+ },
+ {
+  "retailer": "TOAST",
+  "count": 37,
+  "domain": "us.toa.st"
+ },
+ {
+  "retailer": "Abercrombie & Fitch",
+  "count": 35,
+  "domain": "abercrombie.com"
+ },
+ {
+  "retailer": "Alex Mill",
+  "count": 24,
+  "domain": "alexmill.com"
+ },
+ {
+  "retailer": "J.Crew",
+  "count": 21,
+  "domain": "jcrew.com"
+ },
+ {
+  "retailer": "18 East",
+  "count": 18,
+  "domain": "18east.co"
+ },
+ {
+  "retailer": "Mixed by Nasrin",
+  "count": 16,
+  "domain": "mixedbynasrin.com"
+ },
+ {
+  "retailer": "W'menswear",
+  "count": 15,
+  "domain": "wmenswear.com"
+ },
+ {
+  "retailer": "Buck Mason",
+  "count": 14,
+  "domain": "buckmason.com"
+ },
+ {
+  "retailer": "O'Connell's",
+  "count": 12,
+  "domain": "oconnellsclothing.com"
+ },
+ {
+  "retailer": "Standard & Strange",
+  "count": 11,
+  "domain": "standardandstrange.com"
+ },
+ {
+  "retailer": "Bosie Knitwear",
+  "count": 6,
+  "domain": "bosie.co"
+ },
+ {
+  "retailer": "Cosyfeet",
+  "count": 6,
+  "domain": "cosyfeet.com"
+ },
+ {
+  "retailer": "Post Romantic",
+  "count": 5,
+  "domain": "post-romantic.com"
+ },
+ {
+  "retailer": "Gramicci",
+  "count": 5,
+  "domain": "gramicci.com"
+ },
+ {
+  "retailer": "Levi's",
+  "count": 4,
+  "domain": "levi.com"
+ },
+ {
+  "retailer": "Madewell",
+  "count": 4,
+  "domain": "madewell.com"
+ },
+ {
+  "retailer": "Morrison",
+  "count": 4,
+  "domain": "morrison.be"
+ },
+ {
+  "retailer": "BILLY Footwear",
+  "count": 3,
+  "domain": "billyfootwear.com"
+ },
+ {
+  "retailer": "Unbound Merino",
+  "count": 2,
+  "domain": "unboundmerino.com"
+ },
+ {
+  "retailer": "Woolly Clothing Co.",
+  "count": 2,
+  "domain": "woolly.clothing"
+ },
+ {
+  "retailer": "Icebreaker",
+  "count": 2,
+  "domain": "na.icebreaker.com"
+ },
+ {
+  "retailer": "Ridge Merino",
+  "count": 1,
+  "domain": "ridgemerino.com"
+ },
+ {
+  "retailer": "Ibex",
+  "count": 1,
+  "domain": "ibex.com"
+ },
+ {
+  "retailer": "Mons Royale",
+  "count": 1,
+  "domain": "monsroyale.com"
+ },
+ {
+  "retailer": "Minus33",
+  "count": 1,
+  "domain": "minus33.com"
+ },
+ {
+  "retailer": "Converse",
+  "count": 1,
+  "domain": "converse.com"
+ },
+ {
+  "retailer": "Steger Mukluks",
+  "count": 1,
+  "domain": "mukluks.com"
+ }
+]

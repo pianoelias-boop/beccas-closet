@@ -343,3 +343,22 @@ a{color:inherit}
 }
 @media (max-width:380px){.grid{gap:18px 10px}.results-count{font-size:18px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ---- return terms ---- */
+.returns-line{font-size:13px;color:var(--ink-soft);margin:6px 0 0;line-height:1.55}
+.returns-line span{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--ink);margin-right:4px}
+.returns-line a{color:var(--rose-deep);text-decoration:none;border-bottom:1px solid var(--blush-deep);margin-left:2px;white-space:nowrap}
+.returns-line a:hover{color:var(--ink)}
+.stat-link{all:unset;cursor:pointer;display:block;width:100%;text-align:center;border-radius:12px;padding:2px 0}
+.stat-link b{text-decoration:underline dotted;text-decoration-color:var(--rose);text-underline-offset:5px}
+.stat-link:hover b{color:var(--ink)}
+.stat-link:focus-visible{outline:2px solid var(--rose);outline-offset:2px}
+.about-dialog.stores{max-width:min(720px,calc(100vw - 32px))}
+.stores-list{display:grid;gap:10px;margin-top:4px}
+.store{padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--paper)}
+.store-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.store-head a{font-family:var(--serif);font-size:19px;color:var(--ink);text-decoration:none}
+.store-head a:hover{color:var(--rose-deep)}
+.store-head span{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);white-space:nowrap}
+.about-card .store p{margin:4px 0 0;font-size:13.5px;line-height:1.5;color:var(--ink-soft)}
+.store p .pol{color:var(--rose-deep);text-decoration:none;border-bottom:1px solid var(--blush-deep);margin-left:4px;white-space:nowrap}

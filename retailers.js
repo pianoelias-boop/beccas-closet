@@ -1,0 +1,216 @@
+// Return terms per store, as each states them for US orders. Source: build/returns/retailers.json
+window.RETAILERS = {
+ "checked": "2026-09-17",
+ "stores": {
+  "18 East": {
+   "site": "https://18east.co",
+   "policy": "https://18east.co/policies/refund-policy",
+   "window": "14 days from delivery",
+   "ship": "free return shipping in the US",
+   "note": "Store credit only, no refunds. Final Sale excluded"
+  },
+  "Abercrombie & Fitch": {
+   "site": "https://www.abercrombie.com",
+   "policy": "https://www.abercrombie.com/shop/us/help/online-return-exchange-policy",
+   "window": "30 days from delivery (60 for VIP members)",
+   "ship": "$7 deducted for mailed returns, free in store, exchanges free",
+   "note": "After 30 days, merchandise credit only. Final sale excluded"
+  },
+  "Alex Mill": {
+   "site": "https://www.alexmill.com",
+   "policy": "https://www.alexmill.com/policies/refund-policy",
+   "window": "21 days from purchase",
+   "ship": "prepaid label provided, no fee stated",
+   "note": "Exchanges through returns.alexmill.com"
+  },
+  "Anthropologie": {
+   "site": "https://www.anthropologie.com",
+   "policy": "https://www.anthropologie.com/help/returns-exchanges",
+   "window": "30 days for a refund, up to a year for merchandise credit",
+   "ship": "$5.95 deducted for mailed returns, free in store, free label for exchanges",
+   "note": "Sale-on-sale items marked Final Sale excluded"
+  },
+  "BILLY Footwear": {
+   "site": "https://billyfootwear.com",
+   "policy": "https://billyfootwear.com/policies/refund-policy",
+   "window": "30 days from fulfilment",
+   "ship": "free prepaid label in the US",
+   "note": "No exchanges, return and reorder. Final Sale excluded"
+  },
+  "Boden": {
+   "site": "https://us.boden.com",
+   "policy": "https://us.boden.com/pages/returns-and-refunds",
+   "window": "30 days from receipt",
+   "ship": "free, prepaid label or Happy Returns drop-off",
+   "note": "No exchanges, reorder instead. Final Sale excluded"
+  },
+  "Bosie Knitwear": {
+   "site": "https://bosie.co",
+   "policy": "https://bosie.co/policies/refund-policy",
+   "window": "request within 14 days, return within 28 days of receipt",
+   "ship": "you pay return postage to Scotland",
+   "note": "UK brand"
+  },
+  "Buck Mason": {
+   "site": "https://www.buckmason.com",
+   "policy": "https://www.buckmason.com/pages/faq",
+   "window": "365 days",
+   "ship": "$8 per package deducted for mailed returns, free in store, exchanges free",
+   "note": "Shoes must show no wear"
+  },
+  "Converse": {
+   "site": "https://www.converse.com",
+   "policy": "https://converseconsumerservices.my.site.com/s/article/what-is-converse-s-return-policy",
+   "window": "30 days",
+   "ship": "free in the continental US",
+   "note": "Custom Converse By You excluded"
+  },
+  "Cosyfeet": {
+   "site": "https://www.cosyfeet.com/usa",
+   "policy": "https://www.cosyfeet.com/usa/help/delivery-and-returns",
+   "window": "90 days, no quibble",
+   "ship": "free with their UPS or DHL returns service (original shipping not refunded)",
+   "note": "Ships from the UK. No split-size pairs on shoes or boots"
+  },
+  "Gramicci": {
+   "site": "https://gramicci.com",
+   "policy": "https://gramicci.com/policies/refund-policy",
+   "window": "30 days from shipment",
+   "ship": "$9 label fee deducted, exchanges free",
+   "note": "Final sale excluded"
+  },
+  "Ibex": {
+   "site": "https://ibex.com",
+   "policy": "https://ibex.com/policies/refund-policy",
+   "window": "not stated on their returns page",
+   "ship": "$5 for their mailing label",
+   "note": "Final sale excluded. Refund or store credit"
+  },
+  "Icebreaker": {
+   "site": "https://na.icebreaker.com/en-us/",
+   "policy": "https://na.icebreaker.com/en-us/pages/returns",
+   "window": "30 days from ship date",
+   "ship": "free",
+   "note": "No online exchanges. Final Sale excluded"
+  },
+  "J.Crew": {
+   "site": "https://www.jcrew.com",
+   "policy": "https://www.jcrew.com/help/returns-exchanges",
+   "window": "30 days from purchase",
+   "ship": "$7.50 deducted for their prepaid label, free in store, exchanges free",
+   "note": "Final sale, lingerie and altered items excluded"
+  },
+  "Levi's": {
+   "site": "https://www.levi.com",
+   "policy": "https://help.levi.com/hc/en-us/articles/360052069812-Levi-s-Return-Exchange-Policy",
+   "window": "30 days",
+   "ship": "free for Red Tab members and in store, otherwise $7.50 deducted",
+   "note": "Final Sale excluded"
+  },
+  "Madewell": {
+   "site": "https://www.madewell.com",
+   "policy": "https://www.madewell.com/c/returns/",
+   "window": "30 days from purchase",
+   "ship": "$7.50 deducted for their prepaid label, free in store, free for Madewell Icons, exchanges free",
+   "note": ""
+  },
+  "Minus33": {
+   "site": "https://minus33.com",
+   "policy": "https://minus33.com/policies/refund-policy",
+   "window": "30 days",
+   "ship": "you pay return freight",
+   "note": "Restocking or cleaning fee possible without tags and packaging"
+  },
+  "Mixed by Nasrin": {
+   "site": "https://mixedbynasrin.com",
+   "policy": "https://mixedbynasrin.com/policies/refund-policy",
+   "window": "14 days from delivery, 30 with Order Protection or under their current extended offer",
+   "ship": "free under the current offer",
+   "note": "Final Sale and Re-Mixed pieces excluded"
+  },
+  "Mons Royale": {
+   "site": "https://monsroyale.com",
+   "policy": "https://monsroyale.com/policies/refund-policy",
+   "window": "received within 28 days of the order date",
+   "ship": "you pay return shipping",
+   "note": "Underwear excluded. Sale items may not be exchangeable"
+  },
+  "Morrison": {
+   "site": "https://howlinknitwear.com/en-us",
+   "policy": "https://howlinknitwear.com/en-us/policies/refund-policy",
+   "window": "14 days from receipt",
+   "ship": "you pay return shipping to Antwerp, duties included",
+   "note": "Email return@morrison.be before sending"
+  },
+  "O'Connell's": {
+   "site": "https://oconnellsclothing.com",
+   "policy": "https://oconnellsclothing.com/shipping-returns",
+   "window": "postmarked within 15 days of receipt",
+   "ship": "you pay return shipping",
+   "note": "Refund or exchange"
+  },
+  "Post Romantic": {
+   "site": "https://post-romantic.com",
+   "policy": "https://post-romantic.com/shipping/",
+   "window": "14 working days, only for a measurement error or wrong item",
+   "ship": "prepaid label when the return qualifies",
+   "note": "Made to measure, so no change-of-mind returns"
+  },
+  "Ralph Lauren": {
+   "site": "https://www.ralphlauren.com",
+   "policy": "https://www.ralphlauren.com/returns",
+   "window": "30 days from ship date",
+   "ship": "free with a free RalphLauren.com account",
+   "note": "Sign in or create the account before starting the return"
+  },
+  "Ridge Merino": {
+   "site": "https://www.ridgemerino.com",
+   "policy": "https://www.ridgemerino.com/policies/refund-policy",
+   "window": "90 days from purchase",
+   "ship": "free returns and exchanges in the US",
+   "note": "Final sale items exchange only"
+  },
+  "Standard & Strange": {
+   "site": "https://standardandstrange.com",
+   "policy": "https://standardandstrange.com/policies/refund-policy",
+   "window": "14 days from delivery",
+   "ship": "you pay, or a prepaid label with the cost deducted",
+   "note": "Store credit or exchange only. Discounted items final sale"
+  },
+  "Steger Mukluks": {
+   "site": "https://mukluks.com",
+   "policy": "https://mukluks.com/policies/refund-policy",
+   "window": "60 days from ship date",
+   "ship": "you pay all shipping on returns and exchanges",
+   "note": "Call 218-365-6634 for an RMA number first"
+  },
+  "TOAST": {
+   "site": "https://us.toa.st",
+   "policy": "https://us.toa.st/policies/refund-policy",
+   "window": "28 days (14 for sale items)",
+   "ship": "$20 flat returns charge, paid online for the label",
+   "note": "No exchanges, but call and they will send a new size without a delivery charge"
+  },
+  "Unbound Merino": {
+   "site": "https://unboundmerino.com",
+   "policy": "https://unboundmerino.com/policies/refund-policy",
+   "window": "30 days from ship date",
+   "ship": "not stated on the policy page, see the returns portal",
+   "note": "Socks, underwear and Final Sale excluded"
+  },
+  "W'menswear": {
+   "site": "https://www.wmenswear.com",
+   "policy": "https://www.wmenswear.com/shipping-returns/",
+   "window": "14 days, and US orders can only be exchanged, not refunded",
+   "ship": "you pay return shipping and customs, up to 30% may be deducted",
+   "note": "Ships from Thailand"
+  },
+  "Woolly Clothing Co.": {
+   "site": "https://www.woolly.clothing",
+   "policy": "https://www.woolly.clothing/policies/refund-policy",
+   "window": "30 days from delivery",
+   "ship": "$8 fee for refunds, exchanges and store credit ship free",
+   "note": "Closeout items final sale"
+  }
+ }
+};
