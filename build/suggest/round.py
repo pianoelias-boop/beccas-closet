@@ -155,10 +155,15 @@ def stage1():
     for p in passed:
         if p['idea']: passed_brands[p['item']['brand']] += 1
     have = existing_garments()
-    seen = set(); scored = []
+    AVOID = re.compile(R['avoid_titles']['pattern'], re.I) if R.get('avoid_titles') else None; AVOID_CATS = set(R.get('avoid_titles', {}).get('categories', []))
+    ONLY = {x['name']: re.compile(x['only_titles'], re.I) for x in cfg['brands'] if x.get('only_titles')}   # e.g. 18 East: shirts and overshirts only
+    seen = set(); scored = []; dropped = collections.Counter()
     for c in cands:
         k = title_key(c)
         if k in seen: continue
+        if AVOID and c['category'] in AVOID_CATS and AVOID.search(c['title'] + ' ' + (c.get('desc') or '')[:300]): dropped['tapered'] += 1; continue
+        only = ONLY.get(c['brand'])
+        if only and not only.search(c['title']): dropped[c['brand']] += 1; continue
         seen.add(k); sc, hits = score(c, w, closet_share, recent_brands, passed_brands, median_price); c['score'] = round(sc, 2); c['hits'] = hits
         c['recolour'] = garment_key(c['brand'], c['title']) in have   # another colour of something already in the closet or a past round
         scored.append(c)
@@ -180,7 +185,7 @@ def stage1():
         for i, c in enumerate(short, 1):
             f.write(f"{i}. [{c['brand']}] {c['title']} — {c['category']} — ${c['price']:.0f}" + (f" (list ${c['list']:.0f})" if c['list'] != c['price'] else '') + f" — {c.get('fabric') or 'fibre not stated'} — score {c['score']}" + (" — ANOTHER COLOUR of a piece already in the closet" if c.get('recolour') else '') + f"\n   {(c.get('desc') or '')[:220]}\n   {c['url']}\n")
     json.dump({'date': TODAY, 'stage1': NOW.isoformat(), 'brands_ok': [r[0] for r in report if r[1]], 'brands_failed': [r[0] for r in report if r[2]]}, open(f'{PEND}/round_meta.json', 'w'), indent=1)
-    print(f'stage1 done: {len(saved)} hearts, {len(passed)} passes, {len(cands)} candidates, shortlist {len(short)}; feeds failed: {[r[0] for r in report if r[2]]}')
+    print(f'stage1 done: {len(saved)} hearts, {len(passed)} passes, {len(cands)} candidates, shortlist {len(short)}; dropped by rule: {dict(dropped)}; feeds failed: {[r[0] for r in report if r[2]]}')
 
 def fallback():
     short = json.load(open(f'{PEND}/shortlist.json')); sig = json.load(open(f'{PEND}/signals.json'))

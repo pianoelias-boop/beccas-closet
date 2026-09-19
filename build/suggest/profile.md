@@ -38,3 +38,5 @@ Updated 2026-09-15 from the notebook (9 hearts, 0 passes) plus the closet's own 
 - Include one or two dresses per round in her fabrics and colours (cord, cotton twill, jersey, wool; darks and earth tones) so the signal on dresses can develop.
 - Favour earth tones and darks; a print is fine if it is on a dark ground or a check/plaid.
 - Rules from the owner: $50–$400 list, at least 70% natural fibre, reputable brands only.
+- **Never tapered or skinny legs (owner, 2026-09-19):** she cannot wear tapered trousers or jeans; her right leg is in compression. Wide, straight, barrel, culotte, palazzo and pleated legs only. This applies to pants, jeans and jumpsuits.
+- **18 East (owner, 2026-09-19):** mostly a menswear label; only its shirts and overshirts belong in a round, never its blazers, trousers or shorts.

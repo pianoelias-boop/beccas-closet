@@ -4,7 +4,16 @@
   "price_max": 400,
   "natural_min_share": 0.7,
   "ideas_per_round": 8,
-  "new_brands_per_round": 3
+  "new_brands_per_round": 3,
+  "avoid_titles": {
+   "categories": [
+    "Pants",
+    "Jeans",
+    "Jumpsuits & Rompers"
+   ],
+   "pattern": "\\btapered\\b|\\bskinny\\b|\\bcigarette\\b|\\bslim[- ]leg\\b",
+   "why": "owner 2026-09-19: she cannot wear tapered legs (right leg in compression)"
+  }
  },
  "brands": [
   {
@@ -29,7 +38,8 @@
    "name": "18 East",
    "site": "https://18east.co",
    "status": "approved",
-   "note": "in the closet"
+   "note": "in the closet; mostly menswear, so shirts and overshirts only (owner 2026-09-19)",
+   "only_titles": "\\b(shirt|overshirt|shacket)\\b"
   },
   {
    "name": "Buck Mason",

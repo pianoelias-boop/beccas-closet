@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "id": 5032,
+  "brand": "Margaret Howell",
+  "name": "MHL. TAPERED JEANS | DENIM TWILL | INDIGO",
+  "url": "https://www.margarethowell.co.uk/products/mhl-tapered-jeans-denim-twill-indigo",
+  "why": "rule: tapered legs",
+  "date": "2026-09-19"
+ },
+ {
+  "id": 5034,
+  "brand": "18 East",
+  "name": "ASHEVILLE OVERSIZED BLAZER - DUNE LINEN TWILL",
+  "url": "https://18east.co/products/asheville-oversized-blazer-dune-cacao",
+  "why": "rule: 18 East shirts and overshirts only",
+  "date": "2026-09-19"
+ }
+]

@@ -162,36 +162,6 @@
   "by": "claude"
  },
  {
-  "id": 5032,
-  "brand": "Margaret Howell",
-  "retailer": "Margaret Howell",
-  "name": "MHL. TAPERED JEANS | DENIM TWILL | INDIGO",
-  "category": "Jeans",
-  "color": "Denim",
-  "colorDetail": "DENIM TWILL | INDIGO",
-  "categoryDetail": "Trousers",
-  "price": 325.0,
-  "list": 325.0,
-  "url": "https://www.margarethowell.co.uk/products/mhl-tapered-jeans-denim-twill-indigo",
-  "img": "images/ideas/5032.jpg",
-  "hi": true,
-  "desc": null,
-  "details": [
-   "Relaxed cut",
-   "Button fly with button-through fastening"
-  ],
-  "fabric": "Denim twill",
-  "occasions": [
-   "hang"
-  ],
-  "why": "denim twill, tapered, denim",
-  "reason": "Indigo cotton denim with a tapered leg, close in fabric to the Wendy Trouser - 13 oz Denim you saved.",
-  "newBrand": true,
-  "round": 3,
-  "added": "2026-09-19",
-  "by": "claude"
- },
- {
   "id": 5033,
   "brand": "Nili Lotan",
   "retailer": "Nili Lotan",
@@ -219,37 +189,6 @@
   "why": "relaxed button down shirt in italian cotton poplin, pocket, white/ivory",
   "reason": "A relaxed button-down cotton shirt with a chest pocket, in the easy shirt style of the Pilcro Cropped Plaid Shirt you saved.",
   "newBrand": true,
-  "round": 3,
-  "added": "2026-09-19",
-  "by": "claude"
- },
- {
-  "id": 5034,
-  "brand": "18 East",
-  "retailer": "18 East",
-  "name": "ASHEVILLE OVERSIZED BLAZER - DUNE LINEN TWILL",
-  "category": "Jackets & Coats",
-  "color": "Beige/Tan",
-  "colorDetail": "DUNE LINEN TWILL",
-  "categoryDetail": "OUTERWEAR",
-  "price": 364.0,
-  "list": 364.0,
-  "url": "https://18east.co/products/asheville-oversized-blazer-dune-cacao",
-  "img": "images/ideas/5034.jpg",
-  "hi": true,
-  "desc": "Wear it with its matching tino pants, cargos, sweats, anything. Cut deliberately oversized and unlined with a button closure, patch hip pockets and a center back vent. We recommend taking your normal alpha size for a relaxed fit or sizing down one for a truer fit.",
-  "details": [
-   "Proudly made in India from 100% linen twill"
-  ],
-  "fabric": "100% linen twill",
-  "occasions": [
-   "teaching",
-   "outdoors",
-   "friend"
-  ],
-  "why": "100% linen twill, cargo, beige/tan",
-  "reason": "An oversized linen blazer in warm dune, sharing the linen you liked in the TOAST Garment Dyed Linen Shift Dress you saved.",
-  "newBrand": false,
   "round": 3,
   "added": "2026-09-19",
   "by": "claude"
