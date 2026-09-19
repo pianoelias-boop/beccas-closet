@@ -24,3 +24,7 @@ request or on a schedule, and costs one session, never anything per visitor.
 Discovery of brand candidates: multi-brand boutiques with Shopify feeds, "brands like X" searches from
 her profile, and labels carried by stores she already hearts. Vet before proposing: real product pages,
 women's clothing, fibre content published, prices overlapping the range, a physical home and returns policy.
+
+## If the shortlist is missing when the judge runs
+
+The judgment routine (Anthropic scheduler, Saturday 13:00 UTC) does not trust GitHub's cron: if `pending/round_meta.json` is older than a day it commits `pending/stage1.request` to main with the message "Request shortlist", which triggers the `stage1` job here (GitHub's machines have internet; the routine's sandbox does not), then pulls every minute until a fresh `round_meta.json` appears and picks from it. Crons are set off the hour (04:17 and 17:23 UTC) because GitHub fires top-of-hour schedules hours late.

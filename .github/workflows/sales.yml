@@ -2,7 +2,7 @@ name: Daily sale check
 
 on:
   schedule:
-    - cron: '0 9 * * *'     # 05:00 US Eastern (daylight)
+    - cron: '41 8 * * *'    # 04:41 US Eastern (daylight); off the hour because GitHub fires top-of-hour crons late
   workflow_dispatch:
 
 permissions:

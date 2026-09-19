@@ -2,11 +2,11 @@ name: Weekly round of ideas
 
 on:
   schedule:
-    - cron: '0 6 * * 6'     # Saturday 02:00 US Eastern (daylight) — stage 1: notebook, sweep, shortlist (GitHub often runs crons hours late; the judge fires at 13:00 UTC)
-    - cron: '0 17 * * 6'    # Saturday 13:00 US Eastern — fallback if no round was judged
+    - cron: '17 4 * * 6'    # Saturday 00:17 US Eastern (daylight) — stage 1: notebook, sweep, shortlist. Off the hour on purpose: GitHub fires top-of-hour crons hours late.
+    - cron: '23 17 * * 6'   # Saturday 13:23 US Eastern — fallback if no round was judged
   push:
     branches: [main]
-    paths: ['build/suggest/pending/picks_claude.json']   # the judgment routine saved its picks
+    paths: ['build/suggest/pending/picks_claude.json', 'build/suggest/pending/stage1.request']   # the judgment routine saved its picks, or asked for a fresh shortlist
   workflow_dispatch:
     inputs:
       stage:
@@ -21,7 +21,7 @@ concurrency: round
 
 jobs:
   judged:
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' && contains(github.event.head_commit.message, 'Round picks')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -55,7 +55,7 @@ jobs:
           gh pr create --title "Round $n: 8 ideas for Based on your likes (chosen by Claude)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee pianoelias-boop --reviewer pianoelias-boop
 
   stage1:
-    if: github.event.schedule == '0 6 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'fallback')
+    if: github.event.schedule == '17 4 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'fallback') || (github.event_name == 'push' && contains(github.event.head_commit.message, 'Request shortlist'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -72,7 +72,7 @@ jobs:
           git pull --rebase && git push
 
   fallback:
-    if: always() && (github.event.schedule == '0 17 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'stage1'))
+    if: always() && (github.event.schedule == '23 17 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'stage1'))
     # (a push of picks_claude.json never reaches here: needs stage1, which is skipped, and the condition above)
     needs: [stage1]
     runs-on: ubuntu-latest
