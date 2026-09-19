@@ -2,48 +2,6 @@
 {
 "brand": "TOAST",
 "status": "approved",
-"title": "Cord Barrel Leg Pants | Denim Blue",
-"category": "Pants",
-"price": 280.0,
-"list": 280.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://us.toa.st/products/organic-cord-barrel-leg-trousers-denim-blue",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LTRVW14_denimblue_00.jpg?v=1789322327",
-"tags": [
-"also-shown: roll-neck-wool-cashmere-sweater-ink-blue",
-"also-shown: vibae-roma-mules-black",
-"aw25-foundation",
-"bambuser-show-id: 7DmSxlxge7hA9dbiIDC9",
-"bambuser-show-id: BU6yuDkfBZmJVrNAHARS",
-"bambuser-show-id: FP4EocU2JUc2xmFdsUuH"
-],
-"desc": "Soft organic cotton cord lends a suppleness to our pull-on pants. Falling from an elasticated waist to curved barrel legs and finished with topstitching. Organic cotton cord. Easy shape. Cropped legs. Back hanging loop. Side seam pockets. Barrel legs. ### Details Machine wash 30ºC. 100% cotton. Made in China. These cotton fibres have been grown in a chemical and pesticide free environment. Size & Fit Easy fit. Length: Crop. Waist: On the waist. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size S.",
-"published": "2025-08-27",
-"score": 6.65,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
-],
-[
-"brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": true
-},
-{
-"brand": "TOAST",
-"status": "approved",
 "title": "Twisted Seam Cord Pants | Golden Amber",
 "category": "Pants",
 "price": 300.0,
@@ -62,65 +20,107 @@
 ],
 "desc": "Our barrel-leg pants are constructed from organic cotton cord, creating a twisted silhouette. With a high waist, a metal shank button at the fly, and two back pockets. Organic cotton cord. High waist. Ankle-skimming legs. Back pockets. Horn button. ### Details 100% cotton. 100% cotton lining. Made in China. Size & Fit Regular fit. Length: Crop. Waist: On the waist. Care Guide Machine wash at 30°C.",
 "published": "2026-08-26",
-"score": 6.41,
+"score": 4.93,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
+0.6884615384615385
 ],
 [
-"fab:cord",
-0.7222222222222222
+"brand:TOAST",
+0.5384615384615384
 ],
 [
-"price:300+",
-0.6666666666666666
+"cut:button",
+0.5346153846153846
 ]
 ],
 "recolour": true
 },
 {
-"brand": "Howlin'",
+"brand": "TOAST",
 "status": "approved",
-"title": "Cosmic Pants - Corduroy - Navy",
+"title": "Cotton Linen Pleat Front Pants | Slate",
 "category": "Pants",
-"price": 210.0,
-"list": 210.0,
-"fabric": "100% cotton",
+"price": 375.0,
+"list": 375.0,
+"fabric": "61% cotton, 39% linen",
 "natural": 1.0,
-"url": "https://howlinknitwear.com/products/cosmic-pants-corduroy-navy-aw26",
-"img": "https://cdn.shopify.com/s/files/1/0465/5477/5710/files/COSMICPANTS-CORDUROY_NAVY_1_1.jpg?v=1784214859",
+"url": "https://us.toa.st/products/cotton-linen-pleat-front-trousers-slate",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WTRWW05_slate_0_d7456369-a716-4b19-8f8b-4af1381bb1d1.jpg?v=1789331106",
 "tags": [
-"AW26",
-"AW26SALEALL",
-"AW26SALEMEN",
-"AW26SALEtrousers_MEN",
-"AWMEN",
-"badge_howlin_belgium"
+"also-shown: jeans-belt-black",
+"also-shown: stripe-linen-cotton-knitted-tee-graphite-blue-copper",
+"also-shown: sturlini-square-toe-leather-shoes-black",
+"base_colour: Blue",
+"collection: AW26_ww_newjuly",
+"collection: womens_clothing"
 ],
-"desc": "Cosmic Pants are the (in)famous trousers with a slightly wider fit, made in Belgium. It's crafted from a premium corduroy fabric with a touch of stretch, offering elevated comfort without compromising on quality. Designed with a relaxed silhouette, the pants feature an elasticated waistband for an easy fit and front pleats for a tailored touch, finished with large patch pockets at the back. Each garment is produced in small batches with close attention to detail in our Howlin' atelier. 100% cotton Elastic waist and belt loops Front pleats Large patch pockets at the back Metallic button closure",
-"published": "2026-08-28",
-"score": 5.95,
+"desc": "Our pants sit on the waist, with pleats that bring gentle volume to the ankle-skimming, tapered legs. Made from an organic cotton and linen blend and garment-dyed for a soft, relaxed feel. Organic cotton and linen blend. Garment-dyed. Below waist. Belt loops. Double pleats. Side pockets. Back welt pockets. Tapered legs. Ankle-skimming length. Zip and corozo button. ### Details Machine wash 30ºC gentle cycle. 61% cotton, 39% linen. Made in Portugal. Variations/unevenness of colour and gradual fading are characteristic of garment dyeing. The light coloured base of the fabric may show occasionall",
+"published": "2026-07-02",
+"score": 4.81,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
+0.6884615384615385
+],
+[
+"brand:TOAST",
+0.5384615384615384
+],
+[
+"cut:button",
+0.5346153846153846
+]
+],
+"recolour": true
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Barrel Leg Cord Pants | Brick Red",
+"category": "Pants",
+"price": 280.0,
+"list": 280.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://us.toa.st/products/barrel-leg-cord-trousers-brick-red",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LTRWW11_brickred.jpg?v=1787627946",
+"tags": [
+"also-shown: organic-cord-smock-top-brick-red",
+"also-shown: vibae-roma-mules-bitter-chocolate",
+"badge: NEW",
+"base_colour: Red",
+"collection: aw26_ww_newsep",
+"collection: womens_clothing"
+],
+"desc": "Soft organic cotton cord lends a suppleness to our pull-on pants. Falling from an elasticated waist to curved barrel legs with front pockets and finished with topstitching. Organic cotton cord. Easy shape. Cropped legs. Back hanging loop. Front pockets. Side seam pockets. Barrel legs. Herringbone hanging loop. ### Details 100% cotton. Made in China. Size & Fit Easy fit. Length: Crop. Waist: On the waist. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size S. Care Guide Machine wash at 30°C.",
+"published": "2026-08-26",
+"score": 4.53,
+"hits": [
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"brand:TOAST",
+0.5384615384615384
 ],
 [
 "fab:cord",
-0.7222222222222222
+0.5
 ],
 [
-"cat:Pants",
-0.6111111111111112
+"fab:cotton",
+0.44230769230769224
 ]
 ],
 "recolour": true
@@ -146,26 +146,110 @@
 ],
 "desc": "Inverted box pleats bring movement to our poplin skirt, which is garment-dyed for a rich depth of colour. Made from a blend of organic cotton and linen with a back elasticated waist and front adjustable tabs securing with corozo buttons. Organic cotton and linen-blend poplin. Garment-dyed. Easy fit. Adjustable buttoned waist tabs. Back elasticated waist. Inverted box pleats. Side-seam pockets. Corozo buttons. ### Details Machine wash 30ºC. 95% cotton, 5% linen. Made in China. Variations/unevenness of colour and gradual fading are characteristic of garment dyeing. The light coloured base of the",
 "published": "2026-01-28",
-"score": 5.75,
+"score": 4.39,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
+0.5384615384615384
+],
+[
+"cut:button",
+0.5346153846153846
 ]
 ],
 "recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Pleated Raised Stripe Cotton Skirt | Slate",
+"category": "Skirts",
+"price": 315.0,
+"list": 315.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://us.toa.st/products/pleated-raised-stripe-cotton-skirt-slate",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WSKWS12_slate_0.jpg?v=1785339557",
+"tags": [
+"also-shown: cotton-linen-poplin-sleeveless-top-raven-blue",
+"also-shown: sturlini-danza-leather-pumps-espresso",
+"also-shown: sturlini-soara-suede-sandals-muscovado",
+"base_colour: Black",
+"collection: co-ords",
+"collection: ss26_ww_newapr"
+],
+"desc": "Our pleated skirt is made from a raised stripe garment-dyed organic cotton poplin, bringing a subtle texture. With an elasticated waist for ease of wear, it features pleats creating volume and movement. Organic cotton poplin. Raised stripe with texture. Pleated drop waist. Elasticated waistband. Side seam pocket. ### Details Machine wash 30ºC gentle cycle. 100% cotton. Made in India. Variations/unevenness of colour and gradual fading are characteristic of garment dyeing. The light coloured base of the fabric may show occasionally at stitching points, this should not be considered a defect. Siz",
+"published": "2026-04-02",
+"score": 4.21,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"brand:TOAST",
+0.5384615384615384
+],
+[
+"fab:cotton",
+0.44230769230769224
+]
+],
+"recolour": true
+},
+{
+"brand": "Howlin'",
+"status": "approved",
+"title": "Cosmic Pants - Corduroy - Navy",
+"category": "Pants",
+"price": 210.0,
+"list": 210.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://howlinknitwear.com/products/cosmic-pants-corduroy-navy-aw26",
+"img": "https://cdn.shopify.com/s/files/1/0465/5477/5710/files/COSMICPANTS-CORDUROY_NAVY_1_1.jpg?v=1784214859",
+"tags": [
+"AW26",
+"AW26SALEALL",
+"AW26SALEMEN",
+"AW26SALEtrousers_MEN",
+"AWMEN",
+"badge_howlin_belgium"
+],
+"desc": "Cosmic Pants are the (in)famous trousers with a slightly wider fit, made in Belgium. It's crafted from a premium corduroy fabric with a touch of stretch, offering elevated comfort without compromising on quality. Designed with a relaxed silhouette, the pants feature an elasticated waistband for an easy fit and front pleats for a tailored touch, finished with large patch pockets at the back. Each garment is produced in small batches with close attention to detail in our Howlin' atelier. 100% cotton Elastic waist and belt loops Front pleats Large patch pockets at the back Metallic button closure",
+"published": "2026-08-28",
+"score": 4.19,
+"hits": [
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cord",
+0.5
+],
+[
+"fab:cotton",
+0.44230769230769224
+]
+],
+"recolour": true
 },
 {
 "brand": "TOAST",
@@ -177,7 +261,7 @@
 "fabric": "100% cotton",
 "natural": 1.0,
 "url": "https://us.toa.st/products/denim-skirt-ecru",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WSKVS22_ecru_00.jpg?v=1784386769",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WSKVS22_ecru_00.jpg?v=1789744277",
 "tags": [
 "also-shown: cotton-hemp-boxy-tee-slate",
 "also-shown: folk-floral-print-linen-bandana-paprika-warm-green",
@@ -188,216 +272,23 @@
 ],
 "desc": "Our utilitarian skirt is accented by a buttoned tab at each side of the waist. Made from regenerative cotton denim to an A-line shape with a large side patch pocket. Our regenerative cotton is grown according to regenerative farming methods, restoring soil health, improving biodiversity, and reducing environmental impact. Our regenerative cotton is grown organically in Turkey without harmful pesticides, improving soil health and farmer well-being. This method supports sustainable, high-quality denim production with minimal environmental impact. Regenerative cotton denim. A-line shape. Belt loo",
 "published": "2025-02-26",
-"score": 5.63,
+"score": 4.15,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Patch Pocket Indigo Denim Skirt | Indigo",
-"category": "Skirts",
-"price": 300.0,
-"list": 300.0,
-"fabric": "98% cotton, 2% elastane",
-"natural": 0.98,
-"url": "https://us.toa.st/products/patch-pocket-organic-indigo-denim-skirt-indigo",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WSKTW11_indigo_34c3b11e-158d-4455-ac25-669cfe9da4e3.jpg?v=1784344703",
-"tags": [
-"also-shown: baya-patch-pocket-stripe-organic-cotton-shirt-sunwashed-blue",
-"also-shown: maria-la-rosa-organic-cotton-ribbed-socks-cumin",
-"also-shown: solovair-mary-jane-shoes-cordovan",
-"bambuser-show-id: VyiHpm2uW0SrtlN8C2KY",
-"collection: a-travelling-performance",
-"collection: essentials-collection"
-],
-"desc": "Our effortless skirt is cut to a soft A-line shape for a sense of ease, then punctuated by large side patch pockets. Crafted from organic cotton denim dyed with a technique that uses up to 70% less water than regular processes. Organic cotton denim. Large side patch pockets. Lower-calf length. Corozo button. Hook and bar. ### Details Machine wash 30ºC. 98% cotton, 2% elastane. Made in Turkiye. This piece is finished with corozo buttons, which do not contain any parts of animal origin. There may be some colour rub, so please keep away from light coloured fabrics and upholstery. These cotton fib",
-"published": "2023-06-30",
-"score": 5.51,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "Margaret Howell",
-"status": "approved",
-"title": "MHL. PLEATED CULOTTES | SOFT DENSE COTTON | KHAKI",
-"category": "Pants",
-"price": 325.0,
-"list": 325.0,
-"fabric": "cotton",
-"natural": null,
-"url": "https://www.margarethowell.co.uk/products/mhl-pleated-culottes-soft-dense-cotton-khaki",
-"img": "https://cdn.shopify.com/s/files/1/0712/0791/1458/files/Margaret-Howell-MHL-AW26-Women-Look-38a_8f65f265-04a5-447f-886b-34521a40f4b6.jpg?v=1782921722",
-"tags": [],
-"desc": "The MHL. Pleated Culottes have a relaxed cut and wide leg. They are fabricated in lightweight cotton with a compact hand feel and a brushed finish. The culottes are constructed with a half-elasticated waistband with a brace button fastening, and stitch-down double pleats, and side seam pockets, and feature a brace button fastening on patch back pocket with reinforced stitch detailing.",
-"published": "2026-07-02",
-"score": 5.31,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"cat:Pants",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Cotton Cashmere Check Shirt | Black/Ecru",
-"category": "Shirts & Blouses",
-"price": 300.0,
-"list": 300.0,
-"fabric": "87% cotton, 13% cashmere",
-"natural": 1.0,
-"url": "https://us.toa.st/products/cotton-cashmere-check-shirt-black-ecru",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LLTVW28_blackecru_0.jpg?v=1784430873",
-"tags": [
-"also-shown: cotton-marl-rib-socks-charcoal",
-"also-shown: fracap-leather-buckle-shoes-black",
-"also-shown: minako-check-cotton-cashmere-trousers-black-ecru",
-"base_colour: Black",
-"collection: aw25_ww_newsep",
-"collection: aw25_ww_octfav"
-],
-"desc": "Shirt made from organic cotton blended with cashmere and woven with a grid check inspired by notebook graph paper. Shaped to a neat fit across the front, with a pleat at the back yoke. Featuring front waist in-seam pockets and secured with contrasting corozo buttons. Organic cotton and cashmere blend. Woven grid check. Relaxed fit. Front seam pockets. Grandad collar. Back yoke pleat. Elbow-length sleeves. Dropped shoulder. Corozo buttons. ### Details Machine wash 30ºC gentle cycle. 87% cotton, 13% cashmere. Made in India. Size & Fit Easy fit. Length: Top thigh. Sleeve: Wristbone length. Studio",
-"published": "2025-08-27",
-"score": 5.24,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "Filson",
-"status": "approved",
-"title": "Rustic Canvas Barn Coat - Indigo",
-"category": "Jackets & Coats",
-"price": 259.0,
-"list": 259.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://www.filson.com/products/rustic-canvas-barn-coat-indigo",
-"img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/cc4780c8698d43497de9f55b1ce2bbb6cf2c4701588037dd81945895b7f429a6.png?v=1788288898",
-"tags": [
-"product: rustic-canvas-barn-coat-20307431"
-],
-"desc": "Our Barn Coat is a timeless working jacket providing protection from brush, wind, and abrasion. It’s made with strong heavy-duty canvas for lasting service. The collar is lined with 100% cotton corduroy for next-to-skin comfort. The relaxed cut provides room for layering, and the length extends below the beltline for coverage. The lower stow pockets are large enough for gloves or essentials. The front and adjustable cuffs secure with virtually indestructible metal-shank buttons. Finished with button-flap and layered utility pockets on the chest. Garment-washed.",
-"published": "2026-02-04",
-"score": 5.13,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
+0.5384615384615384
 ],
 [
 "cut:button",
-0.5555555555555556
-]
-],
-"recolour": false
-},
-{
-"brand": "Margaret Howell",
-"status": "approved",
-"title": "MHL. SIMPLE TROUSERS | 8 WALE COTTON CORDUROY | SLATE",
-"category": "Pants",
-"price": 325.0,
-"list": 325.0,
-"fabric": "cotton",
-"natural": null,
-"url": "https://www.margarethowell.co.uk/products/mhl-simple-trousers-8-wale-cotton-corduroy-slate",
-"img": "https://cdn.shopify.com/s/files/1/0712/0791/1458/files/Margaret-Howell-MHL-AW26-Men-Look-9c.jpg?v=1787925392",
-"tags": [
-"CPSC PRODUCT"
-],
-"desc": "The MHL. Simple Trousers have a regular cut and are fabricated in heavyweight cotton corduroy with a soft hand feel, in colours exclusive to MHL. The trousers are constructed with belt loops, a button fastening, slanted side entry pockets, and two back welt pockets with buttons.",
-"published": "2026-09-03",
-"score": 5.08,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
-],
-[
-"price:300+",
-0.6666666666666666
+0.5346153846153846
 ]
 ],
 "recolour": false
@@ -423,65 +314,23 @@
 ],
 "desc": "Organic cotton twill brings soft structure to our jumpsuit, which has a wide, easy silhouette with a square neck and back. Finished with large side and back patch pockets, falling to ankle-skimming legs. Organic cotton twill. Square neck and back. Large side patch pocket. Back patch pocket. Wide ankle-skimming legs. Side corozo buttons. ### Details Machine wash 40ºC. 100% cotton. Made in India. Size & Fit Regular fit. Length: Ankle length. Sleeve: Sleeveless. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size 8.",
 "published": "2026-07-29",
-"score": 5.03,
+"score": 4.1,
 "hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
 [
 "price:300+",
-0.6666666666666666
-],
-[
-"brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Lydia Jersey Jumpsuit | Washed Black",
-"category": "Jumpsuits & Rompers",
-"price": 280.0,
-"list": 280.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://us.toa.st/products/lydia-jersey-jumpsuit-washed-black-1",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LAOWS07_washedblack_0.jpg?v=1784896022",
-"tags": [
-"also-shown: vibae-roma-mules-black",
-"base_colour: black",
-"collection: womens_clothing",
-"collection: womens_jersey",
-"collection: womens_jumpsuits",
-"collection: womens_loungewear"
-],
-"desc": "Our Lydia jumpsuit is punctuated by corozo buttons running down from the scooping back. Made from organuc cotton jersey to a relaxed, easy shape and finished with back patch pockets, then garment-dyed. Inspired by our Lydia dress, which has been an integral part of our loungewear range for a decade. Compact organic cotton jersey. Garment-dyed. Boat neckline. Scoop back. Side pockets. Back patch pockets. Wide ankle-skimming legs. Back corozo buttons. ### Details Machine wash 30. 100% cotton. Made in Türkiye . Size & Fit Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size S. Regul",
-"published": "2026-01-29",
-"score": 4.98,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
+0.5384615384615384
 ],
 [
 "cut:button",
-0.5555555555555556
+0.5346153846153846
 ]
 ],
 "recolour": false
@@ -507,312 +356,23 @@
 ],
 "desc": "Gathers at the waist bring subtle volume and movement to our shirt dress. Made from checked linen blended with organic cotton to a relaxed shape with side pockets, falling to the lower calf. Linen and organic cotton blend. Waist seam gathers. Side pockets. Lower-calf length. Corozo buttons. ### Details Machine wash 30ºC. 54% linen, 46% cotton. Made in India. Size & Fit Easy fit. Length: Lower calf. Sleeve: 3/4 length. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size M.",
 "published": "2026-01-12",
-"score": 4.97,
+"score": 4.0,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Sculpted Denim Pinafore Dress | Carbon Black",
-"category": "Dresses",
-"price": 335.0,
-"list": 335.0,
-"fabric": "100% cotton, 100% cotton",
-"natural": 1.0,
-"url": "https://us.toa.st/products/sculpted-denim-pinafore-dress-carbon-black",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WDRWW41_carbonblack_0.jpg?v=1784950249",
-"tags": [
-"also-shown: koops-barefoot-suede-trainers-wood",
-"also-shown: sculpted-leg-brushed-cotton-canvas-trousers-black",
-"also-shown: sturlini-square-toe-leather-shoes-black",
-"base_colour: Black",
-"collection: AW26_ww_newaug",
-"collection: womens_clothing"
-],
-"desc": "Our dress features buttons at the back of the waist, allowing the shape to be wrapped and adjusted. Made from cotton denim containing regenerative and recycled cotton and finished with side seam pockets. Cotton denim. Side seam pockets. Adjustable buttoned back. Side hem slits. Lower-calf length. Corozo buttons. ### Details Machine wash 30ºC. 100% cotton. Lining: 100% cotton. Made in Tunisia. There may be some colour rub, so please keep away from light coloured fabrics and upholstery. Size & Fit Regular fit. Length: Lower calf. Sleeve: Sleeveless. Studio model Gwen is 5ft 9.5in/176cm tall and ",
-"published": "2026-07-29",
-"score": 4.95,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
+0.5384615384615384
 ],
 [
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Hal Ecru Denim Workwear Jacket | Ecru",
-"category": "Jackets & Coats",
-"price": 375.0,
-"list": 375.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://us.toa.st/products/hal-ecru-denim-workwear-jacket-ecru",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WJKWS18_ecru_0.jpg?v=1789355699",
-"tags": [
-"also-shown: sculptural-seamed-denim-trousers-ecru",
-"also-shown: sturlini-danza-leather-pumps-espresso",
-"bambuser-show-id: zdbVZM5anxwHNcRY1RAc",
-"base_colour: White",
-"collection: ss26_ww_newjan",
-"collection: womens_clothing"
-],
-"desc": "Our Hal workwear jacket is made from regenerative cotton denim, which will become more supple with wear. Cut to a straight shape with a curved collar, then finished with patch pockets. Our regenerative cotton is grown organically in Türkiye without harmful pesticides, improving soil health and farmer well-being. This method supports sustainable, high-quality denim production with minimal environmental impact. Cotton denim. Curved collar. Straight shape. Full-length sleeves. Patch pockets. Corozo buttons. ### Details Machine wash 30ºC. 100% cotton. Made in Türkiye . Size & Fit Regular fit. Leng",
-"published": "2026-01-12",
-"score": 4.93,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Check Cotton Wool Shirt | Dark Charcoal/Black",
-"category": "Shirts & Blouses",
-"price": 300.0,
-"list": 300.0,
-"fabric": "90% cotton, 10% wool",
-"natural": 1.0,
-"url": "https://us.toa.st/products/check-cotton-wool-pyjama-shirt-dark-charcoal-black",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LLTWW31_darkcharcoalblack.jpg?v=1787627939",
-"tags": [
-"also-shown: check-cotton-wool-barrel-leg-trousers-dark-charcoal-black",
-"also-shown: vibae-roma-waxed-suede-mules-olive",
-"badge: NEW",
-"base_colour: Black",
-"collection: aw26_ww_newsep",
-"collection: womens_clothing"
-],
-"desc": "Our pyjama shirt is made from a blend of organic cotton and wool, woven with checks. Cut to an easy shape, then finished with a hanging loop at the back yoke seam. Checked organic cotton and wool blend. Easy shape. Back hanging loop. Back box pleat. Chest patch pocket. Low-hip length. Side hem slits. Corozo buttons. ### Details 90% cotton, 10% wool. Made in India. Size & Fit Easy fit. Length: Low hip. Sleeve: Wristbone length. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size S. Care Guide Machine wash at 30°C on a gentle cycle.",
-"published": "2026-08-26",
-"score": 4.91,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Oyo Stripe Cotton Jumpsuit | Aqua/Cornflower",
-"category": "Jumpsuits & Rompers",
-"price": 300.0,
-"list": 300.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://us.toa.st/products/oyo-stripe-cotton-jumpsuit-aqua-cornflower",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LAOWS05_aquacornflower_0.jpg?v=1789399254",
-"tags": [
-"also-shown: vibae-leather-fisherman-buckle-sandals-tan",
-"base_colour: Blue",
-"collection: ss26_ww_newmay",
-"collection: womens_clothing",
-"collection: womens_holiday_shop",
-"collection: womens_jumpsuits"
-],
-"desc": "Pleats at the front and back of our jumpsuit bring movement to the wide-leg shape. Crafted from striped organic cotton with a square neckline and finished with an elasticated back. Striped organic cotton. Square neck. Elasticated back. Front and back pleats. Side pockets. Wide legs. ### Details Machine wash 30ºC gentle cycle. 100% cotton. Made in India. Size & Fit Easy fit. Length: Crop. Sleeve: Sleeveless. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size 8.",
-"published": "2026-04-29",
-"score": 4.86,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "Margaret Howell",
-"status": "approved",
-"title": "MHL. WIDE LEG JOGGERS  | WORKWEAR COTTON TWILL  | OFF WHITE",
-"category": "Pants",
-"price": 245.0,
-"list": 245.0,
-"fabric": "cotton",
-"natural": null,
-"url": "https://www.margarethowell.co.uk/products/men-mhl-wide-leg-joggers-workwear-cotton-twill-off-white",
-"img": "https://cdn.shopify.com/s/files/1/0712/0791/1458/files/Margaret-Howell-MHL-AW26-Men-Look-17c.jpg?v=1785925884",
-"tags": [
-"MHL."
-],
-"desc": "Cotton twill Wide Leg Joggers. Relaxed cut. Elasticated waist with herringbone tape draw cord. Deep welt pockets. Patch back pocket with stitch-through detailing.",
-"published": "2026-07-07",
-"score": 4.86,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
-],
-[
-"cat:Pants",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Wide Sleeve Indigo Denim Jacket | Indigo",
-"category": "Jackets & Coats",
-"price": 355.0,
-"list": 355.0,
-"fabric": "98% cotton, 2% elastane",
-"natural": 0.98,
-"url": "https://us.toa.st/products/wide-sleeve-organic-indigo-denim-jacket-indigo",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WJKTW13_indigo_0_5e7b9c18-ac8b-4d6e-b2e8-0a31bac5b4b0.jpg?v=1784344701",
-"tags": [
-"also-shown: relaxed-wide-leg-denim-trousers-ecru",
-"collection: essentials-collection",
-"collection: womens-foundation",
-"collection: womens_clothing",
-"collection: womens_coats_and_jackets",
-"collection: womens_denim"
-],
-"desc": "Our jacket is crafted from organic cotton denim which is dyed with a technique that uses up to 70% less water than regular processes. Cut to a boxy shape with wide sleeves and a yoke panel, then finished with an internal hanging loop. Organic cotton denim. Easy shape. Yoke panel. Wide sleeves. Side patch pockets. Internal hanging loop. Low-hip length. Corozo buttons. ### Details Machine wash 30ºC. 98% organic cotton, 2% elastane. Made in Turkiye. This piece is finished with corozo buttons, which do not contain any parts of animal origin. There may be some colour rub, so please keep away from l",
-"published": "2023-06-30",
-"score": 4.84,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Batik Cook Check Top | Provencal Blue",
-"category": "Tops & Tees",
-"price": 315.0,
-"list": 315.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://us.toa.st/products/batik-cook-check-top-provencal-blue",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LLTWS20_provencalblue_0_76c988d1-c641-41b9-adbc-ca181c278df5.jpg?v=1789312438",
-"tags": [
-"also-shown: batik-cook-check-trousers-provencal-blue",
-"also-shown: vibae-roma-mules-black",
-"base_colour: Blue",
-"collection: co-ords",
-"collection: ss26_ww_newmar",
-"collection: womens_clothing"
-],
-"desc": "Our top is crafted from organic cotton patterned with checks by artisans in India using a wax-resist technique known as batik. Cut to an easy shape with dropped sleeves, then finished with side patch pockets. Due to the artisanal technique, there are natural variations in colour and pattern from piece to piece. Batik-check organic cotton. Easy shape. Dropped sleeves. Internal hanging loop. Back box pleat. Side patch pockets. Low-hip length. Side hem slits. Corozo buttons. ### Details Machine wash 30ºC gentle cycle. 100% cotton. Made in India. A traditional technique of patterning cloth by pain",
-"published": "2026-03-04",
-"score": 4.83,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"brand:TOAST",
-0.6111111111111112
+"cut:button",
+0.5346153846153846
 ]
 ],
 "recolour": false
@@ -838,102 +398,95 @@
 ],
 "desc": "A small mark on the front pocket of our pinafore dress was covered with a cotton patch, secured with topstitching. Crafted from organic cotton and linen-blend twill with a square neckline and side buttoned tabs, then finished with large patch pockets. Organic cotton and linen-blend twill. Topstitch and patch repair. Square neck. Side buttoned tabs. Large side pockets. Back patch pockets. Lower-calf length. Horn buttons. This style is part of TOAST Renewed, a collection of creatively repaired pieces that have been given a new lease of life, for increased longevity. TOAST Renewed pieces are crea",
 "published": "2026-08-22",
-"score": 4.76,
+"score": 3.92,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "Standard & Strange",
-"status": "approved",
-"title": "Workers Chino - Black",
-"category": "Pants",
-"price": 280.0,
-"list": 280.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://standardandstrange.com/products/workers-chino-black",
-"img": "https://cdn.shopify.com/s/files/1/0352/5633/files/Freenote-WorkersChino-Black-Flat-01.jpg?v=1778893818",
-"tags": [
-"no-treet",
-"ss24",
-"treet-app",
-"webshop"
-],
-"desc": "Freenote makes chinos that undo all the trauma of casual Fridays. These are seven-day-a-week replacements for your favorite denim. The robust, comfortable 10oz fabric is perfectly substantial without being too heavy, and Freenote's focus on production quality means these will be on your legs for a good long time. The cut is Freenote's slim-straight chino fit, with a comfortable medium rise, athletic thigh, and a narrow (but not skinny) leg that still fits over boots. Two slash pockets give you a place for your hands, while two welted rear pockets (one with a button and flap, one without) give ",
-"published": "2026-05-16",
-"score": 4.7,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"cat:Pants",
-0.6111111111111112
+0.5384615384615384
 ],
 [
 "cut:button",
-0.5555555555555556
+0.5346153846153846
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Standard & Strange",
+"brand": "Margaret Howell",
 "status": "approved",
-"title": "Shifter Pant - 9oz Tan",
+"title": "MHL. UTILITY TROUSERS | 8 WALE COTTON CORDUROY | CHESTNUT",
 "category": "Pants",
-"price": 300.0,
-"list": 300.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://standardandstrange.com/products/shifter-pant-9oz-tan",
-"img": "https://cdn.shopify.com/s/files/1/0352/5633/files/Freenote-ShifterPant-9ozTan-Flat-19.jpg?v=1778893338",
+"price": 325.0,
+"list": 325.0,
+"fabric": "cotton",
+"natural": null,
+"url": "https://www.margarethowell.co.uk/products/mhl-utility-trousers-8-wale-cotton-corduroy-chestnut",
+"img": "https://cdn.shopify.com/s/files/1/0712/0791/1458/files/Margaret-Howell-MHL-AW26-Women-Look-24a.jpg?v=1788779208",
 "tags": [
-"homepage",
-"treet-app",
-"webshop"
+"CPSC PRODUCT"
 ],
-"desc": "The Shifter Pant is an updated fit built off of their extremely popular Worker's Chino design. It's a little more relaxed all around, cut with a higher rise and roomier top block, with comfortably wide, straight legs. It's also got totally clean finishing through the interior, with a lined top block, bound seams, and herringbone pocket bags from Japan. It's made from a Japanese yarn-dyed cotton twill, with a rinsed finish that gives it a slightly weathered look and softens the fabric considerably. It's a comfortable medium weight, with a decently sturdy drape that's suitable for most temperatu",
-"published": "2026-05-16",
-"score": 4.69,
+"desc": "The MHL. Utility Trousers have a regular, straight leg cut and are cropped at the ankle. They are fabricated in heavyweight cotton corduroy with a soft hand feel, in colours exclusive to MHL. The high-waisted trousers are constructed with an offset button-fastening waistband, a flat front with side opening, stitch-through slanted pockets, and a deep hem. The trousers can be paired with the matching MHL. Field Jacket.",
+"published": "2026-09-16",
+"score": 3.87,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
+0.6884615384615385
 ],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cord",
+0.5
+]
+],
+"recolour": true
+},
+{
+"brand": "Margaret Howell",
+"status": "approved",
+"title": "MHL. PLEATED CULOTTES | SOFT DENSE COTTON | KHAKI",
+"category": "Pants",
+"price": 325.0,
+"list": 325.0,
+"fabric": "cotton",
+"natural": null,
+"url": "https://www.margarethowell.co.uk/products/mhl-pleated-culottes-soft-dense-cotton-khaki",
+"img": "https://cdn.shopify.com/s/files/1/0712/0791/1458/files/Margaret-Howell-MHL-AW26-Women-Look-38a_8f65f265-04a5-447f-886b-34521a40f4b6.jpg?v=1782921722",
+"tags": [],
+"desc": "The MHL. Pleated Culottes have a relaxed cut and wide leg. They are fabricated in lightweight cotton with a compact hand feel and a brushed finish. The culottes are constructed with a half-elasticated waistband with a brace button fastening, and stitch-down double pleats, and side seam pockets, and feature a brace button fastening on patch back pocket with reinforced stitch detailing.",
+"published": "2026-07-02",
+"score": 3.75,
+"hits": [
 [
 "price:300+",
-0.6666666666666666
+0.6923076923076923
 ],
 [
-"cat:Pants",
-0.6111111111111112
+"cut:pocket",
+0.6884615384615385
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cotton",
+0.44230769230769224
 ]
 ],
 "recolour": false
@@ -941,83 +494,125 @@
 {
 "brand": "TOAST",
 "status": "approved",
-"title": "Totem Print Cotton Poplin Shirt | Ink/Dove",
+"title": "Check Cotton Wool Shirt | Dark Charcoal/Black",
 "category": "Shirts & Blouses",
 "price": 300.0,
 "list": 300.0,
-"fabric": "100% cotton",
+"fabric": "90% cotton, 10% wool",
 "natural": 1.0,
-"url": "https://us.toa.st/products/totem-print-cotton-poplin-shirt-ink-dove",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WWTWW33_inkdove_0.jpg?v=1783941670",
+"url": "https://us.toa.st/products/check-cotton-wool-pyjama-shirt-dark-charcoal-black",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LLTWW31_darkcharcoalblack.jpg?v=1787627939",
 "tags": [
-"also-shown: garland-stripe-cotton-skirt-copper-ecru",
-"also-shown: sturlini-square-toe-leather-shoes-black",
-"base_colour: Blue",
-"collection: AW26_ww_newjuly",
-"collection: AW26_ww_newjune",
-"collection: womens-printed-pieces"
+"also-shown: check-cotton-wool-barrel-leg-trousers-dark-charcoal-black",
+"also-shown: vibae-roma-waxed-suede-mules-olive",
+"badge: NEW",
+"base_colour: Black",
+"collection: aw26_ww_newsep",
+"collection: womens_clothing"
 ],
-"desc": "Totem Print creates a unique print using original artwork Les Arches Brunes by Virginie Hucher. A large patch pocket balances the sharp point collar. Made to a boxy shape, then finished with a placket that conceals the corozo buttons. Totem-print organic cotton poplin. Patch pocket. Boxy shape. Concealed-button placket. Corozo buttons. Virginie Hucher is a French artist who works across painting, sculpture, drawing and performance. Her paintings feature large abstract forms that act as talismans, inviting a contemplative relationship with the world. Discover more of Virginie Hucher’s work at V",
-"published": "2026-08-28",
-"score": 4.63,
+"desc": "Our pyjama shirt is made from a blend of organic cotton and wool, woven with checks. Cut to an easy shape, then finished with a hanging loop at the back yoke seam. Checked organic cotton and wool blend. Easy shape. Back hanging loop. Back box pleat. Chest patch pocket. Low-hip length. Side hem slits. Corozo buttons. ### Details 90% cotton, 10% wool. Made in India. Size & Fit Easy fit. Length: Low hip. Sleeve: Wristbone length. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size S. Care Guide Machine wash at 30°C on a gentle cycle.",
+"published": "2026-08-26",
+"score": 3.71,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
+0.5384615384615384
+],
+[
+"cut:button",
+0.5346153846153846
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Studio Nicholson",
+"brand": "TOAST",
 "status": "approved",
-"title": "Ruthe Straight Leg Denim Pant in Optic White",
-"category": "Jeans",
-"price": 115.0,
-"list": 225.0,
+"title": "Fig Print Cotton Poplin Dress | Chalk",
+"category": "Dresses",
+"price": 335.0,
+"list": 335.0,
 "fabric": "100% cotton",
 "natural": 1.0,
-"url": "https://www.studionicholson.com/products/ruthe-selvedge-straight-leg-denim-in-optic-white",
-"img": "https://cdn.shopify.com/s/files/1/1070/4650/files/RUTHEDENIMPANTOPTICWHITE.jpg?v=1684923397",
+"url": "https://us.toa.st/products/fig-print-cotton-poplin-dress-chalk",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WDRWS23_chalk_0.jpg?v=1785295085",
 "tags": [
-"BARCODEDUPLICATEDPRODUCTS",
-"buy",
-"changename",
-"CONTINUITY",
-"denim",
-"newlines25"
+"also-shown: fracap-yves-leather-sandals-black",
+"bambuser-deeplink: 016c@156.198982",
+"bambuser-show-id: nALqDWfgUkGqPhv5e8yN",
+"base_colour: Brown",
+"collection: ss26_ww_newapr",
+"collection: womens-printed-pieces"
 ],
-"desc": "A true SN classic, Ruthe takes a high-waisted denim style and adds a curved shape through the leg. This version is constructed from a denim that’s been woven from 100% cotton in an optic white shade. Made from 14oz washed that has a heavier hand feel and is a more traditional denim. --- - Flat front - Two hand pockets and two rear patch pockets - Concealed zip fly with metal button closure - Cropped length - Belt loops Emmanuelle is 5’10” / 178 cms and wears a size UK8 Please note, the fit of the Ruthe jean may vary across different fabrics and washes. Please refer to the product description a",
-"published": "2025-12-11",
-"score": 4.62,
+"desc": "A painterly fig print illustrates our organic cotton poplin dress. Cut to a rounded shape which is defined by the waist tie, falling to a lower-calf length. Fig-print organic cotton poplin. Waist tie. Side seam pockets. Lower-calf length. Back corozo button. ### Details Machine wash 40ºC gentle cycle. 100% cotton. Made in India. Size & Fit Regular fit. Length: Lower calf. Sleeve: Sleeveless. Studio model Gwen is 5ft 9.5in/176cm tall and is wearing a size 8.",
+"published": "2026-04-01",
+"score": 3.69,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
+0.6884615384615385
+],
+[
+"brand:TOAST",
+0.5384615384615384
 ],
 [
 "cut:button",
-0.5555555555555556
+0.5346153846153846
+]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Oyo Stripe Cotton Jumpsuit | Aqua/Cornflower",
+"category": "Jumpsuits & Rompers",
+"price": 300.0,
+"list": 300.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://us.toa.st/products/oyo-stripe-cotton-jumpsuit-aqua-cornflower",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LAOWS05_aquacornflower_0.jpg?v=1789399254",
+"tags": [
+"also-shown: vibae-leather-fisherman-buckle-sandals-tan",
+"base_colour: Blue",
+"collection: ss26_ww_newmay",
+"collection: womens_clothing",
+"collection: womens_dresses",
+"collection: womens_holiday_shop"
+],
+"desc": "Pleats at the front and back of our jumpsuit bring movement to the wide-leg shape. Crafted from striped organic cotton with a square neckline and finished with an elasticated back. Striped organic cotton. Square neck. Elasticated back. Front and back pleats. Side pockets. Wide legs. ### Details Machine wash 30ºC gentle cycle. 100% cotton. Made in India. Size & Fit Easy fit. Length: Crop. Sleeve: Sleeveless. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size 8.",
+"published": "2026-04-29",
+"score": 3.65,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
 ],
 [
-"price:200-300",
-0.3888888888888889
+"cut:pocket",
+0.6884615384615385
+],
+[
+"brand:TOAST",
+0.5384615384615384
+],
+[
+"fab:cotton",
+0.44230769230769224
 ]
 ],
 "recolour": false
@@ -1043,181 +638,23 @@
 ],
 "desc": "Our cardigan features rolled edges, including at the side pockets. Made from a cotton and linen blend to an easy shape with a V-neck, falling to the mid hip. Cotton and linen blend. Easy fit. V-neck. Mid-hip length. Full-length sleeves. Side pockets. Rolled edges. Corozo buttons. ### Details Hand wash. 55% linen, 45% cotton. Made in China. Soft yarns are liable to pill to some extent, even when using those of the best quality. To take good care of them remove any pills using a pilling comb and protect them from sharp items or jewellery that may catch or snag. Size & Fit Easy fit. Length: Mid h",
 "published": "2026-07-02",
-"score": 4.48,
+"score": 3.61,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
-]
-],
-"recolour": false
-},
-{
-"brand": "Filson",
-"status": "approved",
-"title": "Rustic Canvas Jac-shirt - Natural Seed",
-"category": "Shirts & Blouses",
-"price": 125.3,
-"list": 179.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://www.filson.com/products/rustic-canvas-jac-shirt-natural-seed",
-"img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/692f035052ee31899103d89d3b1147b0d34fb4a2f1987f0ee4e50d8e1444a6d9.jpg?v=1788290174",
-"tags": [
-"product: rustic-canvas-jac-shirt-20307433"
-],
-"desc": "Cut like a shirt with the durability of a work jacket, this Jac-shirt is an ideal barrier against flying wood chips, briars, and wind with minimal bulk. The sturdy 12-oz. canvas is tightly woven for excellent tear strength and resistance to punctures. The collar is lined with 100% cotton corduroy for next-to-skin comfort. The front closure and pocket flaps secure with virtually indestructible metal-shank buttons. Side-hem slits for ease of motion. Garment-washed.",
-"published": "2026-02-04",
-"score": 4.47,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
+0.5384615384615384
 ],
 [
 "cut:button",
-0.5555555555555556
-]
-],
-"recolour": false
-},
-{
-"brand": "Filson",
-"status": "approved",
-"title": "Women's Denim Work Shirt - Light Indigo",
-"category": "Shirts & Blouses",
-"price": 114.5,
-"list": 229.0,
-"fabric": "cotton",
-"natural": null,
-"url": "https://www.filson.com/products/womens-denim-work-shirt-light-indigo",
-"img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/10d00bb27d8cc43d2872e96a8293453b2c2f3dae56ab2693588473519ff0ad9d.jpg?v=1789074953",
-"tags": [
-"4.3.26 deeper discount",
-"Outlet: 40%",
-"price: full",
-"product: womens-denim-work-shirt-20304303"
-],
-"desc": "Our Denim Work Shirt can double as a thick, heavy shirt or an overshirt. It is made with premium 11-oz. denim, a classic workwear fabric for ranchers and vintage miners. This fabric has durability for hard work and decades of reliable service. The collar is lined with contrasting cotton corduroy for distinctive flair and next-to-skin comfort. Custom buttons secure the front closure, cuffs, and chest-pocket flaps.",
-"published": "2025-08-04",
-"score": 4.46,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
-],
-[
-"cut:button",
-0.5555555555555556
-]
-],
-"recolour": false
-},
-{
-"brand": "Loup",
-"status": "approved",
-"title": "Maggie Field Jacket - Navy",
-"category": "Jackets & Coats",
-"price": 168.0,
-"list": 242.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://louponline.com/products/navy-maggie-jacket-aw22",
-"img": "https://cdn.shopify.com/s/files/1/0666/9969/products/NavyMaggie_MossToniCUEC.jpg?v=1670447602",
-"tags": [
-"Jackets",
-"not b2b",
-"SEASON",
-"SEASON: Immediate"
-],
-"desc": "Warm, cozy and sharp, the Maggie Jacket gives some polish to a traditional English countryside look. Made from recycled polyster and featuring front buttons, pockets and contrast trimming on the collar and bust. SELF: 87% Recycled Polyster, 13% Live-Eco Rayon. TRIM: 100% Cotton Corduroy. Machine washable and hang dry. Made in New York. XXS - Chest= 36 \", Hips= 38\", Length = 32.75\" XS - Chest= 38 \", Hips= 40\", Length = 33\" S - Chest= 40 \", Hips= 42\", Length = 33.25\" M - Chest= 42\", Hips= 44\", Length= 33.5\" L - Chest= 44 \", Hips= 46\", Length = 33.75\" XL - Chest= 46 \", Hips= 48\", Length = 34\" 1X ",
-"published": "2022-10-19",
-"score": 4.46,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"fab:cord",
-0.7222222222222222
-],
-[
-"cut:button",
-0.5555555555555556
-]
-],
-"recolour": false
-},
-{
-"brand": "Standard & Strange",
-"status": "approved",
-"title": "Denim Overlap Skirt - Denim Used",
-"category": "Skirts",
-"price": 215.0,
-"list": 215.0,
-"fabric": "100% cotton, 100% cotton",
-"natural": 1.0,
-"url": "https://standardandstrange.com/products/denim-overlap-skirt-denim-used",
-"img": "https://cdn.shopify.com/s/files/1/0352/5633/files/OrSlow-DenimOverlapSkirt-DenimUsed-Flat-33.jpg?v=1744152241",
-"tags": [
-"fem",
-"homepage",
-"ss25",
-"treet-app",
-"webshop"
-],
-"desc": "OrSlow is consistently one of our most popular brands, and for good reason - their combinations of great fits, custom fabrics, and handsome styles fit easily into almost any wardrobe. Founded in 2005 by designer Ichiro Nakatsu, OrSlow takes it’s name from Ichiro’s desire to make the opposite of fast fashion, or ‘slow clothing’, as he would put it. The Denim Overlap Skirt is part of OrSlow's women's line, cut with button front and two bucket pockets. It's a very minimal piece, with workwear details in the construction — chainstitching, double-needle felled seams, and bartack reinforcements will",
-"published": "2025-04-09",
-"score": 4.41,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"cut:button",
-0.5555555555555556
-],
-[
-"cat:Skirts",
-0.3888888888888889
+0.5346153846153846
 ]
 ],
 "recolour": false
@@ -1225,41 +662,288 @@
 {
 "brand": "TOAST",
 "status": "approved",
-"title": "Garland Stripe Cotton Smock Top | Ecru/Charcoal",
+"title": "Batik Cook Check Top | Provencal Blue",
 "category": "Tops & Tees",
-"price": 260.0,
-"list": 260.0,
+"price": 315.0,
+"list": 315.0,
 "fabric": "100% cotton",
 "natural": 1.0,
-"url": "https://us.toa.st/products/garland-stripe-cotton-smock-top-ecru-charcoal",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WWTWW14_ecrucharcoal_0.jpg?v=1789312697",
+"url": "https://us.toa.st/products/batik-cook-check-top-provencal-blue",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LLTWS20_provencalblue_0_76c988d1-c641-41b9-adbc-ca181c278df5.jpg?v=1789312438",
 "tags": [
-"also-shown: sculptural-seamed-denim-trousers-ecru",
-"also-shown: sturlini-danza-leather-pumps-espresso",
-"bambuser-show-id: ZkCrm4ZKDrMUAk0Cx9J0",
-"base_colour: Yellow",
-"collection: AW26_ww_newjuly",
+"also-shown: batik-cook-check-trousers-provencal-blue",
+"also-shown: vibae-roma-mules-black",
+"base_colour: Blue",
+"collection: co-ords",
+"collection: ss26_ww_newmar",
 "collection: womens_clothing"
 ],
-"desc": "Curved shoulder panels bring an ease to our smock top. Made from striped organic cotton with a chest patch pocket and turning to reveal back corozo buttons. Striped organic cotton. Easy fit. Curved shoulder panels. Chest patch pocket. Back corozo buttons. ### Details Machine wash 30ºC gentle cycle. 100% cotton. Made in China. Washed for softness and an easy, slightly crumpled, worn in look. Due to the nature of the fabric there will be some variation in the appearance of each piece. Size & Fit Easy fit. Length: Mid hip. Sleeve: 3/4 length. Studio model Beatriz is 5ft 9in/175cm tall and is wear",
-"published": "2026-07-02",
-"score": 4.39,
+"desc": "Our top is crafted from organic cotton patterned with checks by artisans in India using a wax-resist technique known as batik. Cut to an easy shape with dropped sleeves, then finished with side patch pockets. Due to the artisanal technique, there are natural variations in colour and pattern from piece to piece. Batik-check organic cotton. Easy shape. Dropped sleeves. Internal hanging loop. Back box pleat. Side patch pockets. Low-hip length. Side hem slits. Corozo buttons. ### Details Machine wash 30ºC gentle cycle. 100% cotton. Made in India. A traditional technique of patterning cloth by pain",
+"published": "2026-03-04",
+"score": 3.58,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
+0.5384615384615384
 ],
 [
 "cut:button",
-0.5555555555555556
+0.5346153846153846
+]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Wide Sleeve Indigo Denim Jacket | Indigo",
+"category": "Jackets & Coats",
+"price": 355.0,
+"list": 355.0,
+"fabric": "98% cotton, 2% elastane",
+"natural": 0.98,
+"url": "https://us.toa.st/products/wide-sleeve-organic-indigo-denim-jacket-indigo",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WJKTW13_indigo_0_5e7b9c18-ac8b-4d6e-b2e8-0a31bac5b4b0.jpg?v=1789731963",
+"tags": [
+"also-shown: relaxed-wide-leg-denim-trousers-ecru",
+"collection: essentials-collection",
+"collection: womens-foundation",
+"collection: womens_clothing",
+"collection: womens_coats_and_jackets",
+"collection: womens_denim"
+],
+"desc": "Our jacket is crafted from organic cotton denim which is dyed with a technique that uses up to 70% less water than regular processes. Cut to a boxy shape with wide sleeves and a yoke panel, then finished with an internal hanging loop. Organic cotton denim. Easy shape. Yoke panel. Wide sleeves. Side patch pockets. Internal hanging loop. Low-hip length. Corozo buttons. ### Details Machine wash 30ºC. 98% organic cotton, 2% elastane. Made in Turkiye. This piece is finished with corozo buttons, which do not contain any parts of animal origin. There may be some colour rub, so please keep away from l",
+"published": "2023-06-30",
+"score": 3.56,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"brand:TOAST",
+0.5384615384615384
+],
+[
+"cut:button",
+0.5346153846153846
+]
+],
+"recolour": false
+},
+{
+"brand": "Margaret Howell",
+"status": "approved",
+"title": "MHL. SIMPLE TROUSERS | 8 WALE COTTON CORDUROY | CHESTNUT",
+"category": "Pants",
+"price": 325.0,
+"list": 325.0,
+"fabric": "cotton",
+"natural": null,
+"url": "https://www.margarethowell.co.uk/products/mhl-simple-trousers-8-wale-cotton-corduroy-chestnut",
+"img": "https://cdn.shopify.com/s/files/1/0712/0791/1458/files/Margaret-Howell-MHL-AW26-Men-Look-3a.jpg?v=1789555478",
+"tags": [
+"CPSC PRODUCT"
+],
+"desc": "The MHL. Simple Trousers have a regular cut and are fabricated in heavyweight cotton corduroy with a soft hand feel, in colours exclusive to MHL.The trousers are constructed with belt loops, a button fastening, slanted side entry pockets, and two back welt pockets with buttons.",
+"published": "2026-09-16",
+"score": 3.56,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cord",
+0.5
+]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Cotton Cashmere Check Shirt | Black/Ecru",
+"category": "Shirts & Blouses",
+"price": 300.0,
+"list": 300.0,
+"fabric": "87% cotton, 13% cashmere",
+"natural": 1.0,
+"url": "https://us.toa.st/products/cotton-cashmere-check-shirt-black-ecru",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LLTVW28_blackecru_0.jpg?v=1789788477",
+"tags": [
+"also-shown: cotton-marl-rib-socks-charcoal",
+"also-shown: fracap-leather-buckle-shoes-black",
+"also-shown: minako-check-cotton-cashmere-trousers-black-ecru",
+"base_colour: Black",
+"collection: aw25_ww_newsep",
+"collection: aw25_ww_octfav"
+],
+"desc": "Shirt made from organic cotton blended with cashmere and woven with a grid check inspired by notebook graph paper. Shaped to a neat fit across the front, with a pleat at the back yoke. Featuring front waist in-seam pockets and secured with contrasting corozo buttons. Organic cotton and cashmere blend. Woven grid check. Relaxed fit. Front seam pockets. Grandad collar. Back yoke pleat. Elbow-length sleeves. Dropped shoulder. Corozo buttons. ### Details Machine wash 30ºC gentle cycle. 87% cotton, 13% cashmere. Made in India. Size & Fit Easy fit. Length: Top thigh. Sleeve: Wristbone length. Studio",
+"published": "2025-08-27",
+"score": 3.54,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"brand:TOAST",
+0.5384615384615384
+],
+[
+"cut:button",
+0.5346153846153846
+]
+],
+"recolour": false
+},
+{
+"brand": "Studio Nicholson",
+"status": "approved",
+"title": "Sonny Drawstring Pant in Indigo",
+"category": "Pants",
+"price": 190.0,
+"list": 375.0,
+"fabric": "cotton",
+"natural": null,
+"url": "https://www.studionicholson.com/products/sonny-drawstring-pant-in-indigo",
+"img": "https://cdn.shopify.com/s/files/1/1070/4650/files/SONNYSNM-1311GARMENTDYELINENINDIGO_96d462c2-3e45-470d-a071-67a5190a1dd7.jpg?v=1769098599",
+"tags": [
+"Badging-NewIn",
+"drawstring",
+"man",
+"men",
+"mens",
+"menspring26"
+],
+"desc": "Our Sonny pants feature a drawstring-fastening elasticated waist and a gently curved leg shape, signalling a relaxed feel. For this seasonal style we’ve used our twill fabric that’s woven in a breathable cotton-linen blend, then garment-dyed to give a rich, lived-in look unique to each garment. --- - Elasticated drawstring waist - Side pockets - Back welt pockets - Relaxed fit - This garment fits large, we recommend sizing down - Wear it with the matching Louro Shirt",
+"published": "2026-01-18",
+"score": 3.5,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"fab:cotton",
+0.44230769230769224
+],
+[
+"cat:Pants",
+0.4230769230769231
+]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Patch Pocket Denim Dungaree Dress | Indigo",
+"category": "Jumpsuits & Rompers",
+"price": 300.0,
+"list": 300.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://us.toa.st/products/patch-pocket-denim-dungaree-dress-indigo",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WDRVS62_indigo_f4af79d3-a233-4f45-bdc9-0e412d9b09f4.jpg?v=1789702062",
+"tags": [
+"also-shown: baya-patch-pocket-stripe-organic-cotton-shirt-sunwashed-blue",
+"also-shown: guernsey-stitch-cotton-socks-golden-olive",
+"also-shown: maria-la-rosa-organic-cotton-ribbed-socks-cumin",
+"also-shown: solovair-leather-loafers-cordovan",
+"also-shown: solovair-mary-jane-shoes-cordovan",
+"also-shown: stripe-wool-cashmere-half-sleeve-sweater-dark-navy-olive"
+],
+"desc": "Our pinafore dress is made from indigo organic cotton denim with a square neckline, falling to an easy A-line shape with large patch pockets. Organic cotton denim. Easy fit. Square neckline. Fixed straps. Patch pockets. Hem vent. ### Details Machine wash 30ºC. 100% cotton. Made in Tunisia. There will be colour rub when new but with wash and wear the indigo will fade subtly and beautifully. Size & Fit Easy fit. Sleeve: Sleeveless. Studio model Gwen is 5ft 9in/175cm tall and is wearing a size S.",
+"published": "2025-01-09",
+"score": 3.42,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"brand:TOAST",
+0.5384615384615384
+],
+[
+"fab:cotton",
+0.44230769230769224
+]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Totem Print Cotton Poplin Shirt | Ink/Dove",
+"category": "Shirts & Blouses",
+"price": 300.0,
+"list": 300.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://us.toa.st/products/totem-print-cotton-poplin-shirt-ink-dove",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WWTWW33_inkdove_0.jpg?v=1783941670",
+"tags": [
+"also-shown: garland-stripe-cotton-skirt-copper-ecru",
+"also-shown: sturlini-square-toe-leather-shoes-black",
+"base_colour: Blue",
+"collection: AW26_ww_newjuly",
+"collection: AW26_ww_newjune",
+"collection: womens-printed-pieces"
+],
+"desc": "Totem Print creates a unique print using original artwork Les Arches Brunes by Virginie Hucher. A large patch pocket balances the sharp point collar. Made to a boxy shape, then finished with a placket that conceals the corozo buttons. Totem-print organic cotton poplin. Patch pocket. Boxy shape. Concealed-button placket. Corozo buttons. Virginie Hucher is a French artist who works across painting, sculpture, drawing and performance. Her paintings feature large abstract forms that act as talismans, inviting a contemplative relationship with the world. Discover more of Virginie Hucher’s work at V",
+"published": "2026-08-28",
+"score": 3.41,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"brand:TOAST",
+0.5384615384615384
+],
+[
+"cut:button",
+0.5346153846153846
 ]
 ],
 "recolour": false
@@ -1285,103 +969,23 @@
 ],
 "desc": "Our fine knit sweater is made from a linen and cotton-blend yarn with a slubby texture. Shaped with dropped sleeves and punctuated by a chest patch pocket. Slubbed linen and cotton blend. Dropped shoulders. Chest patch pocket. Rolled neck and cuffs. Side hem slits. ### Details Hand wash. 52% linen, 48% cotton. Made in China. Size & Fit Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size S/M. Easy fit. Sleeve: Full length. Neck: Wide/open crew.",
 "published": "2026-01-28",
-"score": 4.36,
+"score": 3.34,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
-]
+0.5384615384615384
 ],
-"recolour": false
-},
-{
-"brand": "18 East",
-"status": "approved",
-"title": "JOSEPH COACH'S JACKET - NAVY ORGANIC COTTON SHERPA",
-"category": "Jackets & Coats",
-"price": 378.0,
-"list": 378.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://18east.co/products/joseph-reversible-coach-jacket-navy-ecru-orange",
-"img": "https://cdn.shopify.com/s/files/1/0026/8707/4416/files/JosephJacket-1.jpg?v=1768945365",
-"tags": [
-"archive",
-"WINTER OUTDOOR '25"
-],
-"desc": "\"We simplified this season's Joseph jacket after receiving a good amount of feedback that its reversible predecessor felt unnecessarily tight when worn fleece side in. It's now just an easy, deep pile shirt. Is it insane to take one of everything from this collection? - The Management The Joseph features boxy fit, custom-tooled button front closure, two oversized, button-through hip pockets and a nylon micro-ripstop backed turn down collar. Proudly made in India from 100% organic cotton deep pile sherpa. This style runs true to size. We recommend taking your normal alpha size or sizing up for ",
-"published": "2026-01-23",
-"score": 4.28,
-"hits": [
 [
 "fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
-],
-[
-"cut:button",
-0.5555555555555556
-]
-],
-"recolour": false
-},
-{
-"brand": "Studio Nicholson",
-"status": "approved",
-"title": "Denjo Straight Leg Denim Pant in Washed Black",
-"category": "Jeans",
-"price": 250.0,
-"list": 250.0,
-"fabric": "cotton",
-"natural": null,
-"url": "https://www.studionicholson.com/products/denjo-straight-leg-denim-pant-in-washed-black",
-"img": "https://cdn.shopify.com/s/files/1/1070/4650/files/25.02.18_SN_SU25_W_EC_037_LORDISNW-1538MATTEVISCSEPINRIBDARKESTNAVY_023.jpg?v=1740744939",
-"tags": [
-"buy",
-"CONTINUITY",
-"denim",
-"denimpants",
-"FARFETCH",
-"fp"
-],
-"desc": "The Denjo jeans have a wide leg that’s softly shaped with a forward seam, creating an ergonomic fit that feels relaxed and wearable. This pair is cut from denim woven with regenerative cotton in a rich washed-indigo shade. --- - Five-pocket construction - Metal rivets - Button and zip fly - Wide leg with front seam - Cut from denim made with regenerative cotton",
-"published": "2025-03-17",
-"score": 4.28,
-"hits": [
-[
-"fab:cotton",
-1.0555555555555556
-],
-[
-"cut:pocket",
-0.9444444444444444
-],
-[
-"cut:button",
-0.5555555555555556
-],
-[
-"price:200-300",
-0.3888888888888889
+0.44230769230769224
 ]
 ],
 "recolour": false
@@ -1389,41 +993,162 @@
 {
 "brand": "TOAST",
 "status": "approved",
-"title": "Cord Smock Top | Midnight",
+"title": "Hal Ecru Denim Workwear Jacket | Ecru",
+"category": "Jackets & Coats",
+"price": 375.0,
+"list": 375.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://us.toa.st/products/hal-ecru-denim-workwear-jacket-ecru",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WJKWS18_ecru_0.jpg?v=1789355699",
+"tags": [
+"also-shown: sculptural-seamed-denim-trousers-ecru",
+"also-shown: sturlini-danza-leather-pumps-espresso",
+"bambuser-show-id: zdbVZM5anxwHNcRY1RAc",
+"base_colour: White",
+"collection: ss26_ww_newjan",
+"collection: womens_clothing"
+],
+"desc": "Our Hal workwear jacket is made from regenerative cotton denim, which will become more supple with wear. Cut to a straight shape with a curved collar, then finished with patch pockets. Our regenerative cotton is grown organically in Türkiye without harmful pesticides, improving soil health and farmer well-being. This method supports sustainable, high-quality denim production with minimal environmental impact. Cotton denim. Curved collar. Straight shape. Full-length sleeves. Patch pockets. Corozo buttons. ### Details Machine wash 30ºC. 100% cotton. Made in Türkiye . Size & Fit Regular fit. Leng",
+"published": "2026-01-12",
+"score": 3.29,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"brand:TOAST",
+0.5384615384615384
+],
+[
+"cut:button",
+0.5346153846153846
+]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Garland Stripe Cotton Smock Top | Ecru/Charcoal",
 "category": "Tops & Tees",
 "price": 260.0,
 "list": 260.0,
 "fabric": "100% cotton",
 "natural": 1.0,
-"url": "https://us.toa.st/products/cord-smock-top-midnight",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/LLTWW03_midnight.jpg?v=1787627944",
+"url": "https://us.toa.st/products/garland-stripe-cotton-smock-top-ecru-charcoal",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WWTWW14_ecrucharcoal_0.jpg?v=1789312697",
 "tags": [
-"also-shown: barrel-leg-cord-trousers-midnight",
-"also-shown: vibae-zuma-waxed-suede-shoes-dark-brown",
-"badge: NEW",
-"base_colour: Blue",
-"collection: aw26_ww_newsep",
+"also-shown: sculptural-seamed-denim-trousers-ecru",
+"also-shown: sturlini-danza-leather-pumps-espresso",
+"bambuser-show-id: ZkCrm4ZKDrMUAk0Cx9J0",
+"base_colour: Yellow",
+"collection: AW26_ww_newjuly",
 "collection: womens_clothing"
 ],
-"desc": "Our organic cotton cord smock top has gathers at the back yoke, creating soft volume through the easy shape. With bracelet-length dropped sleeves and corozo buttons. Organic cotton cord. Easy fit. Bracelet-length dropped sleeves. Gathered back. Side hem slits. Corozo buttons. Internal herringbone loop. ### Details 100% cotton. Made in China. Size & Fit Easy fit. Sleeve: Bracelet length. Studio model Yuanyuan is 5ft 10in/177cm tall and is wearing a size S. Care Guide Machine wash at 30°C.",
-"published": "2026-08-26",
-"score": 4.16,
+"desc": "Curved shoulder panels bring an ease to our smock top. Made from striped organic cotton with a chest patch pocket and turning to reveal back corozo buttons. Striped organic cotton. Easy fit. Curved shoulder panels. Chest patch pocket. Back corozo buttons. ### Details Machine wash 30ºC gentle cycle. 100% cotton. Made in China. Washed for softness and an easy, slightly crumpled, worn in look. Due to the nature of the fabric there will be some variation in the appearance of each piece. Size & Fit Easy fit. Length: Mid hip. Sleeve: 3/4 length. Studio model Beatriz is 5ft 9in/175cm tall and is wear",
+"published": "2026-07-02",
+"score": 3.19,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
-],
-[
-"fab:cord",
-0.7222222222222222
+"cut:pocket",
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
+0.5384615384615384
 ],
 [
 "cut:button",
-0.5555555555555556
+0.5346153846153846
+],
+[
+"fab:cotton",
+0.44230769230769224
+]
+],
+"recolour": false
+},
+{
+"brand": "Studio Nicholson",
+"status": "approved",
+"title": "Ruthe Straight Leg Denim Pant in Optic White",
+"category": "Jeans",
+"price": 115.0,
+"list": 225.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://www.studionicholson.com/products/ruthe-selvedge-straight-leg-denim-in-optic-white",
+"img": "https://cdn.shopify.com/s/files/1/1070/4650/files/RUTHEDENIMPANTOPTICWHITE.jpg?v=1684923397",
+"tags": [
+"BARCODEDUPLICATEDPRODUCTS",
+"buy",
+"changename",
+"CONTINUITY",
+"denim",
+"newlines25"
+],
+"desc": "A true SN classic, Ruthe takes a high-waisted denim style and adds a curved shape through the leg. This version is constructed from a denim that’s been woven from 100% cotton in an optic white shade. Made from 14oz washed that has a heavier hand feel and is a more traditional denim. --- - Flat front - Two hand pockets and two rear patch pockets - Concealed zip fly with metal button closure - Cropped length - Belt loops Emmanuelle is 5’10” / 178 cms and wears a size UK8 Please note, the fit of the Ruthe jean may vary across different fabrics and washes. Please refer to the product description a",
+"published": "2025-12-11",
+"score": 3.17,
+"hits": [
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cotton",
+0.44230769230769224
+],
+[
+"price:200-300",
+0.2653846153846154
+]
+],
+"recolour": false
+},
+{
+"brand": "Filson",
+"status": "approved",
+"title": "Rustic Canvas Barn Coat - Indigo",
+"category": "Jackets & Coats",
+"price": 259.0,
+"list": 259.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://www.filson.com/products/rustic-canvas-barn-coat-indigo",
+"img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/cc4780c8698d43497de9f55b1ce2bbb6cf2c4701588037dd81945895b7f429a6.png?v=1788288898",
+"tags": [
+"product: rustic-canvas-barn-coat-20307431"
+],
+"desc": "Our Barn Coat is a timeless working jacket providing protection from brush, wind, and abrasion. It’s made with strong heavy-duty canvas for lasting service. The collar is lined with 100% cotton corduroy for next-to-skin comfort. The relaxed cut provides room for layering, and the length extends below the beltline for coverage. The lower stow pockets are large enough for gloves or essentials. The front and adjustable cuffs secure with virtually indestructible metal-shank buttons. Finished with button-flap and layered utility pockets on the chest. Garment-washed.",
+"published": "2026-02-04",
+"score": 3.14,
+"hits": [
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cord",
+0.5
+],
+[
+"fab:cotton",
+0.44230769230769224
 ]
 ],
 "recolour": false
@@ -1449,23 +1174,298 @@
 ],
 "desc": "Our swingy striped sweater has shaping at the yoke for a considered silhouette. Made from a textured linen and cotton blend to a high-neck silhouette with raglan sleeves, then finished with rolled edges. Linen and cotton blend. Easy shape. High neck. Shaped yoke. Raglan sleeves. Side pocket. Mid-hip length. Rolled edges. ### Details Hand wash. 55% linen, 45% cotton. Made in China. Soft yarns are liable to pill to some extent, even when using those of the best quality. To take good care of them remove any pills using a pilling comb and protect them from sharp items or jewellery that may catch o",
 "published": "2026-07-02",
-"score": 3.97,
+"score": 3.12,
 "hits": [
 [
-"fab:cotton",
-1.0555555555555556
+"price:300+",
+0.6923076923076923
 ],
 [
 "cut:pocket",
-0.9444444444444444
-],
-[
-"price:300+",
-0.6666666666666666
+0.6884615384615385
 ],
 [
 "brand:TOAST",
-0.6111111111111112
+0.5384615384615384
+],
+[
+"fab:cotton",
+0.44230769230769224
+]
+],
+"recolour": false
+},
+{
+"brand": "Nili Lotan",
+"status": "approved",
+"title": "CAIDEN COTTON SHIRT",
+"category": "Shirts & Blouses",
+"price": 390.0,
+"list": 390.0,
+"fabric": "cotton",
+"natural": null,
+"url": "https://www.nililotan.com/products/caiden-cotton-shirt-white",
+"img": "https://cdn.shopify.com/s/files/1/0021/7595/9158/files/S26_MRTW_22080_W154_CAIDENSHIRT_WHITE.jpg?v=1769199073",
+"tags": [
+"combined listing"
+],
+"desc": "Relaxed button down shirt in Italian cotton poplin. Buttoned center front placket. Pocket at wearer's left chest. Straight hem with vent at sides.",
+"published": "2026-08-27",
+"score": 3.08,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cotton",
+0.44230769230769224
+]
+],
+"recolour": false
+},
+{
+"brand": "18 East",
+"status": "approved",
+"title": "ASHEVILLE OVERSIZED BLAZER - DUNE LINEN TWILL",
+"category": "Jackets & Coats",
+"price": 364.0,
+"list": 364.0,
+"fabric": "100% linen",
+"natural": 1.0,
+"url": "https://18east.co/products/asheville-oversized-blazer-dune-cacao",
+"img": "https://cdn.shopify.com/s/files/1/0026/8707/4416/files/Asheville-Brown-Jacket_01.jpg?v=1784833290",
+"tags": [
+"COLLECTION 2: MAINSTAYS SS26 DROP 2"
+],
+"desc": "The Asheville is back. Wear it with its matching tino pants, cargos, sweats, anything. Cut deliberately oversized and unlined with a button closure, patch hip pockets and a center back vent. Proudly made in India from 100% linen twill. This fits roughly one size large. We recommend taking your normal alpha size for a relaxed fit or sizing down one for a truer fit.",
+"published": "2026-07-24",
+"score": 3.03,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"cut:relaxed",
+0.2653846153846154
+]
+],
+"recolour": false
+},
+{
+"brand": "TOAST",
+"status": "approved",
+"title": "Seed Block Print Cotton Top | Rich Blue/White",
+"category": "Tops & Tees",
+"price": 300.0,
+"list": 300.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://us.toa.st/products/seed-block-print-cotton-top-rich-blue-white",
+"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/WWTWW31_richbluewhite_0.jpg?v=1785597635",
+"tags": [
+"also-shown: sturlini-square-toe-leather-shoes-black",
+"also-shown: twisted-seam-cotton-linen-denim-trousers-indigo",
+"base_colour: blue",
+"collection: AW26_ww_newjune",
+"collection: womens-printed-pieces",
+"collection: womens_clothing"
+],
+"desc": "The seed pattern illustrating our top is block-printed by artisans in India. Made from organic cotton poplin to an easy shape with three-quarter-length raglan sleeves. Seed block-printed organic cotton poplin. Easy fit. Three-quarter-length raglan sleeves. Buttoned cuffs. Corozo buttons. ### Details Machine wash 30ºC gentle cycle. 100% cotton. Made in India. Printed by hand using a traditional block print. A little unevenness in colour and design is characteristic of this hand process. Size & Fit Easy fit. Length: Mid hip. Sleeve: 3/4 length. Studio model Beatriz is 5ft 9in/175cm tall and is w",
+"published": "2026-06-04",
+"score": 3.0,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"brand:TOAST",
+0.5384615384615384
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cotton",
+0.44230769230769224
+]
+],
+"recolour": false
+},
+{
+"brand": "Margaret Howell",
+"status": "approved",
+"title": "MHL. TAPERED JEANS | DENIM TWILL | INDIGO",
+"category": "Jeans",
+"price": 325.0,
+"list": 325.0,
+"fabric": "cotton",
+"natural": null,
+"url": "https://www.margarethowell.co.uk/products/mhl-tapered-jeans-denim-twill-indigo",
+"img": "https://cdn.shopify.com/s/files/1/0712/0791/1458/files/Margaret-Howell-MHL-AW26-Women-Look-78a.jpg?v=1785929858",
+"tags": [
+"MHL."
+],
+"desc": "Cotton denim twill Tapered Jeans. Relaxed cut. Button fly with button-through fastening. Belt loops. Slant pockets with ticket pocket detail. Notched waistband and cinch on back. Patch back pockets. A collaboration with Canton Overalls.",
+"published": "2025-04-08",
+"score": 2.94,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cotton",
+0.44230769230769224
+]
+],
+"recolour": false
+},
+{
+"brand": "Tibi",
+"status": "approved",
+"title": "Spring Denim Cropped Slouchy Cargo Jean",
+"category": "Jeans",
+"price": 77.0,
+"list": 385.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://www.tibi.com/products/spring-denim-cropped-slouchy-cargo-jean-classic-blue",
+"img": "https://cdn.shopify.com/s/files/1/0035/7600/4654/files/01_0532_Spring_2025_Ecomm.jpg?v=1737142236",
+"tags": [
+"10.24 Outlet SOS Add",
+"Active",
+"Cat_Pants",
+"EOSS RTW 60",
+"OSS",
+"Size Guide: T000SH3335"
+],
+"desc": "A fresh take on a familiar favorite, the Spring Denim Cropped Slouchy Cargo Jean channels the effortless ease of the ‘90s with its slouchy wide-leg silhouette. Designed with the same beloved fit as our Classic Denim Slouchy Carpenter Jean, this version features a cropped hem and our signature Spring Denim mid-weight fabrication—perfect for year-round wear. Elevated with asymmetrical oversized pockets and a small painter pocket, this style reimagines a timeless classic with a creative edge. Crafted from 100% stone-washed Japanese cotton denim, it’s available in two versatile colorways: Classic ",
+"published": "2025-10-23",
+"score": 2.89,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"fab:cotton",
+0.44230769230769224
+],
+[
+"cut:cropped",
+0.22692307692307695
+]
+],
+"recolour": false
+},
+{
+"brand": "Howlin'",
+"status": "approved",
+"title": "Reverb Cardigan - Brown Noise",
+"category": "Sweaters & Knitwear",
+"price": 256.0,
+"list": 320.0,
+"fabric": "45% cotton, 55% lambswool",
+"natural": 1.0,
+"url": "https://howlinknitwear.com/products/reverb-cardigan-brown-noise",
+"img": "https://cdn.shopify.com/s/files/1/0465/5477/5710/files/REVERBCARDIGAN_BROWNNOISE_1.jpg?v=1768923772",
+"tags": [
+"badge_howlin_scotland",
+"KNIT",
+"productCare_knitwear",
+"sizeChart_reverbcardigan_SS26",
+"SS26",
+"SS26_salemen"
+],
+"desc": "The Reverb Cardigan is a new addition to the line-up. It’s a year-round essential with a relaxed fit, button front, and ribbed trims. Made in Scotland from a soft blend of organic cotton and lambswool. Meet our new summer quality, Cotton Breeze. We’ve experimented with cotton blends for years, searching for the right balance of softness, structure, and breathability and this one finally feels just right. A sophisticated mix of merino lambswool and cotton, washed for an extra-soft handle. Light and airy on the skin, but with enough body to make it a true all-year-rounder. Cotton Breeze brings c",
+"published": "2026-03-06",
+"score": 2.87,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cotton",
+0.44230769230769224
+],
+[
+"cut:relaxed",
+0.2653846153846154
+]
+],
+"recolour": false
+},
+{
+"brand": "18 East",
+"status": "approved",
+"title": "JOSEPH COACH'S JACKET - NAVY ORGANIC COTTON SHERPA",
+"category": "Jackets & Coats",
+"price": 378.0,
+"list": 378.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://18east.co/products/joseph-reversible-coach-jacket-navy-ecru-orange",
+"img": "https://cdn.shopify.com/s/files/1/0026/8707/4416/files/JosephJacket-1.jpg?v=1768945365",
+"tags": [
+"archive",
+"WINTER OUTDOOR '25"
+],
+"desc": "\"We simplified this season's Joseph jacket after receiving a good amount of feedback that its reversible predecessor felt unnecessarily tight when worn fleece side in. It's now just an easy, deep pile shirt. Is it insane to take one of everything from this collection? - The Management The Joseph features boxy fit, custom-tooled button front closure, two oversized, button-through hip pockets and a nylon micro-ripstop backed turn down collar. Proudly made in India from 100% organic cotton deep pile sherpa. This style runs true to size. We recommend taking your normal alpha size or sizing up for ",
+"published": "2026-01-23",
+"score": 2.81,
+"hits": [
+[
+"price:300+",
+0.6923076923076923
+],
+[
+"cut:pocket",
+0.6884615384615385
+],
+[
+"cut:button",
+0.5346153846153846
+],
+[
+"fab:cotton",
+0.44230769230769224
 ]
 ],
 "recolour": false
