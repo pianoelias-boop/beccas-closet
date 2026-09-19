@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 concurrency: sales
 
@@ -20,18 +19,8 @@ jobs:
         with: { python-version: '3.12' }
       - name: Check the brands
         run: python3 build/sales/check.py
-      - name: Watch the return-policy pages
+      - name: Watch the return-policy pages (writes build/returns/changes.json; nobody is notified)
         run: python3 build/returns/check.py || echo "policy check failed, continuing"
-      - name: Raise an issue if a store changed its return terms
-        env: { GH_TOKEN: '${{ github.token }}' }
-        run: |
-          changed=$(python3 -c "import json;print(', '.join(json.load(open('build/returns/changes.json'))['changed']))")
-          if [ -n "$changed" ]; then
-            title="Return policy pages changed: $changed"
-            if [ "$(gh issue list --state open --search "in:title \"Return policy pages changed\"" --json number --jq 'length')" = "0" ]; then
-              gh issue create --title "$title" --assignee pianoelias-boop --body "@pianoelias-boop — the return-terms sentences on these stores' policy pages changed since the last check: $changed. Re-read the pages, update build/returns/retailers.json (and its checked date), run python3 build/returns/make.py, and commit retailers.js. Closing this issue does not update anything by itself."
-            fi
-          fi
       - name: Publish if anything changed
         run: |
           git config user.name "closet-bot"; git config user.email "closet-bot@users.noreply.github.com"
