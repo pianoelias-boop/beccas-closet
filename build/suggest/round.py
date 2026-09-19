@@ -40,11 +40,14 @@ def features(it):
     for w in CUTS:
         if w in text: f.add('cut:' + w.replace('-', ' '))
     return f
+NOTEBOOK_FAILED = False
 def notebook():
     u = sync_url()
     if not u: return {}
     try: return json.loads(urllib.request.urlopen(urllib.request.Request(u + ('&' if '?' in u else '?') + 'key=becca', headers=H), timeout=60, context=ctx).read()).get('items', {})
-    except Exception as e: print('notebook unreachable:', e); return {}
+    except Exception as e:
+        global NOTEBOOK_FAILED; NOTEBOOK_FAILED = True
+        print('notebook unreachable:', e); return {}
 def signals():
     nb = notebook(); cat = {i['id']: i for i in catalogue()}; ide = {i['id']: i for i in ideas()}
     for p in round_files():
@@ -135,10 +138,16 @@ def existing_garments():
     return keys
 
 def stage1():
-    import sweep
-    saved, passed = signals(); w = profile_weights(saved, passed); write_profile_auto(saved, passed, w)
+    import sweep, sys
+    saved, passed = signals()
+    if NOTEBOOK_FAILED:
+        print('stage1 aborted: the notebook could not be read, so nothing was rewritten.'); sys.exit(2)
+    cands_probe, report_probe = sweep.sweep_brands({'approved'}, quiet=True)
+    if not cands_probe:
+        print('stage1 aborted: no brand feed could be read (network blocked?), so nothing was rewritten.'); sys.exit(2)
+    w = profile_weights(saved, passed); write_profile_auto(saved, passed, w)
     json.dump({'saved': [dict(id=s['item']['id'], name=s['item']['name'], brand=s['item']['brand'], age_days=s['age_days']) for s in saved], 'passed': [dict(id=p['item']['id'], name=p['item']['name'], brand=p['item']['brand']) for p in passed], 'weights': w, 'fetched': NOW.isoformat()}, open(f'{PEND}/signals.json', 'w'), indent=1)
-    cands, report = sweep.sweep_brands({'approved'}, quiet=True)
+    cands, report = cands_probe, report_probe
     data = catalogue(); n = len(data); closet_share = {k: v / n for k, v in collections.Counter(i['category'] for i in data).items()}
     hearted_prices = sorted(s['item']['price'] for s in saved if s['item'].get('price')); median_price = hearted_prices[len(hearted_prices) // 2] if hearted_prices else 200
     recent_brands = set(); passed_brands = collections.Counter()

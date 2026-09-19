@@ -2,8 +2,8 @@ name: Weekly round of ideas
 
 on:
   schedule:
-    - cron: '0 10 * * 6'    # Saturday 06:00 US Eastern (daylight) — stage 1: notebook, sweep, shortlist
-    - cron: '0 16 * * 6'    # Saturday 12:00 US Eastern — fallback if no round was judged
+    - cron: '0 6 * * 6'     # Saturday 02:00 US Eastern (daylight) — stage 1: notebook, sweep, shortlist (GitHub often runs crons hours late; the judge fires at 13:00 UTC)
+    - cron: '0 17 * * 6'    # Saturday 13:00 US Eastern — fallback if no round was judged
   push:
     branches: [main]
     paths: ['build/suggest/pending/picks_claude.json']   # the judgment routine saved its picks
@@ -55,7 +55,7 @@ jobs:
           gh pr create --title "Round $n: 8 ideas for Based on your likes (chosen by Claude)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee pianoelias-boop --reviewer pianoelias-boop
 
   stage1:
-    if: github.event.schedule == '0 10 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'fallback')
+    if: github.event.schedule == '0 6 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'fallback')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -72,7 +72,7 @@ jobs:
           git pull --rebase && git push
 
   fallback:
-    if: always() && (github.event.schedule == '0 16 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'stage1'))
+    if: always() && (github.event.schedule == '0 17 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'stage1'))
     # (a push of picks_claude.json never reaches here: needs stage1, which is skipped, and the condition above)
     needs: [stage1]
     runs-on: ubuntu-latest
@@ -92,7 +92,12 @@ jobs:
           echo "skip=$([ "$open" != "0" ] || [ "$judged" = "1" ] && echo yes || echo no)" >> $GITHUB_OUTPUT
       - name: Make sure a shortlist exists
         if: steps.check.outputs.skip == 'no'
-        run: test -f build/suggest/pending/shortlist.json || python3 build/suggest/round.py stage1
+        run: |
+          python3 - <<'PY' || python3 build/suggest/round.py stage1
+          import json, datetime, sys
+          m = json.load(open('build/suggest/pending/round_meta.json'))
+          sys.exit(0 if m['date'] >= (datetime.date.today() - datetime.timedelta(days=1)).isoformat() else 1)
+          PY
       - name: Fallback picks and finalize
         if: steps.check.outputs.skip == 'no'
         env: { ROUND_BRANCH: 'round/${{ github.run_id }}' }
