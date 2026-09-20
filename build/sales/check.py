@@ -43,13 +43,31 @@ def variants_for(it, product):
     return matched, ('colour' if matched else 'nomatch')
 HIST_PATH = 'build/sales/history.json'; hist = json.load(open(HIST_PATH)) if os.path.exists(HIST_PATH) else {}
 def get(u, timeout=30): return urllib.request.urlopen(urllib.request.Request(u, headers=H), timeout=timeout, context=ctx).read().decode('utf-8', 'ignore')
+SALE_COLLECTIONS = ('sale', 'womens-sale', 'women-sale', 'womens-clothing-sale', 'last-chance', 'outlet', 'final-sale')
 def feed(base):
-    n = disc = 0; depths = []; items = {}
-    for page in range(1, 7):
-        d = json.loads(get(f'{base}/products.json?limit=250&page={page}'))
-        prods = d.get('products', [])
-        if not prods: break
+    # The main feed (up to 12 pages) plus the brand's sale collection, because big stores (Boden) keep thousands of
+    # products and their marked-down ones can sit beyond the pages we read.
+    n = disc = 0; depths = []; items = {}; seen = set()
+    def pages():
+        for page in range(1, 13):
+            prods = json.loads(get(f'{base}/products.json?limit=250&page={page}')).get('products', [])
+            if not prods: break
+            yield prods
+            if len(prods) < 250: break
+        for coll in SALE_COLLECTIONS:
+            try:
+                for page in range(1, 9):
+                    prods = json.loads(get(f'{base}/collections/{coll}/products.json?limit=250&page={page}')).get('products', [])
+                    if not prods: break
+                    yield prods
+                    if len(prods) < 250: break
+                else: continue
+                break
+            except Exception: continue
+    for prods in pages():
         for p in prods:
+            if p['id'] in seen: continue
+            seen.add(p['id'])
             vs = [v for v in p.get('variants', []) if v.get('available')]
             if not vs: continue
             n += 1
@@ -78,9 +96,13 @@ def homepage(site):
         win = text[max(0, m.start() - 90): m.end() + 90]
         if re.search(EXCL, win, re.I): continue
         ev = re.search(EVENT, win, re.I); sw = re.search(SITE, win, re.I)
-        if sw or ev:
+        # A percentage the store shouts in its announcement bar (the first lines of the page) is a running sale too,
+        # even without sitewide wording: Boden's "SALE: up to 40% off" on 2026-09-20 was one. A nav link is not.
+        bar = m.start() < 700 and int(m.group(1)) >= 20 and re.search(r'\bsale\b|\boff\b', win, re.I)
+        if sw or ev or bar:
             sitewide = True; best = max(best, int(m.group(1)))
             if ev: event = ev.group(0).title()
+            elif bar and not event: event = 'Announced on the homepage'
     return dict(kind='homepage', maxoff=best, sitewide=sitewide, event=event)
 def check(b):
     out = {'name': b['name']}
