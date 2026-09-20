@@ -15,6 +15,9 @@ To make one for someone else you do not rewrite any of that. You change three th
 
 Everything else (the page, the scripts, the schedules) reads from those.
 
+If Claude Code is doing the setup for you, paste `NEW-CLOSET-KICKOFF.md` into a new session and it will
+follow this guide end to end, from creating the repository to publishing.
+
 You need: a GitHub account, Python 3.9 or newer with Pillow (`python3 -m pip install pillow`), and git.
 The notebook needs a Google account. The weekly judge needs Claude Code; without it the round still
 runs, picked by score instead.

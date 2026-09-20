@@ -39,6 +39,7 @@ To update the site, commit and push to `main`; Pages redeploys within a minute o
 
 **`MAKE-YOUR-OWN.md`** is the recipe: personalise `config.js` and `theme.css`, empty the copy with
 `build/reset_closet.py`, add pieces through `build/pieces_to_add.csv` and `build/add_pieces.py`.
+**`NEW-CLOSET-KICKOFF.md`** is the same recipe as a first message for a Claude Code session that does it all.
 
 ## Things you might want to change
 
