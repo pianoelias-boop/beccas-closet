@@ -1095,5 +1095,63 @@
   ],
   "fabric": "Moosehide, full-grain leather, treated canvas, wool felt",
   "note": "Bandage days: left foot in her usual size, right foot one to two sizes up. Full sizes only."
+ },
+ {
+  "id": 433,
+  "brand": "Boden",
+  "retailer": "Boden",
+  "name": "Raglan Embroidered Top",
+  "category": "Shirts & Blouses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "why": "cotton and linen breathe, raglan sleeves move; embroidery makes it a teaching-day blouse",
+  "price": 133.0,
+  "colorDetail": "Mid Blue",
+  "categoryDetail": "Embroidered blouse",
+  "url": "https://us.boden.com/products/women-raglan-embroidered-top-mid-blue-t2183blu",
+  "img": "images/full/433.jpg",
+  "hi": true,
+  "desc": "You’ll want to live in this blouse. Cotton and linen for breathability, raglan sleeves for movement. Plus, a pretty bit of embroidery for compliments. Layer with a chunky knit on chillier days.",
+  "details": [
+   "Owner-requested 2026-09-20",
+   "On sale at Boden that day: $133, was $190"
+  ],
+  "fabric": "Cotton and linen",
+  "note": ""
+ },
+ {
+  "id": 434,
+  "brand": "TOAST",
+  "retailer": "TOAST",
+  "name": "Washed Black Denim Skirt",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "hang",
+   "friend"
+  ],
+  "why": "heavy washed denim in an A-line, lower-calf length; the shape she keeps hearting, in a skirt",
+  "price": 280.0,
+  "colorDetail": "Carbon Black",
+  "categoryDetail": "A-line denim skirt",
+  "url": "https://us.toa.st/products/washed-black-denim-skirt-carbon-black",
+  "img": "images/full/434.jpg",
+  "hi": true,
+  "desc": "Our utilitarian skirt is accented by a buttoned tab at each side of the waist. Made to an A-line shape with a large side patch pocket. The denim contains recycled cotton and regenerative cotton is grown according to regenerative farming methods, restoring soil health, improving biodiversity, and reducing environmental impact. Denim containing regenerative and recycled cotton. A-line shape. Belt loops. Buttoned waist tabs. Side pockets. Centre-front and back seams. Large side patch pocket. Lower-calf length. Corozo buttons.",
+  "details": [
+   "Owner-requested 2026-09-20",
+   "Sizes 4 to 18",
+   "Lower-calf length, regular fit, on the waist",
+   "100% cotton",
+   "Machine wash 30ºC",
+   "Made in Tunisia"
+  ],
+  "fabric": "100% cotton denim, with recycled and regenerative cotton",
+  "note": ""
  }
 ]
