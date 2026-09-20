@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '41 8 * * *'    # 04:41 US Eastern (daylight); off the hour because GitHub fires top-of-hour crons late
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true = run the check and print results without committing"
+        default: "false"
 
 permissions:
   contents: write
@@ -22,6 +26,7 @@ jobs:
       - name: Watch the return-policy pages (writes build/returns/changes.json; nobody is notified)
         run: python3 build/returns/check.py || echo "policy check failed, continuing"
       - name: Publish if anything changed
+        if: github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "closet-bot"; git config user.email "closet-bot@users.noreply.github.com"
           git add sales.js build/sales/history.json build/returns/hashes.json build/returns/changes.json

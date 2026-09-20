@@ -84,26 +84,53 @@ def feed(base):
                     n_, w_ = min(red)
                     items[it['id']] = dict(now=round(n_, 2), was=round(w_, 2), off=int(round((1 - n_ / w_) * 100)), how=how, listed=it.get('price'))
     return dict(kind='feed', products=n, share=round(disc / n, 3) if n else 0, depth=round(statistics.median(depths), 2) if depths else 0, items=items)
+NAVISH = r'<(nav|footer|script|style|noscript|select|form|template)\b.*?</\1>'
+BAR_TAG = re.compile(r'<(?:div|section|aside|p|span|ul|li|a|header)\b[^>]*\b(?:class|id)="[^"]*(?:announce|promo|marquee|ticker|notification|topbar|top-bar|top_bar|utility|usp|header-?bar|header__message|message-bar|site-message|alert|offer|sale-bar|hero|slideshow)[^"]*"[^>]*>', re.I)
+EXCL = r"in[- ]store only|in person|first (?:purchase|order)|newsletter|subscribe|when you (?:sign up|join)|sign(?:ing)? up (?:to|and) (?:save|get|receive|unlock)|join (?:the|our) .{0,20}(?:save|get|receive|for)|text .{0,20}to (?:save|get|receive)|cookie|privacy|gift card|returns?\b|shipping (?:on|over|for)|free shipping|offer is valid|valid (?:from|through|until)|terms|conditions apply|exclusions apply"
+THIS_YEAR = str(__import__('datetime').date.today().year)
+NOT_A_SALE = r"final sale|sale items?|sale exclusions?|excludes? sale|on sale items|sale-priced|sale price|no (?:further )?discount|sale shop|resale|wholesale"
+def promo_in(t, require_number=False):
+    """Does this bit of homepage text announce a running sale? Returns (percent_or_0, snippet) or None."""
+    t = re.sub(r'\s+', ' ', t).strip()
+    if len(t) < 4 or re.search(EXCL, t, re.I): return None
+    if any(y != THIS_YEAR for y in re.findall(r'\b(20[12]\d)\b', t)): return None      # fine print about an old offer
+    if require_number and not re.search(r'\d{2}\s?%\s?off|\$\s?\d+\s?off', t, re.I): return None
+    pcts = [int(x) for x in re.findall(r'(\d{2})\s?%\s?off', t, re.I) if 10 <= int(x) <= 90]
+    dollar = re.search(r'\$\s?\d+\s?off', t, re.I)
+    salew = re.search(r'\bsale\b', t, re.I) and not re.search(NOT_A_SALE, t, re.I) and len(t.split()) >= 3
+    if pcts or dollar or salew: return (max(pcts) if pcts else 0, t[:140])
+    return None
 def homepage(site):
-    page = html.unescape(get(site)); text = re.sub(r'<script.*?</script>|<style.*?</style>', ' ', page, flags=re.S); text = re.sub(r'<[^>]+>', ' ', text); text = re.sub(r'\s+', ' ', text)
-    # A promotion counts only when the sitewide/event wording sits right next to the percentage, and it is
-    # not an in-store-only, selected-styles, or sign-up offer.
+    """Signals of a sale the store is running, as opposed to a permanent sale rack:
+       1. a percentage next to sitewide or holiday-event wording anywhere on the page (the original rule);
+       2. anything that says sale, N% off or $N off in an announcement bar or hero (containers whose class or id
+          says announcement, promo, ticker, hero ...), or in a top-level heading, with navigation, footers, forms and
+          menus stripped first so a nav link that just says 'Sale' does not count;
+       3. failing any recognisable container, the first lines of visible text (the announcement bar is nearly always there).
+       Owner's preference (2026-09-20): better a few false positives than a missed sale."""
+    page = html.unescape(get(site))
+    body = re.sub(NAVISH, ' ', page, flags=re.S | re.I)
+    body = re.sub(r'<[^>]+\b(?:class|id)="[^"]*(?:menu|navigation|\bnav\b|drawer|mega|breadcrumb|dropdown|submenu|localization|currency|modal|popup|cookie|consent|search|cart)[^"]*"[^>]*>.*?</(?:div|ul|nav|section|aside)>', ' ', body, flags=re.S | re.I)
+    strip = lambda h: re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', h))
+    text = strip(body)
     SITE = r'sitewide|site-wide|everything|all full[- ]price|entire (?:site|store)|storewide'
-    EVENT = r"labor day|memorial day|black friday|cyber monday|presidents'? day|fourth of july|4th of july|end of season|semi-?annual|anniversary sale|friends (?:&|and) family|flash sale|(?:summer|winter|fall|spring) sale"
-    EXCL = r'in[- ]store only|in person|selected|select styles|first (?:purchase|order)|newsletter|subscribe|closing|when you (?:sign up|join)'
-    best = 0; event = None; sitewide = False
+    EVENT = r"labor day|memorial day|black friday|cyber monday|presidents'? day|fourth of july|4th of july|end of season|semi-?annual|anniversary sale|friends (?:&|and) family|flash sale|(?:summer|winter|fall|autumn|spring|holiday|mid-?season) sale"
+    best = 0; event = None; promo = False; why = None
     for m in re.finditer(r'(\d{2})\s?%\s?off', text, re.I):
         win = text[max(0, m.start() - 90): m.end() + 90]
         if re.search(EXCL, win, re.I): continue
         ev = re.search(EVENT, win, re.I); sw = re.search(SITE, win, re.I)
-        # A percentage the store shouts in its announcement bar (the first lines of the page) is a running sale too,
-        # even without sitewide wording: Boden's "SALE: up to 40% off" on 2026-09-20 was one. A nav link is not.
-        bar = m.start() < 700 and int(m.group(1)) >= 20 and re.search(r'\bsale\b|\boff\b', win, re.I)
-        if sw or ev or bar:
-            sitewide = True; best = max(best, int(m.group(1)))
+        if (sw or ev) and int(m.group(1)) >= 15:
+            promo = True; best = max(best, int(m.group(1))); why = why or win.strip()[:140]
             if ev: event = ev.group(0).title()
-            elif bar and not event: event = 'Announced on the homepage'
-    return dict(kind='homepage', maxoff=best, sitewide=sitewide, event=event)
+    cands = [strip(body[m.end(): m.end() + 1500])[:400] for m in BAR_TAG.finditer(body)][:12]
+    cands += [strip(h)[:200] for h in re.findall(r'<h[1-3]\b[^>]*>(.*?)</h[1-3]>', body, flags=re.S | re.I)][:12]
+    for c in cands + [None]:
+        hit = promo_in(c) if c is not None else promo_in(text[:700], require_number=True)
+        if hit:
+            promo = True; best = max(best, hit[0]); why = why or hit[1]
+            if not event: event = 'Announced on the homepage'
+    return dict(kind='homepage', maxoff=best, promo=promo, sitewide=promo, event=event, why=why)
 def check(b):
     out = {'name': b['name']}
     try:
@@ -113,6 +140,13 @@ def check(b):
     try: out['home'] = homepage(b['site'])
     except Exception as e: out['home_error'] = str(e)[:60]
     return out
+if '--test-events' in __import__('sys').argv:
+    import time
+    for b in brands:
+        try: hm = homepage(b['site']); print(f"{b['name']:22s} {'SALE ' if hm['promo'] else '     '} {hm['maxoff'] or '':>3} {hm['event'] or ''} | {hm.get('why') or ''}")
+        except Exception as e: print(f"{b['name']:22s} ERR {type(e).__name__} {str(e)[:50]}")
+        time.sleep(1.5)
+    raise SystemExit
 results = list(cf.ThreadPoolExecutor(6).map(check, brands))
 items = {}; events = {}; notes = {}
 for r in results:
@@ -122,7 +156,7 @@ for r in results:
     if share is not None:
         h = hist.setdefault(name, []); h.append([TODAY, share]); del h[:-45]
     base = statistics.median(x[1] for x in hist[name][:-1]) if share is not None and len(hist.get(name, [])) > 7 else None
-    promo = bool(hm) and hm['maxoff'] >= 20 and (hm['sitewide'] or hm['event'])
+    promo = bool(hm) and bool(hm.get('promo'))
     jump = base is not None and share >= 0.3 and share >= base * 2
     if promo or jump:
         events[name] = dict(off=hm['maxoff'] if promo and hm['maxoff'] else (int(round(f['depth'] * 100)) if f else 0), event=hm.get('event') if hm else None, why='promo' if promo else 'jump', checked=TODAY, site=next((b['site'] for b in brands if b['name'] == name), None))
@@ -135,4 +169,7 @@ for iid, v in items.items():
 print(f"closet pieces actually marked down: {len(items)}")
 for b, L in sorted(byb.items()): print(f"  {b}: " + '; '.join(L[:4]) + (f" (+{len(L)-4} more)" if len(L) > 4 else ''))
 print('sale events:', {k: (v['why'], v['off'], v['event']) for k, v in events.items()} or 'none')
+for r in results:
+    hm = r.get('home') or {}
+    if hm.get('promo'): print(f"  evidence {r['name']}: {hm.get('why')}")
 print('brands checked item by item:', sum(1 for n in notes.values() if n['checked']), 'of', len(notes))
