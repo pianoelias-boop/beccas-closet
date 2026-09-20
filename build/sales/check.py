@@ -90,16 +90,23 @@ EXCL = r"in[- ]store only|in person|first (?:purchase|order)|newsletter|subscrib
 THIS_YEAR = str(__import__('datetime').date.today().year)
 NOT_A_SALE = r"final sale|sale items?|sale exclusions?|excludes? sale|on sale items|sale-priced|sale price|no (?:further )?discount|sale shop|resale|wholesale"
 def promo_in(t, require_number=False):
-    """Does this bit of homepage text announce a running sale? Returns (percent_or_0, snippet) or None."""
+    """Does this bit of homepage text announce a running sale? Judged per phrase: each 'N% off', '$N off' or 'sale'
+    is looked at with about 80 characters either side, so a shipping or returns line elsewhere in the same block
+    cannot veto it. Returns (percent_or_0, snippet) for the strongest phrase, or None."""
     t = re.sub(r'\s+', ' ', t).strip()
-    if len(t) < 4 or re.search(EXCL, t, re.I): return None
-    if any(y != THIS_YEAR for y in re.findall(r'\b(20[12]\d)\b', t)): return None      # fine print about an old offer
-    if require_number and not re.search(r'\d{2}\s?%\s?off|\$\s?\d+\s?off', t, re.I): return None
-    pcts = [int(x) for x in re.findall(r'(\d{2})\s?%\s?off', t, re.I) if 10 <= int(x) <= 90]
-    dollar = re.search(r'\$\s?\d+\s?off', t, re.I)
-    salew = re.search(r'\bsale\b', t, re.I) and not re.search(NOT_A_SALE, t, re.I) and len(t.split()) >= 3
-    if pcts or dollar or salew: return (max(pcts) if pcts else 0, t[:140])
-    return None
+    if len(t) < 4: return None
+    best = None
+    pats = [r'(\d{2})\s?%\s?off', r'\$\s?\d+\s?off'] + ([] if require_number else [r'\bsale\b'])
+    for pat in pats:
+        for m in re.finditer(pat, t, re.I):
+            win = t[max(0, m.start() - 80): m.end() + 80]
+            if re.search(EXCL, win, re.I): continue
+            if any(y != THIS_YEAR for y in re.findall(r'\b(20[12]\d)\b', win)): continue      # fine print about an old offer
+            if pat.endswith('sale\\b') and (re.search(NOT_A_SALE, win, re.I) or len(win.split()) < 3): continue
+            pct = int(m.group(1)) if m.lastindex else 0
+            if m.lastindex and not (10 <= pct <= 90): continue
+            if best is None or pct > best[0]: best = (pct, win.strip()[:140])
+    return best
 def homepage(site):
     """Signals of a sale the store is running, as opposed to a permanent sale rack:
        1. a percentage next to sitewide or holiday-event wording anywhere on the page (the original rule);
