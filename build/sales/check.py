@@ -96,7 +96,7 @@ def promo_in(t, require_number=False):
     t = re.sub(r'\s+', ' ', t).strip()
     if len(t) < 4: return None
     best = None
-    SALE_PHRASE = r"(?:shop (?:the|our)|the|our|big|mid-?season|end[- ]of[- ]season|fall|autumn|spring|summer|winter|holiday|flash|sample|friends (?:&|and) family|anniversary|annual|semi-?annual|labor day|memorial day|black friday|cyber|weekend|warehouse|archive|extra \\d+% off|up to \\d+% off)\\W{0,3}sale\\b|\\bsale\\W{0,3}(?:on now|starts|start|ends|is on|now on|live|event|weekend|up to|extra|continues|alert|preview|final hours|last chance|ends? (?:today|tonight|soon))"
+    SALE_PHRASE = r"(?:shop (?:the|our)|the|our|big|mid-?season|end[- ]of[- ]season|fall|autumn|spring|summer|winter|holiday|flash|sample|friends (?:&|and) family|anniversary|annual|semi-?annual|labor day|memorial day|black friday|cyber|weekend|warehouse|archive|extra \d+% off|up to \d+% off)\W{0,3}sale\b|\bsale\W{0,3}(?:on now|starts|start|ends|is on|now on|live|event|weekend|up to|extra|continues|alert|preview|final hours|last chance|ends? (?:today|tonight|soon))"
     pats = [r'(\d{2})\s?%\s?off', r'\$\s?\d+\s?off'] + ([] if require_number else [SALE_PHRASE])
     for pat in pats:
         for m in re.finditer(pat, t, re.I):
