@@ -86,7 +86,7 @@ def feed(base):
     return dict(kind='feed', products=n, share=round(disc / n, 3) if n else 0, depth=round(statistics.median(depths), 2) if depths else 0, items=items)
 NAVISH = r'<(nav|footer|script|style|noscript|select|form|template)\b.*?</\1>'
 BAR_TAG = re.compile(r'<(?:div|section|aside|p|span|ul|li|a|header)\b[^>]*\b(?:class|id)="[^"]*(?:announce|promo|marquee|ticker|notification|topbar|top-bar|top_bar|utility|usp|header-?bar|header__message|message-bar|site-message|alert|offer|sale-bar|hero|slideshow)[^"]*"[^>]*>', re.I)
-EXCL = r"in[- ]store only|in person|first (?:purchase|order)|newsletter|subscribe|when you (?:sign up|join)|sign(?:ing)? up (?:to|and) (?:save|get|receive|unlock)|join (?:the|our) .{0,20}(?:save|get|receive|for)|text .{0,20}to (?:save|get|receive)|cookie|privacy|gift card|returns?\b|shipping (?:on|over|for)|free shipping|offer is valid|valid (?:from|through|until)|terms|conditions apply|exclusions apply"
+EXCL = r"in[- ]store only|in person|first (?:purchase|order)|newsletter|subscribe|when you (?:sign up|join)|sign(?:ing)? up (?:to|and) (?:save|get|receive|unlock)|join (?:the|our) .{0,20}(?:save|get|receive|for)|text .{0,20}to (?:save|get|receive)|offer is valid|valid (?:from|through|until)"
 THIS_YEAR = str(__import__('datetime').date.today().year)
 NOT_A_SALE = r"final sale|sale items?|sale exclusions?|excludes? sale|on sale items|sale-priced|sale price|no (?:further )?discount|sale shop|resale|wholesale"
 def promo_in(t, require_number=False):
@@ -96,15 +96,16 @@ def promo_in(t, require_number=False):
     t = re.sub(r'\s+', ' ', t).strip()
     if len(t) < 4: return None
     best = None
-    pats = [r'(\d{2})\s?%\s?off', r'\$\s?\d+\s?off'] + ([] if require_number else [r'\bsale\b'])
+    SALE_PHRASE = r"(?:shop (?:the|our)|the|our|big|mid-?season|end[- ]of[- ]season|fall|autumn|spring|summer|winter|holiday|flash|sample|friends (?:&|and) family|anniversary|annual|semi-?annual|labor day|memorial day|black friday|cyber|weekend|warehouse|archive|extra \\d+% off|up to \\d+% off)\\W{0,3}sale\\b|\\bsale\\W{0,3}(?:on now|starts|start|ends|is on|now on|live|event|weekend|up to|extra|continues|alert|preview|final hours|last chance|ends? (?:today|tonight|soon))"
+    pats = [r'(\d{2})\s?%\s?off', r'\$\s?\d+\s?off'] + ([] if require_number else [SALE_PHRASE])
     for pat in pats:
         for m in re.finditer(pat, t, re.I):
             win = t[max(0, m.start() - 80): m.end() + 80]
             if re.search(EXCL, win, re.I): continue
             if any(y != THIS_YEAR for y in re.findall(r'\b(20[12]\d)\b', win)): continue      # fine print about an old offer
-            if pat.endswith('sale\\b') and (re.search(NOT_A_SALE, win, re.I) or len(win.split()) < 3): continue
+            if pat is SALE_PHRASE and re.search(NOT_A_SALE, win, re.I): continue
             pct = int(m.group(1)) if m.lastindex else 0
-            if m.lastindex and not (10 <= pct <= 90): continue
+            if m.lastindex and not (20 <= pct <= 90): continue   # 15%-off-with-code is marketing, not a sale
             if best is None or pct > best[0]: best = (pct, win.strip()[:140])
     return best
 def homepage(site):
