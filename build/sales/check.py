@@ -110,8 +110,10 @@ def homepage(site):
        Owner's preference (2026-09-20): better a few false positives than a missed sale."""
     page = html.unescape(get(site))
     body = re.sub(NAVISH, ' ', page, flags=re.S | re.I)
-    body = re.sub(r'<[^>]+\b(?:class|id)="[^"]*(?:menu|navigation|\bnav\b|drawer|mega|breadcrumb|dropdown|submenu|localization|currency|modal|popup|cookie|consent|search|cart)[^"]*"[^>]*>.*?</(?:div|ul|nav|section|aside)>', ' ', body, flags=re.S | re.I)
-    strip = lambda h: re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', h))
+    def strip(h):
+        h = h[:h.rfind('<')] if h.count('<') > h.count('>') else h          # drop a tag cut in half at the end of a slice
+        return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', h))
+    def menu_like(h): return len(re.findall(r'<a\b', h, re.I)) >= 6            # a block of six or more links is a menu, not an announcement
     text = strip(body)
     SITE = r'sitewide|site-wide|everything|all full[- ]price|entire (?:site|store)|storewide'
     EVENT = r"labor day|memorial day|black friday|cyber monday|presidents'? day|fourth of july|4th of july|end of season|semi-?annual|anniversary sale|friends (?:&|and) family|flash sale|(?:summer|winter|fall|autumn|spring|holiday|mid-?season) sale"
@@ -123,13 +125,13 @@ def homepage(site):
         if (sw or ev) and int(m.group(1)) >= 15:
             promo = True; best = max(best, int(m.group(1))); why = why or win.strip()[:140]
             if ev: event = ev.group(0).title()
-    cands = [strip(body[m.end(): m.end() + 1500])[:400] for m in BAR_TAG.finditer(body)][:12]
-    cands += [strip(h)[:200] for h in re.findall(r'<h[1-3]\b[^>]*>(.*?)</h[1-3]>', body, flags=re.S | re.I)][:12]
-    for c in cands + [None]:
-        hit = promo_in(c) if c is not None else promo_in(text[:700], require_number=True)
-        if hit:
-            promo = True; best = max(best, hit[0]); why = why or hit[1]
-            if not event: event = 'Announced on the homepage'
+    slices = [body[m.end(): m.end() + 1500] for m in BAR_TAG.finditer(body)][:12]
+    cands = [strip(h)[:400] for h in slices if not menu_like(h)]
+    cands += [strip(h)[:200] for h in re.findall(r'<h[1-3]\b[^>]*>(.*?)</h[1-3]>', body, flags=re.S | re.I) if not menu_like(h)][:12]
+    hits = [h for h in (promo_in(c) for c in cands) if h] + ([promo_in(text[:700], require_number=True)] if promo_in(text[:700], require_number=True) else [])
+    if hits:
+        promo = True; top = max(hits, key=lambda h: h[0]); best = max(best, top[0]); why = why or top[1]
+        if not event: event = 'Announced on the homepage'
     return dict(kind='homepage', maxoff=best, promo=promo, sitewide=promo, event=event, why=why)
 def check(b):
     out = {'name': b['name']}
