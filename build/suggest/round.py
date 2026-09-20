@@ -7,10 +7,13 @@
 The judgment step (a Claude Code routine) reads pending/shortlist.md and writes pending/picks.json in the
 same shape the fallback writes, then calls finalize --by claude.
 """
-import json, re, os, sys, glob, html, io, ssl, urllib.request, datetime, collections, subprocess
+import json, re, os, sys, glob, html, io, ssl, urllib.request, urllib.parse, datetime, collections, subprocess
 sys.path.insert(0, os.path.dirname(__file__))
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 os.chdir(ROOT)
+sys.path.insert(0, os.path.join(ROOT, 'build'))
+import closet_config
+CFG = closet_config.load(); KEY = CFG.get('notebookKey') or 'closet'; OCCASIONS = closet_config.occasions(CFG)
 P = 'build/suggest'; PEND = f'{P}/pending'
 os.makedirs(PEND, exist_ok=True); os.makedirs('images/ideas', exist_ok=True)
 ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
@@ -24,7 +27,17 @@ def catalogue(): return jsload(open('data.js').read())
 def ideas(): return jsload(open('suggestions.js').read()) if os.path.exists('suggestions.js') else []
 def round_files(): return sorted(p for p in glob.glob(f'{P}/round_*.json') if not p.endswith('_raw.json'))
 def sync_url():
-    m = re.search(r'name="closet-sync" content="([^"]*)"', open('index.html').read()); return m.group(1) if m else ''
+    if CFG.get('syncUrl'): return CFG['syncUrl']
+    m = re.search(r'name="closet-sync" content="([^"]*)"', open('index.html').read()); return m.group(1) if m else ''   # older copies kept it in a meta tag
+def repo_slug():
+    """owner/repo: from GitHub Actions' environment, else from the git remote."""
+    if os.environ.get('GITHUB_REPOSITORY'): return os.environ['GITHUB_REPOSITORY']
+    try:
+        u = subprocess.run(['git', 'remote', 'get-url', 'origin'], capture_output=True, text=True, check=True).stdout.strip()
+        m = re.search(r'github\.com[:/]([^/]+/[^/.]+)', u)
+        if m: return m.group(1)
+    except Exception: pass
+    return 'owner/repo'
 
 # ---------------- signals ----------------
 FABRICS = ['corduroy', 'cord', 'twill', 'denim', 'linen', 'cotton', 'wool', 'merino', 'tweed', 'jersey', 'poplin', 'chambray', 'silk', 'viscose', 'cupro', 'tencel', 'lyocell', 'flannel', 'canvas', 'moleskin', 'cashmere', 'velvet', 'seersucker', 'gauze', 'voile', 'rib']
@@ -44,7 +57,7 @@ NOTEBOOK_FAILED = False
 def notebook():
     u = sync_url()
     if not u: return {}
-    try: return json.loads(urllib.request.urlopen(urllib.request.Request(u + ('&' if '?' in u else '?') + 'key=becca', headers=H), timeout=60, context=ctx).read()).get('items', {})
+    try: return json.loads(urllib.request.urlopen(urllib.request.Request(u + ('&' if '?' in u else '?') + 'key=' + urllib.parse.quote(KEY), headers=H), timeout=60, context=ctx).read()).get('items', {})
     except Exception as e:
         global NOTEBOOK_FAILED; NOTEBOOK_FAILED = True
         print('notebook unreachable:', e); return {}
@@ -86,7 +99,8 @@ def write_profile_auto(saved, passed, w):
     block = '\n'.join(lines)
     path = f'{P}/profile.md'; txt = open(path).read()
     if '<!-- auto:start' in txt: txt = re.sub(r'<!-- auto:start.*?<!-- auto:end -->', block, txt, flags=re.S)
-    else: txt = txt.replace('# Becca\'s taste profile\n', '# Becca\'s taste profile\n\n' + block + '\n', 1)
+    else:   # no markers yet: put the block right after the first heading line
+        first, _, rest = txt.partition('\n'); txt = first + '\n\n' + block + '\n' + rest
     open(path, 'w').write(txt)
 
 # ---------------- scoring ----------------
@@ -248,13 +262,25 @@ def parse_desc(body, brand):
         m = re.search(r'\d{1,3}\s?%.*', fabric); fabric = m.group(0) if m else fabric
     return desc or None, dd[:8], fabric
 def occasions_for(text, category):
-    t = text.lower(); tags = []
-    breathable = re.search(r'cotton|linen|merino|tencel|lyocell|viscose|rayon|jersey|modal|cupro|silk', t); moves = re.search(r'jersey|knit|wrap|a-line|a line|tiered|wide[- ]leg|elastic|stretch|swing|circle|relaxed|linen|culotte', t)
-    if breathable and moves and not re.search(r'jacket|coat|blazer|rigid|structured|strapless|sheer', t): tags.append('dance')
-    if category in ('Dresses', 'Skirts', 'Pants', 'Shirts & Blouses', 'Sweaters & Knitwear', 'Jumpsuits & Rompers', 'Jackets & Coats') and not re.search(r'\bmini\b|crop|sheer|strapless|bodycon|bralette', t): tags.append('teaching')
-    if re.search(r'silk|satin|velvet|chiffon|occasion|evening|party|wedding', t): tags.append('dressy')
-    if re.search(r'jacket|coat|cargo|utility|hike|trail|wool|fleece|canvas|waxed', t): tags.append('outdoors')
-    tags.append('hang' if category in ('Jeans', 'Tops & Tees', 'Pants', 'Sweaters & Knitwear') or not tags else 'friend')
+    """Tag a new piece with occasions, using the "auto" rules each occasion carries in config.js:
+    categories (the piece's category must be one of them), any (regex the text must match), all (list of
+    regexes that must all match), not (regex that must not match). One occasion may have role "default":
+    it is added when its categories match or when nothing else matched; the one with role "otherwise" is
+    added instead when the default did not apply. At most three tags, in config order."""
+    t = text.lower(); tags = []; default = otherwise = None
+    for o in OCCASIONS:
+        a = o.get('auto') or {}
+        if a.get('role') == 'default': default = (o['key'], a); continue
+        if a.get('role') == 'otherwise': otherwise = o['key']; continue
+        if not a: continue
+        if a.get('categories') and category not in a['categories']: continue
+        if a.get('any') and not re.search(a['any'], t): continue
+        if a.get('all') and not all(re.search(r, t) for r in a['all']): continue
+        if a.get('not') and re.search(a['not'], t): continue
+        tags.append(o['key'])
+    if default:
+        key, a = default
+        tags.append(key if category in a.get('categories', []) or not tags else (otherwise or key))
     seen = set(); return [x for x in tags if not (x in seen or seen.add(x))][:3]
 def next_id():
     ids = [i['id'] for p in round_files() for i in json.load(open(p))] + [i['id'] for i in ideas()]
@@ -330,9 +356,9 @@ def finalize(by):
         except Exception as e: print('skip', pk['brand'], pk['title'][:30], str(e)[:60])
     json.dump(out, open(f'{P}/round_{n}.json', 'w'), indent=1, ensure_ascii=False)
     subprocess.run([sys.executable, f'{P}/make_suggestions.py'], check=True); subprocess.run([sys.executable, 'build/make_data.py'], check=True)
-    branch = os.environ.get('ROUND_BRANCH', 'main'); repo = os.environ.get('GITHUB_REPOSITORY', 'pianoelias-boop/beccas-closet')
+    branch = os.environ.get('ROUND_BRANCH', 'main'); repo = repo_slug(); owner = os.environ.get('GITHUB_REPOSITORY_OWNER') or repo.split('/')[0]
     with open(f'{PEND}/pr_body.md', 'w') as f:
-        f.write(f"## Round {n} · {TODAY} · {'chosen by Claude' if by == 'claude' else 'chosen by score (no model)'}\n\n@pianoelias-boop — {len(out)} ideas for **Based on your likes**. Merge to publish; close to skip this week.\n\n")
+        f.write(f"## Round {n} · {TODAY} · {'chosen by Claude' if by == 'claude' else 'chosen by score (no model)'}\n\n@{owner} — {len(out)} ideas for **Based on your likes**. Merge to publish; close to skip this week.\n\n")
         for r in out:
             f.write(f"### {r['brand']} — {r['name']} · ${r['price']:.0f}\n<img src=\"https://raw.githubusercontent.com/{repo}/{branch}/{r['img']}\" width=\"220\">\n\n{r['reason']}  \n*{r['fabric'] or 'fibre not stated'} · {', '.join(r['occasions'])}* · [product page]({r['url']})\n\n")
     json.dump({'round': n, 'by': by, 'date': TODAY, 'ids': [r['id'] for r in out]}, open(f'{PEND}/last_round.json', 'w'))

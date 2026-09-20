@@ -1,22 +1,30 @@
-/* Becca's Closet — a tiny static shop with no backend.
+/* A tiny static shop with no backend. Everything personal (names, texts, email, occasions, notebook)
+   comes from config.js; colours and fonts from theme.css; the pieces from data.js.
    Saved list: localStorage + the URL hash (#saved=…), so a link IS the list. */
 (() => {
   'use strict';
 
-  // ---------- config ----------
-  const HER_EMAIL = 'beccapruente@gmail.com';
-  const BCC_EMAIL = '';   // optional: an address to quietly copy on every emailed list
-  const STORAGE_KEY = 'beccas-closet-saved-v1';
-  const PASSED_KEY = 'beccas-closet-passed-v1';
-  const META_KEY = 'beccas-closet-meta-v1';      // per-item timestamps, for cross-device merging
-  const QUEUE_KEY = 'beccas-closet-queue-v1';    // events not yet delivered to the notebook
-  const CLOSET_KEY = 'becca';                    // one shared list for this closet
-  let SYNC_URL = (document.querySelector('meta[name="closet-sync"]') || {}).content || '';
+  // ---------- config (see config.js) ----------
+  const CFG = window.CLOSET_CONFIG || {};
+  const SLUG = CFG.slug || 'closet';                        // prefixes this browser's storage keys; changing it forgets saved lists
+  const MAIL = CFG.email || {};
+  const HER_EMAIL = MAIL.to || '';                           // where "Email me my list" goes
+  const BCC_EMAIL = MAIL.bcc || '';                          // optional: an address to quietly copy on every emailed list
+  const STORAGE_KEY = `${SLUG}-saved-v1`;
+  const PASSED_KEY = `${SLUG}-passed-v1`;
+  const META_KEY = `${SLUG}-meta-v1`;                        // per-item timestamps, for cross-device merging
+  const QUEUE_KEY = `${SLUG}-queue-v1`;                      // events not yet delivered to the notebook
+  const CLIENT_KEY = `${SLUG}-client`;
+  const SEEN_KEY = `${SLUG}-ideas-seen`;
+  const CLOSET_KEY = CFG.notebookKey || 'closet';            // one shared list per closet in the notebook
+  let SYNC_URL = CFG.syncUrl || (document.querySelector('meta[name="closet-sync"]') || {}).content || '';
   // Never let a local copy of the site write into the real notebook: on localhost only a local endpoint counts.
   if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname) && !/localhost|127\.0\.0\.1/.test(SYNC_URL)) SYNC_URL = '';
 
-  const OCC_LABEL = { teaching: 'For teaching', dance: 'For dancing', friend: 'With friends', hang: 'Hanging out', dressy: 'Dressy', outdoors: 'Outdoors' };
-  const OCC_ORDER = ['teaching', 'dance', 'friend', 'hang', 'dressy', 'outdoors'];
+  const OCCASIONS = CFG.occasions || [];
+  const OCC_LABEL = Object.fromEntries(OCCASIONS.map(o => [o.key, o.label]));
+  const OCC_ORDER = OCCASIONS.map(o => o.key);
+  const RESALE = CFG.resale || {};
   const COLOR_SWATCH = {
     'Black': '#2b2226', 'Grey': '#9a9598', 'White/Ivory': '#f6f1e6', 'Beige/Tan': '#d9c3a3', 'Brown': '#7a5238',
     'Denim': '#4f6a8f', 'Blue': '#5b7fc4', 'Green': '#6f8f6a', 'Red': '#b8404a', 'Pink': '#e9a3b6', 'Purple': '#8b6aa8',
@@ -51,7 +59,7 @@
     const counts = new Map(); ITEMS.forEach(i => counts.set(i.retailer, (counts.get(i.retailer) || 0) + 1));
     const names = Object.keys(RET).sort((a, b) => a.localeCompare(b));
     $('#stores-list').innerHTML = names.map(n => { const r = RET[n]; const c = counts.get(n) || 0; return `<div class="store"><div class="store-head"><a href="${esc(r.site)}" target="_blank" rel="noopener">${esc(n)}</a><span>${c} ${c === 1 ? 'piece' : 'pieces'}</span></div><p>${esc(r.window)} · ${esc(r.ship)}${r.note ? '. ' + esc(r.note) : ''}. <a class="pol" href="${esc(r.policy)}" target="_blank" rel="noopener">Their policy</a></p></div>`; }).join('');
-    $('#stores-checked').textContent = RET_CHECKED ? new Date(RET_CHECKED + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) : 'an unknown date';
+    const sc = $('#stores-checked'); if (sc) sc.textContent = RET_CHECKED ? new Date(RET_CHECKED + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) : 'an unknown date';
   }
   const asOfLabel = () => new Date(window.SALES.checked + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   function saleSeason() {
@@ -110,7 +118,7 @@
   // Each heart/pass is stamped with a time. On load we fetch the notebook's view of every item and keep,
   // per item and per kind, whichever side is newer. Local storage stays the instant source of truth, so the
   // page works fully without the notebook; the notebook only makes lists follow her between devices.
-  const CLIENT_ID = (() => { try { let c = localStorage.getItem('beccas-closet-client'); if (!c) { c = Math.random().toString(36).slice(2, 10); localStorage.setItem('beccas-closet-client', c); } return c; } catch (e) { return 'anon'; } })();
+  const CLIENT_ID = (() => { try { let c = localStorage.getItem(CLIENT_KEY); if (!c) { c = Math.random().toString(36).slice(2, 10); localStorage.setItem(CLIENT_KEY, c); } return c; } catch (e) { return 'anon'; } })();
   function stamp(id, kind, on) {
     const m = state.meta[id] = state.meta[id] || {};
     m[kind] = { on: on ? 1 : 0, ts: Date.now() };
@@ -191,8 +199,8 @@
   }
   function searchUrl(site, item) {
     const q = encodeURIComponent(`${item.brand} ${item.name}`);
-    return site === 'ebay' ? `https://www.ebay.com/sch/i.html?_nkw=${q}&_sacat=15724`
-      : `https://poshmark.com/search?query=${q}&department=Women`;
+    return site === 'ebay' ? `https://www.ebay.com/sch/i.html?_nkw=${q}&_sacat=${encodeURIComponent(RESALE.ebayCategory || '15724')}`
+      : `https://poshmark.com/search?query=${q}&department=${encodeURIComponent(RESALE.poshmarkDepartment || 'Women')}`;
   }
 
   // ---------- filtering ----------
@@ -390,14 +398,14 @@
     $('#tabs').hidden = IDEAS.length === 0;
     $('#ideas-count').textContent = open.length;
     document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.dataset.tab === state.tab));
-    let seen = []; try { seen = JSON.parse(localStorage.getItem('beccas-closet-ideas-seen') || '[]'); } catch (e) { }
+    let seen = []; try { seen = JSON.parse(localStorage.getItem(SEEN_KEY) || '[]'); } catch (e) { }
     const unseen = state.tab !== 'ideas' && open.some(i => !seen.includes(i.id));
     const tab = document.querySelector('.tab[data-tab="ideas"]'); let dot = tab.querySelector('.dot');
     if (unseen && !dot) { dot = document.createElement('span'); dot.className = 'dot'; tab.appendChild(dot); }
     if (!unseen && dot) dot.remove();
   }
   function markIdeasSeen() {
-    try { localStorage.setItem('beccas-closet-ideas-seen', JSON.stringify(IDEAS.map(i => i.id))); } catch (e) { }
+    try { localStorage.setItem(SEEN_KEY, JSON.stringify(IDEAS.map(i => i.id))); } catch (e) { }
   }
   function switchTab(tab) {
     state.tab = tab;
@@ -443,12 +451,12 @@
     let lines = items.map(i => `♥ ${i.brand} — ${i.name} (${i.color}) — ${money(i.price)}\n   ${i.url}`);
     let body;
     for (; ;) {
-      body = `My saved pieces from Becca's Closet:\n\n${lines.join('\n\n')}\n\nOpen the list anytime: ${link}\n`;
+      body = `${MAIL.intro || 'My saved pieces from ' + (CFG.siteTitle || 'the closet') + ':'}\n\n${lines.join('\n\n')}\n\nOpen the list anytime: ${link}\n`;
       if (encodeURIComponent(body).length < 1800 || lines.length <= 1) break;   // keep the mailto short enough for every mail app
       lines = items.slice(0, Math.max(1, lines.length - 1)).map(i => `♥ ${i.brand} — ${i.name} — ${money(i.price)}`);
       if (lines.length < items.length) lines.push(`…and ${items.length - lines.length} more, all in the link below.`);
     }
-    const params = new URLSearchParams({ subject: 'My picks from Becca’s Closet', body });
+    const params = new URLSearchParams({ subject: MAIL.subject || 'My picks from ' + (CFG.siteTitle || 'the closet'), body });
     if (BCC_EMAIL) params.set('bcc', BCC_EMAIL);
     return `mailto:${HER_EMAIL}?${params.toString().replace(/\+/g, '%20')}`;
   }
@@ -550,7 +558,7 @@
       case 'open-about': $('#about').showModal(); break;
       case 'open-stores': renderStores(); $('#stores').showModal(); break;
       case 'see-sale': state.onlySale = true; state.tab = 'closet'; render(); window.scrollTo({ top: $('#topbar').offsetTop, behavior: 'smooth' }); break;
-      case 'open-becca': $('#becca').showModal(); break;
+      case 'open-person': $('#person').showModal(); break;
       case 'open-filters': openPanel('#filters'); break;
       case 'close-drawer': case 'close-filters': case 'apply-filters': closePanels(); break;
       case 'surprise': reshuffle(); state.sort = 'shuffle'; $('#sort').value = 'shuffle'; render(); window.scrollTo({ top: $('#topbar').offsetTop, behavior: 'smooth' }); toast('Shuffled ✨'); break;
@@ -582,13 +590,26 @@
     if ($('#modal').open) { if (e.key === 'ArrowRight') navModal(1); if (e.key === 'ArrowLeft') navModal(-1); return; }
     if (e.key === 'Escape') closePanels();
   });
-  ['#modal', '#about', '#becca'].forEach(sel => $(sel).addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); }));
+  ['#modal', '#about', '#person', '#stores'].forEach(sel => $(sel).addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); }));
   window.addEventListener('hashchange', () => { const s = readList(STORAGE_KEY, 'saved'), p = readList(PASSED_KEY, 'passed'); s.forEach(id => state.saved.add(id)); p.forEach(id => { state.passed.add(id); state.saved.delete(id); }); persist(); updateSavedUi(); render(); });
   function clearAll() { ['category', 'color', 'brand', 'occasion', 'price'].forEach(k => state[k].clear()); state.q = ''; $('#q').value = ''; state.onlySale = false; }
 
+  // ---------- the personal parts of the page (config.js) ----------
+  // Plain text fields are filled by the small script in index.html; this builds the parts with structure.
+  function applyConfig() {
+    const set = (sel, v) => { const el = $(sel); if (el && v != null) el.textContent = v; };
+    const about = CFG.about || {};
+    set('#about-considered', about.considered); set('#about-storefronts', about.storefronts);
+    $('#about-body').innerHTML = (about.paragraphs || []).map(p => `<p>${p}</p>`).join('') + (about.fine || []).map(p => `<p class="fine">${p}</p>`).join('');
+    const person = CFG.person;
+    if (person && (person.photos || []).length) $('#person-collage').innerHTML = person.photos.map(p => `<img src="${esc(p.src)}" alt="${esc(p.alt || '')}" loading="lazy">`).join('');
+    if (!person) { $('#open-person').hidden = true; $('#person-dot').hidden = true; }   // no "About her" page at all
+  }
+
   // ---------- go ----------
+  applyConfig();
   loadLists(); persist();
-  $('#hero-count').textContent = ITEMS.length;
+  const heroCount = $('#hero-count'); if (heroCount) heroCount.textContent = ITEMS.length;
   $('#about-count').textContent = ITEMS.length;
   $('#about-brands').textContent = new Set(ITEMS.map(i => i.brand)).size;
   updateSavedUi();

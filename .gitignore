@@ -1,5 +1,6 @@
 build/rl_pages/
 build/contact.jpg
 .DS_Store
-build/becca_tmp/
+build/*_tmp/
 build/suggest/pending/candidates*.json
+__pycache__/

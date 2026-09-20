@@ -1,0 +1,48 @@
+/* Theme: every colour, font and corner radius the site uses lives in this file and nowhere else.
+   Change a value here and the whole site follows. Names describe the role, not the colour, so a blue
+   or green closet only edits the values. The one exception is the tiny chevron drawn inside the sort
+   menu (styles.css, .sort select), which carries its own copy of --ink-soft as %237D6B74. */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500&display=swap');
+
+:root{
+  /* page */
+  --bg:#FBF6EF;                 /* page background */
+  --bg-rgb:251,246,239;         /* the same colour as channels, for the translucent top bar */
+  --surface:#FFFDF9;            /* cards, inputs, buttons */
+  --surface-rgb:255,253,249;    /* channels, for the round buttons that sit on photos */
+  --ink:#3A2C33;                /* text */
+  --ink-rgb:58,44,51;           /* channels, for scrims and dialog backdrops */
+  --ink-soft:#7D6B74;           /* secondary text */
+  --ink-faint:#B9A9B0;          /* placeholders, counts, disabled */
+  --line:#EBDDD8;               /* hairlines and borders */
+
+  /* accent: hearts, the italic word in the wordmark, links, counts */
+  --accent:#D4879A;
+  --accent-deep:#B45F78;
+  --accent-tint:#F7E3E7;        /* soft fills behind the accent */
+  --accent-tint-deep:#F0CDD5;   /* borders on those fills, text selection */
+  --second:#A9B8A3;             /* a second accent, only in the heart confetti */
+  --trim:#C9A76F;               /* thin gold lines: ornaments, the price dash, the arch around photos */
+  --trim-rgb:201,167,111;
+
+  /* notes: occasion tags, "new idea" ribbons, the "why this idea" box, the sale-event pill */
+  --note-bg:#F8EBD3;
+  --note-bg-rgb:248,235,211;
+  --note-ink:#7a6236;
+  --note-ink-deep:#5b4a2a;
+  --note-line:#e6d3a8;
+
+  /* soft radial washes behind the page (top left, top right) and inside the about card */
+  --glow-1:rgba(244,205,213,.55);
+  --glow-2:rgba(226,232,214,.6);
+  --glow-card:rgba(244,205,213,.5);
+
+  /* shadows are tinted with this colour at various strengths */
+  --shadow-rgb:88,52,66;
+  --shadow:0 10px 30px -12px rgba(var(--shadow-rgb),.25);
+
+  /* type and shape */
+  --serif:"Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --sans:"Jost", "Helvetica Neue", Arial, sans-serif;
+  --radius:18px;
+}

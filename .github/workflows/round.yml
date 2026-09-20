@@ -47,12 +47,13 @@ jobs:
           git config user.name "closet-bot"; git config user.email "closet-bot@users.noreply.github.com"
           b="round/claude-${{ github.run_id }}"; git checkout -b "$b"
           n=$(python3 -c "import json;print(json.load(open('build/suggest/pending/last_round.json'))['round'])")
+          k=$(python3 -c "import json;print(len(json.load(open('build/suggest/pending/last_round.json'))['ids']))")
           git add build/suggest/round_*.json images/ideas images/full suggestions.js data.js build/extras.json build/suggest/retired.json build/suggest/pending/last_round.json build/suggest/pending/pr_body.md build/suggest/pending/picks.json
           git commit -m "Round $n (chosen by Claude)"
           git fetch origin main && (git rebase origin/main || (git rebase --abort; echo "rebase skipped"))
           git push -u origin "$b"
           gh label create round --color D4879A --description "Weekly ideas awaiting review" 2>/dev/null || true
-          gh pr create --title "Round $n: 8 ideas for Based on your likes (chosen by Claude)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee pianoelias-boop --reviewer pianoelias-boop
+          gh pr create --title "Round $n: $k ideas for Based on your likes (chosen by Claude)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee "${{ github.repository_owner }}" --reviewer "${{ github.repository_owner }}"
 
   stage1:
     if: github.event.schedule == '17 4 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'fallback') || (github.event_name == 'push' && contains(github.event.head_commit.message, 'Request shortlist'))
@@ -115,4 +116,4 @@ jobs:
           git fetch origin main && (git rebase origin/main || (git rebase --abort; echo "rebase skipped"))
           git push -u origin "$b"
           gh label create round --color D4879A --description "Weekly ideas awaiting review" 2>/dev/null || true
-          gh pr create --title "Round $(python3 -c "import json;print(json.load(open('build/suggest/pending/last_round.json'))['round'])"): 8 ideas for Based on your likes (by score)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee pianoelias-boop --reviewer pianoelias-boop
+          gh pr create --title "$(python3 -c "import json;m=json.load(open('build/suggest/pending/last_round.json'));print(f\"Round {m['round']}: {len(m['ids'])} ideas for Based on your likes (by score)\")")" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee "${{ github.repository_owner }}" --reviewer "${{ github.repository_owner }}"

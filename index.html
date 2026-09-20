@@ -3,15 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Becca's Closet</title>
-<meta name="description" content="A closet curated for Becca.">
-<meta name="theme-color" content="#FBF6EF">
-<meta name="closet-sync" content="https://script.google.com/macros/s/AKfycbxEsWyI6ilfr3OP7OYeyXp8X_wBOXPJW2xAlZ_0CVdcmDZy8ZFZ14u5FtMmDP7SXR4/exec">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎀</text></svg>">
+<title>Closet</title>
+<meta name="description" content="">
+<meta name="theme-color" content="">
+<link rel="icon" id="favicon" href="">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=21">
+<link rel="stylesheet" href="theme.css?v=1">
+<link rel="stylesheet" href="styles.css?v=22">
+<script src="config.js?v=1"></script>
+<script>
+  // Personal text lives in config.js. This fills the page from it: the header straight away, so nothing
+  // flashes empty while the catalog loads, and everything below it once the document is parsed.
+  (function () {
+    var c = window.CLOSET_CONFIG; if (!c) return;
+    var t = c.text || {};
+    function fill() {
+      document.querySelectorAll('[data-fill]').forEach(function (el) {
+        var v = t[el.getAttribute('data-fill')]; if (v == null) return;
+        el.innerHTML = String(v).replace('{n}', '<span id="hero-count"></span>').replace('{date}', '<b id="stores-checked"></b>');
+      });
+    }
+    document.title = c.siteTitle || document.title;
+    var d = document.querySelector('meta[name="description"]'); if (d && c.description) d.content = c.description;
+    var f = document.getElementById('favicon'); if (f && c.icon) f.href = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>" + c.icon + "</text></svg>";
+    var tc = document.querySelector('meta[name="theme-color"]'); if (tc) tc.content = getComputedStyle(document.documentElement).getPropertyValue('--bg').trim();
+    window.fillClosetText = fill;
+    document.addEventListener('DOMContentLoaded', fill);
+  })();
+</script>
 </head>
 <body>
 
@@ -36,32 +56,26 @@
         <path d="M78 36c-3 3-4 6-5 9M82 36c3 3 4 6 5 9"/>
       </g>
     </svg>
-    <p class="eyebrow">Welcome to</p>
-    <h1 class="wordmark">Becca’s <em>Closet</em></h1>
-    <p class="tagline"><span id="hero-count">393</span> curated pieces for Rebecca Pruente</p>
+    <p class="eyebrow" data-fill="eyebrow"></p>
+    <h1 class="wordmark" data-fill="wordmark"></h1>
+    <p class="tagline" data-fill="tagline"></p>
     <div class="ornament" aria-hidden="true"><span></span><svg viewBox="0 0 24 24" width="14" height="14"><use href="#i-heart"/></svg><span></span></div>
-    <p class="hero-note">Tap a heart to tuck something away. Your saved list lives right here in this browser, and you can email it to yourself whenever you like.</p>
+    <p class="hero-note" data-fill="heroNote"></p>
     <div class="about-links">
-      <button class="about-link" id="open-about" type="button">About this closet</button>
-      <span class="dot" aria-hidden="true">·</span>
-      <button class="about-link" id="open-becca" type="button">About Becca</button>
+      <button class="about-link" id="open-about" type="button" data-fill="aboutLink"></button>
+      <span class="dot" id="person-dot" aria-hidden="true">·</span>
+      <button class="about-link" id="open-person" type="button" data-fill="personLink"></button>
     </div>
   </div>
 </header>
+<script>window.fillClosetText && window.fillClosetText();</script>
 
-<dialog class="about-dialog becca" id="becca" aria-labelledby="becca-title">
+<dialog class="about-dialog person-dialog" id="person" aria-labelledby="person-title">
   <div class="about-card">
     <button class="icon-btn about-close" type="button" data-close aria-label="Close"><svg width="20" height="20"><use href="#i-x"/></svg></button>
-    <h2 id="becca-title">About Becca</h2>
-    <div class="collage">
-      <img src="images/becca/06.jpg" alt="Becca holding a bowl of pasta she made" loading="lazy">
-      <img src="images/becca/01.jpg" alt="Becca in a garden in a long patterned dress" loading="lazy">
-      <img src="images/becca/03.jpg" alt="Becca with Slothie" loading="lazy">
-      <img src="images/becca/02.jpg" alt="Becca with friends outdoors" loading="lazy">
-      <img src="images/becca/04.jpg" alt="Becca outside with a bottle of wine" loading="lazy">
-      <img src="images/becca/05.jpg" alt="Becca in a cabin bunk with Slothie" loading="lazy">
-    </div>
-    <p class="becca-text">Becca is a clothes-wearing, French-teaching, baking Lindy Hopper who loves her friends and her community. She lives in Portland, Maine, with her sloth, Slothie.</p>
+    <h2 id="person-title" data-fill="personTitle"></h2>
+    <div class="collage" id="person-collage"></div>
+    <p class="person-text" data-fill="personText"></p>
     <div class="ornament" aria-hidden="true"><span></span><svg viewBox="0 0 24 24" width="14" height="14"><use href="#i-heart"/></svg><span></span></div>
   </div>
 </dialog>
@@ -69,17 +83,14 @@
 <dialog class="about-dialog" id="about" aria-labelledby="about-title">
   <div class="about-card">
     <button class="icon-btn about-close" type="button" data-close aria-label="Close"><svg width="20" height="20"><use href="#i-x"/></svg></button>
-    <h2 id="about-title">How this closet came to be</h2>
+    <h2 id="about-title" data-fill="aboutTitle"></h2>
     <div class="stats">
-      <div><b>10,000+</b><span>pieces considered</span></div>
-      <div><button class="stat-link" id="open-stores" type="button" title="Where the closet shops, and how returns work"><b>40</b><span>storefronts browsed</span></button></div>
-      <div><b id="about-brands">46</b><span>labels chosen</span></div>
-      <div><b id="about-count">393</b><span>pieces in the closet</span></div>
+      <div><b id="about-considered"></b><span>pieces considered</span></div>
+      <div><button class="stat-link" id="open-stores" type="button" title="Where the closet shops, and how returns work"><b id="about-storefronts"></b><span>storefronts browsed</span></button></div>
+      <div><b id="about-brands"></b><span>labels chosen</span></div>
+      <div><b id="about-count"></b><span>pieces in the closet</span></div>
     </div>
-    <p>Everything here was sifted from more than ten thousand pieces across forty storefronts. The brands made the cut for one of two reasons: they make genuinely great clothes, or they make good clothes at a good price. Then each piece was chosen with you in mind.</p>
-    <p>You'll notice that many of these items come in more colors than shown! You can click straight to the brand's website (or click to search for it on eBay/Poshmark). Also, most of these brands have big sales that make things 50% off.</p>
-    <p class="fine">Wondering about returns? Tap the storefront count above for every store’s return terms.</p>
-    <p class="fine">Hearts and “not for me” marks are kept in a little notebook so your list follows you between your phone and laptop, and so the closet can be tidied up over time.</p>
+    <div id="about-body"></div>
     <div class="ornament" aria-hidden="true"><span></span><svg viewBox="0 0 24 24" width="14" height="14"><use href="#i-heart"/></svg><span></span></div>
   </div>
 </dialog>
@@ -87,8 +98,8 @@
 <dialog class="about-dialog stores" id="stores" aria-labelledby="stores-title">
   <div class="about-card">
     <button class="icon-btn about-close" type="button" data-close aria-label="Close"><svg width="20" height="20"><use href="#i-x"/></svg></button>
-    <h2 id="stores-title">Where the closet shops</h2>
-    <p>Thirty stores have pieces in the closet today; the other ten were browsed and came up empty. Return terms are as each store states them for US orders, checked on <b id="stores-checked"></b>. The policy link is the source of truth.</p>
+    <h2 id="stores-title" data-fill="storesTitle"></h2>
+    <p data-fill="storesIntro"></p>
     <div class="stores-list" id="stores-list"></div>
   </div>
 </dialog>
@@ -158,7 +169,7 @@
     </div>
     <footer class="foot">
       <div class="ornament" aria-hidden="true"><span></span><svg viewBox="0 0 24 24" width="14" height="14"><use href="#i-heart"/></svg><span></span></div>
-      <p>Every piece here was picked with you in mind.<br>Happy birthday, Becca.</p>
+      <p data-fill="footer"></p>
     </footer>
   </main>
 </div>
@@ -186,6 +197,6 @@
   // hourly cache-busting stamp instead of a hand-bumped version.
   (function () { var d = new Date(), stamp = d.toISOString().slice(0, 13); ['suggestions.js', 'sales.js', 'retailers.js'].forEach(function (f) { document.write('<script src="' + f + '?t=' + stamp + '"><\/script>'); }); })();
 </script>
-<script src="app.js?v=29"></script>
+<script src="app.js?v=30"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 A round proposes a handful of pieces from beyond the closet. It runs in a Claude Code session, on
 request or on a schedule, and costs one session, never anything per visitor.
 
-1. **Read her signals.** Pull the notebook sheet (`latest` tab, or `GET <closet-sync URL>?key=becca`) and
+1. **Read her signals.** Pull the notebook sheet (`latest` tab, or `GET <syncUrl>?key=<notebookKey>`, both from `config.js`) and
    update `profile.md` with what she saves and passes: brands, silhouettes, colours, fabrics, price band.
    While the notebook is empty the closet itself (`data.js`) stands in for her taste.
 2. **Sweep.** `python3 build/suggest/sweep.py approved,proposed` reads every brand in `brands.json` with a

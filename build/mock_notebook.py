@@ -1,5 +1,8 @@
 """Local stand-in for the Apps Script endpoint, for testing the sync client. Same JSON contract."""
-import json, sys
+import json, sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from closet_config import load as _load_cfg
+DEFAULT_KEY = _load_cfg().get('notebookKey') or 'closet'   # the key the site sends is in config.js
 from http.server import BaseHTTPRequestHandler, HTTPServer
 EVENTS = []
 def state(key):
@@ -17,7 +20,7 @@ class H(BaseHTTPRequestHandler):
         self.send_header('Access-Control-Allow-Origin', '*'); self.send_header('Content-Length', str(len(b))); self.end_headers(); self.wfile.write(b)
     def do_GET(self):
         from urllib.parse import urlparse, parse_qs
-        q = parse_qs(urlparse(self.path).query); key = (q.get('key') or ['becca'])[0]
+        q = parse_qs(urlparse(self.path).query); key = (q.get('key') or [DEFAULT_KEY])[0]
         if urlparse(self.path).path == '/dump': return self._send({'events': EVENTS})
         self._send({'ok': True, 'key': key, 'items': state(key)})
     def do_POST(self):
