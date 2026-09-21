@@ -39,7 +39,7 @@ WRITE = {
     'build/returns/retailers.json': json.dumps({'checked': TODAY, 'stores': {}}, indent=1) + '\n',
     'build/returns/hashes.json': '{}\n',
     'build/returns/changes.json': '{}\n',
-    'build/pieces_to_add.csv': 'url,brand,retailer,name,category,categoryDetail,color,colorDetail,occasions,why,fabric,details,price,img,id\n',
+    'build/pieces_to_add.csv': 'url,brand,retailer,name,category,categoryDetail,color,colorDetail,occasions,why,fabric,details,desc,price,img,id\n',
     'build/suggest/profile.md': (
         '# Her taste profile\n\n'
         '<!-- round.py rewrites a block between "auto:start" and "auto:end" markers from the notebook each week, right\n'

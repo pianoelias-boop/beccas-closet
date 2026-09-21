@@ -22,12 +22,12 @@ window.CLOSET_CONFIG = {
   "personTitle": "About Becca",
   "personText": "Becca is a clothes-wearing, French-teaching, baking Lindy Hopper who loves her friends and her community. She lives in Portland, Maine, with her sloth, Slothie.",
   "storesTitle": "Where the closet shops",
-  "storesIntro": "Thirty stores have pieces in the closet today; the other ten were browsed and came up empty. Return terms are as each store states them for US orders, checked on {date}. The policy link is the source of truth.",
+  "storesIntro": "Thirty-one stores have pieces in the closet today; the other ten were browsed and came up empty. Return terms are as each store states them for US orders, checked on {date}. The policy link is the source of truth.",
   "footer": "Every piece here was picked with you in mind.<br>Happy birthday, Becca."
  },
  "about": {
   "considered": "10,000+",
-  "storefronts": 40,
+  "storefronts": 41,
   "paragraphs": [
    "Everything here was sifted from more than ten thousand pieces across forty storefronts. The brands made the cut for one of two reasons: they make genuinely great clothes, or they make good clothes at a good price. Then each piece was chosen with you in mind.",
    "You'll notice that many of these items come in more colors than shown! You can click straight to the brand's website (or click to search for it on eBay/Poshmark). Also, most of these brands have big sales that make things 50% off."

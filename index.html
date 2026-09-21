@@ -20,8 +20,10 @@
     var t = c.text || {};
     function fill() {
       document.querySelectorAll('[data-fill]').forEach(function (el) {
+        if (el.hasAttribute('data-filled')) return;   // the second pass must not wipe counts app.js has put inside
         var v = t[el.getAttribute('data-fill')]; if (v == null) return;
         el.innerHTML = String(v).replace('{n}', '<span id="hero-count"></span>').replace('{date}', '<b id="stores-checked"></b>');
+        el.setAttribute('data-filled', '1');
       });
     }
     document.title = c.siteTitle || document.title;
@@ -191,7 +193,7 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"><span id="toast-msg"></span><button class="toast-action" id="toast-action" type="button" hidden></button></div>
 
-<script src="data.js?v=5"></script>
+<script src="data.js?v=6"></script>
 <script>
   // suggestions.js, sales.js and retailers.js change on their own schedules, so load them with an
   // hourly cache-busting stamp instead of a hand-bumped version.

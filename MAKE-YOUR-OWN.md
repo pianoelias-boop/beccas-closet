@@ -99,7 +99,7 @@ python3 build/add_pieces.py
 For a Shopify store (most independent brands; the product address contains `/products/`) you only need
 `url`, `brand`, `category`, `color` and `occasions`: the price, the description, the fabric line and the
 first photo come from the store. For any other store also give `price` and `img` (a photo URL or a file
-on your disk) and whatever else you know. Rows already in the closet are skipped, so the file can stay
+on your disk), a `desc` paragraph if you want one, and whatever else you know. Rows already in the closet are skipped, so the file can stay
 as your record. The script rebuilds `data.js` when it finishes. `--dry-run` checks the file without
 fetching anything.
 

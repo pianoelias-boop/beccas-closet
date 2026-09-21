@@ -1,6 +1,6 @@
 // Return terms per store, as each states them for US orders. Source: build/returns/retailers.json
 window.RETAILERS = {
- "checked": "2026-09-17",
+ "checked": "2026-09-21",
  "stores": {
   "18 East": {
    "site": "https://18east.co",
@@ -148,6 +148,13 @@ window.RETAILERS = {
    "window": "postmarked within 15 days of receipt",
    "ship": "you pay return shipping",
    "note": "Refund or exchange"
+  },
+  "Paper Straight": {
+   "site": "https://paperstraight.com",
+   "policy": "https://paperstraight.com/policies/refund-policy",
+   "window": "14 days from delivery",
+   "ship": "return shipping at your cost, to their warehouse in China",
+   "note": "Sale items are exchange or store credit only, no refund. Unworn, with tags. Ships free from overseas, 5 to 10 business days"
   },
   "Post Romantic": {
    "site": "https://post-romantic.com",

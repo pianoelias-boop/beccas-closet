@@ -24,6 +24,7 @@ Columns (header row required, any order)
   why             one line on why it earns those occasions; shown in the detail view
   fabric          fibre line, e.g. "100% cotton"; default: parsed from the description
   details         extra bullet points for the detail view, separated by ";"
+  desc            the "About this piece" paragraph; default: the Shopify description, so mainly for other stores
   price           number in dollars; required when the store is not Shopify
   img             photo URL or local file path; default: the product's first Shopify photo
   id              a fixed id; default: the next free number
@@ -99,7 +100,7 @@ def main():
         if not name or not price:
             print(f'row {n}: skipped, this store is not Shopify so name and price must be in the CSV'); continue
         full = clean((d or {}).get('description', ''))
-        desc = re.split(r'\s###\s|Size & Fit', full)[0].strip()[:600] or None
+        desc = r.get('desc') or re.split(r'\s###\s|Size & Fit', full)[0].strip()[:600] or None
         details = split_list(r.get('details'))
         for pat in [r'\d{1,3}% [A-Za-z ]+?(?=[,.;]|$)', r'Machine wash[^.]*\.', r'Made in [A-Z][a-z]+']:
             for m in re.findall(pat, full):

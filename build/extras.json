@@ -1153,5 +1153,92 @@
   ],
   "fabric": "100% cotton denim, with recycled and regenerative cotton",
   "note": ""
+ },
+ {
+  "id": 435,
+  "brand": "Paper Straight",
+  "retailer": "Paper Straight",
+  "name": "Summit Mule",
+  "category": "Shoes",
+  "color": "Black",
+  "occasions": [
+   "hang",
+   "friend",
+   "teaching"
+  ],
+  "why": "an open-back mule she steps into, nothing to lace unless she wants to; suede on a lug sole for everyday",
+  "price": 159.0,
+  "colorDetail": "Black",
+  "categoryDetail": "Suede lug-sole mule",
+  "url": "https://paperstraight.com/products/summit-mule-black",
+  "img": "images/full/435.jpg",
+  "hi": true,
+  "desc": "The Summit, off duty. The Summit's DNA in a slip-on. The Summit Mule carries the D-ring lacing and rugged stance of our hiking line into a silhouette you step into and wear all day. Crafted from genuine suede leather on our signature lug sole, finished with antique brass hardware and one pair of contrast laces.",
+  "details": [
+   "Bandage days: left foot in her usual size, right foot one to two sizes up.",
+   "Open back, so it stays on loose, and the D-ring lace over the vamp can be snugged or left alone",
+   "Sizes EU 38 to 47. Their chart calls EU 41 a US 8 and EU 42 a US 8.5, and EU 41 to 45 were in stock when added",
+   "Overseas seller: read the return terms below before ordering two sizes to compare",
+   "Suede: brush and protector, keep out of heavy rain"
+  ],
+  "fabric": "Suede leather upper, rubber lug sole"
+ },
+ {
+  "id": 436,
+  "brand": "Paper Straight",
+  "retailer": "Paper Straight",
+  "name": "Ridgeworks High",
+  "category": "Shoes",
+  "color": "Brown",
+  "occasions": [
+   "outdoors",
+   "hang",
+   "friend"
+  ],
+  "why": "a full-grain leather high-top on a rubber lug sole, for wet sidewalks and walks",
+  "price": 209.0,
+  "colorDetail": "Brown Grain",
+  "categoryDetail": "Lace-up high-top boot",
+  "url": "https://paperstraight.com/products/ridgeworks-high-brown-grain?variant=59259072020814",
+  "img": "images/full/436.jpg",
+  "hi": true,
+  "desc": "High-top grit with a clean city finish. The Ridgeworks High channels hiker DNA into a streamlined boot: round toe, metal hardware, and a confident lug sole. Built in premium full-grain leather with a smooth lining for comfort and a durable rubber outsole for all-season traction.",
+  "details": [
+   "Bandage days: left foot in her usual size, right foot one to two sizes up.",
+   "The link opens on EU 42, which their chart calls a US 8.5",
+   "Sizes EU 38 to 47, all in stock when added",
+   "On sale when added: $209, listed at $419",
+   "Overseas seller: read the return terms below before ordering two sizes to compare"
+  ],
+  "fabric": "Full-grain leather upper, smooth lining, rubber lug sole"
+ },
+ {
+  "id": 437,
+  "brand": "Cosyfeet",
+  "retailer": "Cosyfeet",
+  "name": "Moose High-Performance",
+  "category": "Shoes",
+  "color": "Green",
+  "occasions": [
+   "outdoors",
+   "hang"
+  ],
+  "why": "a waterproof walking boot in Cosyfeet's 6E width, with a lace that adjusts to swelling; winter sidewalks and trails",
+  "price": 199.0,
+  "colorDetail": "Moss",
+  "categoryDetail": "Waterproof walking boot, 6E",
+  "url": "https://www.cosyfeet.com/usa/moose-high-performance",
+  "img": "images/full/437.jpg",
+  "hi": true,
+  "desc": "Designed for more challenging conditions: a self-clearing tread that works in mud, ice and snow, a double-density TPU sole that stays flexible in the cold, and a light, shock-absorbing PU midsole. Water-repellent leather with the breathable, windproof and waterproof CosyTex membrane keeps feet warm and dry. Roomier than it looks, with a hidden-depth design.",
+  "details": [
+   "Bandage days: left foot in her usual size, right foot one to two sizes up.",
+   "6E width, Cosyfeet's women's fitting, in US sizes 6 to 11 including half sizes",
+   "Water-resistant lace adjusts across a range of swelling, and the padded collar fits swollen and slimmer ankles",
+   "Seam-free toe, and the footbed comes out for extra depth",
+   "Also in Graphite (waxed leather) and Teal Multi",
+   "Ships from the UK: about $20, free over $150, with 90-day returns"
+  ],
+  "fabric": "Nubuck and textile upper (Moss), CosyTex waterproof membrane, TPU and PU sole"
  }
 ]
