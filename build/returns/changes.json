@@ -1,7 +1,10 @@
 {
  "changed": [
-  "Anthropologie"
+  "Mixed by Nasrin",
+  "Morrison"
  ],
- "errors": [],
+ "errors": [
+  "W'menswear: RuntimeError only 0 policy sentences found"
+ ],
  "checked": "2026-09-21"
 }
