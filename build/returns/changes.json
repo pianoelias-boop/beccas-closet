@@ -1,10 +1,11 @@
 {
  "changed": [
-  "Mixed by Nasrin",
-  "Morrison"
+  "BILLY Footwear",
+  "Icebreaker",
+  "Mixed by Nasrin"
  ],
  "errors": [
-  "W'menswear: RuntimeError only 0 policy sentences found"
+  "Alex Mill: HTTPError HTTP Error 403: Forbidden"
  ],
  "checked": "2026-09-21"
 }
