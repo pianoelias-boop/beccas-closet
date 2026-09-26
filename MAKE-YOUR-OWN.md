@@ -3,7 +3,7 @@
 This repository is a finished gift site: a curated catalog of clothes with hearts, filters, a saved list
 she can email herself, an optional notebook that carries her hearts between phone and laptop, a daily
 check for sales at the stores, each store's return terms, and a weekly round of new ideas that you
-approve by merging a pull request. None of it needs a server; GitHub Pages hosts it for free.
+arrive on their own (or wait for your approval, your choice). None of it needs a server; GitHub Pages hosts it for free.
 
 To make one for someone else you do not rewrite any of that. You change three things:
 
@@ -164,9 +164,10 @@ page and records changes in `build/returns/changes.json` for you to look at now 
 **Weekly round of ideas** (`round.yml`, `build/suggest/`). Saturday morning it reads her notebook,
 sweeps the approved and proposed brands, and writes a shortlist. A Claude Code cloud routine then chooses
 the week's picks from that shortlist; `build/suggest/routine_prompt.md` holds its prompt and how to create
-it. If the routine is not set up, the afternoon fallback picks by score. Either way the result is a pull
-request assigned to the repository owner: merge it and the ideas appear in her "Based on your likes" tab;
-close it to skip the week. Before the first round, write `build/suggest/profile.md` (what she likes; the
+it. If the routine is not set up, the afternoon fallback picks by score. Either way the job opens a pull
+request labelled `round` and merges it at once, so the ideas appear in her "Based on your likes" tab
+without anyone approving them; revert the merge to take a week back. If you would rather approve each
+week, set `rules.publish` to `review` in `brands.json` and the pull request is assigned to you instead. Before the first round, write `build/suggest/profile.md` (what she likes; the
 judge reads all of it) and set the rules in `brands.json`: price band, natural-fibre share, ideas per
 round, and any hard rule about things she cannot wear (`rules.avoid_titles`; a per-brand `only_titles`
 limits a brand to certain pieces). `build/suggest/README.md` explains the pipeline in detail.

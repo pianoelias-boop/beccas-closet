@@ -13,7 +13,9 @@
    ],
    "pattern": "\\btapered\\b|\\bskinny\\b|\\bcigarette\\b|\\bslim[- ]leg\\b",
    "why": "owner 2026-09-19: she cannot wear tapered legs (right leg in compression)"
-  }
+  },
+  "publish": "auto",
+  "publish_why": "owner 2026-09-26: the weekly round no longer needs his approval; \"review\" restores the assigned pull request"
  },
  "brands": [
   {

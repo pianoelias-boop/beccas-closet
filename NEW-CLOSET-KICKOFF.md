@@ -22,7 +22,8 @@ notebook. The `gh` CLI is signed in as `pianoelias-boop`; use it for everything 
    Shopify answers a burst of requests from this Mac with HTTP 429 for about half an hour, so add pieces
    in modest batches and run bulk checks on GitHub Actions rather than locally; GitHub fires scheduled
    workflows hours late; the cloud routine's sandbox has no internet except GitHub; a local copy must
-   never be pointed at a real notebook; the owner reviews round pull requests and nothing else, so never
+   never be pointed at a real notebook; the weekly round publishes itself (`rules.publish` in
+   `build/suggest/brands.json`, `review` if he would rather approve each week), and nothing else should ever
    open issues or assign him anything; keep subagents few, well aimed and on cheaper models, never the
    default model, and keep judgment in your own session.
 
@@ -146,4 +147,4 @@ pieces, propose and then make these changes:
   publishes for the first time or sends anything.
 - Verify what you claim: rebuild and diff, preview and screenshot, `curl` the live site.
 - Finish with a short report: the live address, what is switched on and off, and what is left for him
-  (the Google steps for the notebook, approving the first round).
+  (the Google steps for the notebook, a look at the first round when it lands).

@@ -40,7 +40,7 @@ jobs:
           test -f build/suggest/pending/shortlist.json || python3 build/suggest/round.py stage1
           cp build/suggest/pending/picks_claude.json build/suggest/pending/picks.json
           python3 build/suggest/round.py finalize --by claude
-      - name: Open the pull request
+      - name: Open the pull request (and merge it, unless rules.publish is "review")
         if: steps.check.outputs.skip == 'no'
         env: { GH_TOKEN: '${{ github.token }}' }
         run: |
@@ -52,8 +52,16 @@ jobs:
           git commit -m "Round $n (chosen by Claude)"
           git fetch origin main && (git rebase origin/main || (git rebase --abort; echo "rebase skipped"))
           git push -u origin "$b"
-          gh label create round --color D4879A --description "Weekly ideas awaiting review" 2>/dev/null || true
-          gh pr create --title "Round $n: $k ideas for Based on your likes (chosen by Claude)" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee "${{ github.repository_owner }}" --reviewer "${{ github.repository_owner }}"
+          gh label create round --color D4879A --description "Weekly round of ideas" 2>/dev/null || true
+          title="Round $n: $k ideas for Based on your likes (chosen by Claude)"
+          mode=$(python3 -c "import json;print(json.load(open('build/suggest/brands.json'))['rules'].get('publish','auto'))"); owner="${{ github.repository_owner }}"
+          if [ "$mode" = "review" ]; then
+            gh pr create --title "$title" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee "$owner" --reviewer "$owner"
+          else
+            gh pr create --title "$title" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b"
+            merged=no; for i in 1 2 3 4 5 6; do gh pr merge "$b" --merge --delete-branch && merged=yes && break; sleep 15; done
+            [ "$merged" = "yes" ] || { echo "could not merge; leaving the pull request for the owner"; gh pr edit "$b" --add-assignee "$owner" --add-reviewer "$owner"; }
+          fi
 
   stage1:
     if: github.event.schedule == '17 4 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.stage != 'fallback') || (github.event_name == 'push' && contains(github.event.head_commit.message, 'Request shortlist'))
@@ -105,7 +113,7 @@ jobs:
         run: |
           python3 build/suggest/round.py fallback
           python3 build/suggest/round.py finalize --by score
-      - name: Open the pull request
+      - name: Open the pull request (and merge it, unless rules.publish is "review")
         if: steps.check.outputs.skip == 'no'
         env: { GH_TOKEN: '${{ github.token }}' }
         run: |
@@ -115,5 +123,13 @@ jobs:
           git commit -m "Round $(python3 -c "import json;print(json.load(open('build/suggest/pending/last_round.json'))['round'])") (by score)"
           git fetch origin main && (git rebase origin/main || (git rebase --abort; echo "rebase skipped"))
           git push -u origin "$b"
-          gh label create round --color D4879A --description "Weekly ideas awaiting review" 2>/dev/null || true
-          gh pr create --title "$(python3 -c "import json;m=json.load(open('build/suggest/pending/last_round.json'));print(f\"Round {m['round']}: {len(m['ids'])} ideas for Based on your likes (by score)\")")" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee "${{ github.repository_owner }}" --reviewer "${{ github.repository_owner }}"
+          gh label create round --color D4879A --description "Weekly round of ideas" 2>/dev/null || true
+          title="$(python3 -c "import json;m=json.load(open('build/suggest/pending/last_round.json'));print(f\"Round {m['round']}: {len(m['ids'])} ideas for Based on your likes (by score)\")")"
+          mode=$(python3 -c "import json;print(json.load(open('build/suggest/brands.json'))['rules'].get('publish','auto'))"); owner="${{ github.repository_owner }}"
+          if [ "$mode" = "review" ]; then
+            gh pr create --title "$title" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b" --assignee "$owner" --reviewer "$owner"
+          else
+            gh pr create --title "$title" --body-file build/suggest/pending/pr_body.md --label round --base main --head "$b"
+            merged=no; for i in 1 2 3 4 5 6; do gh pr merge "$b" --merge --delete-branch && merged=yes && break; sleep 15; done
+            [ "$merged" = "yes" ] || { echo "could not merge; leaving the pull request for the owner"; gh pr edit "$b" --add-assignee "$owner" --add-reviewer "$owner"; }
+          fi

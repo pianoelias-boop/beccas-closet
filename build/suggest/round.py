@@ -358,7 +358,10 @@ def finalize(by):
     subprocess.run([sys.executable, f'{P}/make_suggestions.py'], check=True); subprocess.run([sys.executable, 'build/make_data.py'], check=True)
     branch = os.environ.get('ROUND_BRANCH', 'main'); repo = repo_slug(); owner = os.environ.get('GITHUB_REPOSITORY_OWNER') or repo.split('/')[0]
     with open(f'{PEND}/pr_body.md', 'w') as f:
-        f.write(f"## Round {n} · {TODAY} · {'chosen by Claude' if by == 'claude' else 'chosen by score (no model)'}\n\n@{owner} — {len(out)} ideas for **Based on your likes**. Merge to publish; close to skip this week.\n\n")
+        review = R.get('publish', 'auto') == 'review'
+        lead = (f"@{owner} — {len(out)} ideas for **Based on your likes**. Merge to publish; close to skip this week." if review
+                else f"{len(out)} ideas for **Based on your likes**, published as soon as this merges. To take a week back, revert this pull request.")
+        f.write(f"## Round {n} · {TODAY} · {'chosen by Claude' if by == 'claude' else 'chosen by score (no model)'}\n\n{lead}\n\n")
         for r in out:
             f.write(f"### {r['brand']} — {r['name']} · ${r['price']:.0f}\n<img src=\"https://raw.githubusercontent.com/{repo}/{branch}/{r['img']}\" width=\"220\">\n\n{r['reason']}  \n*{r['fabric'] or 'fibre not stated'} · {', '.join(r['occasions'])}* · [product page]({r['url']})\n\n")
     json.dump({'round': n, 'by': by, 'date': TODAY, 'ids': [r['id'] for r in out]}, open(f'{PEND}/last_round.json', 'w'))

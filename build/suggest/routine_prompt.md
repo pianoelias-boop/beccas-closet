@@ -2,7 +2,8 @@
 
 The weekly round has three parts. GitHub Actions builds a shortlist on Saturday (`stage1` in
 `.github/workflows/round.yml`), a Claude Code cloud routine reads that shortlist and chooses the week's
-ideas, and GitHub Actions turns the choice into photos, data and a pull request (`judged`). If the routine
+ideas, and GitHub Actions turns the choice into photos, data and a pull request (`judged`) that merges itself
+unless `rules.publish` in `brands.json` is `review`. If the routine
 never runs, the `fallback` job picks by score instead, so the closet works without it.
 
 This file holds the routine's prompt, which is otherwise only visible at https://claude.ai/code/routines.

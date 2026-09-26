@@ -64,10 +64,12 @@ explains how a round is run and how new brands are vetted and approved in `build
 
 ## Schedules (GitHub Actions)
 
-- **Weekly round** (`.github/workflows/round.yml`): Saturday 6 am ET stage 1 reads the notebook, sweeps the
-  approved brands and writes a shortlist to `build/suggest/pending/`. A Claude Code routine may then judge it
-  and open a pull request; if nothing has been opened by noon, the fallback picks by score and opens the pull
-  request itself. Nothing publishes until the pull request is merged. Run by hand from the Actions tab.
+- **Weekly round** (`.github/workflows/round.yml`): early Saturday (04:17 UTC, often hours late) stage 1 reads
+  the notebook, sweeps the approved brands and writes a shortlist to `build/suggest/pending/`. A Claude Code
+  routine judges it at 13:00 UTC and saves its picks; if no round exists by 17:23 UTC, the fallback picks by
+  score. Either way the job opens a pull request labelled `round` and, since 2026-09-26, merges it straight
+  away, so the ideas publish without anyone approving them. Set `rules.publish` to `review` in
+  `build/suggest/brands.json` to be assigned the pull request instead. Run by hand from the Actions tab.
 - **Daily sale check** (`.github/workflows/sales.yml`): 5 am ET, writes `sales.js` with two separate signals.
   *Items*: closet pieces actually marked down right now, matched by product handle in the brand's feed; these
   get an "On sale · now $X" pill and a "Marked down right now" filter. *Events*: brands running a real online
