@@ -1,8 +1,7 @@
 {
- "date": "2026-09-19",
- "stage1": "2026-09-19T12:21:08.041764+00:00",
+ "date": "2026-09-26",
+ "stage1": "2026-09-26T09:20:34.794714+00:00",
  "brands_ok": [
-  "Alex Mill",
   "Boden",
   "TOAST",
   "18 East",
@@ -29,6 +28,7 @@
   "Minus33"
  ],
  "brands_failed": [
+  "Alex Mill",
   "Buck Mason",
   "Anthropologie",
   "J.Crew",
