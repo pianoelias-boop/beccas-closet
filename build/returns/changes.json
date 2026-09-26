@@ -1,10 +1,11 @@
 {
  "changed": [
-  "BILLY Footwear",
+  "Anthropologie",
   "Mixed by Nasrin"
  ],
  "errors": [
-  "Alex Mill: HTTPError HTTP Error 403: Forbidden"
+  "Alex Mill: HTTPError HTTP Error 403: Forbidden",
+  "W'menswear: RuntimeError only 0 policy sentences found"
  ],
  "checked": "2026-09-21"
 }
