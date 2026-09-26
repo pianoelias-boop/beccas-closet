@@ -1,39 +1,5 @@
 [
  {
-  "id": 5011,
-  "brand": "TOAST",
-  "name": "Gabi Cord Pull On Pants, Java",
-  "category": "Pants",
-  "color": "Brown",
-  "colorDetail": "Java",
-  "categoryDetail": "Women's Pants",
-  "price": 260,
-  "list": 260,
-  "url": "https://us.toa.st/products/gabi-cord-pull-on-trousers-java",
-  "newBrand": false,
-  "desc": "TOAST's simple Gabi pants are shaped with easy legs that taper towards long cropped cuffs. Crafted from organic cotton cord with a comfortable elasticated waist, then finished with back welt pockets, belt loops and a faux fly.",
-  "details": [
-   "100% organic cotton cord, cotton lined",
-   "Elasticated waist",
-   "Easy, tapered leg, long crop",
-   "Side pockets and back welt pockets",
-   "Regular fit, sits below the waist"
-  ],
-  "fabric": "100% organic cotton corduroy",
-  "occasions": [
-   "teaching",
-   "hang",
-   "outdoors"
-  ],
-  "why": "soft cotton cord, elastic waist, easy tapered leg, brown",
-  "reason": "Three of the nine pieces she has saved are TOAST corduroy trousers. This is the same house's pull-on cord pant in a warm brown she doesn't have yet.",
-  "retailer": "TOAST",
-  "img": "images/ideas/5011.jpg",
-  "hi": true,
-  "round": 1,
-  "added": "2026-09-15"
- },
- {
   "id": 5012,
   "brand": "Margaret Howell",
   "name": "MHL Side Vent Skirt, Irregular Spun Cotton, Cocoa",
