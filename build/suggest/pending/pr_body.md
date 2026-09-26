@@ -1,52 +1,52 @@
-## Round 3 · 2026-09-19 · chosen by Claude
+## Round 4 · 2026-09-26 · chosen by Claude
 
 @pianoelias-boop — 8 ideas for **Based on your likes**. Merge to publish; close to skip this week.
 
-### TOAST — Check Linen Cotton Shirt Dress | Dark Chocolate/Ecru · $355
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-35444853436/images/ideas/5027.jpg" width="220">
+### TOAST — Linen Cotton Twill Apron Shift Dress | Navy/Ecru · $126
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5035.jpg" width="220">
 
-Linen and cotton in a dark check, close to the TOAST Garment Dyed Linen Shift Dress you saved.  
-*54% linen, 46% cotton · dance, teaching, friend* · [product page](https://us.toa.st/products/check-linen-cotton-shirt-dress-dark-chocolate-ecru)
+Linen-cotton shift dress with a patch pocket, the same easy shape as the TOAST Garment Dyed Linen Shift Dress you saved.  
+*55% linen, 45% cotton · teaching, dance, friend* · [product page](https://us.toa.st/products/linen-cotton-twill-apron-shift-dress-navy-ecru)
 
-### TOAST — Cotton Twill Pocket Jumpsuit | Charcoal · $325
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-35444853436/images/ideas/5028.jpg" width="220">
+### TOAST — Garment Washed Linen Pocket Jumpsuit | Desert Sand · $375
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5036.jpg" width="220">
 
-A relaxed cotton jumpsuit with deep patch pockets, echoing the ease of the TOAST Cord Culotte Jumpsuit you saved.  
-*100% cotton · teaching, friend* · [product page](https://us.toa.st/products/cotton-twill-pocket-jumpsuit-charcoal)
+Wide-leg linen jumpsuit with deep patch pockets, the same ease as the TOAST Cord Culotte Jumpsuit you saved, in warm desert sand.  
+*100% linen · teaching, dance, friend* · [product page](https://us.toa.st/products/garment-washed-linen-pocket-jumpsuit-desert-sand)
 
-### Howlin' — Cosmic Pants - Corduroy - Navy · $210
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-35444853436/images/ideas/5029.jpg" width="220">
+### Margaret Howell — MHL. UTILITY TROUSERS | 8 WALE COTTON CORDUROY | CHESTNUT · $325
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5037.jpg" width="220">
 
-The Howlin' Cosmic Pants you already have, now in navy corduroy.  
-*100% cotton · dance, teaching, hang* · [product page](https://howlinknitwear.com/products/cosmic-pants-corduroy-navy-aw26)
+The MHL Utility Trousers you saved, now in chestnut corduroy.  
+*8 wale cotton corduroy · outdoors, hang* · [product page](https://www.margarethowell.co.uk/products/mhl-utility-trousers-8-wale-cotton-corduroy-chestnut)
 
-### Howlin' — Reverb Cardigan - Brown Noise · $256
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-35444853436/images/ideas/5030.jpg" width="220">
+### Margaret Howell — MHL. FLAP POCKET BLAZER | INDIGO TWILL | INDIGO · $345
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5038.jpg" width="220">
 
-A relaxed cotton-wool cardigan in warm brown, in the same earthy register as the TOAST Cord A Line Skirt you saved.  
-*45% organic cotton / 55% lambswool · dance, teaching, outdoors* · [product page](https://howlinknitwear.com/products/reverb-cardigan-brown-noise)
+A relaxed cotton twill blazer with flap patch pockets, in indigo like the W'menswear Wendy Trouser indigo/gold you saved.  
+*Twill · teaching, friend* · [product page](https://www.margarethowell.co.uk/products/men-mhl-flap-pocket-blazer-indigo-twill-indigo)
 
-### Margaret Howell — MHL. PLEATED CULOTTES | SOFT DENSE COTTON | KHAKI · $325
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-35444853436/images/ideas/5031.jpg" width="220">
+### Studio Nicholson — Acuna Cotton Pant in Ice · $130
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5039.jpg" width="220">
 
-Pleated culottes in soft khaki cotton, the same culotte shape as the TOAST Cord Culotte Jumpsuit you saved.  
-*fibre not stated · dance, teaching, hang* · [product page](https://www.margarethowell.co.uk/products/mhl-pleated-culottes-soft-dense-cotton-khaki)
+A high-rise cotton pant with a wide, flowing leg, in the same spirit as the TOAST Barrel Leg Cord Pants you saved.  
+*fibre not stated · teaching, hang* · [product page](https://www.studionicholson.com/products/acuna-pant-in-ice-1)
 
-### Margaret Howell — MHL. TAPERED JEANS | DENIM TWILL | INDIGO · $325
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-35444853436/images/ideas/5032.jpg" width="220">
+### Studio Nicholson — SN x PERFUMER H Cyclamen Shirt in Light Blue · $325
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5040.jpg" width="220">
 
-Indigo cotton denim with a tapered leg, close in fabric to the Wendy Trouser - 13 oz Denim you saved.  
-*Denim twill · hang* · [product page](https://www.margarethowell.co.uk/products/mhl-tapered-jeans-denim-twill-indigo)
+A lightweight cotton twill shirt with a chest patch pocket, in the button-down style of the Pilcro Cropped Plaid Shirt you saved.  
+*fibre not stated · teaching, friend* · [product page](https://www.studionicholson.com/products/sn-x-perfumer-h-cyclamen-shirt-in-light-blue)
 
-### Nili Lotan — CAIDEN COTTON SHIRT · $390
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-35444853436/images/ideas/5033.jpg" width="220">
+### Tibi — Eco Poplin Side Drape Top · $395
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5041.jpg" width="220">
 
-A relaxed button-down cotton shirt with a chest pocket, in the easy shirt style of the Pilcro Cropped Plaid Shirt you saved.  
-*Relaxed button down shirt in Italian cotton poplin · dance, teaching, friend* · [product page](https://www.nililotan.com/products/caiden-cotton-shirt-white)
+A structured cotton poplin top with a hidden pocket, the same poplin as the TOAST Wide Leg Cotton Poplin Jumpsuit you saved.  
+*100% Cotton · hang* · [product page](https://www.tibi.com/products/eco-poplin-side-drape-top-white)
 
-### 18 East — ASHEVILLE OVERSIZED BLAZER - DUNE LINEN TWILL · $364
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-35444853436/images/ideas/5034.jpg" width="220">
+### Rachel Comey — Gimlette Top · $395
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5042.jpg" width="220">
 
-An oversized linen blazer in warm dune, sharing the linen you liked in the TOAST Garment Dyed Linen Shift Dress you saved.  
-*100% linen twill · teaching, outdoors, friend* · [product page](https://18east.co/products/asheville-oversized-blazer-dune-cacao)
+A cropped cotton tweed top with a button front, sharing the tweed of the Ralph Lauren Plaid Tweed Yoke Skirt you saved.  
+*Cropped knit top in tri-colour mid-weight cotton tweed · hang* · [product page](https://www.rachelcomey.com/products/gimlette-top)
 

@@ -14,5 +14,29 @@
   "url": "https://18east.co/products/asheville-oversized-blazer-dune-cacao",
   "why": "rule: 18 East shirts and overshirts only",
   "date": "2026-09-19"
+ },
+ {
+  "id": 5011,
+  "brand": "TOAST",
+  "name": "Gabi Cord Pull On Pants, Java",
+  "url": "https://us.toa.st/products/gabi-cord-pull-on-trousers-java",
+  "why": "passed",
+  "date": "2026-09-26"
+ },
+ {
+  "id": 5023,
+  "brand": "Standard & Strange",
+  "name": "1940s 5.5oz Selvage US Army Field Jacket - Indigo Chambray",
+  "url": "https://standardandstrange.com/products/1940s-5-5oz-selvage-us-army-field-jacket-indigo-chambray",
+  "why": "passed",
+  "date": "2026-09-26"
+ },
+ {
+  "id": 5024,
+  "brand": "Standard & Strange",
+  "name": "Para Shirt - Off White",
+  "url": "https://standardandstrange.com/products/para-shirt-off-white",
+  "why": "passed",
+  "date": "2026-09-26"
  }
 ]
