@@ -121,6 +121,16 @@ from one (columns: retailer, brand, name, category, color, occasions, price, col
 detail, url, with the photo embedded in the row) into `build/items_raw.json`, and `fetch_hires.py` and
 `download.py` how their photos were fetched. Adapt them; the CSV route is the supported one.
 
+## 5b. Optional: her priorities
+
+`priorities.js` lists what she is looking for right now, in order ("A skirt for dancing", "Black jeans that
+go over bandages"). The page shows them as a row above the grid: tap one to see the pieces that fit, and
+her saved list groups itself under them. Each entry has a `key`, a `label`, a one-line `note`, and a
+`match` rule: `categories`, `occasions` and `colors` (any of), `words` (a regular expression the piece's
+text must match), `all` (several that must all match), `not` (must not match), and `pin` / `drop` lists of
+piece ids to force in or out. An optional `prefer` expression sorts matching pieces first (Becca's skirt
+priority puts linen first). Leave the list empty (`[]`) and the row disappears. The weekly round ignores it.
+
 ## 6. Look at it
 
 ```bash

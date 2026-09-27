@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="theme.css?v=1">
-<link rel="stylesheet" href="styles.css?v=22">
+<link rel="stylesheet" href="styles.css?v=23">
 <script src="config.js?v=1"></script>
 <script>
   // Personal text lives in config.js. This fills the page from it: the header straight away, so nothing
@@ -158,6 +158,8 @@
       <button class="tab on" type="button" data-tab="closet">The closet</button>
       <button class="tab" type="button" data-tab="ideas">Based on your likes <b id="ideas-count">0</b></button>
     </div>
+    <div class="priorities" id="priorities" hidden></div>
+    <p class="priority-note" id="priority-note" hidden></p>
     <p class="ideas-intro" id="ideas-intro" hidden>A few pieces from beyond the closet, chosen by what you've saved so far. Heart one and it moves into your closet; the ✕ sends it away.</p>
     <div class="results-head">
       <p class="results-count" id="results-count"></p>
@@ -165,8 +167,8 @@
     </div>
     <section class="grid" id="grid" aria-live="polite"></section>
     <div class="empty" id="empty" hidden>
-      <p class="empty-title">Nothing in the closet matches that.</p>
-      <p>Try loosening a filter or two.</p>
+      <p class="empty-title" id="empty-title">Nothing in the closet matches that.</p>
+      <p id="empty-hint">Try loosening a filter or two.</p>
       <button class="btn" id="empty-clear" type="button">Clear filters</button>
     </div>
     <footer class="foot">
@@ -195,10 +197,10 @@
 
 <script src="data.js?v=7"></script>
 <script>
-  // suggestions.js, sales.js and retailers.js change on their own schedules, so load them with an
+  // suggestions.js, sales.js, retailers.js and priorities.js change on their own schedules, so load them with an
   // hourly cache-busting stamp instead of a hand-bumped version.
-  (function () { var d = new Date(), stamp = d.toISOString().slice(0, 13); ['suggestions.js', 'sales.js', 'retailers.js'].forEach(function (f) { document.write('<script src="' + f + '?t=' + stamp + '"><\/script>'); }); })();
+  (function () { var d = new Date(), stamp = d.toISOString().slice(0, 13); ['suggestions.js', 'sales.js', 'retailers.js', 'priorities.js'].forEach(function (f) { document.write('<script src="' + f + '?t=' + stamp + '"><\/script>'); }); })();
 </script>
-<script src="app.js?v=30"></script>
+<script src="app.js?v=31"></script>
 </body>
 </html>

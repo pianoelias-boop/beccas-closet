@@ -25,6 +25,31 @@
   const OCC_LABEL = Object.fromEntries(OCCASIONS.map(o => [o.key, o.label]));
   const OCC_ORDER = OCCASIONS.map(o => o.key);
   const RESALE = CFG.resale || {};
+
+  // ---------- her priorities (priorities.js) ----------
+  // Each priority is a named need with a rule for which pieces fit. Browsing: a row of priorities above the grid.
+  // Saved pieces: grouped under the first priority each one fits, in her order.
+  const PRIORITIES = (window.CLOSET_PRIORITIES || []).map(p => {
+    const m = p.match || {}, rx = s => s ? new RegExp(s, 'i') : null;
+    return { key: p.key, label: p.label, note: p.note || '',
+      cats: new Set(m.categories || []), occ: new Set(m.occasions || []), colors: new Set(m.colors || []),
+      words: rx(m.words), all: (m.all || []).map(rx), not: rx(m.not), pin: new Set(m.pin || []), drop: new Set(m.drop || []), prefer: rx(p.prefer) };
+  });
+  const priText = it => `${it.name} ${it.fabric || ''} ${it.desc || ''} ${(it.details || []).join(' ')} ${it.colorDetail || ''} ${it.categoryDetail || ''}`;
+  function fits(p, it) {
+    if (p.drop.has(it.id)) return false;
+    if (p.pin.has(it.id)) return true;
+    if (p.cats.size && !p.cats.has(it.category)) return false;
+    if (p.occ.size && !(it.occasions || []).some(o => p.occ.has(o))) return false;
+    if (p.colors.size && !p.colors.has(it.color)) return false;
+    const t = priText(it);
+    if (p.words && !p.words.test(t)) return false;
+    if (p.all.some(r => !r.test(t))) return false;
+    if (p.not && p.not.test(t)) return false;
+    return true;
+  }
+  const priorityOf = it => PRIORITIES.find(p => fits(p, it)) || null;
+  const priByKey = k => PRIORITIES.find(p => p.key === k) || null;
   const COLOR_SWATCH = {
     'Black': '#2b2226', 'Grey': '#9a9598', 'White/Ivory': '#f6f1e6', 'Beige/Tan': '#d9c3a3', 'Brown': '#7a5238',
     'Denim': '#4f6a8f', 'Blue': '#5b7fc4', 'Green': '#6f8f6a', 'Red': '#b8404a', 'Pink': '#e9a3b6', 'Purple': '#8b6aa8',
@@ -81,7 +106,7 @@
   const state = {
     q: '', sort: 'default',
     category: new Set(), color: new Set(), brand: new Set(), occasion: new Set(), price: new Set(),
-    saved: new Set(), passed: new Set(), showPassed: false, onlySale: false, meta: {}, shuffleOrder: null, view: [], modalIndex: -1, tab: 'closet',
+    saved: new Set(), passed: new Set(), showPassed: false, priority: null, onlySale: false, meta: {}, shuffleOrder: null, view: [], modalIndex: -1, tab: 'closet',
   };
 
   // ---------- persistence ----------
@@ -209,6 +234,7 @@
   }
   function matches(item) {
     if (!state.showPassed && state.passed.has(item.id)) return false;
+    if (state.priority && !fits(priByKey(state.priority), item)) return false;
     if (state.onlySale && !onSale(item)) return false;
     if (state.category.size && !state.category.has(item.category)) return false;
     if (state.color.size && !state.color.has(item.color)) return false;
@@ -235,6 +261,10 @@
         if (state.tab === 'ideas') { l.sort((a, b) => (b.round - a.round) || (a.id - b.id)); break; }
         const pos = defaultOrder(); l.sort((a, b) => (pos.has(a.id) ? pos.get(a.id) : -1) - (pos.has(b.id) ? pos.get(b.id) : -1)); break;
       }
+    }
+    const pr = state.priority && priByKey(state.priority);
+    if (pr && pr.prefer && (state.sort === 'default' || state.sort === 'shuffle')) {   // her preferred kind first, order otherwise kept
+      const yes = l.filter(i => pr.prefer.test(priText(i))); return yes.concat(l.filter(i => !yes.includes(i)));
     }
     return l;
   }
@@ -326,6 +356,7 @@
         (reduced && !state.onlySale ? `<button class="link" type="button" id="see-sale">See them</button>` : '') + `</span>`;
     } else banner.hidden = true;
     $('#ideas-intro').hidden = state.tab !== 'ideas';
+    renderPriorities();
     const all = pool();
     state.view = sorted(all.filter(matches));
     const n = state.view.length;
@@ -333,6 +364,10 @@
     const noun = state.tab === 'ideas' ? 'suggestion' : 'piece';
     $('#grid').innerHTML = state.view.map(cardHtml).join('');
     $('#empty').hidden = n > 0;
+    const pe = state.priority && !activeFilterCount() && !state.q && !state.onlySale;   // the priority alone left nothing
+    $('#empty-title').textContent = pe ? 'Nothing in the closet fits this one yet.' : 'Nothing in the closet matches that.';
+    $('#empty-hint').textContent = pe ? 'New finds that fit will land here.' : 'Try loosening a filter or two.';
+    $('#empty-clear').hidden = !!pe;
     if (state.tab === 'ideas' && total === 0) $('#results-count').innerHTML = 'Nothing waiting. Anything you added is in the closet.';
     else $('#results-count').innerHTML = n === total ? `All <b>${n}</b> ${noun}${n === 1 ? '' : 's'}` : `<b>${n}</b> of ${total} ${noun}s`;
     $('#apply-count').textContent = `${n} piece${n === 1 ? '' : 's'}`;
@@ -344,6 +379,19 @@
     renderPassed();
     renderIdeas();
   }
+  function renderPriorities() {
+    const box = $('#priorities');
+    if (!PRIORITIES.length) { box.hidden = true; $('#priority-note').hidden = true; return; }
+    const base = pool().filter(i => state.showPassed || !state.passed.has(i.id));
+    box.hidden = false;
+    box.innerHTML = `<span class="pri-label">${esc((CFG.text || {}).prioritiesLabel || 'Your priorities')}</span>` + PRIORITIES.map((p, k) => {
+      const c = base.filter(i => fits(p, i)).length, on = state.priority === p.key;
+      return `<button class="pri ${on ? 'on' : ''} ${c ? '' : 'none'}" type="button" data-priority="${esc(p.key)}" aria-pressed="${on}"><i>${k + 1}</i>${esc(p.label)}<b>${c}</b></button>`;
+    }).join('');
+    const pr = state.priority && priByKey(state.priority);
+    $('#priority-note').hidden = !pr; if (pr) $('#priority-note').textContent = pr.note;
+    const on = box.querySelector('.pri.on'); if (on) box.scrollLeft = Math.max(0, on.offsetLeft - box.offsetLeft - 60);   // keep the chosen one in view on a phone
+  }
   function renderChips() {
     const chips = [];
     const add = (key, v, label) => chips.push(`<button class="chip" type="button" data-chip="${key}" data-value="${esc(v)}">${esc(label)} <svg><use href="#i-x"/></svg></button>`);
@@ -354,6 +402,7 @@
     state.brand.forEach(v => add('brand', v, v));
     if (state.q) add('q', state.q, `“${state.q}”`);
     if (state.onlySale) add('sale', 'sale', 'On sale now');
+    if (state.priority && priByKey(state.priority)) add('priority', state.priority, priByKey(state.priority).label);
     const html = chips.join('') + (chips.length > 1 ? `<button class="link" type="button" data-chip="all">Clear all</button>` : '');
     $('#chips').innerHTML = html; $('#chips-m').innerHTML = html;
   }
@@ -431,11 +480,18 @@
       foot.innerHTML = '';
       return;
     }
-    body.innerHTML = items.map(it => `<div class="saved-item" data-id="${it.id}">
+    const row = it => `<div class="saved-item" data-id="${it.id}">
         <img src="${it.img}" alt="" data-open="${it.id}">
         <div><p class="brand">${esc(it.brand)}</p><div class="nm" data-open="${it.id}">${esc(it.name)}</div><div class="pr">${it.price == null ? 'Sold out' : money(it.price)} · ${esc(it.color)}</div></div>
         <button class="icon-btn rm" type="button" data-remove="${it.id}" aria-label="Remove"><svg width="18" height="18"><use href="#i-x"/></svg></button>
-      </div>`).join('');
+      </div>`;
+    if (PRIORITIES.length) {   // grouped under her priorities, in her order; everything else after
+      const groups = PRIORITIES.map((p, k) => ({ title: `${k + 1} · ${p.label}`, items: [] })).concat([{ title: 'Everything else', items: [] }]);
+      items.forEach(it => { const p = priorityOf(it); groups[p ? PRIORITIES.indexOf(p) : PRIORITIES.length].items.push(it); });
+      const used = groups.filter(g => g.items.length);
+      body.innerHTML = used.length === 1 && used[0].title === 'Everything else' ? items.map(row).join('')
+        : used.map(g => `<h3 class="saved-group">${esc(g.title)}</h3>` + g.items.map(row).join('')).join('');
+    } else body.innerHTML = items.map(row).join('');
     const total = items.reduce((s, i) => s + (i.price || 0), 0);
     const unpriced = items.filter(i => i.price == null).length;
     foot.innerHTML = `<div class="total"><span>${items.length} piece${items.length === 1 ? '' : 's'} saved</span></div>
@@ -546,10 +602,12 @@
     if (t.dataset.remove) { toggleSaved(Number(t.dataset.remove)); return; }
     if (t.dataset.nav) { navModal(Number(t.dataset.nav)); return; }
     if (t.hasAttribute('data-close')) { const d = t.closest('dialog'); if (d) d.close(); return; }
+    if (t.dataset.priority) { state.priority = state.priority === t.dataset.priority ? null : t.dataset.priority; render(); return; }
     if (t.dataset.chip) {
       if (t.dataset.chip === 'all') clearAll();
       else if (t.dataset.chip === 'q') { state.q = ''; $('#q').value = ''; }
       else if (t.dataset.chip === 'sale') { state.onlySale = false; }
+      else if (t.dataset.chip === 'priority') { state.priority = null; }
       else state[t.dataset.chip].delete(t.dataset.value);
       render(); return;
     }
@@ -592,7 +650,7 @@
   });
   ['#modal', '#about', '#person', '#stores'].forEach(sel => $(sel).addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); }));
   window.addEventListener('hashchange', () => { const s = readList(STORAGE_KEY, 'saved'), p = readList(PASSED_KEY, 'passed'); s.forEach(id => state.saved.add(id)); p.forEach(id => { state.passed.add(id); state.saved.delete(id); }); persist(); updateSavedUi(); render(); });
-  function clearAll() { ['category', 'color', 'brand', 'occasion', 'price'].forEach(k => state[k].clear()); state.q = ''; $('#q').value = ''; state.onlySale = false; }
+  function clearAll() { ['category', 'color', 'brand', 'occasion', 'price'].forEach(k => state[k].clear()); state.q = ''; $('#q').value = ''; state.onlySale = false; state.priority = null; }
 
   // ---------- the personal parts of the page (config.js) ----------
   // Plain text fields are filled by the small script in index.html; this builds the parts with structure.

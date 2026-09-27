@@ -33,6 +33,7 @@ WRITE = {
     'suggestions.js': 'window.SUGGESTIONS = [];\n',
     'sales.js': 'window.SALES = {"checked": "", "items": {}, "events": {}};\n',
     'retailers.js': '// Return terms per store. Source: build/returns/retailers.json\nwindow.RETAILERS = {"checked": "", "stores": {}};\n',
+    'priorities.js': '// Her priorities, in order (see MAKE-YOUR-OWN.md). Strict JSON after the "=".\nwindow.CLOSET_PRIORITIES = [];\n',
     'build/items_raw.json': '[]\n',
     'build/extras.json': '[]\n',
     'build/sales/history.json': '{}\n',

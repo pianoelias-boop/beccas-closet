@@ -354,3 +354,25 @@ a{color:inherit}
 .store-head span{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);white-space:nowrap}
 .about-card .store p{margin:4px 0 0;font-size:13.5px;line-height:1.5;color:var(--ink-soft)}
 .store p .pol{color:var(--accent-deep);text-decoration:none;border-bottom:1px solid var(--accent-tint-deep);margin-left:4px;white-space:nowrap}
+
+/* ---- her priorities ---- */
+.main{min-width:0}   /* lets the priorities row scroll inside the column on phones instead of widening the page */
+.priorities{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 14px}
+.pri-label{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin-right:4px}
+.pri{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 8px 6px 6px;font-size:13.5px;color:var(--ink);transition:border-color .15s,background .15s}
+.pri i{font-style:normal;font-family:var(--serif);font-size:13px;font-weight:600;width:20px;height:20px;border-radius:50%;display:inline-grid;place-items:center;background:var(--accent-tint);color:var(--accent-deep)}
+.pri b{font-weight:500;font-size:11px;color:var(--ink-faint);padding-right:4px}
+.pri:hover{border-color:var(--accent)}
+.pri.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.pri.on i{background:var(--bg);color:var(--ink)}
+.pri.on b{color:var(--bg);opacity:.7}
+.pri.none{color:var(--ink-soft)}
+.priority-note{margin:-6px 0 16px;font-family:var(--serif);font-style:italic;font-size:17px;color:var(--ink-soft)}
+.saved-group{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:400;color:var(--accent-deep);margin:18px 0 2px}
+.saved-group:first-child{margin-top:6px}
+@media (max-width:900px){
+  .priorities{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px;mask-image:linear-gradient(90deg,#000 calc(100% - 24px),transparent)}
+  .priorities::-webkit-scrollbar{display:none}
+  .pri,.pri-label{flex:none;white-space:nowrap}
+  .priority-note{font-size:15px}
+}
