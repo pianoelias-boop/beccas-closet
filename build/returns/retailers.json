@@ -71,6 +71,13 @@
    "ship": "free with their UPS or DHL returns service (original shipping not refunded)",
    "note": "Ships from the UK. No split-size pairs on shoes or boots"
   },
+  "DL1961": {
+   "site": "https://dl1961.com",
+   "policy": "https://dl1961.com/policies/refund-policy",
+   "window": "14 days from delivery for a refund (later: exchange or store credit)",
+   "ship": "return label cost deducted from the refund; original shipping not refunded",
+   "note": "Unworn and unwashed with tags. Final-sale pieces cannot be returned. Free shipping in the contiguous US"
+  },
   "Gramicci": {
    "site": "https://gramicci.com",
    "policy": "https://gramicci.com/policies/refund-policy",

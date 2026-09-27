@@ -1740,5 +1740,34 @@
    "Handmade in Lithuania by Son de Flor"
   ],
   "fabric": "70% cotton, 30% linen"
+ },
+ {
+  "id": 456,
+  "brand": "DL1961",
+  "retailer": "DL1961",
+  "name": "Taylor Relaxed Barrel Ultra High Rise Jeans",
+  "category": "Jeans",
+  "color": "Black",
+  "occasions": [
+   "hang",
+   "friend",
+   "teaching"
+  ],
+  "why": "washed black denim in a relaxed barrel, roomy through the leg with a hem wide enough for bandage days",
+  "price": 186.75,
+  "colorDetail": "Nightshade (washed black)",
+  "categoryDetail": "Relaxed barrel jeans",
+  "url": "https://dl1961.com/products/taylor-barrel-ultra-high-rise-31-jeans-nightshade",
+  "img": "images/full/456.jpg",
+  "hi": true,
+  "desc": "Taylor is an ultra high-rise fit with a relaxed barrel leg for an everyday, laid-back look. Nightshade is a washed black denim, finished with a silver shank, matte copper rivets, tonal stitching, a clean hem and a black back patch.",
+  "details": [
+   "On sale when added: $186.75, listed at $249. DL1961 marks it exchange-only at this price, so no refund",
+   "Bandage days: left foot in her usual size, right foot one to two sizes up.",
+   "Leg opening 17.25 inches, rise 10 inches, inseam 31 inches",
+   "Also in a 27-inch inseam, same wash",
+   "Rigid denim with no stretch, runs true to size, sizes 23 to 34"
+  ],
+  "fabric": "100% cotton rigid denim"
  }
 ]

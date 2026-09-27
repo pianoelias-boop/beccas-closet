@@ -31,6 +31,7 @@ Updated 2026-09-15 from the notebook (9 hearts, 0 passes) plus the closet's own 
 - **Occasions implied:** teaching and hanging out; workwear-leaning pieces that move.
 
 ## Told in person
+- 2026-09-27: black jeans that go over her bandages. She liked the DL1961 Taylor Relaxed Barrel (washed black, 17.25-inch hem) and found the Abercrombie Curve Love Barrel too barrel-shaped: a relaxed, gently curved leg, not a pronounced barrel.
 - 2026-09-15: she wants a merino wool tank top, black, for dancing. Ten were added to the closet by the owner (ids 412–421, Tops & Tees, dance tag). Watch which she hearts; that tells us fitted vs relaxed and how light she likes it.
 
 ## Guidance for rounds

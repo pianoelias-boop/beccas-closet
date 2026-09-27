@@ -22,7 +22,7 @@ window.CLOSET_CONFIG = {
   "personTitle": "About Becca",
   "personText": "Becca is a clothes-wearing, French-teaching, baking Lindy Hopper who loves her friends and her community. She lives in Portland, Maine, with her sloth, Slothie.",
   "storesTitle": "Where the closet shops",
-  "storesIntro": "Thirty-two stores have pieces in the closet today; the other nine were browsed and came up empty. Return terms are as each store states them for US orders, checked on {date}. The policy link is the source of truth.",
+  "storesIntro": "Thirty-three stores have pieces in the closet today; the other eight were browsed and came up empty. Return terms are as each store states them for US orders, checked on {date}. The policy link is the source of truth.",
   "prioritiesLabel": "Your priorities",
   "footer": "Every piece here was picked with you in mind.<br>Happy birthday, Becca."
  },
