@@ -1,11 +1,11 @@
 {
- "changed": [
-  "Anthropologie",
-  "Mixed by Nasrin"
- ],
+ "changed": [],
  "errors": [
   "Alex Mill: HTTPError HTTP Error 403: Forbidden",
-  "W'menswear: RuntimeError only 0 policy sentences found"
+  "Minus33: HTTPError HTTP Error 503: Service Unavailable",
+  "Mons Royale: HTTPError HTTP Error 503: Service Unavailable",
+  "Steger Mukluks: HTTPError HTTP Error 503: Service Unavailable",
+  "TOAST: HTTPError HTTP Error 503: Service Unavailable"
  ],
  "checked": "2026-09-21"
 }
