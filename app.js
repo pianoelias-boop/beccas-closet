@@ -29,12 +29,13 @@
   // ---------- her priorities (priorities.js) ----------
   // Each priority is a named need with a rule for which pieces fit. Browsing: a row of priorities above the grid.
   // Saved pieces: grouped under the first priority each one fits, in her order.
-  const PRIORITIES = (window.CLOSET_PRIORITIES || []).map(p => {
+  const compilePriorities = list => list.map(p => {
     const m = p.match || {}, rx = s => s ? new RegExp(s, 'i') : null;
     return { key: p.key, label: p.label, note: p.note || '',
       cats: new Set(m.categories || []), occ: new Set(m.occasions || []), colors: new Set(m.colors || []),
       words: rx(m.words), all: (m.all || []).map(rx), not: rx(m.not), pin: new Set(m.pin || []), drop: new Set(m.drop || []), prefer: rx(p.prefer) };
   });
+  let PRIORITIES = compilePriorities(window.CLOSET_PRIORITIES || []);   // let: curator mode swaps in the server's copy after an edit
   const priText = it => `${it.name} ${it.fabric || ''} ${it.desc || ''} ${(it.details || []).join(' ')} ${it.colorDetail || ''} ${it.categoryDetail || ''}`;
   function fits(p, it) {
     if (p.drop.has(it.id)) return false;
@@ -48,6 +49,37 @@
     if (p.not && p.not.test(t)) return false;
     return true;
   }
+  const fitsByRule = (p, it) => fits(Object.assign({}, p, { pin: new Set(), drop: new Set() }), it);
+
+  // ---------- curator mode (only with build/dev_server.py on this Mac) ----------
+  // The owner files pieces into priorities and fixes occasion tags from the detail view; the local server writes
+  // priorities.js / the catalog, and nothing reaches the public site until it is committed and pushed.
+  let CURATOR = false;
+  if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) fetch('/__curate/ping', { cache: 'no-store' }).then(r => r.ok && r.json()).then(j => { CURATOR = !!(j && j.ok); }).catch(() => { });
+  function curatorHtml(it) {
+    if (!CURATOR) return '';
+    const pri = PRIORITIES.map(p => { const inP = fits(p, it), how = p.pin.has(it.id) ? 'added by you' : p.drop.has(it.id) ? 'taken out by you' : inP ? 'fits the rule' : '';
+      return `<label class="cur-opt"><input type="checkbox" data-cur-pri="${esc(p.key)}" ${inP ? 'checked' : ''}><span>${esc(p.label)}</span>${how ? `<small>${how}</small>` : ''}</label>`; }).join('');
+    const occ = it.idea ? '<p class="cur-note">Weekly ideas keep the tags the round gave them.</p>'
+      : OCC_ORDER.map(o => `<label class="cur-pill"><input type="checkbox" data-cur-occ="${esc(o)}" ${it.occasions.includes(o) ? 'checked' : ''}>${esc(OCC_LABEL[o])}</label>`).join('');
+    return `<div class="curator" data-cur-id="${it.id}"><h3>Curator <small>only on this Mac, goes live when you publish</small></h3>
+      <p class="cur-h">Priorities</p>${pri}<p class="cur-h">Occasions</p><div class="cur-pills">${occ}</div><p class="cur-status" aria-live="polite"></p></div>`;
+  }
+  async function curate(el) {
+    const box = el.closest('.curator'), id = Number(box.dataset.curId), it = byId.get(id), status = box.querySelector('.cur-status');
+    const body = el.dataset.curPri ? { id, priority: el.dataset.curPri, on: el.checked, fitsByRule: fitsByRule(priByKey(el.dataset.curPri), it) }
+      : { id, occasion: el.dataset.curOcc, on: el.checked };
+    status.textContent = 'Saving…';
+    try {
+      const r = await fetch('/__curate', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+      const j = await r.json(); if (!j.ok) throw new Error(j.error || 'failed');
+      if (j.priorities) { window.CLOSET_PRIORITIES = j.priorities; PRIORITIES = compilePriorities(j.priorities); }
+      if (j.occasions) it.occasions = j.occasions;
+      render(); openModal(id); $('#modal .curator .cur-status').textContent = 'Saved on this Mac.';
+    } catch (e) { el.checked = !el.checked; status.textContent = 'Not saved: ' + e.message; }
+  }
+  document.addEventListener('change', e => { if (e.target.closest && e.target.closest('.curator')) curate(e.target); });
+
   const priorityOf = it => PRIORITIES.find(p => fits(p, it)) || null;
   const priByKey = k => PRIORITIES.find(p => p.key === k) || null;
   const COLOR_SWATCH = {
@@ -384,9 +416,9 @@
     if (!PRIORITIES.length) { box.hidden = true; $('#priority-note').hidden = true; return; }
     const base = pool().filter(i => state.showPassed || !state.passed.has(i.id));
     box.hidden = false;
-    box.innerHTML = `<span class="pri-label">${esc((CFG.text || {}).prioritiesLabel || 'Your priorities')}</span>` + PRIORITIES.map((p, k) => {
+    box.innerHTML = `<span class="pri-label">${esc((CFG.text || {}).prioritiesLabel || 'Your priorities')}</span>` + PRIORITIES.map(p => {
       const c = base.filter(i => fits(p, i)).length, on = state.priority === p.key;
-      return `<button class="pri ${on ? 'on' : ''} ${c ? '' : 'none'}" type="button" data-priority="${esc(p.key)}" aria-pressed="${on}"><i>${k + 1}</i>${esc(p.label)}<b>${c}</b></button>`;
+      return `<button class="pri ${on ? 'on' : ''} ${c ? '' : 'none'}" type="button" data-priority="${esc(p.key)}" aria-pressed="${on}">${esc(p.label)}<b>${c}</b></button>`;
     }).join('');
     const pr = state.priority && priByKey(state.priority);
     $('#priority-note').hidden = !pr; if (pr) $('#priority-note').textContent = pr.note;
@@ -486,7 +518,7 @@
         <button class="icon-btn rm" type="button" data-remove="${it.id}" aria-label="Remove"><svg width="18" height="18"><use href="#i-x"/></svg></button>
       </div>`;
     if (PRIORITIES.length) {   // grouped under her priorities, in her order; everything else after
-      const groups = PRIORITIES.map((p, k) => ({ title: `${k + 1} · ${p.label}`, items: [] })).concat([{ title: 'Everything else', items: [] }]);
+      const groups = PRIORITIES.map(p => ({ title: p.label, items: [] })).concat([{ title: 'Everything else', items: [] }]);
       items.forEach(it => { const p = priorityOf(it); groups[p ? PRIORITIES.indexOf(p) : PRIORITIES.length].items.push(it); });
       const used = groups.filter(g => g.items.length);
       body.innerHTML = used.length === 1 && used[0].title === 'Everything else' ? items.map(row).join('')
@@ -556,6 +588,7 @@
         ${it.why ? `<p class="why"><span>Why these occasions</span> ${esc(it.why)}</p>` : ''}
         ${it.categoryDetail && it.categoryDetail !== it.category ? `<p class="detail-row">Listed as <b>${esc(it.categoryDetail)}</b></p>` : ''}
         ${retLine(it)}
+        ${curatorHtml(it)}
         <div class="links">
           <a href="${esc(it.url)}" target="_blank" rel="noopener"><span>See it at ${esc(it.retailer)} <small>· original listing</small></span><svg><use href="#i-arrow"/></svg></a>
           <a href="${searchUrl('ebay', it)}" target="_blank" rel="noopener"><span>Find it on eBay <small>· search</small></span><svg><use href="#i-arrow"/></svg></a>

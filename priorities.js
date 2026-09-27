@@ -9,27 +9,41 @@ window.CLOSET_PRIORITIES = [
   "key": "dance-skirt",
   "label": "A skirt for dancing",
   "note": "Something that swings and breathes. Linen is a good start, not a must.",
-  "match": {"categories": ["Skirts"], "occasions": ["dance"]},
+  "match": {
+   "categories": ["Skirts"],
+   "occasions": ["dance"]
+  },
   "prefer": "linen"
  },
  {
   "key": "dance-jumpsuit",
   "label": "A jumpsuit for dancing",
   "note": "Room to move and a fabric that breathes.",
-  "match": {"categories": ["Jumpsuits & Rompers"], "occasions": ["dance"]}
+  "match": {
+   "categories": ["Jumpsuits & Rompers"],
+   "occasions": ["dance"],
+   "pin": [160, 163, 167, 171, 175, 400]
+  }
  },
  {
   "key": "cord-pants",
   "label": "Corduroy pants",
   "note": "Corduroy trousers in any colour.",
-  "match": {"categories": ["Pants", "Jeans"], "words": "\\bcord\\b|\\bcords\\b|corduroy"}
+  "match": {
+   "categories": ["Pants", "Jeans"],
+   "words": "\\bcord\\b|\\bcords\\b|corduroy"
+  }
  },
  {
   "key": "black-jeans",
   "label": "Black jeans that go over bandages",
   "note": "Roomy through the leg with a narrower hem: a barrel that isn't too wide, or a relaxed or wide taper. No wide-leg openings.",
-  "match": {"categories": ["Jeans", "Pants"], "colors": ["Black"],
-            "all": ["denim|\\bjeans?\\b", "barrel|taper|relaxed|balloon|carrot|curved|boyfriend|loose"],
-            "not": "wide[- ]leg|flare|boot ?cut|skinny|palazzo|cord"}
+  "match": {
+   "categories": ["Jeans", "Pants"],
+   "colors": ["Black"],
+   "all": ["denim|\\bjeans?\\b", "barrel|taper|relaxed|balloon|carrot|curved|boyfriend|loose"],
+   "not": "wide[- ]leg|flare|boot ?cut|skinny|palazzo|cord",
+   "pin": [138]
+  }
  }
 ];

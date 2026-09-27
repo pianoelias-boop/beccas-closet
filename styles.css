@@ -359,12 +359,10 @@ a{color:inherit}
 .main{min-width:0}   /* lets the priorities row scroll inside the column on phones instead of widening the page */
 .priorities{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 14px}
 .pri-label{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin-right:4px}
-.pri{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 8px 6px 6px;font-size:13.5px;color:var(--ink);transition:border-color .15s,background .15s}
-.pri i{font-style:normal;font-family:var(--serif);font-size:13px;font-weight:600;width:20px;height:20px;border-radius:50%;display:inline-grid;place-items:center;background:var(--accent-tint);color:var(--accent-deep)}
+.pri{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 10px 6px 14px;font-size:13.5px;color:var(--ink);transition:border-color .15s,background .15s}
 .pri b{font-weight:500;font-size:11px;color:var(--ink-faint);padding-right:4px}
 .pri:hover{border-color:var(--accent)}
 .pri.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.pri.on i{background:var(--bg);color:var(--ink)}
 .pri.on b{color:var(--bg);opacity:.7}
 .pri.none{color:var(--ink-soft)}
 .priority-note{margin:-6px 0 16px;font-family:var(--serif);font-style:italic;font-size:17px;color:var(--ink-soft)}
@@ -376,3 +374,15 @@ a{color:inherit}
   .pri,.pri-label{flex:none;white-space:nowrap}
   .priority-note{font-size:15px}
 }
+
+/* ---- curator mode (localhost with build/dev_server.py only) ---- */
+.curator{margin:6px 0 0;padding:12px 14px;border:1px dashed var(--accent);border-radius:14px;background:var(--surface)}
+.curator h3{font-family:var(--sans);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:500;color:var(--accent-deep);margin:0 0 8px}
+.curator h3 small{letter-spacing:0;text-transform:none;font-weight:300;color:var(--ink-faint);margin-left:6px}
+.cur-h{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin:8px 0 4px!important}
+.cur-opt{display:flex;align-items:center;gap:8px;font-size:14px;padding:3px 0;cursor:pointer}
+.cur-opt small{color:var(--ink-faint);font-size:12px;margin-left:auto}
+.cur-pills{display:flex;flex-wrap:wrap;gap:6px}
+.cur-pill{display:inline-flex;align-items:center;gap:5px;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:3px 10px 3px 6px;cursor:pointer}
+.cur-note,.cur-status{font-size:12px;color:var(--ink-soft);margin:6px 0 0!important}
+.cur-status:empty{display:none}
