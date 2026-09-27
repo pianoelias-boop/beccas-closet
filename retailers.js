@@ -1,6 +1,6 @@
 // Return terms per store, as each states them for US orders. Source: build/returns/retailers.json
 window.RETAILERS = {
- "checked": "2026-09-21",
+ "checked": "2026-09-27",
  "stores": {
   "18 East": {
    "site": "https://18east.co",
@@ -176,6 +176,13 @@ window.RETAILERS = {
    "window": "90 days from purchase",
    "ship": "free returns and exchanges in the US",
    "note": "Final sale items exchange only"
+  },
+  "Son de Flor": {
+   "site": "https://sondeflor.com",
+   "policy": "https://sondeflor.com/policies/refund-policy",
+   "window": "30 working days from delivery to request a return",
+   "ship": "return shipping at your cost, to Lithuania; original shipping not refunded",
+   "note": "Unworn, with tags, in original packaging. Ships from Lithuania, free over €300, US duties covered by them"
   },
   "Standard & Strange": {
    "site": "https://standardandstrange.com",

@@ -93,7 +93,7 @@ def main():
 
         d = None
         if '/products/' in url:
-            try: d = json.loads(get(url.split('?')[0] + '.js'))
+            try: d = json.loads(get(url.split('?')[0] + '.js?currency=USD'))   # stores outside the US answer in their own currency otherwise
             except Exception as e: print(f'row {n}: no Shopify data ({str(e)[:60]}), using the row as given')
         name = r.get('name') or (d or {}).get('title')
         price = float(r['price']) if r.get('price') else ((d or {}).get('price') or 0) / 100
@@ -102,10 +102,14 @@ def main():
         full = clean((d or {}).get('description', ''))
         desc = r.get('desc') or re.split(r'\s###\s|Size & Fit', full)[0].strip()[:600] or None
         details = split_list(r.get('details'))
-        for pat in [r'\d{1,3}% [A-Za-z ]+?(?=[,.;]|$)', r'Machine wash[^.]*\.', r'Made in [A-Z][a-z]+']:
+        pats = [r'Machine wash[^.]*\.', r'Made in [A-Z][a-z]+'] + ([] if r.get('fabric') else [r'\d{1,3}% [A-Za-z ]+?(?=[,.;]|$)'])
+        for pat in pats:
             for m in re.findall(pat, full):
                 m = m.strip().rstrip('.')
-                if m and m not in details and len(details) < 8: details.append(m)
+                if m and len(m) <= 40 and m not in details and len(details) < 8: details.append(m)   # longer matches are run-on store copy
+        listed = ((d or {}).get('compare_at_price') or 0) / 100
+        if listed > price and not any(x.startswith('On sale when added') for x in details):
+            details.insert(0, f'On sale when added: ${price:g}, listed at ${listed:g}')
         fabric = r.get('fabric') or next((x for x in details if re.search(r'\d{1,3}%', x)), None)
         path = f'images/full/{iid}.jpg'
         try:

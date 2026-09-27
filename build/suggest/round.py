@@ -288,7 +288,7 @@ def next_id():
     ids += [i['id'] for i in json.load(open('build/extras.json')) if i['id'] >= 5000]
     return max(ids + [5010]) + 1
 def fetch_pick(pk, iid):
-    d = json.loads(urllib.request.urlopen(urllib.request.Request(pk['url'].split('?')[0] + '.js', headers=H), timeout=40, context=ctx).read())
+    d = json.loads(urllib.request.urlopen(urllib.request.Request(pk['url'].split('?')[0] + '.js?currency=USD', headers=H), timeout=40, context=ctx).read())
     body = d.get('description') or ''; desc, det, fabric = parse_desc(body, pk['brand'])
     if not fabric:
         m = re.search(r'\b(\d{1,2}[- ]wale )?(cotton )?(corduroy|cord|linen|denim|twill|wool|merino|tweed|flannel|canvas|moleskin|jersey|poplin|chambray|silk|cashmere)\b[^|,-]*', d['title'], re.I)
