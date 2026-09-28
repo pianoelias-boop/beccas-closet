@@ -1,11 +1,10 @@
 {
- "changed": [],
- "errors": [
-  "Alex Mill: HTTPError HTTP Error 403: Forbidden",
-  "Minus33: HTTPError HTTP Error 503: Service Unavailable",
-  "Mons Royale: HTTPError HTTP Error 503: Service Unavailable",
-  "Steger Mukluks: HTTPError HTTP Error 503: Service Unavailable",
-  "TOAST: HTTPError HTTP Error 503: Service Unavailable"
+ "changed": [
+  "Anthropologie",
+  "Ridge Merino"
  ],
- "checked": "2026-09-21"
+ "errors": [
+  "Alex Mill: HTTPError HTTP Error 403: Forbidden"
+ ],
+ "checked": "2026-09-27"
 }
