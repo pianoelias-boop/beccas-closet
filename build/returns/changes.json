@@ -1,10 +1,26 @@
 {
- "changed": [
-  "Anthropologie",
-  "Ridge Merino"
- ],
+ "changed": [],
  "errors": [
-  "Alex Mill: HTTPError HTTP Error 403: Forbidden"
+  "18 East: HTTPError HTTP Error 429: Too Many Requests",
+  "Alex Mill: HTTPError HTTP Error 403: Forbidden",
+  "BILLY Footwear: HTTPError HTTP Error 429: Too Many Requests",
+  "Boden: HTTPError HTTP Error 429: Too Many Requests",
+  "Bosie Knitwear: HTTPError HTTP Error 429: Too Many Requests",
+  "DL1961: HTTPError HTTP Error 429: Too Many Requests",
+  "Gramicci: HTTPError HTTP Error 429: Too Many Requests",
+  "Ibex: HTTPError HTTP Error 429: Too Many Requests",
+  "Icebreaker: HTTPError HTTP Error 429: Too Many Requests",
+  "Minus33: HTTPError HTTP Error 429: Too Many Requests",
+  "Mixed by Nasrin: HTTPError HTTP Error 429: Too Many Requests",
+  "Mons Royale: HTTPError HTTP Error 429: Too Many Requests",
+  "Morrison: HTTPError HTTP Error 429: Too Many Requests",
+  "Paper Straight: HTTPError HTTP Error 429: Too Many Requests",
+  "Ridge Merino: HTTPError HTTP Error 429: Too Many Requests",
+  "Standard & Strange: HTTPError HTTP Error 429: Too Many Requests",
+  "Steger Mukluks: HTTPError HTTP Error 429: Too Many Requests",
+  "TOAST: HTTPError HTTP Error 429: Too Many Requests",
+  "Unbound Merino: HTTPError HTTP Error 429: Too Many Requests",
+  "Woolly Clothing Co.: HTTPError HTTP Error 429: Too Many Requests"
  ],
  "checked": "2026-09-27"
 }
