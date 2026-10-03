@@ -1,16 +1,16 @@
 # Becca's taste profile
 
-<!-- auto:start (rewritten by round.py, 2026-09-26) -->
-## What the notebook says (2026-09-26)
-- Hearts: 15  ·  Not for me: 19
-- Brands she saves: TOAST (0.6), W'menswear (0.2), Howlin' (0.1), Polo Ralph Lauren (0.1), Bosie Knitwear (0.1), Pilcro (0.0)
-- Categories: Jumpsuits & Rompers (0.3), Pants (0.3), Skirts (0.2), Shirts & Blouses (0.0), Sweaters & Knitwear (0.0)
-- Colours: Grey (0.3), Orange/Rust (0.1), Yellow/Gold (0.1), Green (0.0), Red (0.0), Blue (0.0)
-- Fabrics: cotton (0.4), cord (0.4), poplin (0.2), linen (0.1), wool (0.1), tweed (0.1)
-- Cuts and details: pocket (0.6), button (0.5), relaxed (0.3), elastic (0.2), wide leg (0.2), high rise (0.2), pleat (0.2), cropped (0.2), barrel (0.2), culotte (0.1)
-- Price bands: 300+ (0.7), 200-300 (0.2)
-- Steer away from: Shoes, 100-200, u100, Cosyfeet, canvas, Black, BILLY Footwear
-- Most recent hearts: TOAST Wide Leg Cotton Poplin Jumpsuit; TOAST Wide Leg Cotton Poplin Jumpsuit; Pilcro Pilcro Cropped Plaid Shirt; Howlin' Broken Flowers; TOAST Garment Dyed Linen Shift Dress; TOAST Cord A Line Skirt; TOAST Cord Culotte Jumpsuit; TOAST Barrel Leg Cord Pants
+<!-- auto:start (rewritten by round.py, 2026-10-03) -->
+## What the notebook says (2026-10-03)
+- Hearts: 23  ·  Not for me: 389
+- Brands she saves: Margaret Howell (0.1), Son de Flor (0.1), Rachel Comey (0.1)
+- Categories: nothing yet
+- Colours: nothing yet
+- Fabrics: nothing yet
+- Cuts and details: tapered (0.1)
+- Price bands: nothing yet
+- Steer away from: cotton, 100-200, Dresses, pocket, button, 200-300, Boden, u100
+- Most recent hearts: W'menswear W'mens Tank - Black Cotton/Hemp; Cosyfeet Moose High-Performance; 18 East EASY KURTA; Mixed by Nasrin Quincy Jumpsuit in Teal Corduroy; W'menswear W'mens Tank - Grey; 18 East AMER EASTERN BUTTON DOWN SHIRT; Mixed by Nasrin Wide Leg Linen Jumpsuit in Teal & Peacock; Mixed by Nasrin Quincy Jumpsuit in Black
 <!-- auto:end -->
 
 Updated 2026-09-15 from the notebook (9 hearts, 0 passes) plus the closet's own curation.

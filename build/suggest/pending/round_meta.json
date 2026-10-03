@@ -1,14 +1,31 @@
 {
- "date": "2026-09-26",
- "stage1": "2026-09-26T09:20:34.794714+00:00",
+ "date": "2026-10-03",
+ "stage1": "2026-10-03T09:51:15.624768+00:00",
  "brands_ok": [
+  "Son de Flor",
+  "Unbound Merino"
+ ],
+ "brands_failed": [
+  "Alex Mill",
   "Boden",
   "TOAST",
   "18 East",
+  "Buck Mason",
   "Bosie Knitwear",
   "Gramicci",
   "Mixed by Nasrin",
   "Howlin'",
+  "Anthropologie",
+  "J.Crew",
+  "Madewell",
+  "Abercrombie & Fitch",
+  "Ralph Lauren",
+  "O'Connell's",
+  "W'menswear",
+  "Post Romantic",
+  "Levi's",
+  "Vince",
+  "Theory",
   "Tibi",
   "Nili Lotan",
   "Rachel Comey",
@@ -26,20 +43,5 @@
   "Ibex",
   "Mons Royale",
   "Minus33"
- ],
- "brands_failed": [
-  "Alex Mill",
-  "Buck Mason",
-  "Anthropologie",
-  "J.Crew",
-  "Madewell",
-  "Abercrombie & Fitch",
-  "Ralph Lauren",
-  "O'Connell's",
-  "W'menswear",
-  "Post Romantic",
-  "Levi's",
-  "Vince",
-  "Theory"
  ]
 }
