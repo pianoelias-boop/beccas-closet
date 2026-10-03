@@ -1,61 +1,34 @@
 # Shortlist for the round of 2026-10-03
 
-Hearts: 23 · Not for me: 389 · candidates swept: 128 from 2 brands.
+Hearts: 23 · Not for me: 389 · candidates swept: 157 from 1 brands.
 
-1. [Unbound Merino] Women's Merino Transit Bomber — Jackets & Coats — $348 — merino — score -3.95
-   A classic bomber with a cropped, style-forward silhouette. Built with a bonded fabric combining a weather-resistant shell with a Merino-rich interior and cupro lining for breathable comfort and adaptability—from breezy t
-   https://unboundmerino.com/products/womens-merino-transit-bomber
-2. [Unbound Merino] Women's Knit Cardigan — Sweaters & Knitwear — $195 (list $235) — merino — score -6.32
-   Lightweight, versatile and ultra-soft. Spun from fine Italian Merino yarns with a cashmere-like handfeel, this cardigan goes from polished layer to standalone top with ease.
-   https://unboundmerino.com/products/womens-knit-cardigan
-3. [Unbound Merino] Women's Merino Lofty Knit Turtleneck — Sweaters & Knitwear — $235 — merino — score -6.5
-   Lofty warmth without the weight. Air-spun 100% superfine Italian Merino creates a soft, breathable turtleneck that layers easily and packs without the bulk.
-   https://unboundmerino.com/products/womens-merino-lofty-knit-turtleneck
-4. [Unbound Merino] Women's Merino Knit Hoodie — Sweaters & Knitwear — $235 — merino — score -6.5
-   Embrace cozy comfort and style versatility with this elevated zip-up hoodie. Cut from ultra-soft Italian Merino yarn that feels great against your skin, it’s an effortless option for travel days and low-key lounging. Pai
-   https://unboundmerino.com/products/womens-merino-knit-hoodie
-5. [Unbound Merino] Women's Petite T-Shirts // 3 Pack — Shirts & Blouses — $270 — merino — score -6.59
-   Wash less. Wear longer. Simplify your life with our Petite Merino Crew & V-Necks. With our pack builder, the more you buy, the more you save!
-   https://unboundmerino.com/products/women
-6. [Unbound Merino] Women's Lounge Hoodie + Pants — Pants — $241 — unknown — score -7.06
-   
-   https://unboundmerino.com/products/womens-lounge-hoodie-pants
-7. [Unbound Merino] Women's Ultrafine Sleep Top + Bottoms Bundle — Tops & Tees — $208 — unknown — score -7.37
-   
-   https://unboundmerino.com/products/womens-sleep-top-bottom
-8. [Unbound Merino] Women's Merino Tencel Rib Tank — Tops & Tees — $85 — merino — score -7.69
-   Designed with thin, camisole-like straps and a straight neckline, this modern essential makes use of a heavier weight Merino-Tencel rib for structure, comfort and performance.
-   https://unboundmerino.com/products/womens-merino-tencel-rib-tank
-9. [Unbound Merino] Women's Ultralight Merino Crew T-Shirt — Shirts & Blouses — $98 — merino — score -7.87
-   Our lightest-ever tee lets you take on hot climates while keeping cool and comfortable. Expect a feels-great-against-the-skin drape along with the natural performance of Merino wool.
-   https://unboundmerino.com/products/women-s-ultralight-merino-t-shirt
-10. [Unbound Merino] Women's Ultralight Merino V-Neck T-Shirt — Shirts & Blouses — $98 — merino — score -7.96
-   Our lightest T-shirt fabric ever—perfect for the heat. Made from an ultra-airy Merino wool blend, this essential V-neck tee keeps you cool and comfortable in even the hottest climates, from sun-drenched streets to tropic
-   https://unboundmerino.com/products/womens-ultralight-merino-v-neck-t-shirt
-11. [Son de Flor] Edith – Straight Leg Linen Maxi Trousers — Pants — $252 — 100% linen — score -8.15
-   100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch
-   https://sondeflor.com/products/maxi-edith-trousers-twilight-tartan
-12. [Unbound Merino] Women's Merino Rib Racer Tank — Tops & Tees — $70 (list $85) — merino — score -8.68
-   Elevated with the uncompromising performance of Merino wool, this classic ribbed essential is designed with extra stretch for a perfect fit every time.
-   https://unboundmerino.com/products/womens-merino-rib-racer-tank
-13. [Son de Flor] Dawn – Linen Dress with Tie Neckline — Dresses — $309 (list $332) — 100% linen — score -9.14
-   100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch
-   https://sondeflor.com/products/long-sleeve-dawn-dress-wild-plum-bloom
-14. [Unbound Merino] Women's Easy Merino Travel Pants — Pants — $235 — merino — score -9.2
-   The pant that turns any travel day into an easy one. Crafted from premium Italian Merino wool with natural stretch, this lightweight, packable pair is cut in a modern barrel silhouette that moves with you and delivers an
-   https://unboundmerino.com/products/womens-easy-merino-travel-pants
-15. [Son de Flor] Wrap – Full-Circle Twill Linen Skirt — Skirts — $263 — linen — score -9.22
-   100% twill linen textile Handmade quality and craftsmanship Long lasting and soft to the touch
-   https://sondeflor.com/products/wrap-skirt-twill-linen-oak-tartan
-16. [Son de Flor] Margot – Open Back Neckline Linen Dress — Dresses — $367 — 100% linen — score -9.23
-   100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch
-   https://sondeflor.com/products/margot-dress-long-sleeve-red-dahlia
-17. [Son de Flor] Gale – Oversized Linen Dress — Dresses — $321 — 100% linen — score -9.71
-   100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch
-   https://sondeflor.com/products/gale-dress-long-sleeve-wild-plum
-18. [Unbound Merino] Women's Merino Travel Jumpsuit — Jumpsuits & Rompers — $178 — merino — score -11.37
-   The jumpsuit that makes getting dressed an effortless endeavour. Cut from a high-performance Merino wool blend, this complete look packs up as compactly as a T-shirt.
-   https://unboundmerino.com/products/womens-merino-travel-jumpsuit
-19. [Son de Flor] Moor – Tailored Linen Blend Jacket with Mandarin Collar — Jackets & Coats — $286 — 62% linen, 38% cotton — score -19.32
-   62% linen, 38% cotton Handmade quality and craftsmanship Long lasting and soft to the touch
-   https://sondeflor.com/products/moor-jacket-long-sleeve-navy-linen-denim
+1. [Big Bud Press] Magic Waters Vintage Tee - Orange *FINAL SALE* — Tops & Tees — $48 (list $72) — unknown — score -6.64
+   Our iconic tie dye. First debuted in 2017. Meticulously dyed by hand in Los Angeles. A luxe basic in our Many Colors collection-- the organic vintage tee. A closet staple, the perfect vintage inspired tee. A touch boxy w
+   https://bigbudpress.com/products/magic-waters-vintage-tee-orange
+2. [Big Bud Press] Racerback Tank - Burnt Terracotta — Tops & Tees — $55 — 96% cotton, 4% spandex — score -16.28
+   A staple tank top for a night out or a morning at the gym— the Racerback Tank. High narrow neck to accentuate the shoulders from the front and back. Signature 1” thick binding on neck and straps. Made from a super stretc
+   https://bigbudpress.com/products/racerback-tank-burnt-terracotta
+3. [Big Bud Press] Porthole Long Sleeve Tee - Nebula Purple — Tops & Tees — $78 — 96% cotton, 4% spandex — score -16.38
+   A long sleeve style built from the body of our Baby Tee— our updated take on the classic baby doll tee. Meant to be worn tight. Great for everything-- dressing up, dressing down, layering, and lounging. Made from a stret
+   https://bigbudpress.com/products/porthole-long-sleeve-tee-nebula-purple
+4. [Big Bud Press] Petite Short Sleeve Jumpsuit - Washed Grey — Jumpsuits & Rompers — $210 — 100% cotton — score -17.06
+   One jumpsuit to rule them all! The perfect statement piece. Our jumpsuits are our best-selling item since we debuted them in 2017. They’re the best for a reason! Vintage workwear inspired. Made with our signature durable
+   https://bigbudpress.com/products/petite-short-sleeve-jumpsuit-washed-grey
+5. [Big Bud Press] Short Sleeve Jumpsuit - Fruit Fantasy *FINAL SALE* — Jumpsuits & Rompers — $182 (list $268) — 100% cotton — score -18.14
+   SUMMER PRODUCE SUPER LAUNCH. Limited edition pieces inspired by summer’s bounty. One jumpsuit to rule them all! The perfect statement piece. Our jumpsuits are our best-selling item since we debuted them in 2017. They’re 
+   https://bigbudpress.com/products/short-sleeve-jumpsuit-fruit-fantasy
+6. [Big Bud Press] Black Stripe Work Pants - Construction Orange — Pants — $158 — 100% cotton, 100% cotton — score -20.83
+   Our most iconic stripe pant— the black stripe. Our best selling pant-- our Work Pants are a closet staple. Straight leg, workwear inspired pants. Added elastic in the back for more size flexibility. Heavy duty stitching.
+   https://bigbudpress.com/products/black-stripe-work-pants-construction-orange
+7. [Big Bud Press] Overall Handbags *FINAL SALE* — Jumpsuits & Rompers — $60 (list $85) — 100% cotton, 100% cotton — score -21.84
+   A handbag inspired by the signature shape of our overalls bib. Channel your inner 2000s self. This bag is perfect for the essentials. Cute and compact. Large main pocket for double pocket exterior for easy access to your
+   https://bigbudpress.com/products/overall-handbags
+8. [Big Bud Press] Organic Work Pants - Evergreen — Pants — $189 — 100% cotton, 100% cotton — score -22.03
+   A premium version of our classic style. These pieces are made with 100% organic cotton— grown and woven in america. Our best selling pant-- our Work Pants are a closet staple. Straight leg, workwear inspired pants. Added
+   https://bigbudpress.com/products/organic-work-pants-evergreen
+9. [Big Bud Press] Work Pants - Cow Print — Pants — $172 — 100% cotton — score -22.2
+   New hand-decorated animal prints in limited quantities…! Our best selling pant-- our Work Pants are a closet staple. Straight leg, workwear inspired pants. Added elastic in the back for more size flexibility. Heavy duty 
+   https://bigbudpress.com/products/work-pants-cow
+10. [Big Bud Press] Denim Work Jacket - Surplus Green *FINAL SALE* — Jackets & Coats — $131 (list $188) — 100% cotton, 100% cotton — score -25.19
+   Unisex sizing. A staple jacket for your wardrobe inspired by the timeless look of vintage chore coats. A versatile jacket that's great for almost any time of year. Perfect for layering in cooler months or leaving in the 
+   https://bigbudpress.com/products/denim-work-jacket-surplus-green

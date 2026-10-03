@@ -1,724 +1,418 @@
 [
 {
-"brand": "Unbound Merino",
+"brand": "Big Bud Press",
 "status": "approved",
-"title": "Women's Merino Transit Bomber",
-"category": "Jackets & Coats",
-"price": 348.0,
-"list": 348.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/womens-merino-transit-bomber",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-merino-Women-Transit-Bomber-Graphite-1_8ed28964-567e-490e-9b7f-91c26834463c.jpg?v=1775740463",
-"tags": [
-"Tops",
-"women"
-],
-"desc": "A classic bomber with a cropped, style-forward silhouette. Built with a bonded fabric combining a weather-resistant shell with a Merino-rich interior and cupro lining for breathable comfort and adaptability—from breezy terminals to brisk city streets.",
-"published": "2026-05-21",
-"score": -3.95,
-"hits": [
-[
-"brand:Unbound Merino",
--0.09130434782608694
-],
-[
-"fab:cupro",
--0.13695652173913042
-],
-[
-"cat:Jackets & Coats",
--0.27391304347826084
-],
-[
-"cut:cropped",
--0.3391304347826088
-]
-],
-"recolour": false
-},
-{
-"brand": "Unbound Merino",
-"status": "approved",
-"title": "Women's Knit Cardigan",
-"category": "Sweaters & Knitwear",
-"price": 195.0,
-"list": 235.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/womens-knit-cardigan",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-merino-Womens-Knit-Cardigan-Butter-Yellow-1.jpg?v=1762219544",
-"tags": [
-"last-chance",
-"Tops",
-"women"
-],
-"desc": "Lightweight, versatile and ultra-soft. Spun from fine Italian Merino yarns with a cashmere-like handfeel, this cardigan goes from polished layer to standalone top with ease.",
-"published": "2025-11-06",
-"score": -6.32,
-"hits": [
-[
-"brand:Unbound Merino",
--0.09130434782608694
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"fab:cashmere",
--0.6847826086956523
-],
-[
-"color:Beige/Tan",
--0.726086956521739
-]
-],
-"recolour": false
-},
-{
-"brand": "Unbound Merino",
-"status": "approved",
-"title": "Women's Merino Lofty Knit Turtleneck",
-"category": "Sweaters & Knitwear",
-"price": 235.0,
-"list": 235.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/womens-merino-lofty-knit-turtleneck",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-Merino-Womens-Merino-Lofty-Knit-Turtleneck-Amber-Camel-1.jpg?v=1788280597",
-"tags": [
-"Tops",
-"women"
-],
-"desc": "Lofty warmth without the weight. Air-spun 100% superfine Italian Merino creates a soft, breathable turtleneck that layers easily and packs without the bulk.",
-"published": "2026-09-07",
-"score": -6.5,
-"hits": [
-[
-"brand:Unbound Merino",
--0.09130434782608694
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"cat:Sweaters & Knitwear",
--1.4608695652173918
-],
-[
-"color:Multi/Print",
--1.589130434782609
-]
-],
-"recolour": false
-},
-{
-"brand": "Unbound Merino",
-"status": "approved",
-"title": "Women's Merino Knit Hoodie",
-"category": "Sweaters & Knitwear",
-"price": 235.0,
-"list": 235.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/womens-merino-knit-hoodie",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-Merino-Womens-Fine-Knit-Hoodie-Black-1_3bbdbec3-9d6a-4ff7-ad9e-95dc80f7ae9c.jpg?v=1779245712",
-"tags": [
-"Tops",
-"women"
-],
-"desc": "Embrace cozy comfort and style versatility with this elevated zip-up hoodie. Cut from ultra-soft Italian Merino yarn that feels great against your skin, it’s an effortless option for travel days and low-key lounging. Pair it with our Merino Sweater Pant for a stylish, streamlined set.",
-"published": "2026-05-27",
-"score": -6.5,
-"hits": [
-[
-"brand:Unbound Merino",
--0.09130434782608694
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"cat:Sweaters & Knitwear",
--1.4608695652173918
-],
-[
-"color:Multi/Print",
--1.589130434782609
-]
-],
-"recolour": false
-},
-{
-"brand": "Unbound Merino",
-"status": "approved",
-"title": "Women's Petite T-Shirts // 3 Pack",
-"category": "Shirts & Blouses",
-"price": 270.0,
-"list": 270.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/women",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/womens-petite-bundle.png?v=1764294485",
-"tags": [
-"bundle",
-"loop_recommendations_exclude",
-"Tops",
-"women"
-],
-"desc": "Wash less. Wear longer. Simplify your life with our Petite Merino Crew & V-Necks. With our pack builder, the more you buy, the more you save!",
-"published": "2025-11-28",
-"score": -6.59,
-"hits": [
-[
-"brand:Unbound Merino",
--0.09130434782608694
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"cat:Shirts & Blouses",
--1.4695652173913047
-],
-[
-"color:Denim",
--1.6
-]
-],
-"recolour": false
-},
-{
-"brand": "Unbound Merino",
-"status": "approved",
-"title": "Women's Lounge Hoodie + Pants",
-"category": "Pants",
-"price": 241.0,
-"list": 241.0,
-"fabric": "unknown",
-"natural": null,
-"url": "https://unboundmerino.com/products/womens-lounge-hoodie-pants",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/unbound-merino-womens-lounge-pants-classic-hoodie-2pack.jpg?v=1754612382",
-"tags": [
-"bundle",
-"loop_recommendations_exclude",
-"women"
-],
-"desc": "",
-"published": "2025-08-08",
-"score": -7.06,
-"hits": [
-[
-"brand:Unbound Merino",
--0.09130434782608694
-],
-[
-"color:Multi/Print",
--1.589130434782609
-],
-[
-"cat:Pants",
--1.591304347826087
-],
-[
-"price:200-300",
--3.5913043478260818
-]
-],
-"recolour": false
-},
-{
-"brand": "Unbound Merino",
-"status": "approved",
-"title": "Women's Ultrafine Sleep Top + Bottoms Bundle",
+"title": "Magic Waters Vintage Tee - Orange *FINAL SALE*",
 "category": "Tops & Tees",
-"price": 208.0,
-"list": 208.0,
+"price": 48.0,
+"list": 72.0,
 "fabric": "unknown",
 "natural": null,
-"url": "https://unboundmerino.com/products/womens-sleep-top-bottom",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/unbound-merino-womens-sleep-set-2pack.jpg?v=1749677406",
+"url": "https://bigbudpress.com/products/magic-waters-vintage-tee-orange",
+"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/01ECOMM-111.png?v=1781715568",
 "tags": [
-"bundle",
-"loop_recommendations_exclude",
-"women"
+"All",
+"clearance",
+"labor day",
+"organic vintage tee",
+"POINT OF SALE",
+"tees"
 ],
-"desc": "",
-"published": "2026-03-19",
-"score": -7.37,
+"desc": "Our iconic tie dye. First debuted in 2017. Meticulously dyed by hand in Los Angeles. A luxe basic in our Many Colors collection-- the organic vintage tee. A closet staple, the perfect vintage inspired tee. A touch boxy with a fat 2x1 rib neck binding. We custom developed and knit this premium fabric right here in the Los Angeles area. Super soft and ultra comfy feel. Garment dyed and then tie dyed by hand in our signature Magic Waters dye here in Los Angeles. All specialty dyed pieces are done by hand. Each piece, while similar, are totally unique. No two are alike! These processes are done co",
+"published": "2026-06-18",
+"score": -6.64,
 "hits": [
 [
-"brand:Unbound Merino",
--0.09130434782608694
+"brand:Big Bud Press",
+-0.04565217391304347
 ],
 [
-"color:Multi/Print",
--1.589130434782609
+"color:Orange/Rust",
+-0.18478260869565213
+],
+[
+"fab:rib",
+-0.3195652173913043
 ],
 [
 "cat:Tops & Tees",
 -1.863043478260869
-],
-[
-"price:200-300",
--3.5913043478260818
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Unbound Merino",
+"brand": "Big Bud Press",
 "status": "approved",
-"title": "Women's Merino Tencel Rib Tank",
+"title": "Racerback Tank - Burnt Terracotta",
 "category": "Tops & Tees",
-"price": 85.0,
-"list": 85.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/womens-merino-tencel-rib-tank",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-Merino-Womens-Merino-Tencel-Rib-Tank-Amber-1.jpg?v=1774545632",
+"price": 55.0,
+"list": 55.0,
+"fabric": "96% cotton, 4% spandex",
+"natural": 0.96,
+"url": "https://bigbudpress.com/products/racerback-tank-burnt-terracotta",
+"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/01ECOMMRACERBACKTANKJULIETBURNTTLBYMORGAN4-3-260464.png?v=1778089178",
 "tags": [
-"Tops",
-"women"
+"All",
+"labor day",
+"POINT OF SALE",
+"racerback tank",
+"siblings",
+"tanks"
 ],
-"desc": "Designed with thin, camisole-like straps and a straight neckline, this modern essential makes use of a heavier weight Merino-Tencel rib for structure, comfort and performance.",
-"published": "2026-03-26",
-"score": -7.69,
+"desc": "A staple tank top for a night out or a morning at the gym— the Racerback Tank. High narrow neck to accentuate the shoulders from the front and back. Signature 1” thick binding on neck and straps. Made from a super stretchy 96% cotton, 4% spandex blend. Custom knit for us in the Los Angeles area. This tank is meant to be worn tight. This tank effortlessly dresses up or down. It suits any need. Garment dyed for durability and color quality. Designed, cut, sewn, and garment dyed in Los Angeles with fabric custom woven for us in the area. Garment dyed with non-toxic and low impact dyes.",
+"published": "2026-05-07",
+"score": -16.28,
 "hits": [
 [
-"brand:Unbound Merino",
--0.09130434782608694
+"cut:racerback",
+-0.04565217391304347
 ],
 [
-"fab:rib",
--0.3195652173913043
+"brand:Big Bud Press",
+-0.04565217391304347
 ],
 [
-"fab:tencel",
--0.5478260869565218
+"color:Orange/Rust",
+-0.18478260869565213
 ],
 [
-"fab:merino",
--0.6391304347826088
+"cut:tank",
+-0.9043478260869569
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Unbound Merino",
+"brand": "Big Bud Press",
 "status": "approved",
-"title": "Women's Ultralight Merino Crew T-Shirt",
-"category": "Shirts & Blouses",
-"price": 98.0,
-"list": 98.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/women-s-ultralight-merino-t-shirt",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-Merino-Womens-Merino-Ultralight-Crew-neck-T-Shirt-black-1.jpg?v=1776457904",
-"tags": [
-"Tops",
-"women"
-],
-"desc": "Our lightest-ever tee lets you take on hot climates while keeping cool and comfortable. Expect a feels-great-against-the-skin drape along with the natural performance of Merino wool.",
-"published": "2026-04-17",
-"score": -7.87,
-"hits": [
-[
-"brand:Unbound Merino",
--0.09130434782608694
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"cat:Shirts & Blouses",
--1.4695652173913047
-],
-[
-"color:White/Ivory",
--1.506521739130435
-]
-],
-"recolour": false
-},
-{
-"brand": "Unbound Merino",
-"status": "approved",
-"title": "Women's Ultralight Merino V-Neck T-Shirt",
-"category": "Shirts & Blouses",
-"price": 98.0,
-"list": 98.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/womens-ultralight-merino-v-neck-t-shirt",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-Merino-Womens-Merino-Ultralight-Vneck-T-Shirt-Earth-1.jpg?v=1776466830",
-"tags": [
-"Tops",
-"women"
-],
-"desc": "Our lightest T-shirt fabric ever—perfect for the heat. Made from an ultra-airy Merino wool blend, this essential V-neck tee keeps you cool and comfortable in even the hottest climates, from sun-drenched streets to tropical getaways.",
-"published": "2026-04-17",
-"score": -7.96,
-"hits": [
-[
-"brand:Unbound Merino",
--0.09130434782608694
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"cat:Shirts & Blouses",
--1.4695652173913047
-],
-[
-"fab:wool",
--1.5413043478260875
-]
-],
-"recolour": false
-},
-{
-"brand": "Son de Flor",
-"status": "approved",
-"title": "Edith – Straight Leg Linen Maxi Trousers",
-"category": "Pants",
-"price": 252.0,
-"list": 252.0,
-"fabric": "100% linen",
-"natural": 1.0,
-"url": "https://sondeflor.com/products/maxi-edith-trousers-twilight-tartan",
-"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/1JB03591_149d229b-f74d-493b-b152-78750ba1485c.jpg?v=1785502517",
-"tags": [
-"edith_trousers",
-"fw26"
-],
-"desc": "100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
-"published": "2026-08-07",
-"score": -8.15,
-"hits": [
-[
-"brand:Son de Flor",
-0.06521739130434782
-],
-[
-"cut:straight leg",
--0.008695652173913012
-],
-[
-"cut:maxi",
--1.171739130434783
-],
-[
-"color:Multi/Print",
--1.589130434782609
-]
-],
-"recolour": false
-},
-{
-"brand": "Unbound Merino",
-"status": "approved",
-"title": "Women's Merino Rib Racer Tank",
+"title": "Porthole Long Sleeve Tee - Nebula Purple",
 "category": "Tops & Tees",
-"price": 70.0,
-"list": 85.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/womens-merino-rib-racer-tank",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-Merino-Womens-Merino-Rib-Racer-Tank-Top-Evergreen-1.jpg?v=1788985475",
+"price": 78.0,
+"list": 78.0,
+"fabric": "96% cotton, 4% spandex",
+"natural": 0.96,
+"url": "https://bigbudpress.com/products/porthole-long-sleeve-tee-nebula-purple",
+"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/ECOMMPORTHOLELONGSLEEVENEBULAJULIETBYMIGUEL9-15-261013.png?v=1790205562",
 "tags": [
-"Tops",
-"women"
+"All",
+"long sleeve porthole",
+"long sleeve tees",
+"POINT OF SALE",
+"tees",
+"tops"
 ],
-"desc": "Elevated with the uncompromising performance of Merino wool, this classic ribbed essential is designed with extra stretch for a perfect fit every time.",
-"published": "2024-03-18",
-"score": -8.68,
+"desc": "A long sleeve style built from the body of our Baby Tee— our updated take on the classic baby doll tee. Meant to be worn tight. Great for everything-- dressing up, dressing down, layering, and lounging. Made from a stretchy 96% cotton/4% spandex blend. This fabric was custom knit for us right here in the Los Angeles area. Dyed in a rainbow of our hues using non-toxic and low impact dyes. Designed, cut, sewn and garment dyed Los Angeles with fabric custom knit for us locally in southern california. Dyed with non-toxic and low impact dyes.",
+"published": "2026-09-24",
+"score": -16.38,
 "hits": [
 [
-"brand:Unbound Merino",
--0.09130434782608694
+"brand:Big Bud Press",
+-0.04565217391304347
 ],
 [
-"fab:rib",
--0.3195652173913043
+"color:Purple",
+-0.4478260869565216
 ],
 [
-"fab:merino",
--0.6391304347826088
+"cut:long sleeve",
+-0.8521739130434784
 ],
 [
-"color:Beige/Tan",
--0.726086956521739
+"cat:Tops & Tees",
+-1.863043478260869
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Son de Flor",
+"brand": "Big Bud Press",
 "status": "approved",
-"title": "Dawn – Linen Dress with Tie Neckline",
-"category": "Dresses",
-"price": 309.0,
-"list": 332.0,
-"fabric": "100% linen",
+"title": "Petite Short Sleeve Jumpsuit - Washed Grey",
+"category": "Jumpsuits & Rompers",
+"price": 210.0,
+"list": 210.0,
+"fabric": "100% cotton",
 "natural": 1.0,
-"url": "https://sondeflor.com/products/long-sleeve-dawn-dress-wild-plum-bloom",
-"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/1JB03123.jpg?v=1786453333",
+"url": "https://bigbudpress.com/products/petite-short-sleeve-jumpsuit-washed-grey",
+"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/18ECOMMWASHEDGREYCOLORLAUNCHCHEYANNJUMPSUITXSBYDOT1-30-2526848_b4c47b04-ceee-49d6-a72a-aea5721846c1.png?v=1762450422",
 "tags": [
-"dublicate",
-"fw26"
+"All",
+"jumpsuit",
+"petite",
+"POINT OF SALE",
+"short sleeve jumpsuit petite",
+"siblings"
 ],
-"desc": "100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
-"published": "2026-08-11",
-"score": -9.14,
+"desc": "One jumpsuit to rule them all! The perfect statement piece. Our jumpsuits are our best-selling item since we debuted them in 2017. They’re the best for a reason! Vintage workwear inspired. Made with our signature durable 9oz 100% cotton twill. Our twill does not have stretch built into the fabric but all of our pieces break in beautifully with wear and conform to your body with time! Custom Sun Baby logo snap enclosure. Heavy duty stitching ensures this piece is workwear quality and made to last! Elastic in back of waist for an updated look on a timeless classic. Garment dyed in a rainbow of o",
+"published": "2025-11-06",
+"score": -17.06,
 "hits": [
 [
-"brand:Son de Flor",
-0.06521739130434782
+"brand:Big Bud Press",
+-0.04565217391304347
 ],
 [
-"color:Multi/Print",
--1.589130434782609
+"cut:short sleeve",
+-0.41086956521739126
 ],
 [
-"fab:linen",
--1.6369565217391304
+"color:Grey",
+-0.5130434782608696
 ],
 [
-"price:300+",
--2.1217391304347815
+"fab:twill",
+-0.7108695652173914
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Unbound Merino",
+"brand": "Big Bud Press",
 "status": "approved",
-"title": "Women's Easy Merino Travel Pants",
-"category": "Pants",
-"price": 235.0,
-"list": 235.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/womens-easy-merino-travel-pants",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-Merino-Womens-Easy-Merino-Travel-Pants-Denim-Blue-3.jpg?v=1771702997",
+"title": "Short Sleeve Jumpsuit - Fruit Fantasy *FINAL SALE*",
+"category": "Jumpsuits & Rompers",
+"price": 182.0,
+"list": 268.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://bigbudpress.com/products/short-sleeve-jumpsuit-fruit-fantasy",
+"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/01ECOMMFRUITPRINTJUMPSUITXSKANDIABYMIGUEL7-16-260111.png?v=1786462939",
 "tags": [
-"Bottoms",
-"women"
+"All",
+"clearance",
+"fruit print",
+"jumpsuit",
+"POINT OF SALE",
+"print"
 ],
-"desc": "The pant that turns any travel day into an easy one. Crafted from premium Italian Merino wool with natural stretch, this lightweight, packable pair is cut in a modern barrel silhouette that moves with you and delivers an effortlessly polished look.",
-"published": "2025-12-27",
-"score": -9.2,
+"desc": "SUMMER PRODUCE SUPER LAUNCH. Limited edition pieces inspired by summer’s bounty. One jumpsuit to rule them all! The perfect statement piece. Our jumpsuits are our best-selling item since we debuted them in 2017. They’re the best for a reason! Vintage workwear inspired. Made with our signature durable 9oz 100% cotton twill. Our twill does not have stretch built into the fabric but all of our pieces break in beautifully with wear and conform to your body with time! Custom Sun Baby logo snap enclosure. Heavy duty stitching ensures this piece is workwear quality and made to last! Elastic in back o",
+"published": "2026-08-13",
+"score": -18.14,
 "hits": [
 [
-"brand:Unbound Merino",
--0.09130434782608694
+"brand:Big Bud Press",
+-0.04565217391304347
 ],
 [
-"fab:merino",
--0.6391304347826088
-],
-[
-"cut:barrel",
--1.1434782608695657
-],
-[
-"color:White/Ivory",
--1.506521739130435
-]
-],
-"recolour": false
-},
-{
-"brand": "Son de Flor",
-"status": "approved",
-"title": "Wrap – Full-Circle Twill Linen Skirt",
-"category": "Skirts",
-"price": 263.0,
-"list": 263.0,
-"fabric": "linen",
-"natural": null,
-"url": "https://sondeflor.com/products/wrap-skirt-twill-linen-oak-tartan",
-"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/SONDEFLOR-546.jpg?v=1790165393",
-"tags": [
-"fw26"
-],
-"desc": "100% twill linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
-"published": "2026-08-07",
-"score": -9.22,
-"hits": [
-[
-"brand:Son de Flor",
-0.06521739130434782
-],
-[
-"cut:wrap",
--0.7043478260869563
+"cut:short sleeve",
+-0.41086956521739126
 ],
 [
 "fab:twill",
 -0.7108695652173914
 ],
 [
-"color:Multi/Print",
--1.589130434782609
+"cat:Jumpsuits & Rompers",
+-0.7891304347826088
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Son de Flor",
+"brand": "Big Bud Press",
 "status": "approved",
-"title": "Margot – Open Back Neckline Linen Dress",
-"category": "Dresses",
-"price": 367.0,
-"list": 367.0,
-"fabric": "100% linen",
+"title": "Black Stripe Work Pants - Construction Orange",
+"category": "Pants",
+"price": 158.0,
+"list": 158.0,
+"fabric": "100% cotton, 100% cotton",
 "natural": 1.0,
-"url": "https://sondeflor.com/products/margot-dress-long-sleeve-red-dahlia",
-"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/1JB02977.jpg?v=1785823644",
+"url": "https://bigbudpress.com/products/black-stripe-work-pants-construction-orange",
+"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/01ECOMMJULIET2XLCONSTRUCTIONORANGEBLACKSTRIPEWORKPANTSBYMIGUEL8-11-261729.png?v=1787070781",
 "tags": [
-"fw26"
+"All",
+"bottoms",
+"POINT OF SALE",
+"stripes",
+"work pants"
 ],
-"desc": "100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
-"published": "2026-08-07",
-"score": -9.23,
+"desc": "Our most iconic stripe pant— the black stripe. Our best selling pant-- our Work Pants are a closet staple. Straight leg, workwear inspired pants. Added elastic in the back for more size flexibility. Heavy duty stitching. Made from our signature durable 9oz 100% cotton twill. Custom woven for us in america. Our twill does not have stretch built into the fabric but all of our pieces break in beautifully with wear and conform to your body with time! Garment dyed for durability and color quality. Designed, cut, sewn, and garment dyed in Los Angeles with 100% cotton fabric custom woven for us in am",
+"published": "2026-08-20",
+"score": -20.83,
 "hits": [
 [
-"brand:Son de Flor",
-0.06521739130434782
+"cut:straight leg",
+-0.008695652173913012
 ],
 [
-"color:Multi/Print",
--1.589130434782609
+"brand:Big Bud Press",
+-0.04565217391304347
 ],
 [
-"fab:linen",
--1.6369565217391304
+"color:Orange/Rust",
+-0.18478260869565213
 ],
 [
-"price:300+",
--2.1217391304347815
+"fab:twill",
+-0.7108695652173914
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Son de Flor",
+"brand": "Big Bud Press",
 "status": "approved",
-"title": "Gale – Oversized Linen Dress",
-"category": "Dresses",
-"price": 321.0,
-"list": 321.0,
-"fabric": "100% linen",
-"natural": 1.0,
-"url": "https://sondeflor.com/products/gale-dress-long-sleeve-wild-plum",
-"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/1JB03943-Copy.jpg?v=1785825231",
-"tags": [
-"fw26"
-],
-"desc": "100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
-"published": "2026-10-02",
-"score": -9.71,
-"hits": [
-[
-"brand:Son de Flor",
-0.06521739130434782
-],
-[
-"cut:oversized",
--0.6043478260869565
-],
-[
-"color:Multi/Print",
--1.589130434782609
-],
-[
-"fab:linen",
--1.6369565217391304
-]
-],
-"recolour": false
-},
-{
-"brand": "Unbound Merino",
-"status": "approved",
-"title": "Women's Merino Travel Jumpsuit",
+"title": "Overall Handbags *FINAL SALE*",
 "category": "Jumpsuits & Rompers",
-"price": 178.0,
-"list": 178.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://unboundmerino.com/products/womens-merino-travel-jumpsuit",
-"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-Merino-Women-Merino-Travel-Jumpsuit-Dark-Olive-3.jpg?v=1775168857",
+"price": 60.0,
+"list": 85.0,
+"fabric": "100% cotton, 100% cotton",
+"natural": 1.0,
+"url": "https://bigbudpress.com/products/overall-handbags",
+"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/01-overall-flats-by-dot-morgan-chris-9-4-2412940.png?v=1725549619",
 "tags": [
-"Dresses",
-"women"
+"Accessories",
+"All",
+"Bags",
+"clearance",
+"POINT OF SALE"
 ],
-"desc": "The jumpsuit that makes getting dressed an effortless endeavour. Cut from a high-performance Merino wool blend, this complete look packs up as compactly as a T-shirt.",
-"published": "2026-04-08",
-"score": -11.37,
+"desc": "A handbag inspired by the signature shape of our overalls bib. Channel your inner 2000s self. This bag is perfect for the essentials. Cute and compact. Large main pocket for double pocket exterior for easy access to your stuff. Made with our custom woven 100% cotton 14.5 oz denim— made in one of america’s oldest denim mills. Removable straps makes laundering this bag super simple. The adjustable strap shifts easily from handbag to shoulder bag. Designed, cut, sewn, and dyed in Los Angeles with 100% cotton denim custom woven for us in america. Adorned with American made hardware.",
+"published": "2025-09-22",
+"score": -21.84,
 "hits": [
 [
-"brand:Unbound Merino",
--0.09130434782608694
-],
-[
-"fab:merino",
--0.6391304347826088
+"brand:Big Bud Press",
+-0.04565217391304347
 ],
 [
 "cat:Jumpsuits & Rompers",
 -0.7891304347826088
 ],
 [
-"fab:wool",
--1.5413043478260875
+"fab:denim",
+-1.2826086956521743
+],
+[
+"color:Multi/Print",
+-1.589130434782609
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Son de Flor",
+"brand": "Big Bud Press",
 "status": "approved",
-"title": "Moor – Tailored Linen Blend Jacket with Mandarin Collar",
-"category": "Jackets & Coats",
-"price": 286.0,
-"list": 286.0,
-"fabric": "62% linen, 38% cotton",
+"title": "Organic Work Pants - Evergreen",
+"category": "Pants",
+"price": 189.0,
+"list": 189.0,
+"fabric": "100% cotton, 100% cotton",
 "natural": 1.0,
-"url": "https://sondeflor.com/products/moor-jacket-long-sleeve-navy-linen-denim",
-"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/CopyofEshopProductphotosize1365x2048_62_8edd284c-1648-48ff-9ccb-08761759b056.jpg?v=1786018915",
+"url": "https://bigbudpress.com/products/organic-work-pants-evergreen",
+"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/01ECOMMORGANICWORKPANTSALEXXXSEVERGREEN1BYMIGUEL11-18-2542760.png?v=1764020887",
 "tags": [
-"fw26",
-"linen_denim"
+"All",
+"Apparel",
+"bottoms",
+"organic",
+"pants",
+"POINT OF SALE"
 ],
-"desc": "62% linen, 38% cotton Handmade quality and craftsmanship Long lasting and soft to the touch",
-"published": "2026-08-07",
-"score": -19.32,
+"desc": "A premium version of our classic style. These pieces are made with 100% organic cotton— grown and woven in america. Our best selling pant-- our Work Pants are a closet staple. Straight leg, workwear inspired pants. Added elastic in the back for more size flexibility. Heavy duty stitching. Made from our signature durable 9oz 100% organic cotton twill. A premium take on our classic fabric— organic cotton grown and woven in america. This has a slightly different hand-feel compared to our classic twill. Our twill does not have stretch built into the fabric but all of our pieces break in beautifull",
+"published": "2025-11-29",
+"score": -22.03,
 "hits": [
 [
-"brand:Son de Flor",
-0.06521739130434782
+"cut:straight leg",
+-0.008695652173913012
+],
+[
+"brand:Big Bud Press",
+-0.04565217391304347
+],
+[
+"fab:twill",
+-0.7108695652173914
+],
+[
+"cut:elastic",
+-1.1565217391304352
+]
+],
+"recolour": false
+},
+{
+"brand": "Big Bud Press",
+"status": "approved",
+"title": "Work Pants - Cow Print",
+"category": "Pants",
+"price": 172.0,
+"list": 172.0,
+"fabric": "100% cotton",
+"natural": 1.0,
+"url": "https://bigbudpress.com/products/work-pants-cow",
+"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/ECOMMANIMALPRINTCOWWORKPANTXSKIRABYMIGUEL9-9-260333.png?v=1789583554",
+"tags": [
+"All",
+"animal print",
+"bottoms",
+"paintstamp",
+"POINT OF SALE",
+"print"
+],
+"desc": "New hand-decorated animal prints in limited quantities…! Our best selling pant-- our Work Pants are a closet staple. Straight leg, workwear inspired pants. Added elastic in the back for more size flexibility. Heavy duty stitching. Made from our signature durable 9oz 100% cotton twill. Our twill does not have stretch built into the fabric but all of our pieces break in beautifully with wear and conform to your body with time! Decorated by hand and then washed for a softened feel. Please note— Each piece is entirely unique and may differ in small ways from the photos. While the price tag may see",
+"published": "2026-09-17",
+"score": -22.2,
+"hits": [
+[
+"cut:straight leg",
+-0.008695652173913012
+],
+[
+"brand:Big Bud Press",
+-0.04565217391304347
+],
+[
+"fab:twill",
+-0.7108695652173914
+],
+[
+"cut:elastic",
+-1.1565217391304352
+]
+],
+"recolour": false
+},
+{
+"brand": "Big Bud Press",
+"status": "approved",
+"title": "Denim Work Jacket - Surplus Green *FINAL SALE*",
+"category": "Jackets & Coats",
+"price": 131.0,
+"list": 188.0,
+"fabric": "100% cotton, 100% cotton",
+"natural": 1.0,
+"url": "https://bigbudpress.com/products/denim-work-jacket-surplus-green",
+"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/01ECOMMWORKJACKETSHANASURPLUSPBYMORGAN11-17-2542153.png?v=1764000578",
+"tags": [
+"All",
+"Apparel",
+"clearance",
+"denim",
+"denim work jacket",
+"FALLSALE"
+],
+"desc": "Unisex sizing. A staple jacket for your wardrobe inspired by the timeless look of vintage chore coats. A versatile jacket that's great for almost any time of year. Perfect for layering in cooler months or leaving in the car for summer nights. The fit on this is boxy and drapes beautifully when left open. Big patch pockets on front. Made from premium custom developed 14.5oz 100% cotton denim-- woven in one of america's oldest denim mills. Garment dyed in an array our signature hues. Heavy duty stitching. Brass Sun Baby logo snaps. A timeless staple that will wear better and better with each wea",
+"published": "2025-11-24",
+"score": -25.19,
+"hits": [
+[
+"brand:Big Bud Press",
+-0.04565217391304347
 ],
 [
 "cat:Jackets & Coats",
 -0.27391304347826084
 ],
 [
-"color:Multi/Print",
--1.589130434782609
+"fab:denim",
+-1.2826086956521743
 ],
 [
-"fab:linen",
--1.6369565217391304
+"color:Green",
+-1.4586956521739136
 ]
 ],
 "recolour": false
