@@ -1,80 +1,38 @@
 [
 {
-"brand": "Big Bud Press",
+"brand": "Rachel Comey",
 "status": "approved",
-"title": "Magic Waters Vintage Tee - Orange *FINAL SALE*",
-"category": "Tops & Tees",
-"price": 48.0,
-"list": 72.0,
-"fabric": "unknown",
-"natural": null,
-"url": "https://bigbudpress.com/products/magic-waters-vintage-tee-orange",
-"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/01ECOMM-111.png?v=1781715568",
-"tags": [
-"All",
-"clearance",
-"labor day",
-"organic vintage tee",
-"POINT OF SALE",
-"tees"
-],
-"desc": "Our iconic tie dye. First debuted in 2017. Meticulously dyed by hand in Los Angeles. A luxe basic in our Many Colors collection-- the organic vintage tee. A closet staple, the perfect vintage inspired tee. A touch boxy with a fat 2x1 rib neck binding. We custom developed and knit this premium fabric right here in the Los Angeles area. Super soft and ultra comfy feel. Garment dyed and then tie dyed by hand in our signature Magic Waters dye here in Los Angeles. All specialty dyed pieces are done by hand. Each piece, while similar, are totally unique. No two are alike! These processes are done co",
-"published": "2026-06-18",
-"score": -6.64,
-"hits": [
-[
-"brand:Big Bud Press",
--0.04565217391304347
-],
-[
-"color:Orange/Rust",
--0.18478260869565213
-],
-[
-"fab:rib",
--0.3195652173913043
-],
-[
-"cat:Tops & Tees",
--1.863043478260869
-]
-],
-"recolour": false
-},
-{
-"brand": "Ibex",
-"status": "approved",
-"title": "Women's Nautilus Fisherman Sweater",
+"title": "Hari Tee",
 "category": "Sweaters & Knitwear",
-"price": 300.0,
-"list": 300.0,
-"fabric": "70% wool, 30% nylon",
-"natural": 0.7,
-"url": "https://ibex.com/products/womens-nautilus-fisherman-sweater",
-"img": "https://cdn.shopify.com/s/files/1/0268/2280/3504/files/Women_s_Fisherman_Sweater_white.png?v=1768867284",
+"price": 375.0,
+"list": 375.0,
+"fabric": "100% alpaca",
+"natural": 1.0,
+"url": "https://www.rachelcomey.com/products/hari-tee",
+"img": "https://cdn.shopify.com/s/files/1/1174/9902/files/264W-413-K1891-GLACIER_-_01_b8265068-84cb-47d1-b3c6-a552499395ae.jpg?v=1784140437",
 "tags": [
-"cooling",
-"everyday active",
-"First Layer",
-"flow-tailored-fulfillment",
-"Long Sleeve",
-"mountain"
+"26-4FW",
+"Category:Knits",
+"default-product-template",
+"FW26 - D1-2",
+"KNITWEAR",
+"L"
 ],
-"desc": "CLASSIC FISHERMAN SWEATER, REENGINEERED WITH MERINO PERFORMANCE AND MADE IN THE USA. Field Notes: Made on 3D knitting machines in Brooklyn, NY Knit with Nuyarn® yarn in a 70% merino wool / 30% nylon blend for enhanced warmth, strength, and faster dry times. Reinforced knit structure at the elbows increases durability, while added nylon boosts resilience without sacrificing comfort. 8-gauge, 2x2 rib knit. Vented underarm stitching for improved airflow and mobility. The Clip: A timeless fisherman sweater, upgraded with performance merino and modern construction for life outside.",
-"published": "2026-01-26",
-"score": -6.74,
+"desc": "Short-sleeve knit pullover in Pluma, a soft, airy 100% alpaca yarn with featherlight warmth and a brushed, semi-sheer finish. Designed with a boxy cropped silhouette, raglan shoulders, and a ribbed crew neckline, hem, and cuffs for refined structure. An easy transitional layer from late summer into cooler months.",
+"published": "2026-07-10",
+"score": -3.57,
 "hits": [
 [
-"brand:Ibex",
--0.04565217391304347
+"brand:Rachel Comey",
+0.06521739130434782
 ],
 [
-"fab:rib",
--0.3195652173913043
+"cut:cropped",
+-0.3391304347826088
 ],
 [
-"fab:merino",
--0.6391304347826088
+"color:Purple",
+-0.4478260869565216
 ],
 [
 "cat:Sweaters & Knitwear",
@@ -84,31 +42,655 @@
 "recolour": false
 },
 {
-"brand": "Ibex",
+"brand": "Unbound Merino",
 "status": "approved",
-"title": "Women's Journey Short Sleeve Art Tee",
-"category": "Pants",
-"price": 85.0,
-"list": 85.0,
+"title": "Women's Merino Transit Bomber",
+"category": "Jackets & Coats",
+"price": 348.0,
+"list": 348.0,
 "fabric": "merino",
 "natural": null,
-"url": "https://ibex.com/products/womens-journey-short-sleeve-art-tee",
-"img": "https://cdn.shopify.com/s/files/1/0268/2280/3504/files/W_GREATWOOLDEADCEDARHONEY.png?v=1750716612",
+"url": "https://unboundmerino.com/products/womens-merino-transit-bomber",
+"img": "https://cdn.shopify.com/s/files/1/1491/5166/files/Unbound-merino-Women-Transit-Bomber-Graphite-1_8ed28964-567e-490e-9b7f-91c26834463c.jpg?v=1775740463",
 "tags": [
-"Active",
-"bis-hidden",
-"Black",
-"Crew Neck",
-"Crew Tee",
-"First Layer"
+"Tops",
+"women"
 ],
-"desc": "YOUR FAVORITE MERINO T-SHIRT WITH CUSTOM ART PRINTS Field Notes: Natural moisture-wicking, odor-resistant merino Breathable for optimal layering with nylon core for durability Small batch, custom art designs by artist, Daniel Sheridan. The Clip: Explore in style.",
-"published": "2025-01-09",
-"score": -6.83,
+"desc": "A classic bomber with a cropped, style-forward silhouette. Built with a bonded fabric combining a weather-resistant shell with a Merino-rich interior and cupro lining for breathable comfort and adaptability—from breezy terminals to brisk city streets.",
+"published": "2026-05-21",
+"score": -3.95,
 "hits": [
 [
-"brand:Ibex",
+"brand:Unbound Merino",
+-0.09130434782608694
+],
+[
+"fab:cupro",
+-0.13695652173913042
+],
+[
+"cat:Jackets & Coats",
+-0.27391304347826084
+],
+[
+"cut:cropped",
+-0.3391304347826088
+]
+],
+"recolour": false
+},
+{
+"brand": "Mons Royale",
+"status": "approved",
+"title": "Canyon Merino Insulated Hooded Jacket - Desert Rose | Women's Jacket",
+"category": "Jackets & Coats",
+"price": 329.95,
+"list": 329.95,
+"fabric": "100% wool",
+"natural": 1.0,
+"url": "https://www.monsroyale.com/products/canyon-merino-insulated-hooded-jacket-desert-rose-womens",
+"img": "https://cdn.shopify.com/s/files/1/0264/5898/0424/files/100801-1171-920-101.jpg?v=1757097857",
+"tags": [
+"AP High",
+"Collection:Jackets and Vests",
+"Collection:Outdoor",
+"Collection:Outer Layer",
+"Collection:Snow",
+"Collection:Women's"
+],
+"desc": "Minus-degree mission or early bird gets the berm, the Canyon Merino Insulated Hooded Jacket is your active insulation. Lightweight, stretchy and breathable, with 100% Merino Wool inner, this performance essential is made to move and enables your Merino Wool base layer to do its thing. Slip under a weatherproof shell, or roll solo.",
+"published": "2025-09-10",
+"score": -4.34,
+"hits": [
+[
+"cat:Jackets & Coats",
+-0.27391304347826084
+],
+[
+"fab:merino",
+-0.6391304347826088
+],
+[
+"color:Pink",
+-0.6847826086956523
+],
+[
+"fab:wool",
+-1.5413043478260875
+]
+],
+"recolour": false
+},
+{
+"brand": "Icebreaker",
+"status": "approved",
+"title": "Women's Merino 560 RealFleece™ Elemental Long Sleeve Zip Hoodie",
+"category": "Jackets & Coats",
+"price": 300.0,
+"list": 300.0,
+"fabric": "merino",
+"natural": null,
+"url": "https://na.icebreaker.com/products/womens-merino-560-realfleece-elemenstal-long-sleeve-zip-hoodie-ibba56ss0n1",
+"img": "https://cdn.shopify.com/s/files/1/0931/1866/0907/files/IBBA56SS0N1-1.jpg?v=1783681565",
+"tags": [
+"color-story",
+"new-arrivals",
+"StyleColor_IBBA56SS0N1",
+"Travel",
+"YGroup_IBBA56SS"
+],
+"desc": "A heavyweight mid layer that offers comfort, warmth and the natural benefits of merino, the Merino 560 RealFleece™ Elemental LS Zip Hoodie is perfect for everyday adventures in any season.",
+"published": "2026-08-10",
+"score": -4.99,
+"hits": [
+[
+"brand:Icebreaker",
+-0.09130434782608694
+],
+[
+"cat:Jackets & Coats",
+-0.27391304347826084
+],
+[
+"fab:merino",
+-0.6391304347826088
+],
+[
+"cut:long sleeve",
+-0.8521739130434784
+]
+],
+"recolour": false
+},
+{
+"brand": "Filson",
+"status": "approved",
+"title": "Women's Aviator Cloth Work Jacket - Navy",
+"category": "Jackets & Coats",
+"price": 189.5,
+"list": 379.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://www.filson.com/products/womens-aviator-cloth-work-jacket-navy",
+"img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/518b6ce255363bbcca92c22839e2ce58ed5b4a9b2079e4c787f03b476c3a3849.png?v=1789698085",
+"tags": [
+"4.3.26 deeper discount",
+"Outlet: 40%",
+"price: full",
+"product: womens-aviator-cloth-work-jacket-20298190"
+],
+"desc": "",
+"published": "2025-07-02",
+"score": -5.07,
+"hits": [
+[
+"cat:Jackets & Coats",
+-0.27391304347826084
+],
+[
+"color:Blue",
+-1.8673913043478256
+],
+[
+"price:300+",
+-2.1217391304347815
+]
+],
+"recolour": false
+},
+{
+"brand": "Bosie Knitwear",
+"status": "approved",
+"title": "Blue Mogganer Pennan Fairisle Sweater - Scots Pine / Pineshadow Green",
+"category": "Sweaters & Knitwear",
+"price": 301.0,
+"list": 301.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://bosie.co/products/blue-mogganer-pennan-fairisle-sweater-pineshadow-green",
+"img": "https://cdn.shopify.com/s/files/1/0701/1241/1962/files/pineshadow_green_pennan_allover_fairisle_lambswool_sweater_jumper.jpg?v=1727431349",
+"tags": [],
+"desc": "All our Blue Mogganer Fair isles are named after our local Fishing towns in North East Scotland. This one after the beautiful seaside town of Pennan. It has been often rumoured that historically, fisherman along our coast and from the Shetland and Fair Isles, wore these patterns because each town had particular patterns to identify the origin of the sailor in any wrecking tragedies, which were much more common at the time. Because of the allover patterning of our allover fairisle’s like this one, it is not possible to knit with our seam free technology so this item is fully fashioned (knitted ",
+"published": "2024-09-27",
+"score": -5.47,
+"hits": [
+[
+"brand:Bosie Knitwear",
+-0.04782608695652173
+],
+[
+"color:Green",
+-1.4586956521739136
+],
+[
+"cat:Sweaters & Knitwear",
+-1.4608695652173918
+],
+[
+"price:300+",
+-2.1217391304347815
+]
+],
+"recolour": false
+},
+{
+"brand": "Mons Royale",
+"status": "approved",
+"title": "Icon Merino T-Shirt - Moonstone | Women's T-Shirt",
+"category": "Shirts & Blouses",
+"price": 94.95,
+"list": 94.95,
+"fabric": "merino",
+"natural": null,
+"url": "https://www.monsroyale.com/products/icon-merino-t-shirt-moonstone-womens",
+"img": "https://cdn.shopify.com/s/files/1/0264/5898/0424/files/100447-1181-553-101.jpg?v=1788210716",
+"tags": [
+"AP Mid",
+"collection:Bike",
+"Collection:First Layer",
+"Collection:Outdoor",
+"Collection:T-Shirts and Tanks",
+"Collection:Women's"
+],
+"desc": "Meet your daily driver, for every mission and then some. Whether the nine-to-five or five-to-nine, the Icon has you covered with easy style and soft breathability. Naturally thermoregulating and odour-resistant, Merino keeps you cool when it's hot, warm when it's not, wicks sweat and dries fast. Pack less, do more.",
+"published": "2026-10-01",
+"score": -5.47,
+"hits": [
+[
+"fab:merino",
+-0.6391304347826088
+],
+[
+"color:Beige/Tan",
+-0.726086956521739
+],
+[
+"cat:Shirts & Blouses",
+-1.4695652173913047
+],
+[
+"price:u100",
+-3.156521739130432
+]
+],
+"recolour": false
+},
+{
+"brand": "Studio Nicholson",
+"status": "approved",
+"title": "Eide Knit in Butter",
+"category": "Sweaters & Knitwear",
+"price": 395.0,
+"list": 395.0,
+"fabric": "merino",
+"natural": null,
+"url": "https://www.studionicholson.com/products/eide-knit-in-butter",
+"img": "https://cdn.shopify.com/s/files/1/1070/4650/files/EIDESNW-1929USFINEMERINOSILKBUTTER5.jpg?v=1781775355",
+"tags": [
+"autumn26",
+"autumnwinter26",
+"FARFETCH",
+"fp",
+"knitwear",
+"sizeguide-wau26drop2-edie-knit"
+],
+"desc": "A foundational piece in any transeasonal wardrobe, this Eide knit is a refined take on the traditional turtle-neck jumper. It’s crafted from fine merino silk in a 16gg knit, giving an ultra-fine, compact finish that lends itself to sophisticated layering. Eide is made with ladder stitching at the front and rear, evoking SN’s penchant for clean lines. --- - Turtle neck - Ladder stitch detailing - Ribbed trims",
+"published": "2026-06-22",
+"score": -5.5,
+"hits": [
+[
+"brand:Studio Nicholson",
+-0.09130434782608694
+],
+[
+"color:Yellow/Gold",
+-0.13913043478260867
+],
+[
+"fab:silk",
+-0.22826086956521735
+],
+[
+"fab:merino",
+-0.6391304347826088
+]
+],
+"recolour": false
+},
+{
+"brand": "Bosie Knitwear",
+"status": "approved",
+"title": "Lomond Fair Isle Yoke  Geelong Women's Sweater - Chai Burnt Orange",
+"category": "Sweaters & Knitwear",
+"price": 213.0,
+"list": 213.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://bosie.co/products/lomond-fair-isle-yoke-geelong-womens-sweater-chai-burnt-orange",
+"img": "https://cdn.shopify.com/s/files/1/0701/1241/1962/files/Fair_Isle_Geelong_Women_s_Sweater_-_Chai3.jpg?v=1784630649",
+"tags": [],
+"desc": "The Lomond Yoke Knitted in extra soft, superfine Geelong lambswool and seam-free with no shoulder seams for an easy, uninterrupted fit. The banded yoke takes its colours from the reflections of Loch Lomond in Autumn; amber bracken, glowing flora, earthed by slate-blue waters and the soft blue of the sky reflected on the surface, worked into a traditional fair isle. Our Lomond is a quiet, refined piece with our rich Scottish landscape woven right into the yoke.",
+"published": "2026-09-04",
+"score": -5.57,
+"hits": [
+[
+"brand:Bosie Knitwear",
+-0.04782608695652173
+],
+[
+"color:Orange/Rust",
+-0.18478260869565213
+],
+[
+"cat:Sweaters & Knitwear",
+-1.4608695652173918
+],
+[
+"price:200-300",
+-3.5913043478260818
+]
+],
+"recolour": false
+},
+{
+"brand": "Mons Royale",
+"status": "approved",
+"title": "Offgrid Merino Fleece Wind Jacket - Dusty Teal / Cinder | Women's Jacket",
+"category": "Jackets & Coats",
+"price": 279.95,
+"list": 279.95,
+"fabric": "merino",
+"natural": null,
+"url": "https://www.monsroyale.com/products/offgrid-merino-fleece-wind-jacket-dusty-teal-cinder-womens",
+"img": "https://cdn.shopify.com/s/files/1/0264/5898/0424/files/100784-1171-1127-101.jpg?v=1788211143",
+"tags": [
+"AP Mid",
+"Collection:Jackets and Vests",
+"Collection:Outdoor",
+"Collection:Outer Layer",
+"Collection:Snow",
+"Collection:Women's"
+],
+"desc": "Prepare for the worst, dress for the best in the Offgrid Fleece Wind Jacket. Our Merino and Coolmax™ grid knit features Recycled Pertex® panels to block the wind and keep you covered. Unbeatable warmth, breathability and wind resistance in one lightweight jacket. The ultimate mid or outer layer, depending on nature’s mood.",
+"published": "2026-10-01",
+"score": -5.82,
+"hits": [
+[
+"cat:Jackets & Coats",
+-0.27391304347826084
+],
+[
+"fab:merino",
+-0.6391304347826088
+],
+[
+"color:Blue",
+-1.8673913043478256
+],
+[
+"price:200-300",
+-3.5913043478260818
+]
+],
+"recolour": false
+},
+{
+"brand": "Boden",
+"status": "approved",
+"title": "Embroidered Linen Jacket-Pink Peony, Embroidered",
+"category": "Jackets & Coats",
+"price": 252.0,
+"list": 360.0,
+"fabric": "linen",
+"natural": null,
+"url": "https://us.boden.com/products/women-embroidered-linen-jacket-pink-peony-embroidered-u0446mlt",
+"img": "https://cdn.shopify.com/s/files/1/0680/4619/2892/files/26whsm_u0446_mlt_m01_v1_08db8f30-b5e8-4ed6-b053-f12ff4941ec1.jpg?v=1776435773",
+"tags": [
+"PRICING:CLEARANCE-US",
+"stylecode:U0446"
+],
+"desc": "With its statement embroidered design and floaty sleeves, this linen jacket is the layer your summer plans need. Smart enough for weddings, cool enough for beach holidays. Enjoy all the compliments coming your way.",
+"published": "2026-04-08",
+"score": -5.87,
+"hits": [
+[
+"cat:Jackets & Coats",
+-0.27391304347826084
+],
+[
+"color:Pink",
+-0.6847826086956523
+],
+[
+"brand:Boden",
+-1.5
+],
+[
+"fab:linen",
+-1.6369565217391304
+]
+],
+"recolour": false
+},
+{
+"brand": "Filson",
+"status": "approved",
+"title": "Wool Jac-shirt - Navy",
+"category": "Shirts & Blouses",
+"price": 349.0,
+"list": 349.0,
+"fabric": "100% wool",
+"natural": 1.0,
+"url": "https://www.filson.com/products/wool-jac-shirt-navy",
+"img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/bfdcb8867940a71a3f981ff7bc62e7ccaeec7b3b4a88ce572b9f2bc69ac27f79.png?v=1789702029",
+"tags": [
+"price: full",
+"product: wool-jac-shirt-20288328"
+],
+"desc": "Our Jac-Shirt is an outdoor staple that provides the versatile warmth that only 100% wool can. The fabric is crafted with a tight weave that delivers an optimum balance of breathability and wind resistance while providing durability for decades of service. Wool's unique structure makes it naturally water-resistant, moisture-wicking and warm even if it gets wet. It also allows wool to release dirt and odors, making care and maintenance an easy matter. For decades, mankind has tried to manufacture fabrics mimicking wool's performance. The resulting fleeces and soft shells can perform specific fu",
+"published": "2026-09-02",
+"score": -5.9,
+"hits": [
+[
+"cat:Shirts & Blouses",
+-1.4695652173913047
+],
+[
+"fab:wool",
+-1.5413043478260875
+],
+[
+"color:Blue",
+-1.8673913043478256
+],
+[
+"price:300+",
+-2.1217391304347815
+]
+],
+"recolour": false
+},
+{
+"brand": "Woolly Clothing Co.",
+"status": "approved",
+"title": "Women’s Muscle Tank",
+"category": "Shirts & Blouses",
+"price": 78.0,
+"list": 78.0,
+"fabric": "100% merino",
+"natural": 1.0,
+"url": "https://www.woolly.clothing/products/women-s-muscle-tank",
+"img": "https://cdn.shopify.com/s/files/1/1204/3948/files/w-EverydayMuscleTank-Fog52136.jpg?v=1759269609",
+"tags": [
+"Base PDP",
+"Collection_Activewear",
+"Gender_Women",
+"MCF",
+"part_of_bundle",
+"Style_Shirts & Tanks"
+],
+"desc": "Don't sweat your next workout kit, find your flow in 100% merino. This open-arm style stays breathable, and layers perfectly with your favorite Woolly bralette and leggings to mix and match.",
+"published": "2025-10-06",
+"score": -5.96,
+"hits": [
+[
+"brand:Woolly Clothing Co.",
 -0.04565217391304347
+],
+[
+"fab:merino",
+-0.6391304347826088
+],
+[
+"color:Beige/Tan",
+-0.726086956521739
+],
+[
+"cut:tank",
+-0.9043478260869569
+]
+],
+"recolour": false
+},
+{
+"brand": "Nili Lotan",
+"status": "approved",
+"title": "LORIMER JEAN",
+"category": "Jeans",
+"price": 390.0,
+"list": 390.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://www.nililotan.com/products/lorimer-jean-1",
+"img": "https://cdn.shopify.com/s/files/1/0021/7595/9158/files/NILILOTAN_HS26PDP_LOOK_73__18516.jpg?v=1774976125",
+"tags": [
+"CL Parent",
+"jeans-feed"
+],
+"desc": "",
+"published": "2026-03-29",
+"score": -6.0,
+"hits": [
+[
+"brand:Nili Lotan",
+-0.04565217391304347
+],
+[
+"cat:Jeans",
+-0.7304347826086959
+],
+[
+"color:Multi/Print",
+-1.589130434782609
+],
+[
+"price:300+",
+-2.1217391304347815
+]
+],
+"recolour": false
+},
+{
+"brand": "Nili Lotan",
+"status": "approved",
+"title": "CARPENTER JEAN",
+"category": "Jeans",
+"price": 395.0,
+"list": 395.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://www.nililotan.com/products/carpenter-jean-1",
+"img": "https://cdn.shopify.com/s/files/1/0021/7595/9158/files/MRTW_22030_W45_CARPENTERJEAN_CLASSICWASH.jpg?v=1770320746",
+"tags": [
+"CL Parent",
+"jeans-feed"
+],
+"desc": "",
+"published": "2026-02-05",
+"score": -6.01,
+"hits": [
+[
+"brand:Nili Lotan",
+-0.04565217391304347
+],
+[
+"cat:Jeans",
+-0.7304347826086959
+],
+[
+"color:Multi/Print",
+-1.589130434782609
+],
+[
+"price:300+",
+-2.1217391304347815
+]
+],
+"recolour": false
+},
+{
+"brand": "Nili Lotan",
+"status": "approved",
+"title": "NATHAN JEAN",
+"category": "Jeans",
+"price": 395.0,
+"list": 395.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://www.nililotan.com/products/nathan-jean-1",
+"img": "https://cdn.shopify.com/s/files/1/0021/7595/9158/files/WRTW_1759_W1031_NATHAN_JEAN_CLASSIC_WASH.jpg?v=1770322056",
+"tags": [
+"CL Parent",
+"jeans-feed"
+],
+"desc": "",
+"published": "2026-02-05",
+"score": -6.01,
+"hits": [
+[
+"brand:Nili Lotan",
+-0.04565217391304347
+],
+[
+"cat:Jeans",
+-0.7304347826086959
+],
+[
+"color:Multi/Print",
+-1.589130434782609
+],
+[
+"price:300+",
+-2.1217391304347815
+]
+],
+"recolour": false
+},
+{
+"brand": "Nili Lotan",
+"status": "approved",
+"title": "BILLIE JEAN",
+"category": "Jeans",
+"price": 395.0,
+"list": 395.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://www.nililotan.com/products/billie-jean-4",
+"img": "https://cdn.shopify.com/s/files/1/0021/7595/9158/files/PF26_MRTW_21884_W1209BILLIEJEAN_ASHGREYWASH.jpg?v=1780936068",
+"tags": [
+"CL Parent",
+"combined listing",
+"jeans-feed"
+],
+"desc": "",
+"published": "2026-01-13",
+"score": -6.01,
+"hits": [
+[
+"brand:Nili Lotan",
+-0.04565217391304347
+],
+[
+"cat:Jeans",
+-0.7304347826086959
+],
+[
+"color:Multi/Print",
+-1.589130434782609
+],
+[
+"price:300+",
+-2.1217391304347815
+]
+],
+"recolour": false
+},
+{
+"brand": "Icebreaker",
+"status": "approved",
+"title": "Women's Merino 150 Tech Lite Short Sleeve Tee IB Stitchline",
+"category": "Pants",
+"price": 95.0,
+"list": 95.0,
+"fabric": "merino",
+"natural": null,
+"url": "https://na.icebreaker.com/products/womens-merino-150-tech-lite-short-sleeve-tee-ib-stitchline-ib0a57jm0pa",
+"img": "https://cdn.shopify.com/s/files/1/0931/1866/0907/files/IB0A57JM0PA-1.jpg?v=1790149140",
+"tags": [
+"color-story",
+"graphic-tee",
+"new-arrivals",
+"StyleColor_IB0A57JM0PA",
+"Travel",
+"YGroup_IB0A57JM"
+],
+"desc": "Our most versatile tech tee that provides comfort, breathability and odour-resistance for four seasons worth of adventure, the Merino 150 Tech Lite Short Sleeve Tee IB Stitchline features 100% merino fabric for all-natural performance. The tee's artwork features a tonal chainstitch embroidery of the icebreaker logo for a sleek, timeless finish.",
+"published": "2026-08-10",
+"score": -6.07,
+"hits": [
+[
+"brand:Icebreaker",
+-0.09130434782608694
 ],
 [
 "cut:short sleeve",
@@ -119,8 +701,213 @@
 -0.6391304347826088
 ],
 [
-"color:White/Ivory",
--1.506521739130435
+"color:Beige/Tan",
+-0.726086956521739
+]
+],
+"recolour": false
+},
+{
+"brand": "Icebreaker",
+"status": "approved",
+"title": "Women's Merino 150 Tech Lite Short Sleeve Tee Peaceful Pass Sleeve",
+"category": "Pants",
+"price": 95.0,
+"list": 95.0,
+"fabric": "merino",
+"natural": null,
+"url": "https://na.icebreaker.com/products/womens-merino-150-tech-lite-short-sleeve-tee-peaceful-pass-sleeve-ib0a57jnc99",
+"img": "https://cdn.shopify.com/s/files/1/0931/1866/0907/files/IB0A57JNC99-1.jpg?v=1790149192",
+"tags": [
+"color-story",
+"graphic-tee",
+"new-arrivals",
+"StyleColor_IB0A57JNC99",
+"Travel",
+"YGroup_w_tech_graphic"
+],
+"desc": "Our most versatile tech tee that provides comfort, breathability and odour-resistance for four seasons worth of adventure, the Merino 150 Tech Lite Short Sleeve Tee Peaceful Pass features 100% merino fabric for all-natural performance. The tee's original artwork features a hand-drawn illustration of a quiet campsite in the woods, under a clear night sky.",
+"published": "2026-08-10",
+"score": -6.07,
+"hits": [
+[
+"brand:Icebreaker",
+-0.09130434782608694
+],
+[
+"cut:short sleeve",
+-0.41086956521739126
+],
+[
+"fab:merino",
+-0.6391304347826088
+],
+[
+"color:Beige/Tan",
+-0.726086956521739
+]
+],
+"recolour": false
+},
+{
+"brand": "Icebreaker",
+"status": "approved",
+"title": "Women's Merino 150 Tech Lite Short Sleeve Tee",
+"category": "Pants",
+"price": 90.0,
+"list": 90.0,
+"fabric": "merino",
+"natural": null,
+"url": "https://na.icebreaker.com/products/women-merino-150-tech-lite-ss-tee-ib0a56y80lh",
+"img": "https://cdn.shopify.com/s/files/1/0931/1866/0907/files/IB0A56Y80LH-1.jpg?v=1770050562",
+"tags": [
+"100-merino",
+"100-merino-t-shirts",
+"basics",
+"firstlayers",
+"gifts-for-hikers",
+"hike"
+],
+"desc": "Our most versatile tech tee that provides comfort, breathability and odour-resistance for four seasons worth of adventure, the Merino 150 Tech Lite Short Sleeve Tee features 100% merino fabric for all-natural performance.",
+"published": "2026-08-19",
+"score": -6.08,
+"hits": [
+[
+"brand:Icebreaker",
+-0.09130434782608694
+],
+[
+"cut:short sleeve",
+-0.41086956521739126
+],
+[
+"fab:merino",
+-0.6391304347826088
+],
+[
+"color:Beige/Tan",
+-0.726086956521739
+]
+],
+"recolour": false
+},
+{
+"brand": "Filson",
+"status": "approved",
+"title": "Mackinaw Wool Vest - Forest Green",
+"category": "Sweaters & Knitwear",
+"price": 349.0,
+"list": 349.0,
+"fabric": "wool",
+"natural": null,
+"url": "https://www.filson.com/products/mackinaw-wool-vest-forest-green-2",
+"img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/fe83e6b3b7fc1547af7ad0b1d99a3db36954ded4aed7521f12a2d5e2cef8bbd3.jpg?v=1789704040",
+"tags": [
+"Badge: Made at Filson",
+"Badge: Made in the USA",
+"has_product_intro",
+"price: full",
+"product: mackinaw-wool-vest-20266328"
+],
+"desc": "Our Mackinaw Wool Vest provides warmth with excellent breathability, even when wet. Worn over a flannel shirt or under a raincoat or wool jacket, it adds that extra bit of warmth for comfort in the cold. Mackinaw is our iconic wool that's provided protection from cold and wet conditions for over a century. Manufactured with an uncommonly tight weave, our signature excels at blocking the wind and withstands hard use for decades. This vest's design works just as well indoors, whether drawing up plans for your next big project or working in a chilly warehouse. The V-shaped neckline adds no bulk a",
+"published": "2025-02-11",
+"score": -6.08,
+"hits": [
+[
+"fab:flannel",
+-0.09130434782608694
+],
+[
+"color:Green",
+-1.4586956521739136
+],
+[
+"cat:Sweaters & Knitwear",
+-1.4608695652173918
+],
+[
+"fab:wool",
+-1.5413043478260875
+]
+],
+"recolour": false
+},
+{
+"brand": "Mons Royale",
+"status": "approved",
+"title": "Icon Merino Classic T-Shirt - Dried Sage | Women's T-Shirt",
+"category": "Shirts & Blouses",
+"price": 94.95,
+"list": 94.95,
+"fabric": "merino",
+"natural": null,
+"url": "https://www.monsroyale.com/products/icon-merino-classic-t-shirt-dried-sage-womens",
+"img": "https://cdn.shopify.com/s/files/1/0264/5898/0424/files/100288-1099-793-101.jpg?v=1775682999",
+"tags": [
+"AP EOL",
+"Collection:First Layer",
+"Collection:Outdoor",
+"Collection:T-Shirts and Tanks",
+"Collection:Women's",
+"Ecom Free Shipping"
+],
+"desc": "Your all access pass, taking you from one mission to the next. Crafted from our ultra-breathable Merino Air-Con, it keeps you cool when it’s hot, warm when it’s not and dries fast. Pack less. Do more.",
+"published": "2026-03-04",
+"score": -6.2,
+"hits": [
+[
+"fab:merino",
+-0.6391304347826088
+],
+[
+"color:Green",
+-1.4586956521739136
+],
+[
+"cat:Shirts & Blouses",
+-1.4695652173913047
+],
+[
+"price:u100",
+-3.156521739130432
+]
+],
+"recolour": false
+},
+{
+"brand": "Filson",
+"status": "approved",
+"title": "Ultralight Jacket - Teak",
+"category": "Jackets & Coats",
+"price": 249.0,
+"list": 249.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://www.filson.com/products/ultralight-jacket-teak",
+"img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/20641e3f91d84937e13ded254347120980c501e19ced0872e6731ea0df95ce6a.jpg?v=1788304617",
+"tags": [
+"FW26",
+"product: ultralight-jacket-20296078"
+],
+"desc": "Our Ultralight Jacket delivers lightweight, breathable, and packable warmth for outdoor action. Worn as a stand-alone jacket or layered under a rain shell, its versatility stands apart. The 1.5-oz. shell fabric is low-bulk for packing into tight spaces and a second layer over the shoulders adds durability. Its 60g PrimaLoft insulation was engineered to closely mimic the lightweight compressibility of goose down, with superior performance when wet. Elastic binding on the hem and cuffs deliver a comfortable fit while keeping out cold wind. The zipper garage at the neck provides non-pinching comf",
+"published": "2026-08-06",
+"score": -6.22,
+"hits": [
+[
+"cat:Jackets & Coats",
+-0.27391304347826084
+],
+[
+"color:Beige/Tan",
+-0.726086956521739
+],
+[
+"cut:elastic",
+-1.1565217391304352
+],
+[
+"price:200-300",
+-3.5913043478260818
 ]
 ],
 "recolour": false
@@ -128,490 +915,33 @@
 {
 "brand": "Rachel Comey",
 "status": "approved",
-"title": "Twist Top",
+"title": "Bacchus Top",
 "category": "Tops & Tees",
-"price": 325.0,
-"list": 325.0,
+"price": 395.0,
+"list": 395.0,
 "fabric": "unknown",
 "natural": null,
-"url": "https://www.rachelcomey.com/products/twist-top",
-"img": "https://cdn.shopify.com/s/files/1/1174/9902/files/263W-336-S1917-SLATE_-_02_3718d04b-cebc-4a6d-a967-26e5fb528c25.jpg?v=1788796807",
+"url": "https://www.rachelcomey.com/products/bacchus-top",
+"img": "https://cdn.shopify.com/s/files/1/1174/9902/files/233W-318-S1900YELLOW_-_01.jpg?v=1786025060",
 "tags": [
 "0.",
 "00.",
 "10.",
-"2.",
-"26-3PF",
-"4."
+"12.",
+"14.",
+"2."
 ],
-"desc": "Fitted bikini-style top crafted from lightweight, polka dot Georgette. Designed with a twisted front detail and slender adjustable straps for a fitted, structured silhouette. The interior is fully lined for a smooth, comfortable finish. Pair with our matching Calenso Short for a coordinated set.",
-"published": "2026-09-07",
-"score": -6.9,
+"desc": "Oversized, boxy mock neck crop top cut from our lightweight, wrinkle-resistant Poppy cupro fabric, with a crisp hand feel and soft pebble texture – perfect for packing. Wear with our matching Dini Pant for a coordinated look.",
+"published": "2026-01-27",
+"score": -6.24,
 "hits": [
 [
 "brand:Rachel Comey",
 0.06521739130434782
 ],
 [
-"cut:fitted",
--0.7152173913043479
-],
-[
-"color:Multi/Print",
--1.589130434782609
-],
-[
-"cat:Tops & Tees",
--1.863043478260869
-]
-],
-"recolour": false
-},
-{
-"brand": "Ibex",
-"status": "approved",
-"title": "Women's GOAT Short Sleeve Tee",
-"category": "Pants",
-"price": 85.0,
-"list": 85.0,
-"fabric": "unknown",
-"natural": null,
-"url": "https://ibex.com/products/womens-goat-short-sleeve-crew",
-"img": "https://cdn.shopify.com/s/files/1/0268/2280/3504/files/W_sGoatSS-Baltic.png?v=1764169315",
-"tags": [
-"Active",
-"bis-hidden",
-"Black",
-"Crew Neck",
-"Crew Tee",
-"First Layer"
-],
-"desc": "THE TEE THAT DOES IT ALL. Field Notes: The greatest tee we've ever made Low profile saddle stitching and offset shoulder seams Beta Spun® fabric for extra durability. UPF 35+ The Clip: If you liked the Journey, you'll love this—better fit, better fabric.",
-"published": "2025-04-28",
-"score": -7.29,
-"hits": [
-[
-"brand:Ibex",
--0.04565217391304347
-],
-[
-"cut:short sleeve",
--0.41086956521739126
-],
-[
-"color:White/Ivory",
--1.506521739130435
-],
-[
-"cat:Pants",
--1.591304347826087
-]
-],
-"recolour": false
-},
-{
-"brand": "Ibex",
-"status": "approved",
-"title": "Women's GOAT Long Sleeve Crew",
-"category": "Tops & Tees",
-"price": 95.0,
-"list": 95.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://ibex.com/products/womens-goat-long-sleeve-crew",
-"img": "https://cdn.shopify.com/s/files/1/0268/2280/3504/files/W_s_Goat_LS_Tee-Autumn_Larch.png?v=1788544174",
-"tags": [
-"Active",
-"bis-hidden",
-"bright",
-"colorful",
-"comfortable",
-"Crew Neck"
-],
-"desc": "THE ULTIMATE MERINO LONG SLEEVE CREW Field Notes: The Ibex tee that excels at everything Low profile saddle stitching and offset shoulder seams Beta Spun® fabric for extra durability. UPF 35+ The Clip: If you liked the Journey, you'll love this—better fit, better fabric.",
-"published": "2025-04-28",
-"score": -7.48,
-"hits": [
-[
-"brand:Ibex",
--0.04565217391304347
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"cut:long sleeve",
--0.8521739130434784
-],
-[
-"color:White/Ivory",
--1.506521739130435
-]
-],
-"recolour": false
-},
-{
-"brand": "Ibex",
-"status": "approved",
-"title": "Women's Maple Tap Waffle Sweater",
-"category": "Sweaters & Knitwear",
-"price": 250.0,
-"list": 250.0,
-"fabric": "100% wool, 100% wool",
-"natural": 1.0,
-"url": "https://ibex.com/products/womens-maple-tap-waffle-sweater",
-"img": "https://cdn.shopify.com/s/files/1/0268/2280/3504/files/Waffle_women_blue.png?v=1789138573",
-"tags": [
-"cooling",
-"everyday active",
-"First Layer",
-"flow-tailored-fulfillment",
-"Long Sleeve",
-"mountain"
-],
-"desc": "100% MERINO WOOL WAFFLE KNIT SWEATER: BREATHABLE BY DESIGN, WEARABLE YEAR-ROUND Field Notes: Made on 3D knitting machines in Brooklyn, NY Thermal waffle stitch that's warm enough to be worn alone, light enough to layer Standard fit - not too tight, not too loose 15-gauge knit for a refined, elevated hand Raglan sleeves for easy movement Machine washable The Clip: Breathable waffle knit woven with 100% merino wool for a sweater that's lightweight, built to move, and easy to wear year round.",
-"published": "2026-09-11",
-"score": -7.52,
-"hits": [
-[
-"brand:Ibex",
--0.04565217391304347
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"cat:Sweaters & Knitwear",
--1.4608695652173918
-],
-[
-"fab:wool",
--1.5413043478260875
-]
-],
-"recolour": false
-},
-{
-"brand": "Howlin'",
-"status": "approved",
-"title": "Floating Smiling Whale - Lemon (Women)",
-"category": "Sweaters & Knitwear",
-"price": 313.0,
-"list": 313.0,
-"fabric": "30% mohair, 70% wool",
-"natural": 1.0,
-"url": "https://howlinknitwear.com/products/floating-smiling-whale-lemon-women-aw26",
-"img": "https://cdn.shopify.com/s/files/1/0465/5477/5710/files/AW26_FLOATING_SMILING_WHALE_LEMON_1.jpg?v=1779266053",
-"tags": [
-"AW26",
-"AW26SALEALL",
-"AW26SALEknitwear_WOMEN",
-"AW26SALEWOMEN",
-"AWWOMEN",
-"badge_howlin_ireland"
-],
-"desc": "Floating Whale Smile is a new style by Howlin'. The responsibly sourced wool comes from sheep that roam freely on the fells and downs of the British Isles. Every year they are sheared in the spring months, which helps rid them of potentially damaging infections and keeps them cool during the summer months. Model is 178 cm and wears size S. 30% Mohair / 70% Wool Fully knitted and hand-finished in Ireland Made in Ireland",
-"published": "2026-09-25",
-"score": -7.56,
-"hits": [
-[
-"brand:Howlin'",
--0.2304347826086956
-],
-[
-"cat:Sweaters & Knitwear",
--1.4608695652173918
-],
-[
-"fab:wool",
--1.5413043478260875
-],
-[
-"color:Multi/Print",
--1.589130434782609
-]
-],
-"recolour": false
-},
-{
-"brand": "Ibex",
-"status": "approved",
-"title": "Women's Naturalist Short Sleeve Low Crew",
-"category": "Pants",
-"price": 90.0,
-"list": 90.0,
-"fabric": "100% wool",
-"natural": 1.0,
-"url": "https://ibex.com/products/womens-naturalist-short-sleeve-low-crew",
-"img": "https://cdn.shopify.com/s/files/1/0268/2280/3504/files/W_s_Naturalist_SS_Low_Crew-Mauve.png?v=1788543133",
-"tags": [
-"100% Merino",
-"Active",
-"bis-hidden",
-"Crew Tee",
-"everyday active",
-"First Layer"
-],
-"desc": "NEW AND IMPROVED 100% MERINO CREW Field Notes: A curved hem, low crew neck, and elongated cap sleeves combine for a performance tee with a refined, elevated look 100% merino wool with a steam finish for a cooler feel and reduced shrinkage Moisture-wicking, odor-resistant, and UPF 30+ for all-day performance The Clip: Did you love the 24 Hour Collection? This is its future.",
-"published": "2025-04-07",
-"score": -7.85,
-"hits": [
-[
-"brand:Ibex",
--0.04565217391304347
-],
-[
-"cut:short sleeve",
--0.41086956521739126
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"color:White/Ivory",
--1.506521739130435
-]
-],
-"recolour": false
-},
-{
-"brand": "Howlin'",
-"status": "approved",
-"title": "Smiling Orange - Prince (Women)",
-"category": "Sweaters & Knitwear",
-"price": 278.0,
-"list": 278.0,
-"fabric": "wool",
-"natural": null,
-"url": "https://howlinknitwear.com/products/smiling-orange-prince-women-aw26",
-"img": "https://cdn.shopify.com/s/files/1/0465/5477/5710/files/AW26_SMILING_ORANGE_PRINCE_1.jpg?v=1779266470",
-"tags": [
-"AW26",
-"AW26SALEALL",
-"AW26SALEknitwear_WOMEN",
-"AW26SALEWOMEN",
-"AWWOMEN",
-"badge_howlin_ireland"
-],
-"desc": "Smiling Orange is a new style by Howlin'. The responsibly sourced wool comes from sheep that roam freely on the fells and downs of the British Isles. Every year they are sheared in the spring months, which helps rid them of potentially damaging infections and keeps them cool during the summer months. Model is 178 cm and wears size S. 100% pure new wool Exclusive multi-coloured tweed yarn Hand-finished True-to-size fit Made in Ireland",
-"published": "2026-10-05",
-"score": -8.11,
-"hits": [
-[
-"fab:tweed",
--0.07391304347826085
-],
-[
-"color:Orange/Rust",
--0.18478260869565213
-],
-[
-"brand:Howlin'",
--0.2304347826086956
-],
-[
-"cat:Sweaters & Knitwear",
--1.4608695652173918
-]
-],
-"recolour": false
-},
-{
-"brand": "Howlin'",
-"status": "approved",
-"title": "Badarou - Charcoal/Light Grey",
-"category": "Sweaters & Knitwear",
-"price": 118.0,
-"list": 236.0,
-"fabric": "wool",
-"natural": null,
-"url": "https://howlinknitwear.com/products/badarou-charcoal-light-grey-archive",
-"img": "https://cdn.shopify.com/s/files/1/0465/5477/5710/files/BADAROU_CHARCOAL_LIGHTGREY_1.jpg?v=1776854275",
-"tags": [
-"ARCHIVE26MEN",
-"ARCHIVE26MENKNIT",
-"AWMEN",
-"badge_howlin_ireland",
-"productCare_knitwear"
-],
-"desc": "Badarou is a Howlin' crewneck knitted in a pure Irish wool. 100% pure wool Made in Ireland No returns possible on archive sale. Please check sizing below, it may differ from your recent Howlin' jumper. Size Chest (pit to pit) Body Length S 48 cm 70 cm M 50 cm 73 cm",
-"published": "2026-09-05",
-"score": -8.26,
-"hits": [
-[
-"brand:Howlin'",
--0.2304347826086956
-],
-[
-"color:Grey",
--0.5130434782608696
-],
-[
-"cat:Sweaters & Knitwear",
--1.4608695652173918
-],
-[
-"fab:wool",
--1.5413043478260875
-]
-],
-"recolour": false
-},
-{
-"brand": "Minus33",
-"status": "approved",
-"title": "Microweight Women's Wool Long Sleeve Shirt - Woolverino",
-"category": "Shirts & Blouses",
-"price": 79.99,
-"list": 79.99,
-"fabric": "84% wool, 12% nylon, 4% spandex",
-"natural": 0.84,
-"url": "https://www.minus33.com/products/microweight-womens-wool-long-sleeve-shirt-woolverino",
-"img": "https://cdn.shopify.com/s/files/1/0289/3129/3321/files/2200-BK_1984_edited_Merino_Wool.jpg?v=1784132572",
-"tags": [
-"_label_New Item",
-"Anti-Microbial",
-"Athletic Fit",
-"Base Layer",
-"bike and run",
-"Biking"
-],
-"desc": "The Women’s Woolverino Microweight Long Sleeve Crew Neck is designed for lightweight comfort and performance through every season. Made with our lightest Woolverino fabric, this breathable Merino wool blend helps regulate temperature, wick away moisture, and resist odor so you stay comfortable from trailhead to town. Whether you’re hiking, traveling, training, or layering for changing weather, this versatile crew is ready for every adventure. Our Microweight Merino brings you a soft, featherlike feel so you aren't weighed down on the move. Light and breathable, this will become your favorite t",
-"published": "2026-05-12",
-"score": -8.39,
-"hits": [
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"cut:long sleeve",
--0.8521739130434784
-],
-[
-"cat:Shirts & Blouses",
--1.4695652173913047
-],
-[
-"fab:wool",
--1.5413043478260875
-]
-],
-"recolour": false
-},
-{
-"brand": "Minus33",
-"status": "approved",
-"title": "Test Lab: Batch 496 Lightweight Women's T-Shirt Crew Top - 100% Merino Wool",
-"category": "Shirts & Blouses",
-"price": 49.99,
-"list": 69.99,
-"fabric": "100% wool",
-"natural": 1.0,
-"url": "https://www.minus33.com/products/lightweight-womens-t-shirt-crew-top-100-merino-wool-test-lab",
-"img": "https://cdn.shopify.com/s/files/1/0289/3129/3321/files/2001BK-front-womens-lightweight-tshirt.jpg?v=1755196396",
-"tags": [
-"Anti-Microbial",
-"Black",
-"clothingtax",
-"Crew Neck",
-"Fall",
-"Fire Resistant"
-],
-"desc": "Test Lab: Batch 496 The Technical Details This product features an experimental finishing technique. Our goal was to push the limits of the durability of the fiber surface to create a cleaner, more resistant finish. The Result While the process successfully increased the fabric's structural integrity, it altered the final \"hand feel\" of the wool. You will notice a slightly more rugged, textured feel than our traditional superfine jersey. It lacks our signature \"buttery\" softness, feeling more like a classic, heartier wool. Test Lab Disclaimer The Feel : \"Heartier\" and textured (not as soft as ",
-"published": "2026-04-24",
-"score": -8.56,
-"hits": [
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"fab:jersey",
--1.1260869565217395
-],
-[
-"cat:Shirts & Blouses",
--1.4695652173913047
-],
-[
-"fab:wool",
--1.5413043478260875
-]
-],
-"recolour": false
-},
-{
-"brand": "Minus33",
-"status": "approved",
-"title": "Logo'd T-Shirt Merinoholics Lightweight - 100% Merino Wool",
-"category": "Shirts & Blouses",
-"price": 69.99,
-"list": 69.99,
-"fabric": "100% wool",
-"natural": 1.0,
-"url": "https://www.minus33.com/products/merinoholics-logo",
-"img": "https://cdn.shopify.com/s/files/1/0289/3129/3321/files/703FG_logo.png?v=1756996640",
-"tags": [
-"100% Merino Wool",
-"Base Layer",
-"Blue",
-"clothingtax",
-"Crew Neck",
-"Discontinued"
-],
-"desc": "Show your Minus33 Spirit! Purchase our Algonquin Lightweight S/S Wool Crew featuring the Minus33 logo on the front, the #Merinoholics hashtag on the back, and the icicle logo on the sleeve. Be a part of the Minus33 community and post your pics to Instagram using #Merinoholics - you might be featured on our feed or website! Available in 2 Colors: Forest Green with White Logos Tan 499 with Black Logos Fabric Fiber Content: 100% Merino Wool Knit: 170 g/m 2 Lightweight Jersey Knit Microns: 17.5 Micron Fibers UPF Rating: 25 Total Easy Care: Machine Wash and Dry Wool Source: Australia Imported. Feat",
-"published": "2025-09-05",
-"score": -8.56,
-"hits": [
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"fab:jersey",
--1.1260869565217395
-],
-[
-"cat:Shirts & Blouses",
--1.4695652173913047
-],
-[
-"fab:wool",
--1.5413043478260875
-]
-],
-"recolour": false
-},
-{
-"brand": "Minus33",
-"status": "approved",
-"title": "Big Woods Bucks Heavyweight Wool Guide Shirt Jacket - 34.4oz",
-"category": "Jackets & Coats",
-"price": 199.99,
-"list": 199.99,
-"fabric": "80% wool, 20% polyester",
-"natural": 0.8,
-"url": "https://www.minus33.com/products/big-woods-bucks-sportsman-guide-shirt-white-mountain-woolen",
-"img": "https://cdn.shopify.com/s/files/1/0289/3129/3321/files/500-BWB-GP.png?v=1761141371",
-"tags": [
-"_label_New Style",
-"Anti-Microbial",
-"Button Up",
-"charcoal gray",
-"clothingtax",
-"Expedition"
-],
-"desc": "Introducing the Big Woods Bucks Sportsman Wool Shirt! Made from 80% fine wool, the Minus33 Sportsman Shirt is softer and more substantial than comparable guide shirts. This makes it a true shirt jacket, also called a “shirt-jac,” weighing nearly two pounds (34.4 oz) in a size large. Its durable fabric makes it the perfect heavy wool shirt for hunting, cold-weather work, and outdoor activities. Its classic bushcraft and lumberjack styling provides a timeless design for outdoor enthusiasts. Our Sportsman Shirt has an oversized cut to accommodate easy cold-weather layering without restricting fre",
-"published": "2025-09-11",
-"score": -9.57,
-"hits": [
-[
-"cat:Jackets & Coats",
--0.27391304347826084
+"fab:cupro",
+-0.13695652173913042
 ],
 [
 "cut:oversized",
@@ -620,35 +950,226 @@
 [
 "color:Beige/Tan",
 -0.726086956521739
-],
-[
-"fab:wool",
--1.5413043478260875
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Kartik Research",
+"brand": "Rachel Comey",
 "status": "approved",
-"title": "LINEN STRIPE SHIRT",
-"category": "Shirts & Blouses",
-"price": 400.0,
-"list": 400.0,
-"fabric": "100% linen",
-"natural": 1.0,
-"url": "https://kartikresearch.com/products/box-shirt-4",
-"img": "https://cdn.shopify.com/s/files/1/0377/1465/7418/files/56d_96d0e9f0-68ba-4d7d-b99b-74bbf42c56cc.png?v=1775115024",
+"title": "Iddison Top",
+"category": "Tops & Tees",
+"price": 365.0,
+"list": 365.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://www.rachelcomey.com/products/iddison-top",
+"img": "https://cdn.shopify.com/s/files/1/1174/9902/files/271W-334-S1829BLACK_-_01.jpg?v=1790640311",
 "tags": [
-"shirt"
+"27-1PS",
+"Category:Tops",
+"Crisp",
+"default-product-template",
+"hidden",
+"L"
 ],
-"desc": "Horn Button With Hidden Placket Handwoven Fabric 100% Linen Breezy and Boxy Fit",
-"published": "2026-04-02",
-"score": -9.78,
+"desc": "",
+"published": "2026-09-28",
+"score": -6.29,
 "hits": [
 [
-"cat:Shirts & Blouses",
--1.4695652173913047
+"brand:Rachel Comey",
+0.06521739130434782
+],
+[
+"color:Multi/Print",
+-1.589130434782609
+],
+[
+"cat:Tops & Tees",
+-1.863043478260869
+],
+[
+"price:300+",
+-2.1217391304347815
+]
+],
+"recolour": false
+},
+{
+"brand": "Rachel Comey",
+"status": "approved",
+"title": "Boyns Top",
+"category": "Tops & Tees",
+"price": 365.0,
+"list": 365.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://www.rachelcomey.com/products/boyns-top",
+"img": "https://cdn.shopify.com/s/files/1/1174/9902/files/271W-329-S1829WHITE_-_01.jpg?v=1790629042",
+"tags": [
+"27-1PS",
+"Category:Tops",
+"Crisp",
+"default-product-template",
+"hidden",
+"HIGH INVENTORY"
+],
+"desc": "",
+"published": "2026-09-28",
+"score": -6.29,
+"hits": [
+[
+"brand:Rachel Comey",
+0.06521739130434782
+],
+[
+"color:Multi/Print",
+-1.589130434782609
+],
+[
+"cat:Tops & Tees",
+-1.863043478260869
+],
+[
+"price:300+",
+-2.1217391304347815
+]
+],
+"recolour": false
+},
+{
+"brand": "Bosie Knitwear",
+"status": "approved",
+"title": "Blue Mogganer Womens Siren Merino Polo Neck Sweater - Porcupine",
+"category": "Sweaters & Knitwear",
+"price": 238.0,
+"list": 238.0,
+"fabric": "merino",
+"natural": null,
+"url": "https://bosie.co/products/blue-mogganer-womens-siren-merino-polo-neck-sweater-porcupine",
+"img": "https://cdn.shopify.com/s/files/1/0701/1241/1962/files/Blue_Mogganer_Womens_Siren_Merino_Polo_Neck_Sweater_-_Porcupine3.jpg?v=1785485880",
+"tags": [],
+"desc": "Siren Our new Siren Blue Mogganer is a chunky, seamless big hug of a polo neck sweater. Knitted in Superfine Merino, it’s a beautifully soft, thick and indulgent knit, and the first Blue Mogganer knitted in women’s sizing. Siren offers superior warmth when braving the elements and the gorgeous tonal flecks imbue the knit with authentic rustic character. Our Siren is a true beauty.",
+"published": "2026-09-04",
+"score": -6.32,
+"hits": [
+[
+"brand:Bosie Knitwear",
+-0.04782608695652173
+],
+[
+"fab:merino",
+-0.6391304347826088
+],
+[
+"color:Green",
+-1.4586956521739136
+],
+[
+"cat:Sweaters & Knitwear",
+-1.4608695652173918
+]
+],
+"recolour": false
+},
+{
+"brand": "Boden",
+"status": "approved",
+"title": "Embroidered Romper Set-Pink Elephant",
+"category": "Jumpsuits & Rompers",
+"price": 35.75,
+"list": 65.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://us.boden.com/products/baby-embroidered-romper-set-pink-elephant-y2890pnk",
+"img": "https://cdn.shopify.com/s/files/1/0680/4619/2892/files/26uhsm_y2890_pnk_ceacf323-bdd8-4e34-bc94-a6f3837d3b0c.jpg?v=1775078491",
+"tags": [
+"PRICING:CLEARANCE-US",
+"stylecode:Y2890"
+],
+"desc": "Your youngest will be ready for summer adventures in this adorable romper set. We’ve embroidered the romper with flowers, a little elephant on the bib and a sweet trim. It's practical and stretchy in all the right places with adjustable straps to allow for growth and poppers. It makes a lovely present too.",
+"published": "2026-04-01",
+"score": -6.91,
+"hits": [
+[
+"color:Pink",
+-0.6847826086956523
+],
+[
+"cat:Jumpsuits & Rompers",
+-0.7891304347826088
+],
+[
+"brand:Boden",
+-1.5
+],
+[
+"price:u100",
+-3.156521739130432
+]
+],
+"recolour": false
+},
+{
+"brand": "Son de Flor",
+"status": "approved",
+"title": "Nora – Square Neck Linen Dress with Butterfly Sleeves",
+"category": "Dresses",
+"price": 241.0,
+"list": 344.0,
+"fabric": "100% linen",
+"natural": 1.0,
+"url": "https://sondeflor.com/products/nora-dress-butterfly-sleeve-raspberry-stripes",
+"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/2JB05893.jpg?v=1773305801",
+"tags": [
+"almost_gone_restock",
+"ss_march26"
+],
+"desc": "100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
+"published": "2026-03-12",
+"score": -7.72,
+"hits": [
+[
+"brand:Son de Flor",
+0.06521739130434782
+],
+[
+"color:Yellow/Gold",
+-0.13913043478260867
+],
+[
+"fab:linen",
+-1.6369565217391304
+],
+[
+"price:300+",
+-2.1217391304347815
+]
+],
+"recolour": false
+},
+{
+"brand": "Son de Flor",
+"status": "approved",
+"title": "Dawn – Linen Dress with Tie Neckline",
+"category": "Dresses",
+"price": 309.0,
+"list": 309.0,
+"fabric": "100% linen",
+"natural": 1.0,
+"url": "https://sondeflor.com/products/dawn-dress-long-sleeve-black-pansy-white-collar",
+"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/SONDEFLOR-118.jpg?v=1790860123",
+"tags": [
+"black-edit"
+],
+"desc": "100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
+"published": "2026-10-06",
+"score": -9.08,
+"hits": [
+[
+"brand:Son de Flor",
+0.06521739130434782
 ],
 [
 "color:Multi/Print",
@@ -666,679 +1187,233 @@
 "recolour": false
 },
 {
-"brand": "Ibex",
+"brand": "Son de Flor",
 "status": "approved",
-"title": "Women's Shak 1/4 Zip",
-"category": "Jackets & Coats",
-"price": 165.0,
-"list": 220.0,
-"fabric": "100% merino",
-"natural": null,
-"url": "https://ibex.com/products/womens-shak-1-4-zip-sale",
-"img": "https://cdn.shopify.com/s/files/1/0268/2280/3504/files/W__Shak_1_4_zip-Harvest_Melange_a63614fc-463f-4f94-a4fd-a2d33bb91ead.png?v=1774040589",
-"tags": [
-"1/4 zip",
-"100% Merino",
-"100% Wool",
-"Active",
-"bis-hidden",
-"Black"
-],
-"desc": "NEW: 100% MERINO SHAK JACKET, NOW WITH 1/4 ZIP Field Notes: New twist on our classic Shak Jacket with a 1/4 zip Dense merino offers high performance and natural stretch Sleek and professional layer with no thumbholes or side pockets. The Clip: The same great fit as your favorite Shak Jacket, now with a quarter zip.",
-"published": "2026-03-20",
-"score": -10.26,
-"hits": [
-[
-"brand:Ibex",
--0.04565217391304347
-],
-[
-"cat:Jackets & Coats",
--0.27391304347826084
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"color:White/Ivory",
--1.506521739130435
-]
-],
-"recolour": false
-},
-{
-"brand": "Minus33",
-"status": "approved",
-"title": "Heavyweight Wool Guide Shirt Jacket - 34.4oz",
-"category": "Jackets & Coats",
-"price": 199.99,
-"list": 199.99,
-"fabric": "80% wool, 20% polyester",
-"natural": 0.8,
-"url": "https://www.minus33.com/products/white-mountain-sportsman-shirt-expedition",
-"img": "https://cdn.shopify.com/s/files/1/0289/3129/3321/files/sportsman_wool_guide_shirt_jacket_shacket_plaid_wool_hunting_jacket_shirt-jak.jpg?v=1765394159",
-"tags": [
-"_label_New Style",
-"Anti-Microbial",
-"Button Up",
-"charcoal gray",
-"clothingtax",
-"Expedition"
-],
-"desc": "The Sportsman Heavyweight Wool Guide Shirt is back! Dont fall for flimsy shirts! Weighing in at nearly 34.4 oz (975g), Minus33’s Sportsman Guide Shirt is made from 80% fine wool, making it softer (non-scratchy) and more substantial than comparable guide shirts, making it a true shirt jacket. Its durability and warmth make it the heavy wool shirt for hunting, cold-weather work and outdoor activities. Classic bushcraft-lumberjack styling provides a timeless design for outdoor enthusiasts. Our Sportsman Shirt is an oversized cut to accommodate easy cold-weather layering without restricting freedo",
-"published": "2023-08-25",
-"score": -10.43,
-"hits": [
-[
-"cat:Jackets & Coats",
--0.27391304347826084
-],
-[
-"cut:oversized",
--0.6043478260869565
-],
-[
-"fab:wool",
--1.5413043478260875
-],
-[
-"color:Multi/Print",
--1.589130434782609
-]
-],
-"recolour": false
-},
-{
-"brand": "18 East",
-"status": "approved",
-"title": "SAM SHIRT JACKET - DEEP INDIGO / NAVY MULTI STRIPED CRINKLED RAYON",
-"category": "Jackets & Coats",
-"price": 178.0,
-"list": 178.0,
-"fabric": "unknown",
-"natural": null,
-"url": "https://18east.co/products/sam-shirt-jacket-deep-indigo-navy",
-"img": "https://cdn.shopify.com/s/files/1/0026/8707/4416/files/LSSam-1.jpg?v=1787588803",
-"tags": [
-"COLLECTION 2: SUMMER OUTDOORS SS26"
-],
-"desc": "These nearly came out two years ago but we didn't think the world was ready. The time is now. Slightly cropped with just enough ease and fullness in the body, this iteration of our staple Sam shirt is cut from a crinkled rayon stripe that wears loose and airy. Proudly made in India. Due to the springy nature of this fabric, it runs large to size. We recommend taking your usual alpha size or sizing down for a truer fit.",
-"published": "2026-08-28",
-"score": -10.59,
-"hits": [
-[
-"cat:Jackets & Coats",
--0.27391304347826084
-],
-[
-"cut:cropped",
--0.3391304347826088
-],
-[
-"brand:18 East",
--0.4630434782608695
-],
-[
-"color:Denim",
--1.6
-]
-],
-"recolour": false
-},
-{
-"brand": "Kartik Research",
-"status": "approved",
-"title": "KANTHA EMBROIDERY BLAZER",
-"category": "Jackets & Coats",
-"price": 750.0,
-"list": 65.0,
-"fabric": "wool",
-"natural": null,
-"url": "https://kartikresearch.com/products/kantha-embroidery-blazer",
-"img": "https://cdn.shopify.com/s/files/1/0377/1465/7418/files/DSCF4607_96a972a4-af95-4c89-ba9e-163bf4458176.jpg?v=1786715307",
-"tags": [
-"outerwear"
-],
-"desc": "Patchwork of handwoven wool and linen wool charcoal textiles. Embellished with a contrast kantha stitch. Finished with a silk lining and horn button closures. Designed to fit true to size.",
-"published": "2026-09-02",
-"score": -11.07,
-"hits": [
-[
-"fab:silk",
--0.22826086956521735
-],
-[
-"cat:Jackets & Coats",
--0.27391304347826084
-],
-[
-"color:Grey",
--0.5130434782608696
-],
-[
-"fab:wool",
--1.5413043478260875
-]
-],
-"recolour": false
-},
-{
-"brand": "Kartik Research",
-"status": "approved",
-"title": "RABARI BLAZER",
-"category": "Jackets & Coats",
-"price": 780.0,
-"list": 70.0,
-"fabric": "wool",
-"natural": null,
-"url": "https://kartikresearch.com/products/rabari-blazer",
-"img": "https://cdn.shopify.com/s/files/1/0377/1465/7418/files/DSCF4672.jpg?v=1790783371",
-"tags": [
-"outerwear"
-],
-"desc": "Made from handwoven wool fabric in twill weave, naturally dyed in tones of lime. The surface is hand embroidered with a Rabari stitch across, inspired by a technique used by artisans in Gujarat. Finished with a silk gold lining and a mix of large and small horn button closures. Designed to fit true to size.",
-"published": "2026-09-30",
-"score": -11.13,
-"hits": [
-[
-"fab:silk",
--0.22826086956521735
-],
-[
-"cat:Jackets & Coats",
--0.27391304347826084
-],
-[
-"fab:twill",
--0.7108695652173914
-],
-[
-"color:White/Ivory",
--1.506521739130435
-]
-],
-"recolour": false
-},
-{
-"brand": "Kartik Research",
-"status": "approved",
-"title": "ALMORA JACKET",
-"category": "Jackets & Coats",
-"price": 1100.0,
-"list": 70.0,
-"fabric": "merino",
-"natural": null,
-"url": "https://kartikresearch.com/products/almora-jacket-1",
-"img": "https://cdn.shopify.com/s/files/1/0377/1465/7418/files/DSCF4255.jpg?v=1786947490",
-"tags": [
-"outerwear"
-],
-"desc": "Woven in Almora, on Jacquard Handlooms in Merino Wool. Naturally Dyed by Avani Collective in Uttarakhand. Finished with horn button closures. Vintage coach jacket reference. Hand Embroidered in Lucknow with Zardozi Threadwork. Bringing this piece back for the first time since FW24. Designed to fit true to size, but the bottom is elasticated, so maybe size up.",
-"published": "2026-09-02",
-"score": -11.98,
-"hits": [
-[
-"cat:Jackets & Coats",
--0.27391304347826084
-],
-[
-"fab:merino",
--0.6391304347826088
-],
-[
-"cut:elastic",
--1.1565217391304352
-],
-[
-"color:White/Ivory",
--1.506521739130435
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Reworn Harlequin Print Dress Size 4 (2072) | Multi",
+"title": "Nursing-Friendly – Linen Dress with Hidden Zippers",
 "category": "Dresses",
-"price": 95.0,
-"list": 95.0,
-"fabric": "100% viscose",
-"natural": 1.0,
-"url": "https://us.toa.st/products/reworn-harlequin-print-dress-size-4-2072-multi",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/RWWDRTW504M2072_multi.jpg?v=1787154672",
-"tags": [
-"base_colour: Multi",
-"collection: reworn",
-"commodity_code: 6204499090",
-"coo: China",
-"delivery-message: This item has been previously loved. Please refer to the description.",
-"disclaimer_code: REWORN"
-],
-"desc": "Lightly Worn: Previously worn, in good condition with minor flaws. Fabric showing signs of wear. This style is part of TOAST Reworn, our collection of pieces that have been previously worn or selected from past collections. It’s vital that we take responsibility for all of the items we produce to reduce our waste and use of resources. We’re investing in initiatives that keep our products in circulation. TOAST Reworn offers an alternative to buying new, reflecting our circular values. ### Details 100% viscose. Machine wash. Made in China. Size & Fit Front length for size 4 is 126cm",
-"published": "2026-09-29",
-"score": -15.24,
-"hits": [
-[
-"brand:TOAST",
--1.5
-],
-[
-"color:Multi/Print",
--1.589130434782609
-],
-[
-"fab:viscose",
--1.7195652173913043
-],
-[
-"price:u100",
--3.156521739130432
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Reworn Poppies Print Crepe Dress Size 6 (1574) | Multi",
-"category": "Dresses",
-"price": 90.0,
-"list": 90.0,
-"fabric": "100% viscose",
-"natural": 1.0,
-"url": "https://us.toa.st/products/reworn-poppies-print-crepe-dress-size-6-1574-multi",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/RWWDRSW146M1574_multi.jpg?v=1787675660",
-"tags": [
-"base_colour: multi",
-"collection: reworn",
-"commodity_code: 6204430000",
-"coo: India",
-"delivery-message: This item has been previously loved. Please refer to the description.",
-"disclaimer_code: REWORN"
-],
-"desc": "Lightly Worn: Previously worn, in good condition with minor flaws. Fabric showing signs of wear. This style is part of TOAST Reworn, our collection of pieces that have been previously worn or selected from past collections. It’s vital that we take responsibility for all of the items we produce to reduce our waste and use of resources. We’re investing in initiatives that keep our products in circulation. TOAST Reworn offers an alternative to buying new, reflecting our circular values. ### Details 100% viscose. Machine wash. Made in India. Size & Fit Front length from side neck point on size 6 i",
-"published": "2026-08-27",
-"score": -15.26,
-"hits": [
-[
-"brand:TOAST",
--1.5
-],
-[
-"color:Multi/Print",
--1.589130434782609
-],
-[
-"fab:viscose",
--1.7195652173913043
-],
-[
-"price:u100",
--3.156521739130432
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Reworn Linen Sun Dress Size XXS (1992) | Poppy",
-"category": "Dresses",
-"price": 85.0,
-"list": 85.0,
+"price": 344.0,
+"list": 344.0,
 "fabric": "100% linen",
 "natural": 1.0,
-"url": "https://us.toa.st/products/reworn-linen-sun-dress-size-xxs-1992-poppy",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/RWLDRTW18XXSP1992_poppy.jpg?v=1790919726",
+"url": "https://sondeflor.com/products/classic-nursing-dress-long-sleeve-black-pansy",
+"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/JoanaBurn-356_4417623d-6d9a-4dbd-9a47-a7a2a40d5bfa.jpg?v=1754470282",
 "tags": [
-"base_colour: Red",
-"collection: reworn",
-"commodity_code: 6204499090",
-"coo: India",
-"delivery-message: This item has been previously loved. Please refer to the description.",
-"disclaimer_code: REWORN"
+"25fw"
 ],
-"desc": "Lightly Worn: Previously worn, in good condition with minor flaws. Fabric showing signs of wear. This style is part of TOAST Reworn, our collection of pieces that have been previously worn or selected from past collections. It’s vital that we take responsibility for all of the items we produce to reduce our waste and use of resources. We’re investing in initiatives that keep our products in circulation. TOAST Reworn offers an alternative to buying new, reflecting our circular values. ### Details 100% linen. Machine wash. Made in India. Size & Fit Front length for size XXS is 123cm.",
-"published": "2026-10-02",
-"score": -15.56,
+"desc": "100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
+"published": "2025-08-07",
+"score": -9.17,
 "hits": [
 [
-"brand:TOAST",
--1.5
+"brand:Son de Flor",
+0.06521739130434782
+],
+[
+"color:Multi/Print",
+-1.589130434782609
 ],
 [
 "fab:linen",
 -1.6369565217391304
 ],
 [
-"color:Brown",
--1.9630434782608688
-],
-[
-"price:u100",
--3.156521739130432
+"price:300+",
+-2.1217391304347815
 ]
 ],
 "recolour": false
 },
 {
-"brand": "Big Bud Press",
+"brand": "Son de Flor",
 "status": "approved",
-"title": "Petite Short Sleeve Jumpsuit - Washed Grey",
-"category": "Jumpsuits & Rompers",
-"price": 210.0,
-"list": 210.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://bigbudpress.com/products/petite-short-sleeve-jumpsuit-washed-grey",
-"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/18ECOMMWASHEDGREYCOLORLAUNCHCHEYANNJUMPSUITXSBYDOT1-30-2526848_b4c47b04-ceee-49d6-a72a-aea5721846c1.png?v=1762450422",
-"tags": [
-"All",
-"jumpsuit",
-"petite",
-"POINT OF SALE",
-"short sleeve jumpsuit petite",
-"siblings"
-],
-"desc": "One jumpsuit to rule them all! The perfect statement piece. Our jumpsuits are our best-selling item since we debuted them in 2017. They’re the best for a reason! Vintage workwear inspired. Made with our signature durable 9oz 100% cotton twill. Our twill does not have stretch built into the fabric but all of our pieces break in beautifully with wear and conform to your body with time! Custom Sun Baby logo snap enclosure. Heavy duty stitching ensures this piece is workwear quality and made to last! Elastic in back of waist for an updated look on a timeless classic. Garment dyed in a rainbow of o",
-"published": "2025-11-06",
-"score": -17.06,
-"hits": [
-[
-"brand:Big Bud Press",
--0.04565217391304347
-],
-[
-"cut:short sleeve",
--0.41086956521739126
-],
-[
-"color:Grey",
--0.5130434782608696
-],
-[
-"fab:twill",
--0.7108695652173914
-]
-],
-"recolour": false
-},
-{
-"brand": "Big Bud Press",
-"status": "approved",
-"title": "Short Sleeve Jumpsuit - Fruit Fantasy *FINAL SALE*",
-"category": "Jumpsuits & Rompers",
-"price": 182.0,
-"list": 268.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://bigbudpress.com/products/short-sleeve-jumpsuit-fruit-fantasy",
-"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/01ECOMMFRUITPRINTJUMPSUITXSKANDIABYMIGUEL7-16-260111.png?v=1786462939",
-"tags": [
-"All",
-"clearance",
-"fruit print",
-"jumpsuit",
-"POINT OF SALE",
-"print"
-],
-"desc": "SUMMER PRODUCE SUPER LAUNCH. Limited edition pieces inspired by summer’s bounty. One jumpsuit to rule them all! The perfect statement piece. Our jumpsuits are our best-selling item since we debuted them in 2017. They’re the best for a reason! Vintage workwear inspired. Made with our signature durable 9oz 100% cotton twill. Our twill does not have stretch built into the fabric but all of our pieces break in beautifully with wear and conform to your body with time! Custom Sun Baby logo snap enclosure. Heavy duty stitching ensures this piece is workwear quality and made to last! Elastic in back o",
-"published": "2026-08-13",
-"score": -18.14,
-"hits": [
-[
-"brand:Big Bud Press",
--0.04565217391304347
-],
-[
-"cut:short sleeve",
--0.41086956521739126
-],
-[
-"fab:twill",
--0.7108695652173914
-],
-[
-"cat:Jumpsuits & Rompers",
--0.7891304347826088
-]
-],
-"recolour": false
-},
-{
-"brand": "18 East",
-"status": "approved",
-"title": "CROPPED OUTWORKER SHACKET - HABITAT BLUE COTTON CAMBRIC WITH ECRU EMBROIDERED PENCIL STRIPES",
-"category": "Jackets & Coats",
-"price": 228.0,
-"list": 228.0,
-"fabric": "unknown",
-"natural": null,
-"url": "https://18east.co/products/cropped-outworker-shirt-habitat-blue-ecru",
-"img": "https://cdn.shopify.com/s/files/1/0026/8707/4416/files/CroppedOuterworkerShacket-1_6f848842-80af-4aab-8e78-0bc1b237b767.jpg?v=1786639666",
-"tags": [
-"COLLECTION 2: SUMMER SKATE SS26"
-],
-"desc": "A riff on our winter staple Outworker silhouette with a cropped length and straight hem for ease of summer wear. This textile idea came from Ankit, our primary manufacturing partner in Jaipur. On first glance this fabric mimics a classic pencil stripe poplin, but when you look closely you can see that each stripe is actually a single needle running embroidery stripe. Each stripe is done one at a time - a highly time consuming process - to add dimension and life to an otherwise ordinary cloth. The end result is subtly stunning. Proudly made in India. This garment runs true to size.",
-"published": "2026-08-14",
-"score": -18.18,
-"hits": [
-[
-"cat:Jackets & Coats",
--0.27391304347826084
-],
-[
-"cut:cropped",
--0.3391304347826088
-],
-[
-"brand:18 East",
--0.4630434782608695
-],
-[
-"fab:poplin",
--1.004347826086957
-]
-],
-"recolour": false
-},
-{
-"brand": "18 East",
-"status": "approved",
-"title": "S/S WES STRAIGHT HEM WORK SHIRT - BLACK / CARAMEL FULLY HAND-EMBROIDERED COTTON POPLIN",
-"category": "Shirts & Blouses",
-"price": 268.0,
-"list": 268.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://18east.co/products/s-s-wes-shirt-black-kantha-stitched-cotton-poplin",
-"img": "https://cdn.shopify.com/s/files/1/0026/8707/4416/files/SSWesShirt-1.jpg?v=1779303910",
-"tags": [
-"COLLECTION 1: REFINED TECH SS26"
-],
-"desc": "\"Eagle-eyed fans of what we do might recognize the pattern on this shirt as nearly identical to the one found on our recent Keen collaboration . It was our initial intention to release them at the same time, but this intricate pattern takes over 2 weeks to embroider by hand (for a single piece) so the shirts were under understandably delayed. I've often talked about the level of quality we offer at a price no one else even comes close to and this is a prime example of that.\" - The Management Based on vintage French workwear, the Wes features a straight hem, deep side vents, and beautifully cur",
-"published": "2026-06-18",
-"score": -18.19,
-"hits": [
-[
-"brand:18 East",
--0.4630434782608695
-],
-[
-"fab:poplin",
--1.004347826086957
-],
-[
-"cat:Shirts & Blouses",
--1.4695652173913047
-],
-[
-"color:Black",
--2.441304347826086
-]
-],
-"recolour": false
-},
-{
-"brand": "18 East",
-"status": "approved",
-"title": "EASY WORK SHIRT - BLAVY MICRO RIPSTOP NYLON",
-"category": "Shirts & Blouses",
-"price": 135.0,
-"list": 135.0,
-"fabric": "unknown",
-"natural": null,
-"url": "https://18east.co/products/easy-work-shirt-indigo",
-"img": "https://cdn.shopify.com/s/files/1/0026/8707/4416/files/20230415_18E_APRIL_DROP_116_25929.jpg?v=1682628501",
-"tags": [
-"archive"
-],
-"desc": "Like it's name, the Easy work shirt runs big and relaxed. It's cut from an incredible new \"blavy\" (the darkest navy we could find) water-repellent micro ripstop nylon quality that feels equal parts active and formal. It's finished with matte black snaps at the placket, pockets and cuffs, as well as a bidding digi mountain label at the bottom underplacket. Proudly made in India. We recommend taking your normal alpha size here for a relaxed fit. If you prefer a slimmer fit, size down.",
-"published": "2026-03-10",
-"score": -18.69,
-"hits": [
-[
-"brand:18 East",
--0.4630434782608695
-],
-[
-"cat:Shirts & Blouses",
--1.4695652173913047
-],
-[
-"color:Blue",
--1.8673913043478256
-],
-[
-"cut:relaxed",
--2.2847826086956506
-]
-],
-"recolour": false
-},
-{
-"brand": "TOAST",
-"status": "approved",
-"title": "Reworn Crinkle Cotton Skirt Size XXS (375) | Multi",
+"title": "Wrap – Full-Circle Twill Linen Skirt",
 "category": "Skirts",
-"price": 85.0,
-"list": 85.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://us.toa.st/products/reworn-crinkle-cotton-skirt-size-xxs-375-multi",
-"img": "https://cdn.shopify.com/s/files/1/0425/6595/9838/files/RWLSKVW04XXSM375_multi.jpg?v=1789561688",
+"price": 263.0,
+"list": 263.0,
+"fabric": "linen",
+"natural": null,
+"url": "https://sondeflor.com/products/wrap-skirt-twill-linen-oak-tartan",
+"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/SONDEFLOR-546.jpg?v=1790165393",
 "tags": [
-"base_colour: Multi",
-"collection: reworn",
-"commodity_code: 6204520090",
-"coo: India",
-"delivery-message: This item has been previously loved. Please refer to the description.",
-"disclaimer_code: REWORN"
+"fw26"
 ],
-"desc": "Lightly Worn: Previously worn, in good condition with minor flaws. Fabric showing signs of wear. This style is part of TOAST Reworn, our collection of pieces that have been previously worn or selected from past collections. It’s vital that we take responsibility for all of the items we produce to reduce our waste and use of resources. We’re investing in initiatives that keep our products in circulation. TOAST Reworn offers an alternative to buying new, reflecting our circular values. ### Details 100% cotton. Machine wash. Made in India. Size & Fit Front length is 84cm.",
-"published": "2026-10-02",
-"score": -20.95,
+"desc": "100% twill linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
+"published": "2026-08-07",
+"score": -9.22,
 "hits": [
 [
-"brand:TOAST",
--1.5
-],
-[
-"color:Multi/Print",
--1.589130434782609
-],
-[
-"cat:Skirts",
--1.9478260869565207
-],
-[
-"price:u100",
--3.156521739130432
-]
-],
-"recolour": false
-},
-{
-"brand": "Big Bud Press",
-"status": "approved",
-"title": "Overall Handbags *FINAL SALE*",
-"category": "Jumpsuits & Rompers",
-"price": 60.0,
-"list": 85.0,
-"fabric": "100% cotton, 100% cotton",
-"natural": 1.0,
-"url": "https://bigbudpress.com/products/overall-handbags",
-"img": "https://cdn.shopify.com/s/files/1/0775/2355/files/01-overall-flats-by-dot-morgan-chris-9-4-2412940.png?v=1725549619",
-"tags": [
-"Accessories",
-"All",
-"Bags",
-"clearance",
-"POINT OF SALE"
-],
-"desc": "A handbag inspired by the signature shape of our overalls bib. Channel your inner 2000s self. This bag is perfect for the essentials. Cute and compact. Large main pocket for double pocket exterior for easy access to your stuff. Made with our custom woven 100% cotton 14.5 oz denim— made in one of america’s oldest denim mills. Removable straps makes laundering this bag super simple. The adjustable strap shifts easily from handbag to shoulder bag. Designed, cut, sewn, and dyed in Los Angeles with 100% cotton denim custom woven for us in america. Adorned with American made hardware.",
-"published": "2025-09-22",
-"score": -21.84,
-"hits": [
-[
-"brand:Big Bud Press",
--0.04565217391304347
-],
-[
-"cat:Jumpsuits & Rompers",
--0.7891304347826088
-],
-[
-"fab:denim",
--1.2826086956521743
-],
-[
-"color:Multi/Print",
--1.589130434782609
-]
-],
-"recolour": false
-},
-{
-"brand": "Howlin'",
-"status": "approved",
-"title": "Safe Skirt - Japanese Polka Dots - Diesel (Women)",
-"category": "Skirts",
-"price": 207.0,
-"list": 207.0,
-"fabric": "100% cotton",
-"natural": 1.0,
-"url": "https://howlinknitwear.com/products/safe-skirt-japanese-polka-dots-diesel-women",
-"img": "https://cdn.shopify.com/s/files/1/0465/5477/5710/files/SAFESKIRT-JAPANESEPOLKADOTS_DIESEL_1.jpg?v=1784042266",
-"tags": [
-"AW26",
-"AW26SALEALL",
-"AW26SALEskirts_WOMEN",
-"AW26SALEWOMEN",
-"AWWOMEN",
-"badge_howlin_belgium"
-],
-"desc": "Safe Skirt features a wrap-around waistline with two Japanese snap buttons for closure. This Japanese fabric features a classic polka dot pattern on soft, breathable cotton. Lightweight and comfortable, it adds a touch of character without compromising on versatility. Each garment is produced in small batches with close attention to detail in our Howlin' atelier. - Japanese cotton polka dot fabric - 100% cotton - Lightweight and breathable - Japanese snap button closure - Made in Belgium",
-"published": "2026-09-01",
-"score": -22.95,
-"hits": [
-[
-"brand:Howlin'",
--0.2304347826086956
+"brand:Son de Flor",
+0.06521739130434782
 ],
 [
 "cut:wrap",
 -0.7043478260869563
 ],
 [
+"fab:twill",
+-0.7108695652173914
+],
+[
+"color:Multi/Print",
+-1.589130434782609
+]
+],
+"recolour": false
+},
+{
+"brand": "Mixed by Nasrin",
+"status": "approved",
+"title": "Amina Jumpsuit in Dark Wash Denim",
+"category": "Jumpsuits & Rompers",
+"price": 245.0,
+"list": 245.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://mixedbynasrin.com/products/amina-jumpsuit-in-dark-wash-denim",
+"img": "https://cdn.shopify.com/s/files/1/0521/9195/3057/files/004_Mixed_DenimCapsule_Lifestyle_PhoebeCheongPhoto_web.jpg?v=1772748582",
+"tags": [
+"3117",
+"denim",
+"Jumpsuit",
+"Pre-Spring - 2026"
+],
+"desc": "Designer's Notes: Effortless and elevated. The Amina Jumpsuit features a fitted bodice with topstitching along the sleeves and belt, balanced by a wide, full-length leg. Cut from 9oz dark wash stretch denim. The Details: Luxurious, soft denim Structured bodice Subtle, full-length wide-leg pant",
+"published": "2026-03-08",
+"score": -9.42,
+"hits": [
+[
+"brand:Mixed by Nasrin",
+-0.10434782608695646
+],
+[
+"cut:fitted",
+-0.7152173913043479
+],
+[
+"cat:Jumpsuits & Rompers",
+-0.7891304347826088
+],
+[
+"cut:wide leg",
+-0.9717391304347828
+]
+],
+"recolour": false
+},
+{
+"brand": "Tibi",
+"status": "approved",
+"title": "The Slip Skirt",
+"category": "Skirts",
+"price": 113.0,
+"list": 375.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://www.tibi.com/products/the-slip-skirt-orange-sorbet",
+"img": "https://cdn.shopify.com/s/files/1/0035/7600/4654/files/T000LP5338-THESLIPSKIRT-ORANGESORBET-01_2529.jpg?v=1749490583",
+"tags": [
+"Active",
+"Cat_Skirts",
+"OSS",
+"Product Grouping: Slip",
+"Ring 4",
+"Size Guide: T000LP5338"
+],
+"desc": "Featuring a midi length and back slit, The Slip Skirt’s lightweight twill construction ensures year-round appeal. Pair it with the matching Slip Cami for a coordinated set, or lean into your antonyms, opting contrasting-but-complimentary Zip-Up Hoodie for versatile, pragmatic looks. 100% Acetate Style Number: T000LP5338 Available in: Black, Celery, Navy, Orange Sorbet",
+"published": "2026-03-25",
+"score": -9.74,
+"hits": [
+[
+"brand:Tibi",
+-0.04565217391304347
+],
+[
+"fab:twill",
+-0.7108695652173914
+],
+[
 "color:Multi/Print",
 -1.589130434782609
 ],
 [
 "cat:Skirts",
 -1.9478260869565207
+]
+],
+"recolour": false
+},
+{
+"brand": "Boden",
+"status": "approved",
+"title": "Flutter Sleeve Denim Jumpsuit-Mid Vintage",
+"category": "Jumpsuits & Rompers",
+"price": 57.85,
+"list": 89.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://us.boden.com/products/girls-flutter-sleeve-denim-jumpsuit-mid-vintage-g6089den",
+"img": "https://cdn.shopify.com/s/files/1/0680/4619/2892/files/26gaut_g6089_den_m01_2554371c-2cad-47c7-be72-eef62b378ee6.jpg?v=1782303409",
+"tags": [
+"PRICING:CLEARANCE-US",
+"stylecode:G6089"
+],
+"desc": "This nature-inspired jumpsuit has a lovely sense of wonder. Fluttery sleeves and embroidered flowers and butterflies bring the charm, while the loose fit and durable denim keep it practical for even the buzziest of Minis.",
+"published": "2026-06-09",
+"score": -10.01,
+"hits": [
+[
+"cat:Jumpsuits & Rompers",
+-0.7891304347826088
+],
+[
+"cut:mini",
+-0.9586956521739134
+],
+[
+"fab:denim",
+-1.2826086956521743
+],
+[
+"brand:Boden",
+-1.5
+]
+],
+"recolour": false
+},
+{
+"brand": "Boden",
+"status": "approved",
+"title": "Smocked Waist Ruffle Skirt-Soft Cream Floral Field",
+"category": "Skirts",
+"price": 41.25,
+"list": 55.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://us.boden.com/products/girls-smocked-waist-ruffle-skirt-soft-cream-floral-field-g5828ivo",
+"img": "https://cdn.shopify.com/s/files/1/0680/4619/2892/files/26gaut_g5828_ivo_v1_116481a2-f837-45a7-b93d-a96ce665d973.jpg?v=1780914222",
+"tags": [
+"PRICING:CLEARANCE-US",
+"stylecode:G5828"
+],
+"desc": "Who doesn’t want a skirt that bounces and flutters with every leap and twist? Minis will love this smocked waist ruffle skirt with its floaty tiers and ditsy floral prints. It’s comfy and cute too.",
+"published": "2026-06-08",
+"score": -10.34,
+"hits": [
+[
+"cut:smocked",
+-0.6695652173913045
+],
+[
+"cut:mini",
+-0.9586956521739134
+],
+[
+"brand:Boden",
+-1.5
+],
+[
+"color:White/Ivory",
+-1.506521739130435
 ]
 ],
 "recolour": false

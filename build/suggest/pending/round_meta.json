@@ -1,37 +1,14 @@
 {
  "date": "2026-10-06",
- "stage1": "2026-10-06T12:42:16.513144+00:00",
+ "stage1": "2026-10-06T23:37:03.521143+00:00",
  "brands_ok": [
-  "TOAST",
-  "18 East",
-  "Howlin'",
-  "Rachel Comey",
-  "Kartik Research",
-  "Big Bud Press",
-  "Ibex",
-  "Minus33"
- ],
- "brands_failed": [
-  "Alex Mill",
   "Boden",
   "TOAST",
   "18 East",
-  "Buck Mason",
   "Bosie Knitwear",
   "Gramicci",
   "Mixed by Nasrin",
   "Howlin'",
-  "Anthropologie",
-  "J.Crew",
-  "Madewell",
-  "Abercrombie & Fitch",
-  "Ralph Lauren",
-  "O'Connell's",
-  "W'menswear",
-  "Post Romantic",
-  "Levi's",
-  "Vince",
-  "Theory",
   "Tibi",
   "Nili Lotan",
   "Rachel Comey",
@@ -47,6 +24,22 @@
   "Icebreaker",
   "Ridge Merino",
   "Ibex",
-  "Mons Royale"
+  "Mons Royale",
+  "Minus33"
+ ],
+ "brands_failed": [
+  "Alex Mill",
+  "Buck Mason",
+  "Anthropologie",
+  "J.Crew",
+  "Madewell",
+  "Abercrombie & Fitch",
+  "Ralph Lauren",
+  "O'Connell's",
+  "W'menswear",
+  "Post Romantic",
+  "Levi's",
+  "Vince",
+  "Theory"
  ]
 }
