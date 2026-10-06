@@ -1,7 +1,7 @@
 # Becca's taste profile
 
-<!-- auto:start (rewritten by round.py, 2026-10-03) -->
-## What the notebook says (2026-10-03)
+<!-- auto:start (rewritten by round.py, 2026-10-06) -->
+## What the notebook says (2026-10-06)
 - Hearts: 23  ·  Not for me: 389
 - Brands she saves: Margaret Howell (0.1), Son de Flor (0.1), Rachel Comey (0.1)
 - Categories: nothing yet
