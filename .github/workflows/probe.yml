@@ -1,14 +1,10 @@
 name: Probe Shopify from GitHub (diagnostic)
 
-# Run by hand. Pages through real store catalogues the way the sale check does, at a steady pace, and records when
-# Shopify starts answering 429, whether a refused machine is refused for everything or only for big catalogue
-# pages, and whether smaller pages fare better. Changes nothing in the repository.
+# Run by hand. Same machine, same store pages, two Python builds: the operating system's own python3 and the one
+# actions/setup-python installs (which the real jobs use). Prints each status and the TLS library each build uses.
+# Changes nothing in the repository.
 on:
   workflow_dispatch:
-    inputs:
-      gap:
-        description: "seconds between requests"
-        default: "3"
 
 permissions:
   contents: read
@@ -16,36 +12,26 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 20
     steps:
-      - name: Probe
-        env: { GAP: '${{ github.event.inputs.gap }}' }
+      - name: System Python
         run: |
-          python3 - <<'PY'
-          import urllib.request, urllib.error, ssl, time, os, json
-          GAP = float(os.environ.get('GAP') or 3); ctx = ssl.create_default_context(); T0 = time.time()
+          cat > /tmp/p.py <<'PY'
+          import urllib.request, urllib.error, ssl, sys, time
+          print(sys.executable, sys.version.split()[0], ssl.OPENSSL_VERSION, flush=True)
           UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1'
-          def hit(url):
+          ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE   # as build/shopify.py does
+          for url in ['https://us.boden.com/products.json?limit=250&page=1&currency=USD', 'https://us.toa.st/products.json?limit=250&page=1&currency=USD', 'https://bigbudpress.com/products.json?limit=250&page=1&currency=USD', 'https://www.filson.com/products.json?limit=250&page=1&currency=USD', 'https://us.boden.com/']:
               try:
-                  r = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'application/json,*/*'}), timeout=40, context=ctx)
-                  b = r.read(); return r.status, len(b)
-              except urllib.error.HTTPError as e: return e.code, 0
-              except Exception as e: return type(e).__name__, 0
-          def log(tag, url, res): print(f'{time.time()-T0:6.0f}s {tag:8} {res[0]} {res[1]:>8}B  {url}', flush=True)
-          import random
-          SALE = {'User-Agent': UA, 'Accept': 'application/json,text/html,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.9'}
-          SWEEP = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36', 'Accept': 'application/json'}
-          PROBE = {'User-Agent': UA, 'Accept': 'application/json,*/*'}
-          FRESH = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0', 'Accept': 'application/json'}
-          def hh(url, h):
-              try:
-                  r = urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=40, context=ctx); r.read(); return r.status, r.headers.get('retry-after')
-              except urllib.error.HTTPError as e: return e.code, e.headers.get('retry-after')
-              except Exception as e: return type(e).__name__, None
-          URLS = ['https://us.boden.com/products.json?limit=250&page=1&currency=USD', 'https://us.toa.st/products.json?limit=250&page=1&currency=USD', 'https://bigbudpress.com/products.json?limit=250&page=1&currency=USD', 'https://www.filson.com/products.json?limit=250&page=1&currency=USD']
-          print(f'== same machine, same pages, four header sets, one request every {GAP}s')
-          for rnd in range(2):
-              for url in URLS:
-                  for name, h in [('sale-check', SALE), ('sweep', SWEEP), ('probe', PROBE), ('fresh', FRESH)]:
-                      print(f'{time.time()-T0:6.0f}s {name:10} {hh(url, h)} {url}', flush=True); time.sleep(GAP)
+                  r = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'application/json,text/html,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.9'}), timeout=40, context=ctx); r.read(); res = r.status
+              except urllib.error.HTTPError as e: res = f'{e.code} retry-after={e.headers.get("retry-after")}'
+              except Exception as e: res = type(e).__name__
+              print(f'  {res}  {url}', flush=True); time.sleep(3)
           PY
+          /usr/bin/python3 /tmp/p.py
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: setup-python's Python (what the real jobs use)
+        run: python3 /tmp/p.py
+      - name: System Python again (control, after the other)
+        run: /usr/bin/python3 /tmp/p.py
