@@ -10,7 +10,9 @@ request made through get() here:
     TRIES times; timeouts and dropped connections are retried twice.
 STATS counts what happened, for the end-of-run report.
 """
-import time, threading, urllib.request, urllib.error, ssl, collections
+import time, threading, urllib.request, urllib.error, ssl, collections, os
+LOG = os.environ.get('SHOPIFY_LOG') == '1'   # print every request with its status and timing (set in the workflows)
+_T0 = time.monotonic()
 
 MIN_GAP = 2.5
 TRIES = 5
@@ -35,13 +37,16 @@ def _get(url, headers, timeout):
     last = None
     for attempt in range(TRIES):
         _wait_turn()
+        t = time.monotonic()
         try:
             data = urllib.request.urlopen(urllib.request.Request(url, headers=headers or {}), timeout=timeout, context=_ctx).read()
+            if LOG: print(f'  [{t - _T0:6.0f}s] 200 {len(data):>8}B {time.monotonic() - t:4.1f}s {url}', flush=True)
             STATS['ok'] += 1
             if attempt: STATS['ok after retry'] += 1
             return data
         except urllib.error.HTTPError as e:
             last = e
+            if LOG: print(f'  [{t - _T0:6.0f}s] {e.code} retry-after={e.headers.get("Retry-After") if e.headers else None} {url}', flush=True)
             if e.code not in (429, 503): STATS[f'http {e.code}'] += 1; raise
             STATS[f'http {e.code} (retried)'] += 1
             ra = e.headers.get('Retry-After') if e.headers else None
