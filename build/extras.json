@@ -1769,5 +1769,168 @@
    "Rigid denim with no stretch, runs true to size, sizes 23 to 34"
   ],
   "fabric": "100% cotton rigid denim"
+ },
+ {
+  "id": 5015,
+  "brand": "Mixed by Nasrin",
+  "name": "Classic Jumpsuit in Mulberry Corduroy",
+  "category": "Jumpsuits & Rompers",
+  "color": "Purple",
+  "colorDetail": "Mulberry corduroy",
+  "categoryDetail": "Jumpsuit",
+  "price": 198,
+  "list": 198,
+  "url": "https://mixedbynasrin.com/products/classic-jumpsuit-in-mulberry-corduroy",
+  "desc": "A fall wardrobe staple: the Classic Jumpsuit in Mulberry Corduroy has a cropped tapered leg, an elasticized waist and a concealed zipper with decorative buttons, in soft, stretchy corduroy you'll want to live in all season.",
+  "details": [
+   "Soft, stretchy corduroy",
+   "Concealed zipper front",
+   "Back elastic waistline",
+   "Chest and front pockets",
+   "Cropped tapered leg"
+  ],
+  "fabric": "Stretch corduroy",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "why": "stretch corduroy, elastic waist, cropped tapered leg, mulberry",
+  "retailer": "Mixed by Nasrin",
+  "img": "images/full/5015.jpg",
+  "hi": true,
+  "added": "2026-09-15"
+ },
+ {
+  "id": 5018,
+  "brand": "Son de Flor",
+  "name": "Classic Full-Circle Twill Linen Midi Skirt, Moss Green Herringbone",
+  "category": "Skirts",
+  "color": "Green",
+  "colorDetail": "Moss green herringbone",
+  "categoryDetail": "Classic Skirt",
+  "price": 229,
+  "list": 229,
+  "url": "https://sondeflor.com/products/twill-linen-classic-skirt-moss-green-herringbone",
+  "desc": "A full-circle midi skirt handmade in Lithuania from 100% twill linen woven in a herringbone. Also offered in wild plum and night navy herringbone, willow plaid and oak tartan.",
+  "details": [
+   "100% twill linen, herringbone weave",
+   "Full-circle midi",
+   "Handmade in Lithuania",
+   "Other colours: wild plum, night navy, willow plaid, oak tartan"
+  ],
+  "fabric": "100% twill linen",
+  "occasions": [
+   "dance",
+   "teaching",
+   "friend"
+  ],
+  "why": "breathable linen twill, full circle skirt that moves, dark moss herringbone",
+  "retailer": "Son de Flor",
+  "img": "images/full/5018.jpg",
+  "hi": true,
+  "added": "2026-09-15"
+ },
+ {
+  "id": 5022,
+  "brand": "Margaret Howell",
+  "retailer": "Margaret Howell",
+  "name": "MHL. UTILITY TROUSERS | 8 WALE COTTON CORDUROY | SLATE",
+  "category": "Pants",
+  "color": "Grey",
+  "colorDetail": "8 WALE COTTON CORDUROY | SLATE",
+  "categoryDetail": "Trousers",
+  "price": 325.0,
+  "list": 325.0,
+  "url": "https://www.margarethowell.co.uk/products/mhl-utility-trousers-8-wale-cotton-corduroy-slate",
+  "img": "images/full/5022.jpg",
+  "hi": true,
+  "desc": "Utility Trousers have a regular, straight leg cut and are cropped at the ankle. They are fabricated in heavyweight cotton corduroy with a soft hand feel, in colours exclusive to MHL. The high-waisted trousers are constructed with an offset button-fastening waistband, a flat front with side opening, stitch-through slanted pockets, and a deep hem. The trousers can be paired with the matching MHL.",
+  "details": [],
+  "fabric": "8 wale cotton corduroy",
+  "occasions": [
+   "outdoors",
+   "hang"
+  ],
+  "why": "8 wale cotton corduroy, straight leg, grey",
+  "added": "2026-09-15",
+  "by": "score"
+ },
+ {
+  "id": 5031,
+  "brand": "Margaret Howell",
+  "retailer": "Margaret Howell",
+  "name": "MHL. PLEATED CULOTTES | SOFT DENSE COTTON | KHAKI",
+  "category": "Pants",
+  "color": "Beige/Tan",
+  "colorDetail": "SOFT DENSE COTTON | KHAKI",
+  "categoryDetail": "Trousers",
+  "price": 325.0,
+  "list": 325.0,
+  "url": "https://www.margarethowell.co.uk/products/mhl-pleated-culottes-soft-dense-cotton-khaki",
+  "img": "images/full/5031.jpg",
+  "hi": true,
+  "desc": "Pleated Culottes have a relaxed cut and wide leg. They are fabricated in lightweight cotton with a compact hand feel and a brushed finish. The culottes are constructed with a half-elasticated waistband with a brace button fastening, and stitch-down double pleats, and side seam pockets, and feature a brace button fastening on patch back pocket with reinforced stitch detailing.",
+  "details": [],
+  "fabric": null,
+  "occasions": [
+   "dance",
+   "teaching",
+   "hang"
+  ],
+  "why": "wide leg, beige/tan",
+  "added": "2026-09-19",
+  "by": "claude"
+ },
+ {
+  "id": 5037,
+  "brand": "Margaret Howell",
+  "retailer": "Margaret Howell",
+  "name": "MHL. UTILITY TROUSERS | 8 WALE COTTON CORDUROY | CHESTNUT",
+  "category": "Pants",
+  "color": "Brown",
+  "colorDetail": "8 WALE COTTON CORDUROY | CHESTNUT",
+  "categoryDetail": "Trousers",
+  "price": 325.0,
+  "list": 325.0,
+  "url": "https://www.margarethowell.co.uk/products/mhl-utility-trousers-8-wale-cotton-corduroy-chestnut",
+  "img": "images/full/5037.jpg",
+  "hi": true,
+  "desc": "Utility Trousers have a regular, straight leg cut and are cropped at the ankle. They are fabricated in heavyweight cotton corduroy with a soft hand feel, in colours exclusive to MHL. The high-waisted trousers are constructed with an offset button-fastening waistband, a flat front with side opening, stitch-through slanted pockets, and a deep hem. The trousers can be paired with the matching MHL.",
+  "details": [],
+  "fabric": "8 wale cotton corduroy",
+  "occasions": [
+   "outdoors",
+   "hang"
+  ],
+  "why": "8 wale cotton corduroy, straight leg, brown",
+  "added": "2026-09-26",
+  "by": "claude"
+ },
+ {
+  "id": 5042,
+  "brand": "Rachel Comey",
+  "retailer": "Rachel Comey",
+  "name": "Gimlette Top",
+  "category": "Sweaters & Knitwear",
+  "color": "Purple",
+  "colorDetail": "As shown",
+  "categoryDetail": "KNITWEAR",
+  "price": 395.0,
+  "list": 395.0,
+  "url": "https://www.rachelcomey.com/products/gimlette-top",
+  "img": "images/full/5042.jpg",
+  "hi": true,
+  "desc": "Features a soft V-neckline with a wide ribbed band, relaxed drop shoulders for an effortless fit, and buttons down the front. Three-quarter sleeves and a substantial ribbed hem create a gently structured silhouette.",
+  "details": [
+   "Cropped knit top in tri-colour mid-weight cotton tweed"
+  ],
+  "fabric": "Cropped knit top in tri-colour mid-weight cotton tweed",
+  "occasions": [
+   "hang"
+  ],
+  "why": "cropped knit top in tri-colour mid-weight cotton tweed, button, purple",
+  "added": "2026-09-26",
+  "by": "claude"
  }
 ]
