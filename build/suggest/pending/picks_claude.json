@@ -1,1 +1,58 @@
-W1xuICB7XG4gICAgInVybCI6ICJodHRwczovL21peGVkYnluYXNyaW4uY29tL3Byb2R1Y3RzL2FtaW5hLWp1bXBzdWl0LWluLWRhcmstd2FzaC1kZW5pbSIsCiAgICAiYnJhbmQiOiAiTWl4ZWQgYnkgTmFzcmluIiwKICAgICJ0aXRsZSI6ICJBbWluYSBKdW1wc3VpdCBpbiBEYXJrIFdhc2ggRGVuaW0iLAogICAgImNhdGVnb3J5IjogIkp1bXBzdWl0cyAmIFJvbXBlcnMiLAogICAgInJlYXNvbiI6ICJBIHdpZGUsIGZ1bGwtbGVuZ3RoIGxlZyBpbiBkYXJrIHdhc2ggZGVuaW0sIGxpa2UgdGhlIE1peGVkIGJ5IE5hc3JpbiBqdW1wc3VpdHMgaW4gdGVhbCBjb3JkdXJveSBhbmQgYmxhY2sgeW91IHNhdmVkLiIKICB9LAogIHsKICAgICJ1cmwiOiAiaHR0cHM6Ly9zb25kZWZsb3IuY29tL3Byb2R1Y3RzL3R3aWxsLWxpbmVuLXdyYXAtc2tpcnQtb2FrLXRhcnRhbiIsCiAgICAiYnJhbmQiOiAiU29uIGRlIEZsb3IiLAogICAgInRpdGxlIjogIldyYXAg4oCTIEZ1bGwtQ2lyY2xlIFR3aWxsIExpbmVuIFNraXJ0IiwKICAgICJjYXRlZ29yeSI6ICJTa2lydHMiLAogICAgInJlYXNvbiI6ICJBIHBsYWlkIHR3aWxsIGxpbmVuIHNraXJ0IGluIHdhcm0gZWFydGggdG9uZXMsIGNsb3NlIHRvIHRoZSBzdHJ1Y3R1cmVkIGNvcmQgYW5kIG1pZGkgc2tpcnRzIHlvdSd2ZSBzYXZlZC4iCiAgfSwKICB7CiAgICAidXJsIjogImh0dHBzOi8vc29uZGVmbG9yLmNvbS9wcm9kdWN0cy9kYXduLWRyZXNzLWxvbmctc2xlZXZlLWJsYWNrLXBhbnN5LXdoaXRlLWNvbGxhciIsCiAgICAiYnJhbmQiOiAiU29uIGRlIEZsb3IiLAogICAgInRpdGxlIjogIkRhd24g4oCTIExpbmVuIERyZXNzIHdpdGggVGllIE5lY2tsaW5lIiwKICAgICJjYXRlZ29yeSI6ICJEcmVzc2VzIiwKICAgICJyZWFzb24iOiAiQSBkYXJrLCBsb25nLXNsZWV2ZSBsaW5lbiBkcmVzcyB3aXRoIGEgY3Jpc3Agd2hpdGUgY29sbGFyLCBzaW5jZSB5b3UgaGF2ZW4ndCBzZWVuIGRyZXNzZXMgeWV0LiIKICB9LAogIHsKICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cuZmlsc29uLmNvbS9wcm9kdWN0cy93b29sLWphYy1zaGlydC1uYXZ5IiwKICAgICJicmFuZCI6ICJGaWxzb24iLAogICAgInRpdGxlIjogIldvb2wgSmFjLXNoaXJ0IC0gTmF2eSIsCiAgICAiY2F0ZWdvcnkiOiAiU2hpcnRzICYgQmxvdXNlcyIsCiAgICAicmVhc29uIjogIkEgbmF2eSB3b29sIG92ZXJzaGlydCB3aXRoIHRoZSB3b3Jrd2VhciB3ZWlnaHQgeW91IGZhdm9yLCBjbG9zZSB0byB0d2VlZCBhbmQgZmxhbm5lbC4iCiAgfSwKICB7CiAgICAidXJsIjogImh0dHBzOi8vd3d3Lndvb2xseS5jbG90aGluZy9wcm9kdWN0cy93b21lbi1zLW11c2NsZS10YW5rIiwKICAgICJicmFuZCI6ICJXb29sbHkgQ2xvdGhpbmcgQ28uIiwKICAgICJ0aXRsZSI6ICJXb21lbuKAmXMgTXVzY2xlIFRhbmsiLAogICAgImNhdGVnb3J5IjogIlNoaXJ0cyAmIEJsb3VzZXMiLAogICAgInJlYXNvbiI6ICJUaGUgbWVyaW5vIHRhbmsgZm9yIGRhbmNpbmcgeW91IGFza2VkIGFib3V0LCBvcGVuLWFybWVkIGFuZCBicmVhdGhhYmxlLCBoZXJlIGluIGEgc29mdCBmb2cgaW5zdGVhZCBvZiBibGFjay4iCiAgfSwKICB7CiAgICAidXJsIjogImh0dHBzOi8vYm9zaWUuY28vcHJvZHVjdHMvbG9tb25kLWZhaXItaXNsZS15b2tlLWdlZWxvbmctd29tZW5zLXN3ZWF0ZXItY2hhaS1idXJudC1vcmFuZ2UiLAogICAgImJyYW5kIjogIkJvc2llIEtuaXR3ZWFyIiwKICAgICJ0aXRsZSI6ICJMb21vbmQgRmFpciBJc2xlIFlva2UgR2VlbG9uZyBXb21lbidzIFN3ZWF0ZXIgLSBDaGFpIEJ1cm50IE9yYW5nZSIsCiAgICAiY2F0ZWdvcnkiOiAiU3dlYXRlcnMgJiBLbml0d2VhciIsCiAgICAicmVhc29uIjogIkEgcnVzdC10b25lZCBmYWlyIGlzbGUgc3dlYXRlciBpbiBzb2Z0IGxhbWJzd29vbCwgY2xvc2UgdG8gdGhlIGF1dHVtbiBjb2xvdXJzIHlvdSBhbHJlYWR5IGZhdm9yLiIKICB9LAogIHsKICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cucmFjaGVsY29tZXkuY29tL3Byb2R1Y3RzL2hhcmktdGVlIiwKICAgICJicmFuZCI6ICJSYWNoZWwgQ29tZXkiLAogICAgInRpdGxlIjogIkhhcmkgVGVlIiwKICAgICJjYXRlZ29yeSI6ICJTd2VhdGVycyAmIEtuaXR3ZWFyIiwKICAgICJyZWFzb24iOiAiQSBib3h5IGFscGFjYSBwdWxsb3ZlciBmb3IgZWFzeSBsYXllcmluZywgaW4gYSBzb2Z0IGR1c3R5IHRvbmUgb3V0c2lkZSB5b3VyIHVzdWFsIGdyZXlzIGFuZCBydXN0LiIKICB9LAogIHsKICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cuc3R1ZGlvbmljaG9sc29uLmNvbS9wcm9kdWN0cy9laWRlLWtuaXQtaW4tYnV0dGVyIiwKICAgICJicmFuZCI6ICJTdHVkaW8gTmljaG9sc29uIiwKICAgICJ0aXRsZSI6ICJFaWRlIEtuaXQgaW4gQnV0dGVyIiwKICAgICJjYXRlZ29yeSI6ICJTd2VhdGVycyAmIEtuaXR3ZWFyIiwKICAgICJyZWFzb24iOiAiQSBmaW5lIG1lcmluby1zaWxrIHR1cnRsZW5lY2sgZm9yIHRlYWNoaW5nIGRheXMsIGluIGEgd2FybSBnb2xkIGJyaWdodGVyIHRoYW4geW91ciB1c3VhbCBkYXJrcy4iCiAgfQpdCg==
+[
+ {
+  "url": "https://mixedbynasrin.com/products/amina-jumpsuit-in-dark-wash-denim",
+  "brand": "Mixed by Nasrin",
+  "title": "Amina Jumpsuit in Dark Wash Denim",
+  "category": "Jumpsuits & Rompers",
+  "reason": "A wide, full-length leg in dark wash denim, like the Mixed by Nasrin jumpsuits in teal corduroy and black you saved."
+ },
+ {
+  "url": "https://sondeflor.com/products/twill-linen-wrap-skirt-oak-tartan",
+  "brand": "Son de Flor",
+  "title": "Wrap – Full-Circle Twill Linen Skirt",
+  "category": "Skirts",
+  "reason": "A plaid twill linen skirt in warm earth tones, close to the structured cord and midi skirts you've saved."
+ },
+ {
+  "url": "https://sondeflor.com/products/dawn-dress-long-sleeve-black-pansy-white-collar",
+  "brand": "Son de Flor",
+  "title": "Dawn – Linen Dress with Tie Neckline",
+  "category": "Dresses",
+  "reason": "A dark, long-sleeve linen dress with a crisp white collar, since you haven't seen dresses yet."
+ },
+ {
+  "url": "https://www.filson.com/products/wool-jac-shirt-navy",
+  "brand": "Filson",
+  "title": "Wool Jac-shirt - Navy",
+  "category": "Shirts & Blouses",
+  "reason": "A navy wool overshirt with the workwear weight you favor, close to tweed and flannel."
+ },
+ {
+  "url": "https://www.woolly.clothing/products/women-s-muscle-tank",
+  "brand": "Woolly Clothing Co.",
+  "title": "Women’s Muscle Tank",
+  "category": "Shirts & Blouses",
+  "reason": "The merino tank for dancing you asked about, open-armed and breathable, here in a soft fog instead of black."
+ },
+ {
+  "url": "https://bosie.co/products/lomond-fair-isle-yoke-geelong-womens-sweater-chai-burnt-orange",
+  "brand": "Bosie Knitwear",
+  "title": "Lomond Fair Isle Yoke Geelong Women's Sweater - Chai Burnt Orange",
+  "category": "Sweaters & Knitwear",
+  "reason": "A rust-toned fair isle sweater in soft lambswool, close to the autumn colours you already favor."
+ },
+ {
+  "url": "https://www.rachelcomey.com/products/hari-tee",
+  "brand": "Rachel Comey",
+  "title": "Hari Tee",
+  "category": "Sweaters & Knitwear",
+  "reason": "A boxy alpaca pullover for easy layering, in a soft dusty tone outside your usual greys and rust."
+ },
+ {
+  "url": "https://www.studionicholson.com/products/eide-knit-in-butter",
+  "brand": "Studio Nicholson",
+  "title": "Eide Knit in Butter",
+  "category": "Sweaters & Knitwear",
+  "reason": "A fine merino-silk turtleneck for teaching days, in a warm gold brighter than your usual darks."
+ }
+]
