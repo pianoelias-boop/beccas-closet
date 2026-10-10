@@ -1,52 +1,52 @@
-## Round 4 · 2026-09-26 · chosen by Claude
+## Round 5 · 2026-10-10 · chosen by Claude
 
-@pianoelias-boop — 8 ideas for **Based on your likes**. Merge to publish; close to skip this week.
+8 ideas for **Based on your likes**, published as soon as this merges. To take a week back, revert this pull request.
 
-### TOAST — Linen Cotton Twill Apron Shift Dress | Navy/Ecru · $126
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5035.jpg" width="220">
+### Mixed by Nasrin — Amina Jumpsuit in Dark Wash Denim · $245
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-38056403795/images/ideas/5043.jpg" width="220">
 
-Linen-cotton shift dress with a patch pocket, the same easy shape as the TOAST Garment Dyed Linen Shift Dress you saved.  
-*55% linen, 45% cotton · teaching, dance, friend* · [product page](https://us.toa.st/products/linen-cotton-twill-apron-shift-dress-navy-ecru)
+A wide, full-length leg in dark wash denim, like the Mixed by Nasrin jumpsuits in teal corduroy and black you saved.  
+*Denim · teaching, friend* · [product page](https://mixedbynasrin.com/products/amina-jumpsuit-in-dark-wash-denim)
 
-### TOAST — Garment Washed Linen Pocket Jumpsuit | Desert Sand · $375
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5036.jpg" width="220">
+### Son de Flor — Wrap – Full-Circle Twill Linen Skirt · $262
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-38056403795/images/ideas/5044.jpg" width="220">
 
-Wide-leg linen jumpsuit with deep patch pockets, the same ease as the TOAST Cord Culotte Jumpsuit you saved, in warm desert sand.  
-*100% linen · teaching, dance, friend* · [product page](https://us.toa.st/products/garment-washed-linen-pocket-jumpsuit-desert-sand)
+A plaid twill linen skirt in warm earth tones, close to the structured cord and midi skirts you've saved.  
+*100% twill linen textile · teaching, dance, friend* · [product page](https://sondeflor.com/products/twill-linen-wrap-skirt-oak-tartan)
 
-### Margaret Howell — MHL. UTILITY TROUSERS | 8 WALE COTTON CORDUROY | CHESTNUT · $325
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5037.jpg" width="220">
+### Son de Flor — Dawn – Linen Dress with Tie Neckline · $308
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-38056403795/images/ideas/5045.jpg" width="220">
 
-The MHL Utility Trousers you saved, now in chestnut corduroy.  
-*8 wale cotton corduroy · outdoors, hang* · [product page](https://www.margarethowell.co.uk/products/mhl-utility-trousers-8-wale-cotton-corduroy-chestnut)
+A dark, long-sleeve linen dress with a crisp white collar, since you haven't seen dresses yet.  
+*100% linen textile · teaching, dance, friend* · [product page](https://sondeflor.com/products/dawn-dress-long-sleeve-black-pansy-white-collar)
 
-### Margaret Howell — MHL. FLAP POCKET BLAZER | INDIGO TWILL | INDIGO · $345
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5038.jpg" width="220">
+### Filson — Wool Jac-shirt - Navy · $349
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-38056403795/images/ideas/5046.jpg" width="220">
 
-A relaxed cotton twill blazer with flap patch pockets, in indigo like the W'menswear Wendy Trouser indigo/gold you saved.  
-*Twill · teaching, friend* · [product page](https://www.margarethowell.co.uk/products/men-mhl-flap-pocket-blazer-indigo-twill-indigo)
+A navy wool overshirt with the workwear weight you favor, close to tweed and flannel.  
+*Wool jac · teaching, outdoors, friend* · [product page](https://www.filson.com/products/wool-jac-shirt-navy)
 
-### Studio Nicholson — Acuna Cotton Pant in Ice · $130
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5039.jpg" width="220">
+### Woolly Clothing Co. — Women’s Muscle Tank · $78
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-38056403795/images/ideas/5047.jpg" width="220">
 
-A high-rise cotton pant with a wide, flowing leg, in the same spirit as the TOAST Barrel Leg Cord Pants you saved.  
-*fibre not stated · teaching, hang* · [product page](https://www.studionicholson.com/products/acuna-pant-in-ice-1)
+The merino tank for dancing you asked about, open-armed and breathable, here in a soft fog instead of black.  
+*100% merino · outdoors, friend* · [product page](https://www.woolly.clothing/products/women-s-muscle-tank)
 
-### Studio Nicholson — SN x PERFUMER H Cyclamen Shirt in Light Blue · $325
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5040.jpg" width="220">
+### Bosie Knitwear — Lomond Fair Isle Yoke Geelong Women's Sweater - Chai Burnt Orange · $212
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-38056403795/images/ideas/5048.jpg" width="220">
 
-A lightweight cotton twill shirt with a chest patch pocket, in the button-down style of the Pilcro Cropped Plaid Shirt you saved.  
-*fibre not stated · teaching, friend* · [product page](https://www.studionicholson.com/products/sn-x-perfumer-h-cyclamen-shirt-in-light-blue)
+A rust-toned fair isle sweater in soft lambswool, close to the autumn colours you already favor.  
+*fibre not stated · teaching, outdoors, hang* · [product page](https://bosie.co/products/lomond-fair-isle-yoke-geelong-womens-sweater-chai-burnt-orange)
 
-### Tibi — Eco Poplin Side Drape Top · $395
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5041.jpg" width="220">
+### Rachel Comey — Hari Tee · $375
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-38056403795/images/ideas/5049.jpg" width="220">
 
-A structured cotton poplin top with a hidden pocket, the same poplin as the TOAST Wide Leg Cotton Poplin Jumpsuit you saved.  
-*100% Cotton · hang* · [product page](https://www.tibi.com/products/eco-poplin-side-drape-top-white)
+A boxy alpaca pullover for easy layering, in a soft dusty tone outside your usual greys and rust.  
+*fibre not stated · hang* · [product page](https://www.rachelcomey.com/products/hari-tee)
 
-### Rachel Comey — Gimlette Top · $395
-<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-36244147907/images/ideas/5042.jpg" width="220">
+### Studio Nicholson — Eide Knit in Butter · $395
+<img src="https://raw.githubusercontent.com/pianoelias-boop/beccas-closet/round/claude-38056403795/images/ideas/5050.jpg" width="220">
 
-A cropped cotton tweed top with a button front, sharing the tweed of the Ralph Lauren Plaid Tweed Yoke Skirt you saved.  
-*Cropped knit top in tri-colour mid-weight cotton tweed · hang* · [product page](https://www.rachelcomey.com/products/gimlette-top)
+A fine merino-silk turtleneck for teaching days, in a warm gold brighter than your usual darks.  
+*fibre not stated · teaching, dance, dressy* · [product page](https://www.studionicholson.com/products/eide-knit-in-butter)
 
