@@ -318,12 +318,54 @@
 "recolour": false
 },
 {
+"brand": "Filson",
+"status": "approved",
+"title": "Tin Cloth Primaloft Jacket - Dark Tan 2",
+"category": "Jackets & Coats",
+"price": 209.3,
+"list": 299.0,
+"fabric": "unknown",
+"natural": null,
+"url": "https://www.filson.com/products/tin-cloth-primaloft-jacket-dark-tan-2",
+"img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/4ed87789dc09a9ae2de2ed1e58bc20b0dff16ed8e68fc46ffbea86f291eaec2e.jpg?v=1789702979",
+"tags": [
+"40-off-2025",
+"Fulfillment Delay",
+"has_product_intro",
+"Outlet: 30%",
+"price: full",
+"product: tin-cloth-primaloft-jacket-20263397"
+],
+"desc": "This warm and durable jacket is made with heavy-duty waxed canvas for protection from cold, wet weather. Our signature Tin Cloth is combined with PrimaLoft® insulation for an unrivaled blend of durability and warmth. Tin Cloth's tight weave makes it exceptionally resistant to punctures, tears and abrasion. it can be rewaxed repeatedly over the years to maintain water resistance for decades of service. PrimaLoft® was originally developed for the U.S. Army to mimic goose down’s lightweight warmth and packability while providing superior insulating ability when wet. The 100g PrimaLoft® Gold insul",
+"published": "2025-02-11",
+"score": -5.54,
+"hits": [
+[
+"cat:Jackets & Coats",
+-0.27391304347826084
+],
+[
+"fab:canvas",
+-0.35
+],
+[
+"color:Beige/Tan",
+-0.726086956521739
+],
+[
+"price:200-300",
+-3.5913043478260818
+]
+],
+"recolour": false
+},
+{
 "brand": "Bosie Knitwear",
 "status": "approved",
-"title": "Lomond Fair Isle Yoke  Geelong Women's Sweater - Chai Burnt Orange",
+"title": "Lomond Fair Isle Yoke Geelong Women's Sweater - Chai Burnt Orange",
 "category": "Sweaters & Knitwear",
-"price": 213.0,
-"list": 213.0,
+"price": 212.0,
+"list": 212.0,
 "fabric": "unknown",
 "natural": null,
 "url": "https://bosie.co/products/lomond-fair-isle-yoke-geelong-womens-sweater-chai-burnt-orange",
@@ -792,47 +834,6 @@
 "recolour": false
 },
 {
-"brand": "Filson",
-"status": "approved",
-"title": "Mackinaw Wool Vest - Forest Green",
-"category": "Sweaters & Knitwear",
-"price": 349.0,
-"list": 349.0,
-"fabric": "wool",
-"natural": null,
-"url": "https://www.filson.com/products/mackinaw-wool-vest-forest-green-2",
-"img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/fe83e6b3b7fc1547af7ad0b1d99a3db36954ded4aed7521f12a2d5e2cef8bbd3.jpg?v=1789704040",
-"tags": [
-"Badge: Made at Filson",
-"Badge: Made in the USA",
-"has_product_intro",
-"price: full",
-"product: mackinaw-wool-vest-20266328"
-],
-"desc": "Our Mackinaw Wool Vest provides warmth with excellent breathability, even when wet. Worn over a flannel shirt or under a raincoat or wool jacket, it adds that extra bit of warmth for comfort in the cold. Mackinaw is our iconic wool that's provided protection from cold and wet conditions for over a century. Manufactured with an uncommonly tight weave, our signature excels at blocking the wind and withstands hard use for decades. This vest's design works just as well indoors, whether drawing up plans for your next big project or working in a chilly warehouse. The V-shaped neckline adds no bulk a",
-"published": "2025-02-11",
-"score": -6.08,
-"hits": [
-[
-"fab:flannel",
--0.09130434782608694
-],
-[
-"color:Green",
--1.4586956521739136
-],
-[
-"cat:Sweaters & Knitwear",
--1.4608695652173918
-],
-[
-"fab:wool",
--1.5413043478260875
-]
-],
-"recolour": false
-},
-{
 "brand": "Mons Royale",
 "status": "approved",
 "title": "Icon Merino Classic T-Shirt - Dried Sage | Women's T-Shirt",
@@ -886,6 +887,7 @@
 "url": "https://www.filson.com/products/ultralight-jacket-teak",
 "img": "https://cdn.shopify.com/s/files/1/0657/0557/4552/files/20641e3f91d84937e13ded254347120980c501e19ced0872e6731ea0df95ce6a.jpg?v=1788304617",
 "tags": [
+"Fulfillment Delay",
 "FW26",
 "product: ultralight-jacket-20296078"
 ],
@@ -1116,8 +1118,8 @@
 "status": "approved",
 "title": "Nora – Square Neck Linen Dress with Butterfly Sleeves",
 "category": "Dresses",
-"price": 241.0,
-"list": 344.0,
+"price": 240.0,
+"list": 342.0,
 "fabric": "100% linen",
 "natural": 1.0,
 "url": "https://sondeflor.com/products/nora-dress-butterfly-sleeve-raspberry-stripes",
@@ -1128,7 +1130,7 @@
 ],
 "desc": "100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
 "published": "2026-03-12",
-"score": -7.72,
+"score": -7.71,
 "hits": [
 [
 "brand:Son de Flor",
@@ -1154,8 +1156,8 @@
 "status": "approved",
 "title": "Dawn – Linen Dress with Tie Neckline",
 "category": "Dresses",
-"price": 309.0,
-"list": 309.0,
+"price": 308.0,
+"list": 308.0,
 "fabric": "100% linen",
 "natural": 1.0,
 "url": "https://sondeflor.com/products/dawn-dress-long-sleeve-black-pansy-white-collar",
@@ -1191,8 +1193,8 @@
 "status": "approved",
 "title": "Nursing-Friendly – Linen Dress with Hidden Zippers",
 "category": "Dresses",
-"price": 344.0,
-"list": 344.0,
+"price": 342.0,
+"list": 342.0,
 "fabric": "100% linen",
 "natural": 1.0,
 "url": "https://sondeflor.com/products/classic-nursing-dress-long-sleeve-black-pansy",
@@ -1202,7 +1204,7 @@
 ],
 "desc": "100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
 "published": "2025-08-07",
-"score": -9.17,
+"score": -9.16,
 "hits": [
 [
 "brand:Son de Flor",
@@ -1228,17 +1230,18 @@
 "status": "approved",
 "title": "Wrap – Full-Circle Twill Linen Skirt",
 "category": "Skirts",
-"price": 263.0,
-"list": 263.0,
+"price": 262.0,
+"list": 262.0,
 "fabric": "linen",
 "natural": null,
-"url": "https://sondeflor.com/products/wrap-skirt-twill-linen-oak-tartan",
-"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/SONDEFLOR-546.jpg?v=1790165393",
+"url": "https://sondeflor.com/products/twill-linen-wrap-skirt-oak-tartan",
+"img": "https://cdn.shopify.com/s/files/1/0748/3473/files/Copy_of_Eshop_Product_photo_size_1365_x_2048_86.jpg?v=1791465050",
 "tags": [
+"dublicate",
 "fw26"
 ],
 "desc": "100% twill linen textile Handmade quality and craftsmanship Long lasting and soft to the touch",
-"published": "2026-08-07",
+"published": "2026-10-09",
 "score": -9.22,
 "hits": [
 [
@@ -1314,10 +1317,10 @@
 "tags": [
 "Active",
 "Cat_Skirts",
+"Color Wheel - Ring 4",
 "OSS",
 "Product Grouping: Slip",
-"Ring 4",
-"Size Guide: T000LP5338"
+"Ring 4"
 ],
 "desc": "Featuring a midi length and back slit, The Slip Skirt’s lightweight twill construction ensures year-round appeal. Pair it with the matching Slip Cami for a coordinated set, or lean into your antonyms, opting contrasting-but-complimentary Zip-Up Hoodie for versatile, pragmatic looks. 100% Acetate Style Number: T000LP5338 Available in: Black, Celery, Navy, Orange Sorbet",
 "published": "2026-03-25",

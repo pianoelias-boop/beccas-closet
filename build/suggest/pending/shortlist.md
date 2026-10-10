@@ -1,6 +1,6 @@
-# Shortlist for the round of 2026-10-06
+# Shortlist for the round of 2026-10-10
 
-Hearts: 23 · Not for me: 389 · candidates swept: 3575 from 24 brands.
+Hearts: 23 · Not for me: 389 · candidates swept: 3594 from 24 brands.
 
 1. [Rachel Comey] Hari Tee — Sweaters & Knitwear — $375 — 100% alpaca — score -3.57
    Short-sleeve knit pullover in Pluma, a soft, airy 100% alpaca yarn with featherlight warmth and a brushed, semi-sheer finish. Designed with a boxy cropped silhouette, raglan shoulders, and a ribbed crew neckline, hem, an
@@ -26,45 +26,45 @@ Hearts: 23 · Not for me: 389 · candidates swept: 3575 from 24 brands.
 8. [Studio Nicholson] Eide Knit in Butter — Sweaters & Knitwear — $395 — merino — score -5.5
    A foundational piece in any transeasonal wardrobe, this Eide knit is a refined take on the traditional turtle-neck jumper. It’s crafted from fine merino silk in a 16gg knit, giving an ultra-fine, compact finish that lend
    https://www.studionicholson.com/products/eide-knit-in-butter
-9. [Bosie Knitwear] Lomond Fair Isle Yoke  Geelong Women's Sweater - Chai Burnt Orange — Sweaters & Knitwear — $213 — unknown — score -5.57
+9. [Filson] Tin Cloth Primaloft Jacket - Dark Tan 2 — Jackets & Coats — $209 (list $299) — unknown — score -5.54
+   This warm and durable jacket is made with heavy-duty waxed canvas for protection from cold, wet weather. Our signature Tin Cloth is combined with PrimaLoft® insulation for an unrivaled blend of durability and warmth. Tin
+   https://www.filson.com/products/tin-cloth-primaloft-jacket-dark-tan-2
+10. [Bosie Knitwear] Lomond Fair Isle Yoke Geelong Women's Sweater - Chai Burnt Orange — Sweaters & Knitwear — $212 — unknown — score -5.57
    The Lomond Yoke Knitted in extra soft, superfine Geelong lambswool and seam-free with no shoulder seams for an easy, uninterrupted fit. The banded yoke takes its colours from the reflections of Loch Lomond in Autumn; amb
    https://bosie.co/products/lomond-fair-isle-yoke-geelong-womens-sweater-chai-burnt-orange
-10. [Mons Royale] Offgrid Merino Fleece Wind Jacket - Dusty Teal / Cinder | Women's Jacket — Jackets & Coats — $280 — merino — score -5.82
+11. [Mons Royale] Offgrid Merino Fleece Wind Jacket - Dusty Teal / Cinder | Women's Jacket — Jackets & Coats — $280 — merino — score -5.82
    Prepare for the worst, dress for the best in the Offgrid Fleece Wind Jacket. Our Merino and Coolmax™ grid knit features Recycled Pertex® panels to block the wind and keep you covered. Unbeatable warmth, breathability and
    https://www.monsroyale.com/products/offgrid-merino-fleece-wind-jacket-dusty-teal-cinder-womens
-11. [Boden] Embroidered Linen Jacket-Pink Peony, Embroidered — Jackets & Coats — $252 (list $360) — linen — score -5.87
+12. [Boden] Embroidered Linen Jacket-Pink Peony, Embroidered — Jackets & Coats — $252 (list $360) — linen — score -5.87
    With its statement embroidered design and floaty sleeves, this linen jacket is the layer your summer plans need. Smart enough for weddings, cool enough for beach holidays. Enjoy all the compliments coming your way.
    https://us.boden.com/products/women-embroidered-linen-jacket-pink-peony-embroidered-u0446mlt
-12. [Filson] Wool Jac-shirt - Navy — Shirts & Blouses — $349 — 100% wool — score -5.9
+13. [Filson] Wool Jac-shirt - Navy — Shirts & Blouses — $349 — 100% wool — score -5.9
    Our Jac-Shirt is an outdoor staple that provides the versatile warmth that only 100% wool can. The fabric is crafted with a tight weave that delivers an optimum balance of breathability and wind resistance while providin
    https://www.filson.com/products/wool-jac-shirt-navy
-13. [Woolly Clothing Co.] Women’s Muscle Tank — Shirts & Blouses — $78 — 100% merino — score -5.96
+14. [Woolly Clothing Co.] Women’s Muscle Tank — Shirts & Blouses — $78 — 100% merino — score -5.96
    Don't sweat your next workout kit, find your flow in 100% merino. This open-arm style stays breathable, and layers perfectly with your favorite Woolly bralette and leggings to mix and match.
    https://www.woolly.clothing/products/women-s-muscle-tank
-14. [Nili Lotan] LORIMER JEAN — Jeans — $390 — unknown — score -6.0
+15. [Nili Lotan] LORIMER JEAN — Jeans — $390 — unknown — score -6.0
    
    https://www.nililotan.com/products/lorimer-jean-1
-15. [Nili Lotan] CARPENTER JEAN — Jeans — $395 — unknown — score -6.01
+16. [Nili Lotan] CARPENTER JEAN — Jeans — $395 — unknown — score -6.01
    
    https://www.nililotan.com/products/carpenter-jean-1
-16. [Nili Lotan] NATHAN JEAN — Jeans — $395 — unknown — score -6.01
+17. [Nili Lotan] NATHAN JEAN — Jeans — $395 — unknown — score -6.01
    
    https://www.nililotan.com/products/nathan-jean-1
-17. [Nili Lotan] BILLIE JEAN — Jeans — $395 — unknown — score -6.01
+18. [Nili Lotan] BILLIE JEAN — Jeans — $395 — unknown — score -6.01
    
    https://www.nililotan.com/products/billie-jean-4
-18. [Icebreaker] Women's Merino 150 Tech Lite Short Sleeve Tee IB Stitchline — Pants — $95 — merino — score -6.07
+19. [Icebreaker] Women's Merino 150 Tech Lite Short Sleeve Tee IB Stitchline — Pants — $95 — merino — score -6.07
    Our most versatile tech tee that provides comfort, breathability and odour-resistance for four seasons worth of adventure, the Merino 150 Tech Lite Short Sleeve Tee IB Stitchline features 100% merino fabric for all-natur
    https://na.icebreaker.com/products/womens-merino-150-tech-lite-short-sleeve-tee-ib-stitchline-ib0a57jm0pa
-19. [Icebreaker] Women's Merino 150 Tech Lite Short Sleeve Tee Peaceful Pass Sleeve — Pants — $95 — merino — score -6.07
+20. [Icebreaker] Women's Merino 150 Tech Lite Short Sleeve Tee Peaceful Pass Sleeve — Pants — $95 — merino — score -6.07
    Our most versatile tech tee that provides comfort, breathability and odour-resistance for four seasons worth of adventure, the Merino 150 Tech Lite Short Sleeve Tee Peaceful Pass features 100% merino fabric for all-natur
    https://na.icebreaker.com/products/womens-merino-150-tech-lite-short-sleeve-tee-peaceful-pass-sleeve-ib0a57jnc99
-20. [Icebreaker] Women's Merino 150 Tech Lite Short Sleeve Tee — Pants — $90 — merino — score -6.08
+21. [Icebreaker] Women's Merino 150 Tech Lite Short Sleeve Tee — Pants — $90 — merino — score -6.08
    Our most versatile tech tee that provides comfort, breathability and odour-resistance for four seasons worth of adventure, the Merino 150 Tech Lite Short Sleeve Tee features 100% merino fabric for all-natural performance
    https://na.icebreaker.com/products/women-merino-150-tech-lite-ss-tee-ib0a56y80lh
-21. [Filson] Mackinaw Wool Vest - Forest Green — Sweaters & Knitwear — $349 — wool — score -6.08
-   Our Mackinaw Wool Vest provides warmth with excellent breathability, even when wet. Worn over a flannel shirt or under a raincoat or wool jacket, it adds that extra bit of warmth for comfort in the cold. Mackinaw is our 
-   https://www.filson.com/products/mackinaw-wool-vest-forest-green-2
 22. [Mons Royale] Icon Merino Classic T-Shirt - Dried Sage | Women's T-Shirt — Shirts & Blouses — $95 — merino — score -6.2
    Your all access pass, taking you from one mission to the next. Crafted from our ultra-breathable Merino Air-Con, it keeps you cool when it’s hot, warm when it’s not and dries fast. Pack less. Do more.
    https://www.monsroyale.com/products/icon-merino-classic-t-shirt-dried-sage-womens
@@ -86,18 +86,18 @@ Hearts: 23 · Not for me: 389 · candidates swept: 3575 from 24 brands.
 28. [Boden] Embroidered Romper Set-Pink Elephant — Jumpsuits & Rompers — $36 (list $65) — unknown — score -6.91
    Your youngest will be ready for summer adventures in this adorable romper set. We’ve embroidered the romper with flowers, a little elephant on the bib and a sweet trim. It's practical and stretchy in all the right places
    https://us.boden.com/products/baby-embroidered-romper-set-pink-elephant-y2890pnk
-29. [Son de Flor] Nora – Square Neck Linen Dress with Butterfly Sleeves — Dresses — $241 (list $344) — 100% linen — score -7.72
+29. [Son de Flor] Nora – Square Neck Linen Dress with Butterfly Sleeves — Dresses — $240 (list $342) — 100% linen — score -7.71
    100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch
    https://sondeflor.com/products/nora-dress-butterfly-sleeve-raspberry-stripes
-30. [Son de Flor] Dawn – Linen Dress with Tie Neckline — Dresses — $309 — 100% linen — score -9.08
+30. [Son de Flor] Dawn – Linen Dress with Tie Neckline — Dresses — $308 — 100% linen — score -9.08
    100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch
    https://sondeflor.com/products/dawn-dress-long-sleeve-black-pansy-white-collar
-31. [Son de Flor] Nursing-Friendly – Linen Dress with Hidden Zippers — Dresses — $344 — 100% linen — score -9.17
+31. [Son de Flor] Nursing-Friendly – Linen Dress with Hidden Zippers — Dresses — $342 — 100% linen — score -9.16
    100% linen textile Handmade quality and craftsmanship Long lasting and soft to the touch
    https://sondeflor.com/products/classic-nursing-dress-long-sleeve-black-pansy
-32. [Son de Flor] Wrap – Full-Circle Twill Linen Skirt — Skirts — $263 — linen — score -9.22
+32. [Son de Flor] Wrap – Full-Circle Twill Linen Skirt — Skirts — $262 — linen — score -9.22
    100% twill linen textile Handmade quality and craftsmanship Long lasting and soft to the touch
-   https://sondeflor.com/products/wrap-skirt-twill-linen-oak-tartan
+   https://sondeflor.com/products/twill-linen-wrap-skirt-oak-tartan
 33. [Mixed by Nasrin] Amina Jumpsuit in Dark Wash Denim — Jumpsuits & Rompers — $245 — unknown — score -9.42
    Designer's Notes: Effortless and elevated. The Amina Jumpsuit features a fitted bodice with topstitching along the sleeves and belt, balanced by a wide, full-length leg. Cut from 9oz dark wash stretch denim. The Details:
    https://mixedbynasrin.com/products/amina-jumpsuit-in-dark-wash-denim
