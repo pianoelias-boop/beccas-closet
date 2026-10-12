@@ -1,8 +1,10 @@
 {
- "changed": [],
+ "changed": [
+  "BILLY Footwear"
+ ],
  "errors": [
   "Alex Mill: HTTPError HTTP Error 403: Forbidden",
-  "W'menswear: RuntimeError only 0 policy sentences found"
+  "Anthropologie: HTTPError HTTP Error 403: Forbidden"
  ],
  "checked": "2026-09-27"
 }
