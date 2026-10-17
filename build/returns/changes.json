@@ -1,7 +1,5 @@
 {
- "changed": [
-  "Paper Straight"
- ],
+ "changed": [],
  "errors": [
   "Alex Mill: HTTPError HTTP Error 403: Forbidden",
   "Anthropologie: HTTPError HTTP Error 403: Forbidden",
