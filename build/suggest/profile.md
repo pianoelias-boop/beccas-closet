@@ -1,15 +1,15 @@
 # Becca's taste profile
 
-<!-- auto:start (rewritten by round.py, 2026-10-10) -->
-## What the notebook says (2026-10-10)
-- Hearts: 23  ·  Not for me: 389
-- Brands she saves: Margaret Howell (0.1), Son de Flor (0.1), Rachel Comey (0.1)
+<!-- auto:start (rewritten by round.py, 2026-10-17) -->
+## What the notebook says (2026-10-17)
+- Hearts: 23  ·  Not for me: 368
+- Brands she saves: Margaret Howell (0.1), Son de Flor (0.0), Rachel Comey (0.0)
 - Categories: nothing yet
 - Colours: nothing yet
 - Fabrics: nothing yet
-- Cuts and details: tapered (0.1)
+- Cuts and details: tapered (0.1), straight leg (0.0)
 - Price bands: nothing yet
-- Steer away from: cotton, 100-200, Dresses, pocket, button, 200-300, Boden, u100
+- Steer away from: cotton, 100-200, Dresses, pocket, button, 200-300, u100, Boden
 - Most recent hearts: W'menswear W'mens Tank - Black Cotton/Hemp; Cosyfeet Moose High-Performance; 18 East EASY KURTA; Mixed by Nasrin Quincy Jumpsuit in Teal Corduroy; W'menswear W'mens Tank - Grey; 18 East AMER EASTERN BUTTON DOWN SHIRT; Mixed by Nasrin Wide Leg Linen Jumpsuit in Teal & Peacock; Mixed by Nasrin Quincy Jumpsuit in Black
 <!-- auto:end -->
 
