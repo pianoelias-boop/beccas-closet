@@ -3,7 +3,8 @@
  "errors": [
   "Alex Mill: HTTPError HTTP Error 403: Forbidden",
   "Anthropologie: HTTPError HTTP Error 403: Forbidden",
-  "Boden: HTTPError HTTP Error 429: Too Many Requests"
+  "Boden: HTTPError HTTP Error 429: Too Many Requests",
+  "W'menswear: RuntimeError only 0 policy sentences found"
  ],
  "checked": "2026-09-27"
 }
