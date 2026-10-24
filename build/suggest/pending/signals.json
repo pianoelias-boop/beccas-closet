@@ -4,7 +4,7 @@
    "id": 77,
    "name": "EASY KURTA",
    "brand": "18 East",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 193,
@@ -28,19 +28,19 @@
    "id": 234,
    "name": "Pilcro Cropped Plaid Shirt",
    "brand": "Pilcro",
-   "age_days": 30.3
+   "age_days": 37.3
   },
   {
    "id": 249,
    "name": "AMER EASTERN BUTTON DOWN SHIRT",
    "brand": "18 East",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 303,
    "name": "Cord A Line Skirt",
    "brand": "TOAST",
-   "age_days": 31.8
+   "age_days": 38.8
   },
   {
    "id": 310,
@@ -58,85 +58,85 @@
    "id": 336,
    "name": "Broken Flowers",
    "brand": "Howlin'",
-   "age_days": 30.3
+   "age_days": 37.3
   },
   {
    "id": 367,
    "name": "W'mens Tank - Black Cotton/Hemp",
    "brand": "W'menswear",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 380,
    "name": "W'mens Tank - Grey",
    "brand": "W'menswear",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 397,
    "name": "Quincy Jumpsuit in Black",
    "brand": "Mixed by Nasrin",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 398,
    "name": "Quincy Jumpsuit in Teal Corduroy",
    "brand": "Mixed by Nasrin",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 402,
    "name": "Wide Leg Linen Jumpsuit in Teal & Peacock",
    "brand": "Mixed by Nasrin",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 433,
    "name": "Raglan Embroidered Top",
    "brand": "Boden",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 437,
    "name": "Moose High-Performance",
    "brand": "Cosyfeet",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 5015,
    "name": "Classic Jumpsuit in Mulberry Corduroy",
    "brand": "Mixed by Nasrin",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 5018,
    "name": "Classic Full-Circle Twill Linen Midi Skirt, Moss Green Herringbone",
    "brand": "Son de Flor",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 5022,
    "name": "MHL. UTILITY TROUSERS | 8 WALE COTTON CORDUROY | SLATE",
    "brand": "Margaret Howell",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 5031,
    "name": "MHL. PLEATED CULOTTES | SOFT DENSE COTTON | KHAKI",
    "brand": "Margaret Howell",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 5037,
    "name": "MHL. UTILITY TROUSERS | 8 WALE COTTON CORDUROY | CHESTNUT",
    "brand": "Margaret Howell",
-   "age_days": 20.8
+   "age_days": 27.8
   },
   {
    "id": 5042,
    "name": "Gimlette Top",
    "brand": "Rachel Comey",
-   "age_days": 20.8
+   "age_days": 27.8
   }
  ],
  "passed": [
@@ -1983,51 +1983,51 @@
  ],
  "weights": {
   "price:200-300": -2.2086956521739154,
-  "fab:linen": -0.9695652173913037,
-  "brand:18 East": -0.3086956521739131,
-  "cut:cropped": -0.22173913043478255,
   "cat:Dresses": -3.7000000000000086,
   "color:Multi/Print": -1.039130434782608,
-  "brand:W'menswear": -0.4652173913043478,
-  "color:Denim": -0.9913043478260863,
+  "cut:cropped": -0.22173913043478255,
+  "fab:linen": -0.9695652173913037,
+  "brand:18 East": -0.3086956521739131,
   "fab:denim": -0.8260869565217387,
-  "cut:relaxed": -1.2608695652173905,
-  "cut:high rise": -0.7347826086956518,
+  "fab:cotton": -6.447826086956524,
+  "cat:Pants": -0.8347826086956518,
   "cut:pocket": -2.673913043478265,
   "cut:tapered": 0.13043478260869565,
-  "cat:Pants": -0.8347826086956518,
-  "fab:cotton": -6.447826086956524,
-  "fab:cord": -0.31739130434782614,
-  "cut:button": -2.4086956521739165,
+  "cut:relaxed": -1.2608695652173905,
+  "cut:high rise": -0.7347826086956518,
+  "brand:W'menswear": -0.4652173913043478,
+  "color:Denim": -0.9913043478260863,
   "color:Grey": -0.2521739130434783,
+  "cut:button": -2.4086956521739165,
   "price:300+": -1.0826086956521732,
-  "cut:barrel": -0.7478260869565214,
+  "fab:cord": -0.31739130434782614,
   "brand:TOAST": -0.8565217391304343,
+  "cut:barrel": -0.7478260869565214,
   "color:Yellow/Gold": -0.07826086956521738,
   "cut:straight leg": 0.03913043478260869,
-  "color:Brown": -1.1782608695652166,
   "brand:Pilcro": -0.26086956521739135,
   "cat:Shirts & Blouses": -0.9043478260869561,
   "price:100-200": -4.773913043478274,
-  "cut:collar": -1.9086956521739142,
+  "color:Brown": -1.1782608695652166,
   "cut:oversized": -0.3826086956521739,
-  "color:Orange/Rust": -0.10869565217391304,
+  "cut:collar": -1.9086956521739142,
   "cat:Skirts": -1.1782608695652166,
   "cut:elastic": -0.634782608695652,
   "cut:a line": -0.8999999999999995,
+  "color:Orange/Rust": -0.10869565217391304,
   "color:Red": -0.7173913043478258,
-  "brand:Polo Ralph Lauren": -1.2043478260869558,
   "fab:tweed": -0.03478260869565217,
-  "cat:Sweaters & Knitwear": -0.9347826086956517,
+  "brand:Polo Ralph Lauren": -1.2043478260869558,
+  "fab:wool": -0.9782608695652167,
   "cut:wrap": -0.4608695652173912,
   "brand:Bosie Knitwear": -0.017391304347826084,
-  "fab:wool": -0.9782608695652167,
+  "cat:Sweaters & Knitwear": -0.9347826086956517,
   "brand:Howlin'": -0.047826086956521734,
-  "cat:Tops & Tees": -1.2217391304347818,
   "cut:sleeveless": -0.6130434782608694,
+  "cat:Tops & Tees": -1.2217391304347818,
+  "color:Black": -1.6478260869565218,
   "cut:tank": -0.6130434782608694,
   "price:u100": -2.1347826086956543,
-  "color:Black": -1.6478260869565218,
   "cat:Jumpsuits & Rompers": -0.4043478260869566,
   "fab:lyocell": -0.16956521739130437,
   "cut:wide leg": -0.6173913043478259,
@@ -2035,31 +2035,31 @@
   "color:Green": -0.9521739130434778,
   "brand:Boden": -2.117391304347828,
   "color:Blue": -1.17391304347826,
-  "cat:Shoes": -0.32173913043478264,
   "brand:Cosyfeet": -0.1391304347826087,
+  "cat:Shoes": -0.32173913043478264,
   "color:Purple": -0.3086956521739131,
-  "fab:twill": -0.35217391304347834,
   "brand:Son de Flor": 0.043478260869565216,
+  "fab:twill": -0.35217391304347834,
   "cut:midi": -1.2956521739130427,
-  "brand:Margaret Howell": 0.13043478260869565,
   "cut:utility": -0.33913043478260874,
+  "brand:Margaret Howell": 0.13043478260869565,
   "cut:pleated": -0.5652173913043477,
-  "cut:pleat": -1.3565217391304338,
   "cut:culotte": -0.017391304347826084,
+  "cut:pleat": -1.3565217391304338,
   "color:Beige/Tan": -0.41304347826086957,
   "brand:Rachel Comey": 0.043478260869565216,
   "cat:Accessories": -0.0608695652173913,
-  "cut:maxi": -0.7913043478260866,
   "brand:Alex Mill": -0.517391304347826,
+  "cut:maxi": -0.7913043478260866,
   "brand:Ro's Garden": -0.0608695652173913,
   "cut:tiered": -0.15217391304347827,
   "fab:jersey": -0.760869565217391,
   "cut:long sleeve": -0.5782608695652172,
-  "fab:tencel": -0.3652173913043478,
   "cut:shirt dress": -0.3652173913043478,
-  "fab:poplin": -0.6086956521739129,
+  "fab:tencel": -0.3652173913043478,
   "cut:racerback": -0.03043478260869565,
   "brand:Abercrombie & Fitch": -0.9739130434782604,
+  "fab:poplin": -0.6086956521739129,
   "fab:silk": -0.15217391304347827,
   "cut:scoop": -0.30434782608695654,
   "fab:viscose": -1.156521739130434,
@@ -2071,13 +2071,13 @@
   "fab:cupro": -0.09130434782608694,
   "brand:J.Crew": -0.5478260869565216,
   "cut:mini": -0.6391304347826084,
-  "cut:shirtdress": -0.6391304347826084,
   "brand:En Saison": -0.03043478260869565,
+  "cut:shirtdress": -0.6391304347826084,
   "brand:English Factory": -0.0608695652173913,
   "cut:belted": -0.30434782608695654,
   "fab:canvas": -0.2739130434782609,
-  "cut:short sleeve": -0.2739130434782609,
   "cut:pull on": -0.42608695652173906,
+  "cut:short sleeve": -0.2739130434782609,
   "cut:fitted": -0.48695652173913034,
   "brand:Damson Madder": -0.03043478260869565,
   "brand:Love The Label": -0.03043478260869565,
@@ -2127,5 +2127,5 @@
   "brand:Steger Mukluks": -0.03043478260869565,
   "brand:Paper Straight": -0.03043478260869565
  },
- "fetched": "2026-10-17T08:32:25.662333+00:00"
+ "fetched": "2026-10-24T08:51:42.211106+00:00"
 }
