@@ -1,9 +1,7 @@
 {
  "changed": [],
  "errors": [
-  "Anthropologie: HTTPError HTTP Error 403: Forbidden",
-  "Post Romantic: RuntimeError only 0 policy sentences found",
-  "W'menswear: RuntimeError only 0 policy sentences found"
+  "Anthropologie: HTTPError HTTP Error 403: Forbidden"
  ],
  "checked": "2026-09-27"
 }
