@@ -1,6 +1,7 @@
 {
  "changed": [
-  "BILLY Footwear"
+  "BILLY Footwear",
+  "Cosyfeet"
  ],
  "errors": [
   "Anthropologie: HTTPError HTTP Error 403: Forbidden"
