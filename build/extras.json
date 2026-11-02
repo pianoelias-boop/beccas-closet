@@ -1771,6 +1771,65 @@
   "fabric": "100% cotton rigid denim"
  },
  {
+  "id": 457,
+  "brand": "Ace & Jig",
+  "retailer": "Ace & Jig",
+  "name": "Monroe Dress",
+  "category": "Dresses",
+  "color": "Multi/Print",
+  "occasions": [
+   "teaching",
+   "dance",
+   "friend"
+  ],
+  "why": "a soft cotton double-gauze wrap with a waist tie that moves with her, in deep burgundy florals",
+  "price": 378.0,
+  "colorDetail": "Harvest (burgundy geometric florals)",
+  "categoryDetail": "Short-sleeve wrap dress",
+  "url": "https://aceandjig.com/products/monroe-dress-harvest",
+  "img": "images/full/457.jpg",
+  "hi": true,
+  "desc": "A short-sleeve wrap dress with a V-neck and an adjustable waist tie, made in Ace & Jig's Harvest textile: a super-soft, lightweight double gauze woven with geometric florals in deep burgundy and pops of colour.",
+  "details": [
+   "Wrap front with a V-neck and an adjustable waist tie",
+   "Sizes XXS to 4X, nearly all in stock when added",
+   "Woven geometric florals in deep burgundy with pops of colour",
+   "Made in India in a Fair Trade Certified factory",
+   "Hand wash cold or dry clean, dry flat"
+  ],
+  "fabric": "100% organic cotton double gauze"
+ },
+ {
+  "id": 458,
+  "brand": "Curator",
+  "retailer": "Curator",
+  "name": "Ivy Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Black",
+  "occasions": [
+   "teaching",
+   "friend",
+   "dressy"
+  ],
+  "why": "a cotton sweater with a pointelle bib and scalloped neckline, dressy enough for dinners and easy for teaching",
+  "price": 220.0,
+  "colorDetail": "Black",
+  "categoryDetail": "Pointelle balloon-sleeve sweater",
+  "url": "https://www.curatorsf.com/products/ivy-sweater-black",
+  "img": "images/full/458.jpg",
+  "hi": true,
+  "desc": "A long-sleeve balloon top with a pointelle bib and scalloped neckline, knit in Curator's signature cotton yarn. Longer rib cuffs can be worn up or down.",
+  "details": [
+   "Balloon sleeves with long rib cuffs to wear up or down, fitted ribbed waistband",
+   "Sizes XS/S, M/L, XL/2XL and 3XL/4XL",
+   "the store says this batch runs small",
+   "Bust 42 inches and length 21 inches in M/L",
+   "Knit in Peru",
+   "Machine wash cold on gentle, lay flat to dry"
+  ],
+  "fabric": "100% cotton"
+ },
+ {
   "id": 5015,
   "brand": "Mixed by Nasrin",
   "name": "Classic Jumpsuit in Mulberry Corduroy",

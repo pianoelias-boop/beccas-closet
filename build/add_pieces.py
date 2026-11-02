@@ -118,7 +118,9 @@ def main():
             else:
                 imgs = [('https:' + s if s.startswith('//') else s) for s in (d or {}).get('images', [])]
                 if not imgs: raise ValueError('no photo: give an img column')
-                hint = (r.get('colorDetail') or '').split()[0].lower() if r.get('colorDetail') else ''
+                colours = next((o.get('values', []) for o in (d or {}).get('options', []) if 'colo' in (o.get('name') or '').lower() or o.get('name', '').lower() in ('textiles', 'pattern', 'print')), [])
+                # the colour name in a photo's file name only helps choose between colourways; with one colourway it can pick a fabric swatch
+                hint = (r.get('colorDetail') or '').split()[0].lower() if r.get('colorDetail') and len(colours) > 1 else ''
                 pick = next((s for s in imgs if hint and hint in s.lower()), imgs[0])
                 size = save_photo(get(pick.split('?')[0] + '?width=1000'), path)
         except Exception as e:

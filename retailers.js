@@ -1,6 +1,6 @@
 // Return terms per store, as each states them for US orders. Source: build/returns/retailers.json
 window.RETAILERS = {
- "checked": "2026-09-27",
+ "checked": "2026-11-02",
  "stores": {
   "18 East": {
    "site": "https://18east.co",
@@ -15,6 +15,13 @@ window.RETAILERS = {
    "window": "30 days from delivery (60 for VIP members)",
    "ship": "$7 deducted for mailed returns, free in store, exchanges free",
    "note": "After 30 days, merchandise credit only. Final sale excluded"
+  },
+  "Ace & Jig": {
+   "site": "https://aceandjig.com",
+   "policy": "https://aceandjig.com/policies/refund-policy",
+   "window": "16 days from the ship date (30 days for orders placed Nov 30 to Dec 31)",
+   "ship": "$10 deducted for return shipping; free if the item is defective",
+   "note": "Unworn and unwashed with tags. Final-sale items and anything bought at 30% off or more cannot be returned"
   },
   "Alex Mill": {
    "site": "https://www.alexmill.com",
@@ -71,6 +78,13 @@ window.RETAILERS = {
    "window": "90 days, no quibble",
    "ship": "free with their UPS or DHL returns service (original shipping not refunded)",
    "note": "Ships from the UK. No split-size pairs on shoes or boots"
+  },
+  "Curator": {
+   "site": "https://www.curatorsf.com",
+   "policy": "https://www.curatorsf.com/policies/refund-policy",
+   "window": "14 days from delivery",
+   "ship": "free label for exchange or store credit; label cost deducted for a refund",
+   "note": "Unworn and unwashed. Sale items are exchange or store credit only; final sale cannot be returned"
   },
   "DL1961": {
    "site": "https://dl1961.com",
