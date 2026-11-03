@@ -2044,6 +2044,36 @@
   "fabric": "100% cotton gauze"
  },
  {
+  "id": 466,
+  "brand": "Princess Highway",
+  "retailer": "Princess Highway",
+  "name": "Midnight Garden Embroidered Cord Dress",
+  "category": "Dresses",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "friend",
+   "hang"
+  ],
+  "why": "fine-wale cotton corduroy, her favourite fabric, as a button-front pinafore embroidered with night-garden florals",
+  "price": 50.0,
+  "colorDetail": "Navy",
+  "categoryDetail": "Embroidered corduroy pinafore dress",
+  "url": "https://princesshighway.com.au/en-us/products/midnight-garden-emb-cord-dress",
+  "img": "images/full/466.jpg",
+  "hi": true,
+  "desc": "A navy corduroy pinafore-style dress embroidered with a midnight scene of dreamy florals: button-up, with a fitted bodice, a gathered skirt, a scooped neckline and side ties for a closer fit, in fine-wale cotton corduroy.",
+  "details": [
+   "On sale when added: $50, listed at $99",
+   "Australian sizes 4 to 20, about four sizes above US: an AU 10 is roughly a US 6",
+   "Button front, fitted bodice, gathered skirt, scooped neckline",
+   "Side ties to pull the fit in",
+   "Sizes AU 4 to 18 in stock when added",
+   "Ships from Australia, and sale purchases come back as store credit or an exchange, not a refund"
+  ],
+  "fabric": "Fine-wale cotton corduroy"
+ },
+ {
   "id": 5015,
   "brand": "Mixed by Nasrin",
   "name": "Classic Jumpsuit in Mulberry Corduroy",

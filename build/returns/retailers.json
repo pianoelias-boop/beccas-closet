@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-02",
+ "checked": "2026-11-03",
  "stores": {
   "18 East": {
    "site": "https://18east.co",
@@ -182,6 +182,13 @@
    "window": "14 working days, only for a measurement error or wrong item",
    "ship": "prepaid label when the return qualifies",
    "note": "Made to measure, so no change-of-mind returns"
+  },
+  "Princess Highway": {
+   "site": "https://princesshighway.com.au/en-us",
+   "policy": "https://princesshighway.com.au/en-us/policies/refund-policy",
+   "window": "14 days from delivery",
+   "ship": "return shipping at your cost, to Australia; original shipping not refunded",
+   "note": "Full price: refund, credit or exchange. Sale and promotional items: store credit (valid 3 years) or exchange only. Final sale cannot be returned"
   },
   "Ralph Lauren": {
    "site": "https://www.ralphlauren.com",
