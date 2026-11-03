@@ -1830,6 +1830,220 @@
   "fabric": "100% cotton"
  },
  {
+  "id": 459,
+  "brand": "Curator",
+  "retailer": "Curator",
+  "name": "Noa Crop Tee",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "hang",
+   "friend",
+   "dance"
+  ],
+  "why": "a garment-dyed cotton crop tee cut to meet high-waisted skirts, made to pair with the Fawn skirt",
+  "price": 74.0,
+  "colorDetail": "Black stripe",
+  "categoryDetail": "Cropped striped tee",
+  "url": "https://www.curatorsf.com/products/noa-crop-tee-black",
+  "img": "images/full/459.jpg",
+  "hi": true,
+  "desc": "A cropped cotton tee meant for high-waisted skirts and trousers, and a match for Curator's striped Fawn skirt. Garment dyed, so it is preshrunk.",
+  "details": [
+   "Cropped to sit at a high waist",
+   "sleeves look good rolled",
+   "Sizes XS to 4XL",
+   "XS and M were out when added",
+   "Bust 44 in. and length 17.5 in. in M",
+   "fits true to size",
+   "Garment dyed, so preshrunk",
+   "Made in San Francisco by Curator"
+  ],
+  "fabric": "100% cotton"
+ },
+ {
+  "id": 460,
+  "brand": "Curator",
+  "retailer": "Curator",
+  "name": "Jones Top",
+  "category": "Tops & Tees",
+  "color": "Blue",
+  "occasions": [
+   "teaching",
+   "hang",
+   "friend"
+  ],
+  "why": "a relaxed, boxy Tencel-cotton top that sits just right over high-waisted pants",
+  "price": 88.0,
+  "colorDetail": "Blue",
+  "categoryDetail": "Boxy cropped top",
+  "url": "https://www.curatorsf.com/products/jones-top-copy",
+  "img": "images/full/460.jpg",
+  "hi": true,
+  "desc": "A shorter, pocketless version of Curator's best-selling Linden Top, relaxed and boxy, made to go with high-waisted trousers.",
+  "details": [
+   "Only 4XL was in stock when added",
+   "check the store for restocks",
+   "Runs big: between sizes, size down",
+   "Bust 54 in. and length 20 in. in M",
+   "Garment dyed, so preshrunk and easy to machine wash",
+   "Made in San Francisco by Curator",
+   "Made in San"
+  ],
+  "fabric": "51% Tencel, 49% cotton"
+ },
+ {
+  "id": 461,
+  "brand": "Curator",
+  "retailer": "Curator",
+  "name": "Fawn Skirt",
+  "category": "Skirts",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "teaching",
+   "friend"
+  ],
+  "why": "a full double-gauze midi made for twirling, with a soft elastic waist and deep pockets",
+  "price": 168.0,
+  "colorDetail": "Black and grey stripe",
+  "categoryDetail": "Full double-gauze midi skirt",
+  "url": "https://www.curatorsf.com/products/fawn-skirt-stripe-black",
+  "img": "images/full/461.jpg",
+  "hi": true,
+  "desc": "A full midi skirt in lightweight yarn-dyed cotton double gauze, made for twirling, with an easy elastic waist and deep pockets.",
+  "details": [
+   "Comes in Regular and Petite lengths",
+   "most sizes in stock in both",
+   "Soft, very stretchy elastic waist",
+   "buy your usual size",
+   "Deep pockets that fit a phone",
+   "Length 35 in. in a Regular M",
+   "Garment dyed, so preshrunk",
+   "Made in San Francisco by Curator"
+  ],
+  "fabric": "100% cotton double gauze"
+ },
+ {
+  "id": 462,
+  "brand": "Curator",
+  "retailer": "Curator",
+  "name": "Jessie Skirt",
+  "category": "Skirts",
+  "color": "Green",
+  "occasions": [
+   "dance",
+   "friend",
+   "hang"
+  ],
+  "why": "the same twirly double gauze as the Fawn skirt, in a thick country stripe with pockets",
+  "price": 168.0,
+  "colorDetail": "Mud stripe (olive and black)",
+  "categoryDetail": "Double-gauze striped skirt",
+  "url": "https://www.curatorsf.com/products/jessie-skirt-mud-stripe",
+  "img": "images/full/462.jpg",
+  "hi": true,
+  "desc": "Curator's best-selling double gauze in a new thick stripe, with side-seam pockets and a stretchy elastic waist.",
+  "details": [
+   "Elastic waist that stretches about 6 inches",
+   "side-seam pockets",
+   "Limited edition",
+   "XS, M, L, 2XL and 4XL in stock when added",
+   "Length 34.5 in. in M",
+   "Garment dyed, so preshrunk",
+   "Made in San Francisco by Curator",
+   "Made in San"
+  ],
+  "fabric": "100% cotton double gauze"
+ },
+ {
+  "id": 463,
+  "brand": "Curator",
+  "retailer": "Curator",
+  "name": "Clove Sweater",
+  "category": "Sweaters & Knitwear",
+  "color": "Orange/Rust",
+  "occasions": [
+   "teaching",
+   "hang",
+   "friend"
+  ],
+  "why": "a cotton waffle knit with a boatneck and balloon sleeves, in a warm paprika she can wear over dresses",
+  "price": 198.0,
+  "colorDetail": "Paprika",
+  "categoryDetail": "Waffle-knit boatneck sweater",
+  "url": "https://www.curatorsf.com/products/clove-sweater-paprika",
+  "img": "images/full/463.jpg",
+  "hi": true,
+  "desc": "A boatneck, balloon-sleeve sweater in a tight cotton waffle knit, framed with rib edging. Easy over dresses or with jeans and trousers.",
+  "details": [
+   "Boatneck and balloon sleeves with rib edging at cuffs and waist",
+   "Sizes XS/S to 3XL/4XL, all in stock when added",
+   "Machine washable",
+   "Knit in Lima, Peru by a Fair Trade certified family business"
+  ],
+  "fabric": "100% cotton waffle knit"
+ },
+ {
+  "id": 464,
+  "brand": "Curator",
+  "retailer": "Curator",
+  "name": "Oopsie Top",
+  "category": "Tops & Tees",
+  "color": "Black",
+  "occasions": [
+   "dance",
+   "hang"
+  ],
+  "why": "a very cropped sleeveless cotton top for dancing in, at a deep discount",
+  "price": 28.0,
+  "colorDetail": "Black",
+  "categoryDetail": "Cropped sleeveless top",
+  "url": "https://www.curatorsf.com/products/oopsie-top-black",
+  "img": "images/full/464.jpg",
+  "hi": true,
+  "desc": "A cropped, sleeveless, garment-dyed cotton top reworked from a batch of Ayana tops that shrank in dyeing, sold at a deep discount.",
+  "details": [
+   "Final sale: cannot be returned or exchanged",
+   "Very cropped: the store suggests sizing up one to three sizes",
+   "Only XS and S in stock when added",
+   "Reworked from a batch of Ayana tops that shrank in dyeing",
+   "Made in San Francisco by Curator",
+   "Made in San"
+  ],
+  "fabric": "100% cotton"
+ },
+ {
+  "id": 465,
+  "brand": "Curator",
+  "retailer": "Curator",
+  "name": "Ayana Top",
+  "category": "Tops & Tees",
+  "color": "Orange/Rust",
+  "occasions": [
+   "hang",
+   "friend",
+   "dance"
+  ],
+  "why": "a light, airy cotton gauze crop with a drawstring hem, for high-waisted skirts in warm weather or layering",
+  "price": 82.0,
+  "colorDetail": "Terracotta",
+  "categoryDetail": "Cropped gauze top",
+  "url": "https://www.curatorsf.com/products/ayana-top-terracotta",
+  "img": "images/full/465.jpg",
+  "hi": true,
+  "desc": "A cropped basic in soft, airy cotton gauze with a drawstring hem, made for high-waisted bottoms and easy to layer when it turns cold.",
+  "details": [
+   "Cropped, roomy through the bust, adjustable drawstring hem",
+   "Sizes XS to 4XL",
+   "all but 4XL in stock when added",
+   "Bust 44 in. in M",
+   "Made in San Francisco by Curator",
+   "Made in San"
+  ],
+  "fabric": "100% cotton gauze"
+ },
+ {
   "id": 5015,
   "brand": "Mixed by Nasrin",
   "name": "Classic Jumpsuit in Mulberry Corduroy",
