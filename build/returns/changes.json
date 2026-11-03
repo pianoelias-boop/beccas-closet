@@ -1,10 +1,8 @@
 {
- "changed": [
-  "Boden",
-  "Ridge Merino"
- ],
+ "changed": [],
  "errors": [
-  "Anthropologie: HTTPError HTTP Error 403: Forbidden"
+  "Anthropologie: HTTPError HTTP Error 403: Forbidden",
+  "W'menswear: RuntimeError only 0 policy sentences found"
  ],
- "checked": "2026-09-27"
+ "checked": "2026-11-02"
 }
