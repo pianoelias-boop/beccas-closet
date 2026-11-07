@@ -1,16 +1,16 @@
 # Becca's taste profile
 
-<!-- auto:start (rewritten by round.py, 2026-10-31) -->
-## What the notebook says (2026-10-31)
-- Hearts: 23  ·  Not for me: 368
-- Brands she saves: Margaret Howell (0.1), Son de Flor (0.0), Rachel Comey (0.0)
+<!-- auto:start (rewritten by round.py, 2026-11-07) -->
+## What the notebook says (2026-11-07)
+- Hearts: 29  ·  Not for me: 392
+- Brands she saves: Son de Flor (0.2), Margaret Howell (0.2), Curator (0.1)
 - Categories: nothing yet
 - Colours: nothing yet
 - Fabrics: nothing yet
 - Cuts and details: tapered (0.1), straight leg (0.0)
 - Price bands: nothing yet
-- Steer away from: cotton, 100-200, Dresses, pocket, button, 200-300, u100, Boden
-- Most recent hearts: W'menswear W'mens Tank - Black Cotton/Hemp; Cosyfeet Moose High-Performance; 18 East EASY KURTA; Mixed by Nasrin Quincy Jumpsuit in Teal Corduroy; W'menswear W'mens Tank - Grey; 18 East AMER EASTERN BUTTON DOWN SHIRT; Mixed by Nasrin Wide Leg Linen Jumpsuit in Teal & Peacock; Mixed by Nasrin Quincy Jumpsuit in Black
+- Steer away from: cotton, 100-200, Dresses, pocket, button, u100, Boden, 200-300
+- Most recent hearts: Son de Flor Wrap – Linen Dress with Butterfly Sleeves; Son de Flor Classic – Full-Circle Linen Midi Skirt; Son de Flor Wrap – Full-Circle Twill Linen Skirt; Son de Flor Margot – Open Back Neckline Linen Dress; Margaret Howell MHL. CHUNKY SEAMLESS CREW NECK | RUSTIC WOOL | CINNAMON; Curator Ivy Sweater; W'menswear W'mens Tank - Black Cotton/Hemp; Cosyfeet Moose High-Performance
 <!-- auto:end -->
 
 Updated 2026-09-15 from the notebook (9 hearts, 0 passes) plus the closet's own curation.
